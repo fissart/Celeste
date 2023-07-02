@@ -6,6 +6,9 @@ git config --global user.password "@Qqwerty123456"
 git config --global credential.helper "cache --timeout=360000000"
 git config --list
 
+169.197.183.189
+0yMoKwHvG5Eu
+
 https://www.itzgeek.com/how-tos/linux/ubuntu-how-tos/how-to-install-mongodb-on-ubuntu-20-04.html
 
 gh repo create --source=. --public 
@@ -102,17 +105,6 @@ sudo mousepad /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml
 
 sudo mousepad  /etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml
 Reemplazar xfwm4 con compiz
-—-------------------
-Acceso control panel
-169.197.183.189
-: https://proxweb.datapacket.net
-email:ayacucho.bellasartes@gmail.com
-pass:esfapa.edu.pe22
-User: bellasartes@esfapa.edu.pe
-Pass: @2Sl00sJ
-pass root: 
-0yMoKwHvG5Eu					
-—---------------------------
 
 sudo certbot --apache
 sudo service mongod stop
