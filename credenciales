@@ -1,24 +1,17 @@
 www_g hp_GEjTslvP9nFD5W1Q90eSqwaCFWLKaf3uW1b1
 
-	git config --global user.name "fissart"
-	git config --global user.email ricardomallqui6@gmail.com
+git config --global user.name "fissart"
+git config --global user.email ricardomallqui6@gmail.com
 git config --global user.password "@Qqwerty123456"
 git config --global credential.helper "cache --timeout=360000000"
 git config --list
- (guardar contraseña ... ) y (show) respectively
-usethis::browse_github_token()
 
 https://www.itzgeek.com/how-tos/linux/ubuntu-how-tos/how-to-install-mongodb-on-ubuntu-20-04.html
 
-gh repo create --source=. --public //crea repositorio con el nombre la carpeta en el cual esta
-Subir archivos:
-# 
-git add -A && git commit -m "w" && git push --set-upstream origin master
-# git add --all && git commit -m "Initial comment" && git push -u origin main
-gh auth login //logueo desde cmd
-git init -b main //Si usa Git 2.28.0 o una versión posterior, puede establecer el nombre de la rama predeterminada usando -b
-gh repo delete https://github.com/fissart/www //Remove repo
+gh repo create --source=. --public 
 
+git add -A && git commit -m "w" && git push --set-upstream origin master
+git add --all && git commit -m "Initial comment" && git push -u origin main
 
 while true; do inotifywait -e CLOSE_WRITE stdbook.tex; git add -A && git commit -m "w" && git push --set-upstream origin master; done; 
 
