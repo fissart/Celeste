@@ -1,6 +1,31 @@
 \begin{thebibliography}{}
 
 \bibitem [\protect \citeauthoryear {%
+Alzina%
+}{%
+Alzina%
+}{%
+{\protect \APACyear {2004}}%
+}]{%
+alzina_metodologiinvestigacion_2004}
+\APACinsertmetastar {%
+alzina_metodologiinvestigacion_2004}%
+\begin{APACrefauthors}%
+Alzina, R\BPBI B.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2004}.
+\newblock
+\APACrefbtitle {Metodología de la investigación educativa} {Metodología de
+  la investigación educativa}.
+\newblock
+\APACaddressPublisher{}{Editorial La Muralla}.
+\newblock
+\APACrefnote{Google-Books-ID: VSb4\_cVukkcC}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Auccapuclla~Maccerhua%
 }{%
 Auccapuclla~Maccerhua%
@@ -138,6 +163,61 @@ Félix~Seras, D\BPBI A.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Hernández~Sampieri%
+\ \BBA {} Fernandez-Collado%
+}{%
+Hernández~Sampieri%
+\ \BBA {} Fernandez-Collado%
+}{%
+{\protect \APACyear {2014}}%
+}]{%
+hernandez_sampieri_metodologiinvestigacion_2014}
+\APACinsertmetastar {%
+hernandez_sampieri_metodologiinvestigacion_2014}%
+\begin{APACrefauthors}%
+Hernández~Sampieri, R.%
+\BCBT {}\ \BBA {} Fernandez-Collado, C\BPBI F.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2014}.
+\newblock
+\APACrefbtitle {Metodología de la investigación} {Metodología de la
+  investigación}\ (\PrintOrdinal{Sexta edición}\ \BEd; P.~Baptista~Lucio,
+  \BED{}).
+\newblock
+\APACaddressPublisher{México D.F.}{McGraw-Hill Education}.
+\newblock
+\APACrefnote{OCLC: 952035471}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Kothari%
+}{%
+Kothari%
+}{%
+{\protect \APACyear {2004}}%
+}]{%
+kothari_research_2004}
+\APACinsertmetastar {%
+kothari_research_2004}%
+\begin{APACrefauthors}%
+Kothari, C\BPBI R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2004}.
+\newblock
+\APACrefbtitle {Research methodology: methods \& techniques} {Research
+  methodology: methods \& techniques}\ (\PrintOrdinal{2. edition, reprint}\
+  \BEd).
+\newblock
+\APACaddressPublisher{New Delhi Bangalore Chennai Cochin Guwahati Hyderabad
+  Jalandhar Kolkata Lucknow Mumbai Ranchi}{New Age International (P) Limited,
+  Publishers}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Muñoz%
 \ \BBA {} Germán%
 }{%
@@ -171,6 +251,55 @@ Muñoz, L\BPBI V.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Paz%
+}{%
+Paz%
+}{%
+{\protect \APACyear {2014}}%
+}]{%
+paz_metodologiinvestigacion_2014}
+\APACinsertmetastar {%
+paz_metodologiinvestigacion_2014}%
+\begin{APACrefauthors}%
+Paz, G\BPBI M\BPBI E\BPBI B.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2014}.
+\newblock
+\APACrefbtitle {Metodología de la {Investigación}} {Metodología de la
+  {Investigación}}.
+\newblock
+\APACaddressPublisher{}{Grupo Editorial Patria}.
+\newblock
+\APACrefnote{Google-Books-ID: 6aCEBgAAQBAJ}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Rangit%
+}{%
+Rangit%
+}{%
+{\protect \APACyear {2011}}%
+}]{%
+kumar}
+\APACinsertmetastar {%
+kumar}%
+\begin{APACrefauthors}%
+Rangit, K.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2011}.
+\newblock
+\APACrefbtitle {Research Metodology} {Research metodology}\ (\PrintOrdinal{2}\
+  \BEd).
+\newblock
+\APACaddressPublisher{CM Digitals (P) Ltd, Chennai, India}{SAGE Publications
+  Inc.}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Segarra~Morocho%
 }{%
 Segarra~Morocho%
@@ -190,7 +319,7 @@ Segarra~Morocho, K\BPBI I.%
 \newblock
 \APACrefbtitle {La caricatura y el humor como recurso de comunicación en los
   medios impresos} {La caricatura y el humor como recurso de comunicación en
-  los medios impresos}\ \APACtypeAddressSchool {{bachelorThesis}}{}{}.
+  los medios impresos}\ \APACtypeAddressSchool {\BPhD}{}{}.
 \unskip\
 \newblock
 \begin{APACrefURL}

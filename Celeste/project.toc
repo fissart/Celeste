@@ -65,7 +65,7 @@
 \addvspace {0.5em plus 0.015emminus 0.015em}
 \contentsline {subsubsection}{\numberline {5.0.1}Definición conceptual de variables}{20}{}%
 \addvspace {0.5em plus 0.015emminus 0.015em}
-\contentsline {subsubsection}{\numberline {5.0.2}Operacionalización de variables}{22}{}%
+\contentsline {subsubsection}{\numberline {5.0.2}Operacionalización de variables}{21}{}%
 \addvspace {-0.2em plus 0.015emminus 0.015em}
 \contentsline {section}{\numberline {VI}ASPECTO METODOLÓGICO}{22}{}%
 \addvspace {0.5em plus 0.015emminus 0.015em}
@@ -75,7 +75,7 @@
 \addvspace {0.5em plus 0.015emminus 0.015em}
 \contentsline {subsection}{\numberline {6.3}Tipo de investigación}{23}{}%
 \addvspace {0.5em plus 0.015emminus 0.015em}
-\contentsline {subsection}{\numberline {6.4}Diseño de investigación}{24}{}%
+\contentsline {subsection}{\numberline {6.4}Diseño de investigación}{23}{}%
 \addvspace {0.5em plus 0.015emminus 0.015em}
 \contentsline {subsection}{\numberline {6.5}Población y muestra}{24}{}%
 \addvspace {0.5em plus 0.015emminus 0.015em}
@@ -98,7 +98,7 @@
 \contentsline {paragraph}{La ficha de opinión}{26}{}%
 \contentsline {paragraph}{Prueba escrita}{26}{}%
 \addvspace {0.5em plus 0.015emminus 0.015em}
-\contentsline {subsection}{\numberline {6.7}Tratamiento estadístico de los datos}{26}{}%
+\contentsline {subsection}{\numberline {6.7}Tratamiento estadístico de los datos}{27}{}%
 \addvspace {0.5em plus 0.015emminus 0.015em}
 \contentsline {subsubsection}{\numberline {6.7.1}La estadística descriptiva}{27}{}%
 \addvspace {0.5em plus 0.015emminus 0.015em}
@@ -124,11 +124,11 @@
 \addvspace {0.5em plus 0.015emminus 0.015em}
 \contentsline {subsection}{\numberline {7.3}Cronograma de actividades}{29}{}%
 \addvspace {-0.2em plus 0.015emminus 0.015em}
-\contentsline {section}{\numberline {VIII}Referencias}{30}{}%
+\contentsline {section}{\numberline {VIII}Referencias}{29}{}%
 \addvspace {-0.2em plus 0.015emminus 0.015em}
 \contentsline {section}{ACRÓNIMOS}{31}{}%
 \addvspace {-0.2em plus 0.015emminus 0.015em}
-\contentsline {section}{SÍMBOLOS}{31}{}%
+\contentsline {section}{SÍMBOLOS}{I}{}%
 \addvspace {-0.2em plus 0.015emminus 0.015em}
 \contentsline {section}{APÉNDICES}{I}{}%
 \addvspace {0.5em plus 0.015emminus 0.015em}
