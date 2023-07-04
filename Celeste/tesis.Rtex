@@ -1,0 +1,1362 @@
+\documentclass[12pt,a4paper]{report}
+\usepackage[spanish,es-tabla,es-noquoting]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsfonts}
+\decimalpoint
+
+\renewcommand{\rmdefault}{ptm}
+\usepackage{mathptmx}
+\DeclareSymbolFont{Xlargesymbols}{OMX}{cmex}{m}{n}
+\DeclareMathSymbol{\Xsum}{\mathop}{Xlargesymbols}{80}
+
+\DeclareSymbolFont{newtxletters}{OML}{ntxmi}{m}{it}
+\SetSymbolFont{newtxletters}{bold}{OML}{ntxmi}{b}{it}
+\DeclareMathSymbol{\mu}{\mathord}{newtxletters}{22}
+
+\DeclareSymbolFont{Symbols}{OMS}{zplm}{m}{n}% Palatino
+\DeclareMathSymbol{\infty}{\mathord}{Symbols}{"31}
+
+\usepackage{lscape}
+\usepackage{amsthm,tabls}
+\usepackage{midpage}
+\usepackage{longtable}
+\usepackage{graphicx,xspace}
+\usepackage[a4paper,left=3.54cm,right=2.54cm,top=2.54cm,bottom=2.54cm,centering]{geometry}
+\usepackage{makecell}
+\newcolumntype{M}[1]{>{\centering\arraybackslash}m{#1}}
+\usepackage{multirow}
+%\usepackage{showframe}\usepackage[lite]{mtpro2}
+
+\renewcommand\theadfont{\normalsize}
+\usepackage{csquotes}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{booktabs}
+\usepackage{setspace}
+\usepackage{rotating}
+
+\usepackage{fancyhdr}
+\pagestyle{fancyplain}
+\fancyhf{}
+\fancyhead[R]{\thepage}
+\renewcommand{\headrulewidth}{0pt}
+
+\usepackage[apaciteclassic, numberedbib, nosectionbib, tocbib]{apacite}
+\usepackage{usebib}
+\bibinput{une}
+\usepackage[tablewithout,belowskip=-15pt,aboveskip=0pt]{caption}
+\renewcommand{\thefigure}{\arabic{figure}}
+\renewcommand{\thetable}{\arabic{table}}
+\usepackage{url}
+\newcommand{\ce}{\centering}
+\def\UrlBreaks{\do\.\do\@\do\\\do\/\do\!\do\%\do\7\do\D\do\_\do\\do\;\do\>\do\]%
+  \do\)\do\,\do\?\do\'\do+\do\=\do\#}%
+\def\UrlBigBreaks{\do\:\do@url@hyp}%
+\def\UrlBreaks{\do\/\do-}
+
+%\DefineBibliographyStrings{spanish}{andothers={et~al\adddot}}
+
+
+
+\renewcommand{\thechapter}{\Roman{chapter}}
+
+\titleformat{\chapter}[display]
+{\normalfont\normalsize\bfseries\centering}{CAPÍTULO \thechapter}{0.0em}{\normalsize\bfseries}
+%\renewcommand{\thechapter}{\Roman{chapter}}
+\renewcommand{\thesection}{\arabic{chapter}.\arabic{section}}
+\renewcommand{\thesubsection}{\arabic{chapter}.\arabic{section}.\arabic{subsection}}
+\renewcommand{\thesubsubsection}{\arabic{chapter}.\arabic{section}.\arabic{subsection}.\arabic{subsubsection}}
+%\setcounter{secnumdepth}{5}
+
+\newcommand\Tstrut{\rule{0pt}{2.35ex}}
+\newcommand\Bstrut{\rule[-1.3ex]{0pt}{1.3ex}}
+\newcommand{\TBstrut}{\Tstrut\Bstrut}
+
+
+
+\renewcommand{\qedsymbol}{$\blacksquare$}
+
+
+\newcommand{\ww}{0.015em}
+\titlespacing*{\chapter}
+{0pt} {6em plus \ww minus \ww} {0em plus \ww minus \ww}
+\titlespacing*{\section}
+{0pt} {0em plus \ww minus \ww}{0em plus \ww minus \ww}
+\titlespacing*{\subsection}
+{0pt} {0em plus \ww minus \ww}{0em plus \ww minus \ww} 
+\titlespacing*{\subsubsection}
+{0pt} {0em plus \ww minus \ww}{0em plus \ww minus \ww}
+\titlespacing*{\paragraph} {0pt}{1.25ex plus 1ex minus .2ex}{2em}
+\titlespacing*{\subparagraph} {\parindent}{3.25ex plus 1ex minus .2ex}{1em}
+\titleformat*{\section}{\normalsize\bfseries}
+\titleformat*{\subsection}{\normalsize\bfseries}
+\titleformat*{\subsubsection}{\normalsize\bfseries}
+\setlength{\parskip}{0.6em plus \ww minus \ww}
+
+\renewcommand{\quote}{\list{}{\rightmargin=\leftmargin\topsep=0pt plus \ww minus \ww}\item\relax}
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{xpatch}%space equation
+\xapptocmd\normalsize{%
+	\abovedisplayskip=0.5em plus \ww minus \ww
+	\abovedisplayshortskip=0.5em plus \ww minus \ww
+	\belowdisplayskip=0.5em plus \ww minus \ww
+	\belowdisplayshortskip=0.5em plus \ww minus \ww
+}{}{}
+%%%%%%%%%%%%%%%%%%%%%
+%\setlength\intextsep{0.5em}% plus \ww minus \ww}
+\setlist{topsep=0em plus \ww minus \ww, parsep=0.6em plus \ww minus \ww, itemsep=0em} 
+
+\setcounter{topnumber}{2}
+\setcounter{bottomnumber}{2}
+\setcounter{totalnumber}{4}
+\renewcommand{\topfraction}{0.85}
+\renewcommand{\bottomfraction}{0.85}
+\renewcommand{\textfraction}{0.5}
+\renewcommand{\floatpagefraction}{0.7}
+
+
+\usepackage[onehalfspacing]{setspace}
+%\renewcommand{\baselinestretch}{1.5}
+\spacing{1.5}
+%%%%%%%%%%%% flex intertext
+\makeatletter
+\patchcmd\set@fontsize
+{\f@linespread\baselineskip}
+{\f@linespread\baselineskip  plus \ww minus \ww}
+{}{}
+\makeatother
+
+\DeclareCaptionLabelSeparator*{spaced}{\\[1.7ex plus .01em minus .01em]}
+\captionsetup[table]{textfont=bf,format=plain,labelfont=bf,justification=justified,singlelinecheck=false,labelsep=spaced,skip=0pt}
+\captionsetup[figure]{labelfont=bf,justification   = RaggedRight,singlelinecheck = off,skip=5pt,labelfont=it}
+%\STsetdecimalsep{{.}}\spanishdecimal{.}
+
+%\setlength\intextsep{0.5em}% plus \ww minus \ww}
+\setlength{\textfloatsep}{0.0em plus \ww minus \ww}
+%https://tex.stackexchange.com/questions/39017/how-to-influence-the-position-of-float-environments-like-figure-and-table-in-lat
+
+
+\usepackage[acronym,symbols,nogroupskip]{glossaries-extra}
+\usepackage{glossary-superragged}
+\makeglossaries
+
+
+
+\usepackage{dsfont}
+
+%The textcase package - TeXdoc.net
+\usepackage{textcase}
+
+\input{first}
+\input{glossary}
+
+\usepackage{catchfilebetweentags}
+\makeatletter
+\def\CatchFBT@sanitize{%
+   \@sanitize
+   \@makeother\{%
+   \@makeother\}%
+%   \endlinechar=`\^^J% <--- This line modified
+}% \CatchFBT@sanitize
+\makeatother
+
+
+
+\glsaddall
+
+%Reduce spacing after heading of List of Figures
+
+\flushbottom\raggedbottom
+
+\setlength{\LTleft}{0pt}%flusleft longtable
+
+
+\usepackage{tikz}
+\tikzset{my path/.style={line width=2pt}}
+\usepackage{pgfplots}
+\usepackage{pgfplotstable} 
+\pgfplotsset{compat=1.15}
+\usepgfplotslibrary{statistics}
+
+
+
+%%%%%%%%%%%%%%%%%%%%% pgplotstables longtables
+
+\pgfkeysifdefined{/pgfplots/table/output empty row/.@cmd}{
+	% upcoming releases offer this more convenient option:
+	\pgfplotstableset{
+		empty header/.style={
+			every head row/.style={output empty row},
+		}
+	}
+}{
+	% versions up to and including 1.5.1 need this:
+	\pgfplotstableset{
+		empty header/.style={
+			typeset cell/.append code={%
+				\ifnum\pgfplotstablerow=-1 %
+				\pgfkeyssetvalue{/pgfplots/table/@cell content}{}%
+				\fi
+			}
+		}
+	}
+}
+%%%-----------------------------------------------
+
+
+
+\usepackage{etoolbox}
+\makeatletter
+\pretocmd{\chapter}{\addtocontents{toc}{\protect\addvspace{-9\p@}}}{}{}
+%\pretocmd{\section}{\addtocontents{toc}{\protect\addvspace{3\p@}}}{}{}
+%\pretocmd{\subsection}{\addtocontents{toc}{\protect\addvspace{3\p@}}}{}{}
+%\pretocmd{\subsubsection}{\addtocontents{toc}{\protect\addvspace{3\p@}}}{}{}
+\makeatother
+
+
+\begin{document}
+\setlength{\abovecaptionskip}{0pt}
+\setlength{\belowcaptionskip}{0pt}
+
+\thispagestyle{empty}
+
+{\bf \centering
+
+\thispagestyle{empty}
+UNIVERSIDAD NACIONAL DE EDUCACIÓN\\
+\vspace{.7cm}
+Enrique Guzmán y Valle\\
+\vspace{.7cm}
+Alma Mater del Magisterio Nacional\\
+\vspace{.7cm}
+Escuela de Posgrado\\
+\vspace{.7cm}
+Sección maestría\\
+\vspace{.7cm}
+\includegraphics[height=5.8cm]{graphs/logo.pdf}\\
+\vspace{.7cm}
+{\large\titulo}\\
+\vspace{.7cm}
+{ Proyecto para optar al Grado Académico de Maestro en Ciencias de la Educación
+con mención en Educación Matemática}\\
+\vspace{.7cm}
+{ Presentado por} \\
+\vspace{.7cm}
+ \autor\\
+\vspace{.7cm}
+{Asesor} \\
+\vspace{.7cm}
+\asesor\\
+\vspace{.7cm}
+Ayacucho -- Perú
+{\vfill 2021}
+
+}
+
+\newpage
+
+\addcontentsline{toc}{chapter}{DEDICATORIA}
+\pagenumbering{roman}
+
+\begin{midpage} \begin{flushright} \textit{Dedicado al universo\\ y su sabiduria} \end{flushright} \end{midpage} \newpage{}
+
+\chapter*{AGRADECIMIENTO}
+\addcontentsline{toc}{chapter}{AGRADECIMIENTO} 
+\ExecuteMetaData[contenido.tex]{agradecimiento}
+
+
+\renewcommand\contentsname{ÍNDICE DE CONTENIDOS}
+\tableofcontents
+%\addcontentsline{toc}{chapter}{ÍNDICE DE CONTENIDOS}
+
+\clearpage
+\newpage
+
+\onehalfspacing
+\renewcommand\listfigurename{LISTA DE FIGURAS}
+ {\renewcommand{\addvspace}[1]{} \listoffigures}
+\addcontentsline{toc}{chapter}{LISTA DE FIGURAS}
+
+\renewcommand\listtablename{LISTA DE TABLAS}
+\listoftables
+\addcontentsline{toc}{chapter}{LISTA DE TABLAS}
+
+\chapter*{RESUMEN}
+\addcontentsline{toc}{chapter}{RESUMEN}
+\ExecuteMetaData[contenido.tex]{resumen}
+
+\chapter*{{ABSTRACT}}
+\addcontentsline{toc}{chapter}{ABSTRACT}
+\ExecuteMetaData[contenido.tex]{abstrac}
+ 
+\chapter*{{INTRODUCCIÓN}}
+\addcontentsline{toc}{chapter}{INTRODUCCIÓN}
+\ExecuteMetaData[contenido.tex]{intro}
+\newpage
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+\chapter{PLANTEAMIENTO DEL PROBLEMA}
+\section{Determinación del problema}
+\ExecuteMetaData[contenido.tex]{planteamiento}
+
+\section{Formulación del problema}
+\subsection{Problema General}
+\problema.
+\subsection{Problemas Específicos}
+\begin{itemize}
+\item \problemae.
+\item \problemaee.
+\item \problemaeee.
+\item \problemaeeee.
+\end{itemize}
+
+\section{Objetivos}
+\subsection{Objetivo general}
+\objetivo.
+\subsection{Objetivos específicos}
+
+\begin{itemize}
+\item \objetivoe.
+\item \objetivoee.
+\item \objetivoeee.
+\item \objetivoeeee.
+\end{itemize}
+
+\section{Importancia y alcances de la investigación}
+\ExecuteMetaData[contenido.tex]{importancia}
+
+\section{Justificación y viabilidad}
+\ExecuteMetaData[contenido.tex]{justificacionconcepto}
+
+\subsection{Justificación teórica}
+\ExecuteMetaData[contenido.tex]{justificacionteo}
+\subsection{Justificación metódica}
+\ExecuteMetaData[contenido.tex]{justificacionmet}
+\subsection{Justificación práctica}
+\ExecuteMetaData[contenido.tex]{justificacionpra}
+\subsection{Justificación pedagógica}
+\ExecuteMetaData[contenido.tex]{justificacionped}
+\subsection{Justificación social}
+\ExecuteMetaData[contenido.tex]{justificacionsoc}
+
+\chapter{ASPECTOS TEÓRICOS}
+\section{Antecedentes de estudio}
+\subsection{Internacionales}
+\ExecuteMetaData[contenido.tex]{internacional}
+\subsection{Nacionales}
+\ExecuteMetaData[contenido.tex]{nacional}
+\subsection{Regionales}
+\ExecuteMetaData[contenido.tex]{regional}
+
+
+\section{Bases teóricos}
+
+%\subsection{Contexto de la investigación}
+
+%La \lugar que imparte conocimientos sobre la matemática la física y la gls{estadistica}, está ubicada en Ayacucho, según \cite{ayacucho} Ayacucho, es una ciudad diferenciada por incomparables expresiones culturales, instaurada como San Juan de la Frontera de Huamanga y distinguida asimismo como Huamanga, es una ciudad del Perú, capital de la provincia de Huamanga y del departamento de Ayacucho. Se halla ubicada en la depresión este de la Cordillera de los Andes a una altitud de 2.746 msnm y se identifica por su clima interesante, sosegado y seco, con brillo solar todo el año.
+%
+%Las matemáticas en este contexto es reciente, con un bajo nivel de desarrollo, y limitado proceso didáctico, rezagando aspectos como las aplicaciones e investigación. El objeto del trabajo investigativo, hace  énfasis en el aspecto didáctico de las matemáticas para la apropiada, aprehensión de las matemáticas en los estudiantes de la \lugar.
+%
+\subsection{\variablei}
+
+En concordancia a \cite{Munaylla} se trabajan con los siguientes dimensiones 
+
+ 
+\noindent\textbf{\dimi}.	Es el proceso de manifestar las integrales asociadas a objetos concretos que podrían ser elaborados o asociados a otros existentes. Segun \cite{Munaylla} consiste en ...
+
+\begin{enumerate}
+	\item Construye objetos asociadas a las integrales
+	\item Manipula objetos asociadas a las integrales
+	\item Asocia objetos  reales con las integrales
+\end{enumerate}
+\noindent\textbf{\dimii}.	De acuerdo a \cite{lenguaje} Es el proceso de manifestar las integrales asociadas a objetos concretos que podrían ser elaborados o asociados a otros existentes. 	De acuerdo a \cite{lenguaje}:
+	
+\begin{displayquote}
+	\emph{Para pensar y comunicar ideas matemáticas necesitamos representarlas de alguna manera. Y la comunicación nos exige que la representación sea externa, tomando la forma del lenguaje hablado, símbolos escritos, dibujos u objetos físicos. Una idea matemática particular casi siempre puede ser representada en alguna o en todas las formas de representación posibles} (Hiebert, 1992).
+\end{displayquote}
+En este trabajo de investigación se consideran los siguientes indicadores:
+\begin{enumerate}
+	\item Reconoce términos matemáticos contextualizados.
+	\item Expresa con fluidez términos matemáticos.
+	\item Dialogo pertinentemente con sus compañeros.
+\end{enumerate}
+\noindent\textbf{\dimiii}.	Es el proceso de manifestar las integrales asociadas a objetos concretos que podrían ser elaborados o asociados a otros existentes. Segun \cite{Munaylla} consiste en ...
+\begin{displayquote}
+	\emph{Para pensar y comunicar ideas matemáticas necesitamos representarlas de alguna manera. Y la comunicación nos exige que la representación sea externa, tomando la forma del lenguaje hablado, símbolos escritos, dibujos u objetos físicos. Una idea matemática particular casi siempre puede ser representada en alguna o en todas las formas de representación posibles} (Hiebert, 1992).
+\end{displayquote}
+En este trabajo de investigación se consideran los siguientes indicadores:
+\begin{enumerate}
+	\item Establece símbolos matemáticos
+	\item Compone estructuras simbólicas
+	\item Manipulas estructuras simbólicas
+\end{enumerate}
+\noindent\textbf{\dimiiii}.	Es el proceso de manifestar las integrales asociadas a objetos concretos que podrían ser elaborados o asociados a otros existentes. Segun \cite{Munaylla} consiste en ...
+\begin{displayquote}
+	\emph{Para pensar y comunicar ideas matemáticas necesitamos representarlas de alguna manera. Y la comunicación nos exige que la representación sea externa, tomando la forma del lenguaje hablado, símbolos escritos, dibujos u objetos físicos. Una idea matemática particular casi siempre puede ser representada en alguna o en todas las formas de representación posibles} (Hiebert, 1992).
+\end{displayquote}
+En este trabajo de investigación se consideran los siguientes indicadores:
+\begin{enumerate}
+	\item Grafica objetos bidimensionales
+	\item Grafica objetos tridimensionales
+	\item Representa diagramas complejos
+\end{enumerate}
+
+
+\subsection{\variabled}
+\noindent\textbf{\dimd}.	Es el proceso de manifestar las integrales asociadas a objetos concretos que podrían ser elaborados o asociados a otros existentes. Segun \cite{Munaylla} consiste en ...
+\begin{displayquote}
+	\emph{Para pensar y comunicar ideas matemáticas necesitamos representarlas de alguna manera. Y la comunicación nos exige que la representación sea externa, tomando la forma del lenguaje hablado, símbolos escritos, dibujos u objetos físicos. Una idea matemática particular casi siempre puede ser representada en alguna o en todas las formas de representación posibles} (Hiebert, 1992).
+\end{displayquote}
+En este trabajo de investigación se consideran los siguientes indicadores:
+\begin{enumerate}
+	\item Utiliza el concepto de series y limites
+	\item Desarrolla actividades ...
+	\item Desarrolla 
+\end{enumerate}
+\noindent\textbf{\dimdd}. tecnicas de integrar 	Es el proceso de manifestar las integrales asociadas a objetos concretos que podrían ser elaborados o asociados a otros existentes. Segun \cite{Munaylla} consiste en ...
+\begin{displayquote}
+	\emph{Para pensar y comunicar ideas matemáticas necesitamos representarlas de alguna manera. Y la comunicación nos exige que la representación sea externa, tomando la forma del lenguaje hablado, símbolos escritos, dibujos u objetos físicos. Una idea matemática particular casi siempre puede ser representada en alguna o en todas las formas de representación posibles} (Hiebert, 1992).
+\end{displayquote}
+En este trabajo de investigación se consideran los siguientes indicadores:
+\begin{enumerate}
+	\item Utiliza el método substitución, por partes y cambio de variables.
+	\item Utiliza el método de integrales de funciones trigonométricas
+	\item Utiliza el método de sustitución trigonomionica y de fracciones racionales
+\end{enumerate}
+\noindent\textbf{\dimddd}.	Es el proceso de manifestar las integrales asociadas a objetos concretos que podrían ser elaborados o asociados a otros existentes. Segun \cite{Munaylla} consiste en ...
+\begin{displayquote}
+	\emph{Para pensar y comunicar ideas matemáticas necesitamos representarlas de alguna manera. Y la comunicación nos exige que la representación sea externa, tomando la forma del lenguaje hablado, símbolos escritos, dibujos u objetos físicos. Una idea matemática particular casi siempre puede ser representada en alguna o en todas las formas de representación posibles} (Hiebert, 1992).
+\end{displayquote}
+En este trabajo de investigación se consideran los siguientes indicadores:
+\begin{enumerate}
+	\item Halla áreas de figuras planas y de superficies.
+	\item Halla volúmenes de solidos de revolución.
+	\item Halla centroides de figuras 2d y 3d.
+\end{enumerate}
+
+\setglossarysection{subsection}\flushbottom \printglossary[numberedsection,nonumberlist,title=Definiciones  de términos básicos]
+
+\chapter{HIPÓTESIS Y VARIABLES}
+\section{Hipótesis}
+\subsection{Hipótesis principal}
+      \hipotesis.
+
+\subsection{Hipótesis específicas}
+\begin{itemize}
+\item \hipotesise.
+\item \hipotesisee.
+\item \hipotesiseee.
+\item \hipotesiseeee.
+\end{itemize}
+
+
+
+\section{Variables}
+
+\subsection{Operacionalización de variables}
+
+\begin{itemize}
+  \item \textbf{Variable Independiente} (\variablei)
+  \item \textbf{Variable Dependiente} (\variabled)
+%  \item \textbf{Variable Interviniente} (Aptitud matemática y contexto social)
+
+\end{itemize}
+%\subsubsection{Clasificación de variables}
+%\variablei(VI) $\to$ \variabled(VD)
+
+\subsection{Definición conceptual de variables}
+
+
+\begin{itemize}
+  \item \textbf{Variable Independiente (\variablei):} %Es la capacidad de generar imágenes \emph{dinámicas}, mental o gráficamente (sobre una superficie o una computadora) con el objetivo de estudiar un ente abstracto o figurativo lo cual se categorizó en dos dimensiones \MakeTextLowercase{\dimi} y \MakeTextLowercase{\dimii}.
+
+  \item \textbf{Variable Dependiente (\variabled):} %Es el incremento de factores que identifican la eficacia del procesamiento mental matemático en un entorno social determinado, las que deben seguir una secuencia de pasos tales como la \MakeTextLowercase{\dimd}, \MakeTextLowercase{\dimdd}, \MakeTextLowercase{\dimddd} y \MakeTextLowercase{\dimdddd}.
+
+
+
+
+  \item  \textbf{Variable Interviniente (Aptitud matemática y contexto social):}% La primera influye en poca tendencia hacia la lógica y los números y desinterés hacia los factores de productividad matemática, la segunda debido a la escasa llegada hacia la información idónea y adecuada asistida.
+
+\begin{displayquote}
+\emph{A veces llamada la variable de confusión, vincula las variables independientes y dependientes. En ciertas situaciones, la relación entre una variable independiente y una variable dependiente no puede establecerse sin la intervención de otra variable. La causa, o variable independiente, tendrá el efecto supuesto solo en presencia de una variable intermedia.} Grinnell (1988, p. 203 citado en \citeauthor{kumar}, \citeyear{kumar}, p.~75)
+\end{displayquote}
+
+\end{itemize}
+
+\subsection{Operacionalización de variables}
+\ExecuteMetaData[contenido.tex]{ov}
+
+
+
+\chapter{ASPECTO METODOLÓGICO}
+
+\section{Enfoque de la Investigación}
+El presente trabajo de investigación se fundamenta en el enfoque cuantitativo, porque, utiliza la recolección de datos numéricos para probar hipótesis con base en la medición numérica y el análisis estadístico descriptivo e inferencial, con el fin establecer pautas de comportamiento y probar teorías.
+
+
+De acuerdo a \cite{bernal} La orientación cuantitativa se fundamenta en el cálculo de características de los fenómenos sociales, lo cual presupone derivar de un cuadro conceptual adecuado al problema examinado, una cadena de proposiciones que enuncien relaciones entre si las variables experimentadas de forma justificada. Este procedimiento tiende a extender y sistematizar resultados. Según \cite{inv1}.
+
+\begin{displayquote}
+{La orientación cuantitativa se constituye, de un conjunto de términos que es secuencial y demostrativo. Cada fase antecede a la subsiguiente y no es posible omitir o evitar sucesos. La disposición es inflexible. Parte de una idea que va delimitándose y, una vez definida, se proceden a generar objetivos y cuestiones de exploración, se revisa la bibliografía y se elabora un marco o una configuración teórica. De las cuestiones se forman hipótesis y establecen variables; se bosqueja un procedimiento para experimentar la cual se conoce como diseño, se calculan las variables en un determinado contexto; se exploran los datos obtenidos, recurriendo a procesos estadísticos, y se deduce una serie de conclusiones con relación a la o las hipótesis}. (p. 97)
+\end{displayquote}
+
+\subsection{Método}
+\subsection{Tipo  de investigación}
+La investigación es de tipo aplicada, que tiene por finalidad contribuir al conocimiento científicos de aprendizaje y herramientas pedagógicas. De acuerdo a textcite{santiago}.%\citeauthor{Duval} (1999, p. 15 citado en \citeauthor{ines}, \citeyear{ines}, p.~15).
+
+%
+%
+%\begin{adjustwidth}{1cm}{}\gggl
+%\emph{Es también llamada práctica, empírica, activa y se encuentra íntimamente ligada a la investigación básica, ya que depende de sus descubrimientos y aportes teóricos para poder generar beneficios y bienestar a la sociedad. Se fundamenta en la investigación teórica; su finalidad especifica es aplicar las teorías existentes a la producción de normas y procedimientos tecnológicos para controlar situaciones  o procesos de la realidad.} (p.~15)
+%\end{adjustwidth}
+%
+%
+%
+%Al respecto \cite{cerezal}, describe la investigación aplicada, como el manejo de las sapiencias, en la experiencia cotidiana, para emplearlos, en la totalidad de los casos, en beneficio de la humanidad.
+
+%SALDAÑA, J. (1998). ``Se refiere a un estudio de investigación en
+%el que se manipulan deliberadamente una o más variables independientes
+%(supuestas causas)
+%para analizar las consecuencias de esa manipulación sobre una o más
+%variables dependientes
+%(supuestos efectos), dentro de una situación de control para el investigador''.
+
+
+
+
+%
+%\subsubsection{Diseño de investigación}
+La investigación es de nivel explicativa experimental, porque se busca la causa y efecto en cada una de las variables de estudio, con manipulación de la variable independiente, es decir, se manipula la variable \MakeTextLowercase{\variablei}, para efectos o influencias en la \MakeTextLowercase{\variabled}.
+
+%
+%
+%Por lo que \cite{khotari} explica que en una investigación experimental, de pruebas de hipótesis, cuando un grupo está expuesto a las condiciones habituales, se denomina \emph{grupo de control} (A), pero cuando lo esta en alguna condición nueva o especial, se denomina un \emph{grupo experimental } (B). Si los grupos A y B están expuestos a programas de estudios especiales, entonces ambos grupos se denominarían grupos experimentales. Es posible diseñar estudios que incluyan sólo grupos experimentales o estudios experimentales que incluyen tanto grupos experimentales como de control.
+
+
+%In an experimental hypothesis-testing research when a
+%group is exposed to usual conditions, it is termed a ‘control group’, but when the group is exposed to
+%some novel or special condition, it is termed an ‘experimental group’. In the above illustration, the
+%Group A can be called a control group and the Group B an experimental group. If both groups A and
+%B are exposed to special studies programmes, then both groups would be termed ‘experimental
+%groups.’ It is possible to design studies which include only experimental groups or studies which
+%include both experimental and control groups.
+
+
+
+
+
+\section{Diseño de investigación}
+El diseño de investigación que se utilizó es el descriptivo – \MakeTextLowercase{\diseno}, que se estructura de acuerdo a la Figura \ref{figg}.
+%individuos de la población iguales oportunidades de ser seleccionados, porque los grupos ya están formados con los estudiantes de la serie 200 en la \lugar.
+
+\begin{figure}[ht!]\centering
+	\begin{tikzpicture}[> = stealth,shorten > = 2pt,semithick]
+	\node[] at (0,0)  (T){$M$};
+	\node[] at (2,1.3)  (o1){$O_1$};
+	\node[] at (5,1.3)  (w){$V_1$};
+	\node[] at (2,0)  (r){$r$};
+	\node[] at (2,-1.3)  (o2){$O_2$};
+	\node[] at (5,-1.3)  (ww){$V_2$};
+	\path[->] (T) edge node {} (o1);
+	\path[->] (T) edge node {} (o2);
+	\path[<-] (o1) edge node {} (w);
+	\path[<-] (o2) edge node {} (ww);
+	\path[->] (o1) edge node {} (r);
+	\path[->] (o2) edge node {} (r);
+	\end{tikzpicture}
+	\caption{Diseño \MakeTextLowercase{\diseno}}
+	\label{figg}
+\end{figure}
+
+Donde $M$ es la muestra, $O_1$ es la variable 1, \MakeTextLowercase{\variablei},
+$O_2$ es la variable 2, \MakeTextLowercase{\variabled} y
+$r$ es la relación entre variable 1 y variable 2.
+
+El diseño de la investigación es cuasi -- experimental de un mismo grupo de trabajo con pre y pos -- prueba, porque se tomará un solo grupo experimental. De acuerdo a textcite{design} este diseño permitirá aplicar los módulos de experimentación en un periodo determinado y luego se trabajará de manera tradicional, alternando sucesivamente. Cuyo esquema de referencia es:
+
+De acuerdo a :
+\begin{displayquote}
+\emph{www Al elegir un diseño se tiene en cuenta una secuencia de procesos para aplicarlos en un determinado problema y deducir resultados que verifiquen las hipótesis del problema. En este caso se tendrá el diseño propuesto con un solo grupo, que permitirá aplicar la primera variable sobre la segunda, para fortalecer la elaboración plástica tridimensional.}. \cite[p.~151]{inv1}
+\end{displayquote}
+%
+%
+%
+%Al elegir un diseño se tiene en cuenta una secuencia de procesos para aplicarlos en un determinado problema y deducir resultados que verifiquen las hipótesis del problema. En este caso se tendrá el diseño propuesto con un solo grupo, que permitirá aplicar la primera variable sobre la segunda, para fortalecer la elaboración plástica tridimensional.
+%%Por lo cual, en la investigación se realizó el experimento en dos talleres
+%%(considerándolo como un solo grupo de trabajo, por tener población pequeña),
+%%aplicando una prueba previa al estímulo o tratamiento experimental, después
+%%se le administró el tratamiento y finalmente se aplicó una prueba posterior
+%%al tratamiento; para determinar cambios en el desarrollo de la creatividad
+%%artística. El diseño responde al siguiente diagrama:
+%
+%
+%
+
+
+
+%
+%
+%\begin{adjustwidth}{1cm}{}\gggl
+%\emph{Los datos, después de ser obtenidos, deben ser procesados y analizados de acuerdo con un esquema establecido para tal propósito, en el momento de desarrollar el plan de investigación. Esto es fundamental para un estudio científico y asegurar la obtención de todos los datos relevantes, para hacer comparaciones y análisis contemplados. Técnicamente hablando, el procesamiento implica la edición, codificación, clasificación y tabulación de datos, para que sean susceptibles de análisis. El término análisis se refiere al cálculo de ciertas cantidades, junto con la búsqueda de patrones de relación que existen entre los grupos de datos. Así, en el proceso de análisis, las relaciones o las diferencias que apoyan o contradicen las hipótesis deben someterse a pruebas estadísticas con el objetivo de deducir conclusiones.
+%}\end{adjustwidth}
+%
+%
+
+%
+%Según \cite{khotari} este método consta en el desarrollo de herramientas de cálculo que implica un proceso de cuatro etapas: Desarrollo de conceptos, descripción de las dimensiones del concepto, elección de indicadores y formación del índice.
+%
+%
+%
+%El primer paso importante es el de desarrollo de conceptos, lo que representa que el investigador debe llegar a la comprensión de los conceptos principales coherentes con su estudio. %Esta etapa del desarrollo conceptual es más evidente en los estudios teóricos que en la investigación más pragmática, donde los conceptos fundamentales a menudo ya están establecidos.
+%
+%
+%
+%El segundo paso necesita que el investigador detalle las \emph{dimensiones} de los conceptos que fue desarrollado en la primera etapa. Esta tarea puede llevarse a cabo por deducción, es decir, adoptando una orientación más o menos intuitivo o por reciprocidad empírica de las dimensiones individuales con el concepto total y los demas conceptos.
+%
+%
+%
+%
+%Una vez que se consigan las dimensiones de un concepto, el investigador debe desarrollar \emph{indicadores} para medir cada elemento conceptual. Los indicadores son \emph{preguntas específicas}, escalas u otros. Como ocasionalmente concurre una medida perfecta de un concepto, el investigador debe suponer varias elecciones para la intención. El uso de más de un indicador, les da firmeza a las puntuaciones y también mejora su validez.
+%
+%
+%
+%El último paso es el de disponer los diversos indicadores en un índice, esto es, la formación de un índice. Cuando se tiene distintas dimensiones de un concepto o diferentes medidas de una dimensión, es viable que debamos combinarlas en un único índice.
+
+
+\section{Población y muestra}
+
+\subsection{Población}
+
+Constituida por \poblacion, matriculados en el semestre impar del año 2019. %Los criterios que se considerarán en la selección de la muestra se describen en el Cuadro \ref{apt7}
+%
+%
+%\begin{table}[ht!]
+%\caption{Criterio de inclusión y exclusión}\label{apt7}
+%%\centering
+%\begin{tabular}{ccc}\Xhline{2pt}
+%Población&Aptos&No aptos\\\midrule
+%\makecell*[{{p{3.5cm}}}]{\centering Estudiantes matriculados del semestre impar} &
+%\makecell*[{{p{3.9cm}}}]{\centering Estudiantes regulares\\Asistentes puntuales} &\makecell[c]{ Estudiantes repitentes \\
+%   Estudiantes retirados \\
+%   Estudiantes del quinto superior\\
+%   Estudiantes no asistentes}\\\bottomrule
+%\end{tabular}
+%\end{table}
+%
+
+De acuerdo a \cite{inv1}, la población o universo es el agregado de todos los casos que concuerdan con determinadas descripciones o características, es decir es un conjunto de elementos que tiene al menos una misma característica que pueden ser medidos cuantitativamente o cualitativamente.
+
+\subsection{Muestra}
+
+En la presente investigación la muestra será no probabilística e intencional compuesta por un solo grupo experimental de \muestra, al cual se le aplicará el diseño \MakeTextLowercase{\diseno} de un mismo grupo con dos tipos de pruebas en series temporales equivalentes (Alternado).
+
+%
+%
+Según \cite{bernal}, la muestra es una subcolección de elementos de la población seleccionada, de donde se obtendrá información para el desarrollo del estudio y del cual se hará medicines y observaciones de la variable dependiente e independiente, interrelacionada.
+%
+%
+%También por \cite{inv1}, en las muestras no aleatorias, la selección de los elementos de una población no obedece a la probabilidad, en lugar de ello se involucra con las causas relacionadas con las particularidades de la investigación o las intenciones del investigador.
+
+
+\subsection{Muestreo}
+
+El muestreo será no probabilístico e intencional. Esta técnica consiste  en obtener una muestra donde los elementos  se recogen de manera aleatoria.
+
+\cite{cordova} se refiere a la muestra no probabilística como aquella donde las unidades de la población tiene la misma posibilidad de ser elegidas y pertenecer a la muestra. Es deliberado, ya que esta práctica se opera en poblaciones indistintas. Aquí el especialista, conociendo la población y con buen juicio resuelve que características de análisis compondrá la muestra.
+
+
+
+%\begin{adjustwidth}{1cm}{}\gggl
+%\emph{Este tipo de muestreo suele manifestarse evidente influencia del investigador, pues éste elige la muestra por razones de comodidad. Cuando el emplear el muestreo aleatorio genera excesivo costo o exagerado tiempo Por ello suele mostrar grandes márgenes de error y es poco confidencial. No es posible extrapolar los resultados a la población es deliberado pues este tipo de muestreo se identifica por una voluntad intencional de conseguir muestras particulares mediante la inserción en la muestra de grupos teóricamente representativos.} (p.~57)
+%\end{adjustwidth}
+%
+
+\section{Técnicas e instrumentos de recolección de datos}
+
+\subsection{Técnica de recolección de datos}
+
+\subsubsection{Observación} Para el análisis de la influencia de la variable independiente sobre la variable dependiente se utilizó las técnicas de experimentación y observación, empleándose como instrumentos el plan de experimentación y la ficha de observación. Esta técnica que permitió recoger datos de la influencia de la variable independiente \MakeTextLowercase{\variablei} sobre la variable dependiente \MakeTextLowercase{\variabled}, en el proceso de experimentación.
+
+
+%
+Según \cite{khotari} el método de observación es el método más utilizado, especialmente en estudios relacionados con ciencias. La observación se convierte en una herramienta científica y en el método de recolección de datos para el investigador, cuando sirve a un propósito de investigación formulado, se planifica y registra sistemáticamente y se somete a controles de validez y fiabilidad.
+
+\subsubsection{Prueba pedagógica} Técnica que permitió recoger de manera escrita del  \MakeTextLowercase{\variablei} logro del aprendizaje de la variable dependiente \MakeTextLowercase{\variabled}, en el proceso de la experimentación
+
+\cite{Livas} refiere: ``Es un proceso a través del cual se compara una unidad preestablecida y que la evaluación es un proceso que consiste en obtener infom1ación sistemática y objetiva acerca de un fenómeno e interpretar dicha información a fin de seleccionar entre distintas alternativas de decisión'' (p.~68).
+
+\paragraph{Experimental} Técnica que permitió aplicar los módulos de experimentación de la variable \variablei.
+
+
+{Según \cite{khotari} el método de observación es el método más utilizado, especialmente en estudios relacionados con ciencias. La observación se convierte en una herramienta científica y en el método de recolección de datos para el investigador, cuando sirve a un propósito de investigación formulado, se planifica y registra sistemáticamente y se somete a controles de validez y fiabilidad.}
+
+\subsection{Instrumento de recolección de datos}
+\textbf{Plan de experimentación.} Documento pedagógico que contiene el proceso de aplicación de las estrategias pictóricas (ver anexo).
+
+\subsubsection{La ficha de observación} En el cual se incluyen indicadores que permitieron conocer  los indicadores de la variable independiente planteadas que influirán en el desarrollo de los indicadores de la variable dependiente en la muestra. En este caso el proceso será observado a través del evento práctico teórico que hicieron los observados.
+%
+%
+%
+%La ficha de observación por \cite{bernal}, es la exploración visual de lo que sucede en un contexto existente, en un fenómeno explícito, especificando y estableciendo los hechos acertados de acuerdo con algún diseño previsto, manipula un herramienta o prontuario impreso, reservado a conseguir respuestas sobre el problema en estudio.
+%
+%
+%
+%\paragraph{La ficha de opinión}
+%
+%Este instrumento permitirá recoger la opinion de los estudiantes con respecto al uso de la \MakeTextLowercase{\variablei}, y averiguar el impacto de esta. De acuerdo a \cite{opinion}. Una ficha de opinión, es una ficha en la que personas externas a la investigación escribe plasma lo que piensa en relación al texto o estudio que se está realizando.
+%
+%
+%
+%Esta ficha puede tener: Número (es para tener orden de las fichas), Autor (la persona quien lo escribe), Tema de que se trata, Items o cuestionarios y Nota (en caso requerido).
+%
+%
+%
+%%URL del artículo: %http://www.ejemplode.com/13-ciencia/2411-ejemplo_de_ficha_de_opinion.html
+%%Leer completo: ejemplos de Ficha de opinión
+%%Los indicadores que conformaran la estructura de la ficha de
+%%observación fueron elaborados a partir de la operacionalización
+%%de la variable independiente, siendo las posibilidades de sus
+%%respuestas: No, A veces y Sí.
+%  \paragraph{Prueba escrita} Instrumento que permitirá recoger datos del desarrollo de las capacidades matemáticas  \MakeTextLowercase{\dimd},  \MakeTextLowercase{\dimdd}, \MakeTextLowercase{\dimddd} y \MakeTextLowercase{\dimdddd}; instrumento elaborado de acuerdo a los indicadores descritos en el presente trabajo de investigación.
+%
+%
+%
+%Las competencias y sus valoraciones cualitativas y cuantitativas se describen en el siguiente Cuadro \ref{evaluacion}.
+%
+%\begin{table}[ht!]
+%%\centering
+%\caption{Criterio de calificación}\label{evaluacion}
+%\begin{tabular}{cccc}\Xhline{2pt}
+%\bf \multirow{2}*[-.01cm]{Capacidades}&\bf Valoración&\bf Valoración\\
+%&\bf  cualificada&\bf  cuantificada\\\midrule
+%\multirow{5}*[-.01cm]{\makecell*[{{p{5cm}}}]{\centering  \dimd  \dimdd \dimddd \dimdddd}}&Excelente&17 -- 20\\
+%	&Bueno&13 -- 16\\	
+%	&Regular&09 -- 12\\	
+%	&Malo&05 -- 08\\	
+%	&Deficiente&00 -- 04\\	
+%\bottomrule
+%\end{tabular}
+%\end{table}
+%
+%%  Es la forma de justipreciar las destrezas, conductas, contenidos, procurando un visto bueno, puntaje, calificativos o un concepto, este actúa como un dispositivo de revisión durante el proceso de enseñanza de ciertos indicadores establecidos y la exploración del efecto.
+%%Se emplea, generalmente, para observar la conducta de los observados.
+%%
+%%
+%%
+%%Por \cite{inv1}, enuncia. Es un instrumento de medición cuyo propósito es que el estudiante demuestre la adquisición de un aprendizaje cognoscitivo, el dominio de una destreza o el desarrollo progresivo de una habilidad. Por su naturaleza, requiere respuesta escrita por parte del estudiante.
+%
+%\paragraph{Módulos de experimentación} Módulos que permitirán elaborar los materiales de aplicación de la variable \MakeTextLowercase{\variablei} con el objetivo de generar el \MakeTextLowercase{\variabled}. El plan experimentación se muestra en el Anexo 7.
+%
+%
+%
+%
+%%Los indicadores que conforman la estructura de la Lista de cotejo
+%%se obtuvieron a partir de la operacionalización de la variable
+%%dependiente, siendo las posibilidades de sus respuestas: No, A veces y Sí.
+%%Aplicado por los investigadores en las sesiones de aprendizajes y
+%%con los resultados.
+%
+%
+
+\subsection{Tratamiento estadístico de los datos}
+Con el objetivo de procesar adecuadamente los datos y sacar conclusiones confiables, se utilizarán la las siguientes estadísticas.
+ 
+\subsubsection{La estadística descriptiva} Esta estadística será de utilidad en la obtención de las siguientes, basadas en buscar el comportamiento de los datos, para inferir conclusiones relativas nuestras variables y la relación entre ellas.  
+\begin{enumerate}
+\item Tendencia central (media, mediana y moda),
+\item dispersión o variabilidad (desviación estándar, la varianza y la regresión estándar),
+\item curtosis (leptocurtica, mesocúrtica y platicúrtica) y 
+\item asimetría (asimétrica positiva, simétrica y asimétrica negativa).
+\end{enumerate}
+\subsubsection{La estadística inferencial} Esta estadística se utilizara para probar, la normalidad y la homocedasticidad  de los datos, además de las prueba de hipótesis.
+
+Cabe mencionar que se hará uso del software R Sweave y Excel para el procesamiento de los datos.
+
+%\subsubsection{Validación de instrumentos}
+%Consistirá en validar el contenido del instrumento por el criterio de jueces o expertos (con maestría o doctorado), quienes verificarán y evaluarán la coherencia y secuencialidad de los instrumentos.
+%
+%
+%
+%La opinión de los expertos consultados permitirá establecer la validez de los instrumentos que se empleará en la investigación. La validez se establecerá mediante el método del juicio de expertos.
+%
+%
+%
+%\begin{adjustwidth}{1cm}{}\gggl
+%\emph{La validez, en términos generales, se refiere al grado en que un instrumento mide
+%realmente la variable que pretende medir. Por ejemplo, un instrumento válido para medir la inteligencia debe medir la inteligencia y no la memoria. Un método para medir
+%el rendimiento bursátil tiene que medir precisamente esto y no la imagen de una empresa. Un ejemplo aunque muy obvio de completa invalidez sería intentar medir el peso de los objetos con una cinta métrica en lugar de con una báscula.} \cite[p.~200]{inv1}
+%\end{adjustwidth}
+%
+%
+%
+
+\subsection{Procedimientos}
+
+%Existen  diversos procedimientos para calcular la confiabilidad de un instrumento de medición. Todos utilizan formulas que producen coeficientes de confiabilidad. La mayoría de estos coeficientes pueden oscilar entre cero y uno donde un coeficiente cero significa nula confiabilidad y uno representa  un máximo de confiabilidad.
+%
+%
+%
+%La confiabilidad de consistencia interna del instrumento, se determinará con la prueba piloto, en una muestra de 10 estudiantes que no serán miembros de la muestra, aplicando mitades de Coeficiente de Pearson y la corrección de Spearman Brow, la fórmula referencial es la siguiente: $$r_{xy}=\frac{n\sum xy-\cc{\sum x}\cc{\sum y}}{\sqrt{n\sum x^2-\cc{\sum x}^2}\sqrt{n\sum y^2-\cc{\sum y}^2}}$$
+%
+%La corrección con Spearman Brow $$r=\frac{2r_{xy}}{1+r_{xy}}$$
+%
+%	Donde:
+%$n$ tamaño de muestra
+%$x$ es la puntuación de la primera mitad (Impares)
+%$y$ es la puntuación de la segunda mitad (Pares)
+%$r_{xy}$ es el coeficiente Pearson
+%$r$ es el coeficiente de Spearman Brow. Si $0\leq r\leq 0.8$ se considera no confiable y si $0.8< r \leq1$ se considera confiable.
+%
+%
+%
+%\begin{adjustwidth}{1cm}{}\gggl
+%\emph{La confiabilidad de un instrumento de medición es el grado en que su aplicación
+%repetida al mismo individuo u objeto genera resultados similares. Por ejemplo, si se midiera en este momento la temperatura ambiental usando un termómetro y éste indicara que hay $22^\circ C$, y un minuto más tarde se consultara otra vez y señalara $5^\circ C$, tres minutos después se observara nuevamente y éste indicara $40^\circ C$, dicho termómetro no sería confiable, ya que su aplicación repetida produce resultados distintos. Asimismo, si una prueba de inteligencia (Intelligence Quotient, IQ) se aplica hoy a un grupo de personas y da ciertos valores de inteligencia, se aplica un mes después y proporciona valores diferentes, al igual que en subsecuentes mediciones, tal prueba no sería confiable. Los resultados no son coherentes, pues no se puede confiar en ellos.
+%} \cite[p.~61]{inv1}\end{adjustwidth}
+
+
+
+%\begin{table}[ht!]
+% \centering\STautoround{3}
+%{%\tiny
+%\caption{Prueba de confiabilidad de la ficha de observación}\label{pret:1}
+%%\vspace{0.5cm}
+%\begin{tabular}{cccccccccccc}\Xhline{2pt}
+%AI&\multicolumn{10}{c}{INDICADORES}&$\sum$\\\midrule
+%&IN1&IN2&IN3&IN4&IN5&IN6&IN7&IN8&IN9&IN10&\\\cline{2-11}
+%1 &&&&&&&&&&&\\
+%2 &&&&&&&&&&&\\
+%3 &&&&&&&&&&&\\
+%4 &&&&&&&&&&&\\
+%5 &&&&&&&&&&&\\\midrule
+%$\sum$         &&&&&&&&&&&\\
+%$\overline{x}$ &&&&&&&&&&&\\
+%$s_i^2$        &&&&&&&&&&&\\
+%$s_i$          &&&&&&&&&&&\\\bottomrule
+%\end{tabular}\\\vspace{0.5cm}
+%{\normalsize Fuente: Datos obtenidos de la muestra}
+%}
+%\end{table}
+
+%
+%El pre test con los datos obtenidos mediante la calificación de los expertos en artes plásticas la ficha de observación generó $\alpha=\STtag{alpha}$ de acuerdo a la Tabla \ref{pret}, el instrumento (la ficha de observación)es confiable pues $0.8<\alpha<1$.
+%
+
+
+
+%$$\sum s_i^2$$
+%$$s_t^2$$
+%$$\alpha=\frac{k}{k-1}\left(1-\frac{\sum s_i^2}{s_t^2}\right)$$
+
+
+\chapter{{RESULTADOS DE LA INVESTIGACIÓN}}
+
+
+
+\section{{Nivel descriptivo}}
+
+
+Las calificaciones de los 35 estudiantes, fueron analizadas estadísticamente,
+estableciendo la jerarquía: si (1), a veces (2), no (3) en el caso de la variable independiente; ademas los datos de la variable dependiente solo fueron contrastados mediante sus medidas de resumen.
+
+
+
+<<mychunk2,echo=F>>=
+library(readxl)
+w1 <-read_excel("levene.xlsx",sheet=8,range="A1:B36",col_names=TRUE)
+w2 <-read_excel("levene.xlsx",sheet=8,range="C1:D36",col_names=TRUE)
+w3 <-read_excel("levene.xlsx",sheet=8,range="E1:F36",col_names=TRUE)
+w4 <-read_excel("levene.xlsx",sheet=8,range="G1:H36",col_names=TRUE)
+w5 <-read_excel("levene.xlsx",sheet=8,range="I1:J36",col_names=TRUE)
+w6 <-read_excel("levene.xlsx",sheet=8,range="K1:L36",col_names=TRUE)
+@
+\subsection{{Resultados de la ficha de opinión}}
+
+<<echo=F,message=FALSE>>=
+library(openxlsx)
+library(reshape)
+opinion1 <-read.xlsx(xlsxFile="levene.xlsx",
+sheet=10,cols=c(20:28),rows=c(3:6),colNames=FALSE)
+write.table(opinion1, "opinionn1.dat", quote=F, sep=" ", row.names=F)
+@
+\begin{table}[ht!]
+\caption{Descriptivo de la ficha de opinión}
+\label{r2}
+\pgfplotstabletypeset[column type=r,every head row/.style={output empty row,before row={\toprule
+ & \multicolumn{2}{c}{Motivador}&\multicolumn{2}{c}{Formativa} &  \multicolumn{2}{c}{Reforzador}&\multicolumn{2}{c}{Utilidad de la geometría fractal} \\ \midrule  Escala & $n$  & \% & $n$  & \%& $n$& \% & $n$ &\% \\},
+after row=\midrule,},
+every last row/.style={output empty row,before row={\midrule},after row=\bottomrule,output empty row,after row={\toprule \multicolumn{5}{l}{\footnotesize  \textsuperscript{a}Fuente: Apéndice \ref{datos} Tabla \ref{primary}}\\\multicolumn{5}{l}{\footnotesize  \textsuperscript{a}Fuente: Apéndice \ref{datos} Tabla \ref{secondary}}}},columns/X1/.style={string type}]{opinionn1.dat}%
+\end{table}
+
+En la Tabla \ref{r2} se observa, que la \MakeTextLowercase{\variablei},
+si es motivador por el \Sexpr{round(opinion1$X3[1],2)}\%, a veces es motivador por el \Sexpr{round(opinion1$X3[2],2)}\%
+y no es motivador por el \Sexpr{round(opinion1$X3[3],2)}\% de estudiantes. Por lo tanto, la
+\MakeTextLowercase{\variablei}, despierta curiosidad de aprendizaje
+de los estudiantes y genera interés de aprendizaje en los estudiantes.
+
+En la Tabla \ref{r2} se observa, que la \MakeTextLowercase{\variablei},
+si es formativa por el \Sexpr{round(opinion1$X5[1],2)}\%, a veces es formativa por el \Sexpr{round(opinion1$X5[2],2)}\%
+y no es formativa por el \Sexpr{round(opinion1$X5[3],2)}\% de estudiantes. Por lo tanto, la
+\MakeTextLowercase{\variablei}, promueve participación activa
+de los estudiantes, facilita el aprendizaje significativo de la matemática,
+permite comprender de manera concreta la matemática, facilita la solución
+rápida de los problemas matemáticos, permite contextualizar la matemática
+en su contexto sociocultural del estudiante.
+
+En la Tabla \ref{r2} se observa, que la \MakeTextLowercase{\variablei},
+si es reforzador por el \Sexpr{round(opinion1$X7[1],2)}\%, a veces es reforzador por el \Sexpr{round(opinion1$X7[2],2)}\%
+y no es reforzador por el \Sexpr{round(opinion1$X7[3],2)}\% de estudiantes. Por lo tanto, la
+\MakeTextLowercase{\variablei}, promueve autoevaluación de aprendizajes
+de los estudiantes, facilita mayor socialización de aprendizaje de
+los estudiantes, genera reflexión de logros y dificultades de aprendizaje.
+
+Finalmente en la Tabla \ref{r2} se observa, que la \MakeTextLowercase{\variablei}
+es considerada pertinente por el \Sexpr{round(opinion1$X9[1],2)}\%, a veces es pertinente por
+el \Sexpr{round(opinion1$X9[2],2)}\% y no es pertinente por el \Sexpr{round(opinion1$X9[3],2)}\% de estudiantes. Es decir,
+la \MakeTextLowercase{\variablei} es motivador, formativa y reforzador.
+
+\subsection{{Resultados de la variable independiente}}
+
+<<echo=F,message=FALSE>>=
+library(openxlsx)
+library(reshape)
+opinion2 <-read.xlsx(xlsxFile="levene.xlsx",
+sheet=4,cols=c(24:30),rows=c(4:8),colNames=FALSE)
+write.table(opinion2, "opinionn2.dat", quote=F, sep=" ", row.names=F)
+@
+
+\begin{table}[ht!]
+\caption{Descriptivo de la variable independiente}
+\label{rr3}
+\pgfplotstabletypeset[column type=r,every head row/.style={output empty row,before row={\toprule
+& \multicolumn{2}{c}{Fractales naturales} & \multicolumn{2}{c}{Fractales abstractos} &  \multicolumn{2}{c}{Geometría fractal} \\ \midrule  Escala & $n$  & \% & $n$  & \%& $n$& \%\\},
+after row=\midrule,},
+every last row/.style={output empty row,before row={\midrule},after row=\bottomrule,output empty row,after row={\toprule \multicolumn{5}{l}{\footnotesize  \textsuperscript{a}Fuente: Apéndice \ref{datos} Tabla \ref{primary}}\\\multicolumn{5}{l}{\footnotesize  \textsuperscript{a}Fuente: Apéndice \ref{datos} Tabla \ref{secondary}}}},columns/X1/.style={string type}]{opinionn2.dat}%
+\end{table}
+
+En la Tabla \ref{rr3} se observa, que la \MakeTextLowercase{\dimi}
+es comprendida por los estudiantes en un \Sexpr{round(opinion2$X3[1],2)}\% excelente, \Sexpr{round(opinion2$X3[2],2)}\% bueno,
+\Sexpr{round(opinion2$X3[3],2)}\% regular, y \Sexpr{round(opinion2$X3[4],2)}\% malo. Por lo tanto, la \MakeTextLowercase{\dimi}
+es comprendida frecuentemente por los estudiantes, es decir, \MakeTextLowercase{\gb},
+\MakeTextLowercase{\gbb}, \MakeTextLowercase{\gbbb}, \MakeTextLowercase{\gbbbb},
+    y \MakeTextLowercase{\gbbbbb}.
+
+En la Tabla \ref{rr3} se observa, que la \MakeTextLowercase{\dimii}
+es practicada por los estudiantes en un \Sexpr{round(opinion2$X5[1],2)}\% excelente, \Sexpr{round(opinion2$X5[2],2)}\% bueno,
+\Sexpr{round(opinion2$X5[3],2)}\% regular, y \Sexpr{round(opinion2$X5[4],2)}\% malo. Por lo tanto, la \MakeTextLowercase{\dimii}
+es comprendida frecuentemente por los estudiantes; es decir, \MakeTextLowercase{\gbbbbbb},
+\MakeTextLowercase{\gbbbbbbb}, \MakeTextLowercase{\gbbbbbbbb},
+\MakeTextLowercase{\gbbbbbbbbb}, y \MakeTextLowercase{\gbbbbbbbbbb}.
+
+En la Tabla \ref{rr3} se observa, que la \MakeTextLowercase{\variablei},
+es comprendida por los estudiantes en un \Sexpr{round(opinion2$X7[1],2)}\% excelente, \Sexpr{round(opinion2$X7[2],2)}\% bueno,
+\Sexpr{round(opinion2$X7[3],2)}\% regular, y \Sexpr{round(opinion2$X7[4],2)}\% malo. Lo que implica que la \MakeTextLowercase{\variablei},
+es practicada frecuentemente por los estudiantes, es decir practican
+indistintamente la, \MakeTextLowercase{\dimi} y \MakeTextLowercase{\dimii}.
+
+
+
+
+
+\subsection{{Resultados de la variable dependiente}}
+%<<echo=F,message=FALSE>>=
+%library(fBasics)
+%resumen<-basicStats(w1)
+%resumen
+%@
+A continuación se describe comparaciones estadísticas de los resultados obtenidos de la variable dependiente antes y después de la aplicación de la {geometría} {fractal}, solo se muestran tablas más no gráficos de acuerdo el protocolo de tesis.
+\newpage
+
+
+\subsubsection{Resultado descriptivo de la mejora en la variedad}
+
+Sin el empleo de la \MakeTextLowercase{\variablei} (tradicional),
+el desarrollo de la \MakeTextLowercase{\dimd}, tenía un promedio
+de $\overline{x}\pm s=\Sexpr{round(mean(w1$TRADICIONAL),3)}\pm \Sexpr{round(sd(w1$TRADICIONAL),3)}$ puntos, con una mediana de $\text{Me}=\Sexpr{round(median(w1$TRADICIONAL),3)}$
+puntos (bajo). Con el empleo de la \MakeTextLowercase{\variablei}
+(experimental), el desarrollo de la \MakeTextLowercase{\dimd}, tuvo
+un promedio $\overline{x}\pm s=\Sexpr{round(mean(w1$EXPERIMENTAL),3)}\pm \Sexpr{round(sd(w1$EXPERIMENTAL),3)}$ puntos, con una mediana de $\text{Me}=\Sexpr{round(median(w1$EXPERIMENTAL),3)}$
+puntos (alto). Relacionando los promedios y las medianas, se observa
+un incremento en el desarrollo de la \MakeTextLowercase{\dimd}, en
+$\Delta\overline{x}=\Sexpr{round(mean(w1$EXPERIMENTAL),3)}-\Sexpr{round(mean(w1$TRADICIONAL),3)}=\Sexpr{round(mean(w1$EXPERIMENTAL)-mean(w1$TRADICIONAL),3)}$ puntos y en $\Delta\text{Me}=\Sexpr{round(median(w1$EXPERIMENTAL),3)}-\Sexpr{round(median(w1$TRADICIONAL),3)}=\Sexpr{round(median(w1$EXPERIMENTAL)-median(w1$TRADICIONAL),3)}$
+respectivamente. Por lo tanto se prueba que, \MakeTextLowercase{\hipotesise}.
+Refiérase a la Tabla \ref{reff-1}
+<<echo=F,message=FALSE>>=
+library(openxlsx)
+library(reshape)
+descriptivo1 <-read.xlsx(xlsxFile="levene.xlsx",sheet=9,cols=c(26:28),
+rows=c(34:49),colNames=TRUE)
+write.table(descriptivo1, "descriptivoo1.dat", quote=F, sep=" ", row.names=FALSE)
+@
+\vspace{0.2cm}
+\pgfplotstabletypeset[
+       empty header,
+       begin table=\begin{longtable},
+       every first row/.append style={before row={%
+\caption{Descripcion del desarrollo en la \MakeTextLowercase{\dimd}}%
+       \label{reff-1}\\\toprule
+       Estadigrafos & Tradicional\textsuperscript{a}&Experimental\textsuperscript{b} \\ \midrule    
+       \endfirsthead
+       \multicolumn{3}{c}
+       {{\tablename\ \thetable\ Continua de la página previa}} \\
+       \toprule 
+       Estadigrafos & Tradicional\textsuperscript{a}&Experimental\textsuperscript{b} \\ \midrule  
+       \endhead
+       \multicolumn{3}{r}{{Continua en la próxima página}} \\
+       \endfoot
+       \bottomrule
+       \multicolumn{3}{l}{\footnotesize  \textsuperscript{a}Fuente: Apéndice \ref{datos} Tabla \ref{primary}} \\
+       \multicolumn{3}{l}{\footnotesize\textsuperscript{b}Fuente: Apéndice \ref{datos} Tabla \ref{secondary}}
+       \endlastfoot 
+       }},
+       end table=\end{longtable},
+       columns/E/.style={string type},columns/Tradicional/.style={precision=3,fixed zerofill,fixed},columns/Experimental/.style={precision=3,fixed zerofill,fixed}
+       ]{descriptivoo1.dat}
+\vspace{-0.5cm}
+
+Es decir, con la aplicación de la \MakeTextLowercase{\variablei}
+se ha logrado significativamente desarrollar la \MakeTextLowercase{\dimd}.
+Por lo tanto el estudiante \MakeTextLowercase{\fb}; \MakeTextLowercase{\fbb}
+y \MakeTextLowercase{\fbbb}.
+
+
+<<echo=F,message=FALSE,warning=FALSE>>=
+library(openxlsx)
+df1<-read.xlsx(xlsxFile="levene.xlsx",sheet=8,cols=c(1:2),rows=c(1:206),colNames=TRUE)
+rp1<-cor.test(df1$TRADICIONAL, df1$EXPERIMENTAL,method="pearson")
+rk1<-cor.test(df1$TRADICIONAL, df1$EXPERIMENTAL,method="kendall")
+rs1<-cor.test(df1$TRADICIONAL, df1$EXPERIMENTAL,method="spearman")
+r1=lm(df1$EXPERIMENTAL~df1$TRADICIONAL,data=df1)
+@
+
+Regresión 
+$\Sexpr{rp1$estimate} $ 
+
+\begin{align*}
+r &=\frac{\Xsum{(x-m_x)(y-m_y)}}{\sqrt{\Xsum{(x-m_x)^2}\Xsum{(y-m_y)^2}}}\\
+&=\Sexpr{rp1$p.value}
+\end{align*}
+$$y=\Sexpr{round(r1$coefficients[1],3)}+\Sexpr{round(r1$coefficients[2],3)}$$
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+<<echo=F,message=FALSE>>=
+library(readxl)
+library(reshape)
+w5<-read_excel("levene.xlsx",sheet =8 , range ="A1:B106", col_names = TRUE)
+@
+
+<<echo=F,message=FALSE>>=
+library(tikzDevice)
+library(ggplot2)
+tikz(file="w1.tex", width = 3.5, height = 3.5)
+p <- ggplot(w5, aes(TRADICIONAL, EXPERIMENTAL)) +
+  geom_point() + geom_smooth(method=lm)
+p + theme_bw() 
+@
+
+\begin{figure}[ht!]
+\centering
+\input{w1.tex}
+\caption{text}
+\end{figure}
+
+
+
+
+
+
+
+\renewcommand{\bibname}{REFERENCIAS BIBLIOGRÁFICAS}
+\bibliographystyle{apacite}
+\bibliography{une}
+
+\vspace{-0.3cm}
+
+\setglossarysection{chapter} 
+\setlength{\glsdescwidth}{0.7\textwidth} 
+\printglossary[nopostdot,style=long,nogroupskip,nonumberlist,type=\acronymtype,title=ACRÓNIMOS]
+\vspace{-0.3cm}
+
+
+\setglossarysection{chapter} 
+\setlength{\glsdescwidth}{0.7\textwidth} 
+\printglossary[nopostdot,style=long,nogroupskip,nonumberlist,type=symbols,title=SÍMBOLOS] 
+\vspace{-0.3cm}
+
+\chapter*{APÉNDICE}
+\addcontentsline{toc}{chapter}{APÉNDICE}
+\singlespacing
+\pagenumbering{roman}
+\renewcommand{\thesection}{\Alph{section}}  
+\renewcommand{\thesubsection}{A.\arabic{section}.\arabic{subsection}}
+\numberwithin{equation}{section}
+\numberwithin{figure}{section} 
+\numberwithin{table}{section}
+%\renewcommand{\thefigure}{A.\arabic{section}.\arabic{figure}}
+%\renewcommand{\thefigure}{A.\arabic{section}.\arabic{figure}}
+\section{Ficha técnica de la investigación} \label{ficha tecnica}
+\begin{enumerate}
+	\item \textbf{Titulo }\titulo\textbf{ }
+	\item \textbf{Año de realización }2019
+	\item \textbf{Autor de la investigación }\autor
+	\item \textbf{Asesor de la investigación }\asesor
+	\item \textbf{Colaboradores que validaron los instrumentos }%\asesor, \expert y \expertt.
+	\item \textbf{Institución }Universidad Nacional de San Cristóbal de Huamanga. 
+	\item \textbf{Escuela profesional }\lugar
+	\item \textbf{Formato }PDF.\textbf{ }
+	\item \textbf{Resumen }El presente trabajo de investigación tuvo como objetivo
+	\MakeTextLowercase{\objetivo}. Tipo de investigación básica, nivel
+	de investigación experimental explicativa, de diseño cuasiexperimental
+	de un grupo con pre y posprueba en series temporales equivalentes
+	(alternado); se empleo el método hipotético deductivo, experimental
+	y estadístico descriptivo e inferencial; el lugar de estudio fue en
+	la \lugar; la muestra fue no probabilística e intencional compuesta
+	por un solo grupo experimental de 35 estudiantes de la serie 200,
+	matriculados en el curso de arquitectura, del semestre impar de la
+	escuela profesional de Ingeniería Civil UNSCH; los datos fueron recolectados
+	a través de la prueba escrita y la ficha de observación; la prueba
+	de validez de instrumentos se realizó a través de juicio de expertos
+	y la confiabilidad, a través de prueba del Coeficiente de Pearson
+	y la corrección de Spearman Brow. Se verificó la no normalidad de
+	los datos, mediante la prueba de \emph{Shapiro Wilks}; se aplicó
+	la prueba de Student dos muestras relacionadas para la prueba de hipótesis,
+	con un nivel de confianza del 95\% y significancia del 5\% y se concluyó,
+	que \MakeTextLowercase{\hipotesis}.
+	
+	Palabras Claves: \variablei, \MakeTextLowercase{\upshape \variabled, \dimddd, \dimi y \dimii}. 
+	\item \textbf{Estructura de la tesis \flushbottom }
+	\begin{enumerate}
+		\item PLANTEAMIENTO DEL PROBLEMA 
+		\begin{enumerate}
+			\item Identificación y descripción del problema 
+			\item Formulación del problema 
+			\item Objetivos
+			\item Justificación de la investigación 
+		\end{enumerate}
+		\item MARCO TEÓRICO 
+		\begin{enumerate}
+			\item Antecedentes de la investigación 
+			\item Bases teóricas 
+			\item Definiciones de términos básicos 
+		\end{enumerate}
+		\item METODOLOGÍA DE LA INVESTIGACIÓN 
+		\begin{enumerate}
+			\item Sistema de hipótesis 
+			\item Sistema de variables 
+			\item Operacionalización de variables 
+			\item Aspecto metodológico 
+		\end{enumerate}
+		\item RESULTADOS DE LA INVESTIGACIÓN
+		\begin{enumerate}
+			\item Análisis e interpretación 
+			\item Resultados inferenciales 
+			\item Discusión de resultados 
+		\end{enumerate}
+		CONCLUSIONES
+		
+		RECOMENDACIONES
+		
+		REFERENCIAS BIBLIOGRÁFICAS
+		
+		ANEXOS
+	\end{enumerate}
+	\item \textbf{Antecedentes }
+	
+	reewewew.
+	\item \textbf{Problema }
+	\begin{enumerate}
+		\item \textbf{Problema general.}
+		
+		\problema.
+		\item \textbf{Problemas específicos}
+		\begin{itemize}
+			\item \problemae. 
+			\item \problemaee. 
+			\item \problemaeee. 
+			\item \problemaeeee.  
+		\end{itemize}
+	\end{enumerate}
+	\item \textbf{Objetivos }
+	\begin{enumerate}
+		\item \textbf{Objetivo general}
+		
+		\objetivo.
+
+		\item \textbf{Objetivos específicos }
+		\begin{itemize}
+			\item \objetivoe. 
+			\item \objetivoee. 
+			\item \objetivoeee. 
+			\item \objetivoeeee. 
+		\end{itemize}
+	\end{enumerate}
+	\item \textbf{Hipótesis }
+	\begin{enumerate}
+		\item \textbf{Hipótesis general}
+		
+		\hipotesis.
+		\item \textbf{Hipótesis específicas}
+		\begin{itemize}
+			\item \hipotesise. 
+			\item \hipotesisee. 
+			\item \hipotesiseee. 
+			\item \hipotesiseeee. 
+		\end{itemize}
+	\end{enumerate}
+	\item \textbf{Orientación metodológica y diseño muestral}
+	\begin{itemize}
+		\item \textbf{Enfoque} Cuantitativo. 
+		\item \textbf{Tipo} Investigación aplicada. 
+		\item \textbf{Nivel de estudio} Investigación explicativa experimental. 
+		\item \textbf{Diseño} Diseño \MakeTextLowercase{\diseno} de un mismo grupo
+		con pre y postprueba en series temporales equivalentes (Alternado). 
+		\item \textbf{Metodología} Experimental, hipotético deductivo, estadístico
+		y analítico. 
+		\item \textbf{Población} Constituida por \poblacion. 
+		\item \textbf{Muestra} Constituida por \muestra. 
+		\item \textbf{Muestreo} No probabilístico. 
+		\item \textbf{Técnica} Observación, evaluación pedagógica y experimentación. 
+		\item \textbf{Instrumentos} Ficha de observación, ficha de opinión prueba
+		escrita y módulos experimentales. 
+		\item \textbf{Procesamiento} \textbf{de datos} Mediante los programas estadísticos R Sweave y Excel. 
+	\end{itemize}
+	\item \textbf{Análisis y presentación de resultados} Se procesará los datos
+	recogidos en el salón de clases, es decir, se sistematizará, interpretará
+	y se sintetizará para responder así a los objetivos y a la finalidad
+	de la investigación, con la perspectiva, de que la presentación de
+	los resultados de esta investigación sirva de reflexión, sobre el
+	abordaje de la \MakeTextLowercase{\variablei}, como un factor
+	fomentador del \MakeTextLowercase{\variabled}.
+	\item \textbf{Conclusión }\hipotesis\textbf{.}
+\end{enumerate}
+\textbf{\vspace{0.5cm}
+}
+\begin{center}
+	....................................................\\
+	El investigador 
+\end{center}
+
+\clearpage
+
+\begin{landscape}
+	
+\section{Matriz de consistencia\label{consistencia}}
+	
+	%\lugar -- TÍTULO: \titulo -- AUTOR: \autor
+	
+		\begin{table}[ht!]\caption{Matriz de consistencia}
+			\centering \scriptsize  \renewcommand\tabcolsep{0.1cm}\renewcommand\arraystretch{1}\begin{tabular}{p{4.05cm}p{4.05cm}p{4.05cm}ccc} \hline \ce\bf PROBLEMAS &\ce\bf OBJETIVOS &\ce\bf HIPÓTESIS&\ce\bf VARIABLES&\ce\bf MARCO TEÓRICO&\bf METODOLOGÍA\Tstrut\\ \hline \ce \bf PROBLEMA GENERAL &\ce \bf OBJETIVO GENERAL &\ce \bf HIPÓTESIS GENERAL &\multirow{8}*[0cm]{\begin{minipage}[t]{2.9cm} \begin{itemize}[itemsep=-0pt,leftmargin=*,labelsep=.02cm,] \item \textbf{Variable 1}: \variablei. \begin{itemize}[itemsep=-0pt,leftmargin=*,labelsep=.02cm,topsep=-2pt] \item \dimi. \item \dimii \item \dimiii. \item \dimiiii. \end{itemize} \item \textbf{Variable 2}: \variabled. \begin{itemize}[itemsep=-0pt,leftmargin=*,labelsep=.02cm,topsep=-2pt] \item \dimd. \item \dimdd. \item \dimddd. \end{itemize} \end{itemize} \end{minipage} } &\multirow{8}*[0cm]{\begin{minipage}[t]{2.9cm} \begin{itemize}[itemsep=-0pt,leftmargin=*,labelsep=.02cm,] \item Contexto de la investigación. \item \variablei. \item \variabled. \item \dimi. \item \dimii. \item \dimiii. \item \dimiiii.\item \dimd.\item \dimdd. \item \dimddd. \end{itemize} \end{minipage} } &\multirow{22}*[0cm]{\begin{minipage}[t]{5.2cm} \begin{itemize}[itemsep=-0pt,leftmargin=*,labelsep=.02cm] \item \textbf{Enfoque de estudio:} Investigación \MakeTextLowercase{\enfoque}. \item \textbf{Tipo de estudio:} Investigación \MakeTextLowercase{\tipo}. \item \textbf{Nivel de estudio:} Investigación \MakeTextLowercase{\nivel}. \item \textbf{Diseño de estudio:} Diseño \MakeTextLowercase{\diseno} de un mismo grupo con pre y postprueba. \item \textbf{Metodología:} Experimental, hipotético deductivo, estadístico y analítico. \item \textbf{Población:} Constituida por \poblacion. \item \textbf{Muestra:} Constituida por \muestra. \item \textbf{Muestreo:} Probabilístico. \item \textbf{Técnica:} Observación, evaluación peda\-gógica y experimentación. \item \textbf{Instrumentos:} Ficha de observación, ficha de opinión prueba escrita y módulos experimentales. \item \textbf{Procesamiento de datos:} Mediante los programas estadísticos R Sweave y Excel. \end{itemize} \end{minipage} } \Tstrut\\ \cline{1-3} \problema&\objetivo&\hipotesis&&&\\ \cline{1-3} \ce\bf PROBLEMAS ESPECÍFICOS &\ce\bf OBJETIVOS ESPECÍFICOS &\ce\bf  HIPÓTESIS ESPECÍFICAS &&&\Tstrut\\\cline{1-3} \problemae&\objetivoe&\hipotesise&&&\\\cline{1-3}
+				\problemaee&\objetivoee&\hipotesisee&&&\\\cline{1-3} 
+				\problemaeee&\objetivoeee&\hipotesiseee&&&\\\cline{1-3} 
+				\problemaeeee&\objetivoeeee&\hipotesiseeee&&&\\ \hline \end{tabular}
+		\end{table}
+\end{landscape}
+
+
+
+\begin{landscape}
+	
+	\section{Matriz de instrumentos de la variable \MakeTextLowercase{\variablei} }
+	
+	\lugar -- TÍTULO: \titulo -- AUTOR: \autor
+	\begin{table}[ht!]\caption{Matriz de instrumentos de la variable \MakeTextLowercase{\variablei}}
+			\centering  \renewcommand\tabcolsep{0.1cm}\renewcommand\arraystretch{1}
+			\scriptsize
+			\begin{tabular}{cccccc}\hline			\ce\bf VARIABLE&\ce\bf DIMENSIONES &\ce\bf INDICADORES&\ce\bf ÍTEMS &\bf VALORACIÓN& \bf INSTRUMENTOS\Tstrut 			\\\hline 			
+				\multirow{22}{*}{\rotatebox[origin=c]{90}{\variablei}}& 			\multirow{5}{*}{\makecell[{{M{2cm}}}]{\dimi}}  			& \multirow{2}{*}{\gb} 			&
+				C1: ¿Observa y reconoce las formas modulares de los fractales en la flora?& 			\multirow{17}{*}{\makecell[{{M{2cm}}}]{Alta.\\\vspace{.2cm} 					Moderado. \\\vspace{.2cm} 					Baja.\\\vspace{.2cm} 					Muy baja.\\\vspace{.2cm} 					Nula. 			}}&\multirow{17}{*}{\makecell[{{M{2cm}}}]{Ficha de opinión\\ Prueba escrita}}\\\cline{4-4} 			&&& 
+				C2: ¿Representa lo percibido, en sus creaciones artísticas?        &\\\cline{3-4} 			&& \multirow{1}{*}{\gbbb} 			&
+				C3: ¿Identifica las variaciones de escala en los fractales hídricos?&\\\cline{3-4} 			&& \multirow{2}{*}{\gbbbb} 			&
+				C4: ¿Observa y relaciona registros bibliográficos con los fractales atmosféricos? &\\ 			\cline{4-4}			 				&&& 
+				C5: ¿Observa y relaciona registros bibliográficos con los fractales atmosféricos? &\\ 			\cline{2-4}	
+				
+						 			&\multirow{5}{*}{\makecell[{{M{2cm}}}]{\dimii}} 		
+				& \multirow{2}{*}{\gbbbbbb}&
+				C9: ¿Reconoce la recursividad de elementos fractales?\\ \cline{4-4}				&&& 
+				C10: ¿Itera procesos funcionales sobre un objeto patrón?       &\\\cline{3-4} 			&&\multirow{1}{*}{\gbbbbbbb}&
+				C11: ¿Reconoce transformaciones algorítmicas complejas?       &\\\cline{3-4} 			&&\multirow{1}{*}{\gbbbbbbb}&
+				C11: ¿Reconoce transformaciones algorítmicas complejas?       &\\\cline{3-4} 			&&\multirow{2}{*}{\gbbbbbbbb}&
+				C12: ¿Reconoce el movimiento Browniano?\\ \cline{4-4}				
+				\cline{2-4}	
+				
+						 			&\multirow{7}{*}{\makecell[{{M{2cm}}}]{\dimiii}} 		
+				& \multirow{2}{*}{\gbbbbbb}&
+				C9: ¿Reconoce la recursividad de elementos fractales?\\ \cline{4-4}				&&& 
+				C10: ¿Itera procesos funcionales sobre un objeto patrón?       &\\\cline{3-4} 
+							&&\multirow{1}{*}{\gbbbbbbb}&
+				C11: ¿Reconoce transformaciones algorítmicas complejas?       &\\\cline{3-4} 
+				&&\multirow{1}{*}{\gbbbbbbb}&
+				C11: ¿Reconoce transformaciones algorítmicas complejas?       &\\\cline{4-4}				&&& 
+				C11: ¿Reconoce transformaciones algorítmicas complejas?       &\\\cline{3-4} 	
+						&&\multirow{1}{*}{\gbbbbbbbb}&
+				C12: ¿Reconoce el movimiento Browniano?\\ \cline{4-4}					&&&
+				A17: ¿Utiliza modelos de frecuencias percibidas en diversas aplicaciones?       &\\ 	
+				\cline{2-4}	
+				
+						 			&\multirow{5}{*}{\makecell[{{M{2cm}}}]{\dimiiii}} 		
+				& \multirow{2}{*}{\gbbbbbb}&
+				C9: ¿Reconoce la recursividad de elementos fractales?\\ \cline{4-4}				&&& 
+				C10: ¿Itera procesos funcionales sobre un objeto patrón?       &\\\cline{3-4} 			&&\multirow{1}{*}{\gbbbbbbb}&
+				C11: ¿Reconoce transformaciones algorítmicas complejas?       &\\\cline{3-4} 			&&\multirow{2}{*}{\gbbbbbbbb}&
+				C12: ¿Reconoce el movimiento Browniano?\\ \cline{4-4}					&&&
+				A17: ¿Utiliza modelos de frecuencias percibidas en diversas aplicaciones?       &\\\hline 	 	
+			\end{tabular} 
+		\end{table}
+\end{landscape}
+
+\begin{landscape}
+	
+	\section{Matriz de instrumentos de la variable \MakeTextLowercase{\variabled} \label{1www}}
+	
+	\lugar -- TÍTULO: \titulo -- AUTOR: \autor
+	\begin{table}[ht!]\caption{Matriz de instrumentos de la variable \MakeTextLowercase{\variabled}}
+			\centering \scriptsize\renewcommand\tabcolsep{0.1cm}\renewcommand\arraystretch{1}
+			\begin{tabular}{cccccc} 			\hline\ce\bf VARIABLE&\ce\bf DIMENSIONES &\ce\bf INDICADORES&\ce\bf ÍTEMS &\ce\bf VALORACIÓN& \bf INSTRUMENTOS \Tstrut 			\\
+				\hline 		
+				\multirow{17}{*}{\rotatebox[origin=c]{90}{\variabled}}& 			
+				\multirow{5}{*}{\dimd} 			& 
+				\multirow{2}{*}{\fb} 			&
+				P1: ¿Utiliza variedad de colores?& 			
+				\multirow{20}{*}{\makecell{Excelente\\\vspace{.2cm}Bueno\\\vspace{.2cm}Regular\\\vspace{.2cm}Malo\\\vspace{.2cm}Deficiente}}&
+				\multirow{20}{*}{\rotatebox[origin=c]{90}{Ficha de observación}}\\\cline{4-4}	
+				&&& 
+				P2: ¿Plasma degradación entre los colores? &\\\cline{3-4} 			&&
+				\multirow{2}{*}{\fbb} 			&
+				P3: ¿Utiliza formas y superficies regulares?\\\cline{4-4}	
+				&&& 
+				P4: ¿Utiliza formas irregulares someramente?      &\\\cline{3-4} 	&&
+				\multirow{1}{*}{\fbbb} 			&
+				P5: ¿Manifiesta degradación de texturas? \\\cline{2-4} 			&
+				\multirow{5}{*}{\dimdd} 			& 
+				\multirow{2}{*}{\fbbbb} 			&
+				P6: ¿Distribuye adecuadamente los tonos?\\\cline{4-4}	
+				&&& 
+				P7: ¿Asocia adecuadamente los tonos?       &\\\cline{3-4} 			&&
+				\multirow{1}{*}{\fbbbbb} 			&
+				P8: ¿Asocia proporcionalmente los volúmenes?\\\cline{3-4} 		&&
+				\multirow{2}{*}{\fbbbbbb} 			&
+				P9: ¿Conjuga texturas diversas?\\\cline{4-4}	
+				&&& 
+				P10: ¿Homogeneiza texturas secuencialmente?      &\\\cline{2-4} 			&
+				\multirow{7}{*}{\dimddd} 			& 
+				\multirow{2}{*}{\fbbbbbbb} 			&
+				P11: ¿Representa elementos con dimensión creciente?\\ \cline{4-4}	
+				&&&
+				P12: ¿Manifiesta elementos plásticos proporcionalmente?     &\\\cline{3-4}&&
+				\multirow{1}{*}{\fbbbbbbbb} 			&
+				P13: ¿Representa los elementos plásticos de manera decreciente?\\\cline{3-4}&&
+				\multirow{2}{*}{\fbbbbbbbbb} 			&
+				P14: ¿Conjuga los elementos plásticos?\\\cline{4-4}	
+				&&& p15: ¿Distribuye elementos, constantes ligeramente?       &\\\cline{3-4} 			&&
+				\multirow{2}{*}{\fbbbbbbbbb} 			&
+				P16: ¿Yuxtapone elementos plásticos mixtos?\\\cline{4-4}	
+				&&& P17: ¿Yuxtapone los ritmos en el conjunto?      &\\	\hline	\end{tabular}
+		\end{table}
+\end{landscape}
+
+
+\end{document} 

@@ -63,7 +63,7 @@ sudo add-apt-repository ppa:sunderme/texstudio
 sudo apt install texstudio
 
 sudo apt-get install texlive-lang-spanish texlive-bibtex-extra texlive-latex-extra
-
+sudo apt-get install texlive-fonts-extra
 
 https://www.linuxfordevices.com/tutorials/linux/vim-plug-install-plugins
 http://libgen.rs/

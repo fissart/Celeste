@@ -1,0 +1,972 @@
+\documentclass[12pt,aspectratio=169]{beamer}
+\usepackage[spanish,es-noquoting]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{multirow}
+%\usepackage[no-math]{fontspec}
+\usefonttheme{professionalfonts}
+\usefonttheme{serif}
+%\usepackage{showframe}
+%\geometry{margin=5pt}%\setbeamersize{text margin left=10mm,text margin right=10mm,text margin top=10mm}
+\usepackage{fontawesome}
+
+\def\insertreturnsymbol{%
+	\faHome\space
+}
+\def\insertskipsymbol{%
+	\faArrowDown\space
+}
+\def\insertgotosymbol{%
+	\faThList\space
+}
+
+\usepackage{eso-pic}
+\newcommand{\AtTextUpperRight}[1]{%
+	\AtTextUpperLeft{%
+		\hspace*{\textwidth}%
+		#1%
+	}%
+}
+\newcommand{\AtTextLowerRight}[1]{%
+	\AtTextLowerLeft{%
+		\hspace*{\textwidth}%
+		#1%
+	}
+}
+
+
+\makeatletter
+\setbeamertemplate{frametitle continuation}{\gdef\beamer@frametitle{}}
+\makeatother
+
+
+\AtBeginDocument{
+	\renewcommand{\tablename}{Tabla}
+}
+\setbeamertemplate{caption}[numbered]
+%\pgfplotsset{compact=1.16}
+\decimalpoint
+%\usepackage{newtxtext}
+%\usepackage[varg]{newtxmath}
+%\newcommand\alphabet{abcdefghijklmnopqrstuvwxyz}
+%\newcommand\numbers{0123456789}
+\usepackage{makecell}
+ \usepackage{longtable}
+ \usepackage{pgfplotstable}
+ \usepackage{booktabs}
+\setlength{\parskip}{0.5em}
+\setlength\parindent{24pt}
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{M}[1]{>{\centering\arraybackslash}m{#1}}
+
+\usepackage[apaciteclassic, numberedbib, tocbib]{apacite}
+\usepackage{usebib}
+\bibinput{une}
+
+\usepackage{xspace}
+\setbeamercolor{section in sidebar shaded}{fg=red}
+\setbeamercolor{subsection in sidebar shaded}{fg=orange}
+\setbeamercolor{subsubsection in sidebar shaded}{fg=gray}
+ 
+
+\usepackage{tikz}
+
+\setbeamertemplate{button}{\tikz
+	\node[rectangle,text height=3mm,
+	inner xsep=2pt,
+	draw=structure!90,
+	fill=structure!80,
+	rounded corners=1pt]  {\small \insertbuttontext};}
+
+\usepackage{amsmath,pgfplots,gincltex}
+%%%%%%%%%%%%%%%%%%%%% pgplotstables longtables
+
+\pgfkeysifdefined{/pgfplots/table/output empty row/.@cmd}{
+	% upcoming releases offer this more convenient option:
+	\pgfplotstableset{
+		empty header/.style={
+			every head row/.style={output empty row},
+		}
+	}
+}{
+	% versions up to and including 1.5.1 need this:
+	\pgfplotstableset{
+		empty header/.style={
+			typeset cell/.append code={%
+				\ifnum\pgfplotstablerow=-1 %
+				\pgfkeyssetvalue{/pgfplots/table/@cell content}{}%
+				\fi
+			}
+		}
+	}
+}
+%%%-----------------------------------------------
+\usetheme{Boadilla}
+
+%\usetheme[left,width=2cm]{Hannover}
+
+
+
+\input{first}
+
+
+
+
+
+\begin{document}
+	
+	
+\begin{frame}{}
+\begin{block}{}\centering
+	\textbf{\large\titulo}
+\end{block}%\textbf{\large\titulo}
+\centering
+\lugar\\
+\autor\\
+
+\begin{center}
+\includegraphics[width=2cm]{logo}	%\movie[width=4.5cm,height=4.5cm,autostart,repeat]{A movie}{ff777.mov}
+%	\movie[width=6cm,height=4.5cm,autostart,repeat]{A movie}{ff7f.mov}
+\end{center}
+\end{frame}
+
+
+\begin{frame}[allowframebreaks]{}
+
+\hyperlink{www}{\beamerreturnbutton{Capitulo I: Planteamiento}}
+\hypertarget{rr}{}
+
+\hyperlink{marcoteorico}{\beamerreturnbutton{Capitulo II: Marco teórico}}
+
+\hyperlink{marcometodologico}{\beamerreturnbutton{Capitulo III: Marco metodológico}}
+
+\hyperlink{resultados}{\beamerreturnbutton{Capitulo IV: Resultados}}
+
+\hyperlink{concluciones}{\beamerreturnbutton{Capitulo V: Conclusiones y recomendaciones}}
+%\tableofcontents
+\end{frame}
+
+\begin{frame}[allowframebreaks]{}
+\hyperlink{www1}{\beamergotobutton{Secci\'on 1: Descripción del problema}}
+	\hypertarget{www}{}
+
+\hyperlink{www2}{\beamergotobutton{Secci\'on 2: Problemas general y específicos}}
+
+\hyperlink{www3}{\beamergotobutton{Secci\'on 3: Justificación}}
+
+\hyperlink{www4}{\beamergotobutton{Secci\'on 4: Limitaciónes en la investigación}}
+
+\hyperlink{www5}{\beamergotobutton{Secci\'on 5: Antecedentes de la investigación}}
+
+\hyperlink{www6}{\beamergotobutton{Secci\'on 6: Objetivos general y específicos}}
+
+
+\AddToShipoutPictureFG*{%
+	\AtTextLowerRight{\hspace*{-.9in}\raisebox{-0.1\baselineskip}{
+			%			\hyperlink{1}{\beamerskipbutton{}}
+			%			\hyperlink{marcoteorico}{\beamergotobutton{}}
+			\hyperlink{rr}{\beamerreturnbutton{}}
+	}}
+}
+\end{frame}
+
+\section{Planteamiento}
+\begin{frame}[allowframebreaks]{Descripción}
+\hypertarget{www1}{}
+
+\AddToShipoutPictureFG*{%
+	\AtTextLowerRight{\hspace*{-.9in}\raisebox{-0.1\baselineskip}{
+%			\hyperlink{1}{\beamerskipbutton{}}
+			\hyperlink{www}{\beamergotobutton{}}
+			\hyperlink{rr}{\beamerreturnbutton{}}
+	}}
+}
+
+Composición plástica (unidad variedad equilibrio ...) tridimensional deficiente implicado por el \textbf{uso inadecuado de patrones o modelos estructurales}
+en la composición plástica tridimensional, es decir trabajos con elementos plásticos (color linea textura...) inadecuadamente distribuidos
+
+
+
+Se pretende \textbf{subsanar} este problema con el uso de la \textbf{geometría fractal} (Conjunto de patrones estructurales que generan objetos de tipo fractal), que ayuda a \textbf{entender mejor el comportamiento en la distribución de los elementos plásticos} de un objeto fractal, lo cual en conjunto se oberva agradabele para las personas en general.
+
+
+\end{frame}
+
+\subsection{Problema general y específicos}
+\begin{frame}{Problema general y específicos}
+\hypertarget{www2}{}
+\AddToShipoutPictureFG*{%
+	\AtTextLowerRight{\hspace*{-.9in}\raisebox{-0.1\baselineskip}{
+			%			\hyperlink{1}{\beamerskipbutton{}}
+			\hyperlink{www}{\beamergotobutton{}}
+			\hyperlink{rr}{\beamerreturnbutton{}}
+	}}
+}
+%\problema\\
+¿En que medida la aplicación de la \MakeTextLowercase{\textbf{\variablei}} influye en la \MakeTextLowercase{\textbf{\variabled}} de estudiantes de la \lugar?.\vspace{1cm}
+\begin{tabular}{ccccc}
+	\multirow{5}{*}{\makecell[{{M{2cm}}}]{¿En que medida la aplicación de la \MakeTextLowercase{\variablei}}}&\multirow{5}{*}{influye en}&\multirow{1}{*}{\dimd}&\multirow{5}{*}{de}&\multirow{5}{*}{\makecell[{{M{5cm}}}]{la \MakeTextLowercase{\variabled} los estudiantes?}}\\
+	&&\multirow{1}{*}{\dimdd}&&\\
+	&&\multirow{1}{*}{\dimddd}&&\\
+	&&\multirow{1}{*}{\dimdddd}&&\\
+	&&\multirow{1}{*}{\dimddddd}&&\\
+\end{tabular}
+\end{frame}
+
+
+\subsection{Justificación}
+\begin{frame}{Justificación}
+\hypertarget{www3}{}
+\AddToShipoutPictureFG*{%
+	\AtTextLowerRight{\hspace*{-.9in}\raisebox{-0.1\baselineskip}{
+%			\hyperlink{fggww}{\beamerskipbutton{}}
+			\hyperlink{www}{\beamergotobutton{}}
+			\hyperlink{rr}{\beamerreturnbutton{}}
+	}}
+}
+\begin{itemize}
+\item  {\textbf{Justificación artística}} El presente trabajo de investigación se realiza debido a la necesidad
+\textbf{promover en los artistas plásticos la utilización de la geometría fractal} en la composición
+plástica tridimensional con el objetivo de generar trabajos artísticos
+de acuerdo a los principios compositivos.
+
+\item {\textbf{Justificación educativa}} El objetivo de la investigación en el aspecto educativo es la de \textbf{implementar}
+esta práctica de reproducción plástica, en los \textbf{ planes de estudios},
+y hacerle ineludible, su uso por parte de los estudiantes, generando
+trabajos artísticos, estructuralmente agradables.
+
+\item {\textbf{Justificación Legal}} El artículo $2^{\circ}$, expresa que toda persona tiene derecho a
+la \textbf{libertad de creación intelectual, artística, técnica y científica},
+así como a la propiedad sobre dichas creaciones y a su producto.
+El articulo $18^{\circ}$ avala que la educación universitaria tiene
+como fines la formación profesional, la difusión cultural, la creación
+intelectual y artística y la investigación científica y tecnológica.
+\end{itemize}
+\end{frame}
+
+\subsection{Limitación}
+
+\begin{frame}{Limitaciónes}
+\hypertarget{www4}{}
+\AddToShipoutPictureFG*{%
+	\AtTextLowerRight{\hspace*{-.9in}\raisebox{-0.1\baselineskip}{
+			%			\hyperlink{1}{\beamerskipbutton{}}
+			\hyperlink{www}{\beamergotobutton{}}
+			\hyperlink{rr}{\beamerreturnbutton{}}
+	}}
+}
+Los obstáculos que se encontraron en la realización del trabajo fueron,
+los \textbf{escasos referentes bibliográficos} sobre todo de los antecedentes
+de la investigación. Además de la accesibilidad a una cantidad mayor
+de muestra. No hubo \textbf{apoyo} alguno por parte de las instituciones de
+educación artística. La \textbf{disponibilidad de tiempo} suficiente y la \textbf{digitalización de modelos
+ejemplo} necesarios para la aplicación de la geometra fractal en la
+producción plástica.
+\end{frame}
+\subsection{Antecedentes}
+
+\begin{frame}[allowframebreaks]{Antecedentes}
+\hypertarget{www5}{}
+\AddToShipoutPictureFG*{%
+	\AtTextLowerRight{\hspace*{-.9in}\raisebox{-0.1\baselineskip}{
+			\hyperlink{tt}{\beamerskipbutton{}}
+			\hyperlink{www5}{\beamergotobutton{}}
+			\hyperlink{rr}{\beamerreturnbutton{}}
+	}}
+}
+%\citeA{internacional1} con su tesis:  ``\usebibentry{internacional1}{title}''
+
+
+%\citeA{internacional2} con su tesis:  ``\usebibentry{internacional2}{title}''
+
+
+%\cite{internacional3} con su tesis:  ``\usebibentry{internacional3}{title}''
+
+
+%\citeA{nacional1} con su tesis:  ``\usebibentry{nacional1}{title}''
+
+\end{frame}
+\begin{frame}
+\hypertarget{tt}{}
+\AddToShipoutPictureFG*{%
+	\AtTextLowerRight{\hspace*{-.9in}\raisebox{-0.1\baselineskip}{
+			%			\hyperlink{1}{\beamerskipbutton{}}
+			\hyperlink{www}{\beamergotobutton{}}
+			\hyperlink{rr}{\beamerreturnbutton{}}
+	}}
+}
+%\citeA{nacional2} con su tesis:  ``\usebibentry{nacional2}{title}''
+
+
+%\cite{nacional3} con su tesis:  ``\usebibentry{nacional3}{title}''
+
+
+%\citeA{regional1} con su tesis:  ``\usebibentry{regional1}{title}''
+
+
+%\citeA{regional2} con su tesis:  ``\usebibentry{regional2}{title}''
+
+
+%\cite{regional3} con su tesis:  ``\usebibentry{regional3}{title}''
+\end{frame}
+
+\subsection{Objetivos}
+\begin{frame}{Objetivos general y específicos}
+\hypertarget{www6}{}
+\AddToShipoutPictureFG*{%
+	\AtTextLowerRight{\hspace*{-.9in}\raisebox{-0.1\baselineskip}{
+			%			\hyperlink{1}{\beamerskipbutton{}}
+			\hyperlink{www}{\beamergotobutton{}}
+			\hyperlink{rr}{\beamerreturnbutton{}}
+	}}
+}
+%\objetivo\\
+Determinar la influencia de la \MakeTextLowercase{\textbf{\variablei}} en la \MakeTextLowercase{\textbf{\variabled}} de estudiantes de la \lugar.\vspace{1cm}
+\begin{tabular}{cc>{\bfseries}ccc}
+	\multirow{5}{*}{\makecell[{{M{2cm}}}]{Determinar la influencia de la \MakeTextLowercase{\variablei}}}&\multirow{5}{*}{en}&\multirow{1}{*}{\dimd}&\multirow{5}{*}{de}&\multirow{5}{*}{\makecell[{{M{5cm}}}]{la \MakeTextLowercase{\variabled} los estudiantes}}\\
+	&&\multirow{1}{*}{\dimdd}&&\\
+	&&\multirow{1}{*}{\dimddd}&&\\
+	&&\multirow{1}{*}{\dimdddd}&&\\
+	&&\multirow{1}{*}{\dimddddd}&&\\
+\end{tabular}
+
+\end{frame}
+
+
+\section{Marco teórico}
+\begin{frame}[allowframebreaks]{}
+\hyperlink{1}{\beamergotobutton{Secci\'on 1: Contexto}}
+\hypertarget{marcoteorico}{}
+
+\hyperlink{2}{\beamergotobutton{Secci\'on 2: \variablei}}
+
+\hyperlink{3}{\beamergotobutton{Secci\'on 3: \variabled}}
+
+\AddToShipoutPictureFG*{%
+	\AtTextLowerRight{\hspace*{-.9in}\raisebox{-0.1\baselineskip}{
+%			\hyperlink{1}{\beamerskipbutton{}}
+%			\hyperlink{marcoteorico}{\beamergotobutton{}}
+			\hyperlink{rr}{\beamerreturnbutton{}}
+	}}
+}
+\end{frame}
+
+\begin{frame}
+\hypertarget{1}{}
+
+\AddToShipoutPictureFG*{%
+	\AtTextLowerRight{\hspace*{-.9in}\raisebox{-0.1\baselineskip}{
+%			\hyperlink{2}{\beamerskipbutton{}}
+			\hyperlink{marcoteorico}{\beamergotobutton{}}
+			\hyperlink{rr}{\beamerreturnbutton{}}
+	}}
+}
+
+
+La \lugar, donde la \textbf{composicion es mas intuitiva} y con \textbf{poca valoracion a las recurrecias o la distribucion de los elementos plásticos} en una composicion plástica tridimensional. Concentrándonse solo en la \textbf{represetancion simbolica} mas no comositivamente. Generándose \textbf{un arte imcompleto}. Hay casos excepcionales que desarrollaron cualidades artisticas. El objetivo es \textbf{homogenizar y extender}, la aprehención y desarrollo del \textbf{uso de la geometria fractal sobre sus composiciones} en la comunidad artística.
+\end{frame}
+
+
+\subsection{\variablei}
+\begin{frame}{\variablei}
+\hypertarget{2}{}
+\begin{enumerate}
+    \item \dimi
+    \begin{enumerate}
+\item \gb
+\item \gbb
+\item \gbbb
+\item \gbbbb
+\item \gbbbbb
+    \end{enumerate}
+    \item \dimii
+    
+    \begin{enumerate}
+    	\item \gbbbbbb
+    	\item \gbbbbbbb
+    	\item \gbbbbbbbb
+    	\item \gbbbbbbbbb
+    	\item \gbbbbbbbbbb
+    \end{enumerate}
+\end{enumerate}
+
+\AddToShipoutPictureFG*{%
+	\AtTextLowerRight{\hspace*{-.9in}\raisebox{-0.1\baselineskip}{
+%			\hyperlink{3}{\beamerskipbutton{}}
+			\hyperlink{marcoteorico}{\beamergotobutton{}}
+			\hyperlink{rr}{\beamerreturnbutton{}}
+	}}
+}
+\end{frame}
+
+\subsection{\variabled}
+\begin{frame}[allowframebreaks]{\variabled}
+\hypertarget{3}{}
+\begin{itemize}
+	\item \dimd
+	\begin{itemize}
+		\item \fb
+		\item \fbb
+		\item \fbb
+	\end{itemize}
+	\item	\dimdd
+	 	\begin{itemize}
+	 	\item \fbb
+	 	\item \fbbb
+	 	\item \fbbbb
+	 \end{itemize}
+ 
+	\item	\dimddd
+		\begin{itemize}
+		\item \fbb
+		\item \fbbb
+		\item \fbbbb
+		\item \fbbbb
+	\end{itemize}\end{itemize}
+
+\AddToShipoutPictureFG*{%
+	\AtTextLowerRight{\hspace*{-.9in}\raisebox{-0.1\baselineskip}{
+			\hyperlink{3-}{\beamerskipbutton{}}
+			\hyperlink{marcoteorico}{\beamergotobutton{}}
+			\hyperlink{rr}{\beamerreturnbutton{}}
+	}}
+}
+\end{frame}
+
+
+	\begin{frame}
+	\hypertarget{3-}{}
+\begin{itemize}
+	
+\item \dimdddd
+	\begin{itemize}
+	\item \fbb
+	\item \fbbb
+	\item \fbbbb
+\end{itemize}
+\item \dimddddd
+	\begin{itemize}
+	\item \fbb
+	\item \fbbb
+	\item \fbbbb
+\end{itemize}
+\end{itemize}
+\AddToShipoutPictureFG*{%
+	\AtTextLowerRight{\hspace*{-.9in}\raisebox{-0.1\baselineskip}{
+%			\hyperlink{marcoteorico}{\beamerskipbutton{}}
+			\hyperlink{marcoteorico}{\beamergotobutton{}}
+			\hyperlink{rr}{\beamerreturnbutton{}}
+	}}
+}
+\end{frame}
+
+\section{Marco metodológico}
+\begin{frame}[allowframebreaks]{}
+\hyperlink{marcometodologico1}{\beamergotobutton{Secci\'on 1: Hipótesis}}
+\hypertarget{marcometodologico}{}
+
+\hyperlink{marcometodologico2}{\beamergotobutton{Secci\'on 2: Variables}}
+ 
+\hyperlink{marcometodologico3}{\beamergotobutton{Secci\'on 3: Metodología}}
+
+\hyperlink{marcometodologico4}{\beamergotobutton{Secci\'on 4: Métodos de investigación}}
+
+\hyperlink{marcometodologico5}{\beamergotobutton{Secci\'on 5: Población y muestra}}
+
+\hyperlink{marcometodologico6}{\beamergotobutton{Secci\'on 6: Técnicas e instrumentos de investigación}}
+
+\hyperlink{marcometodologico7}{\beamergotobutton{Secci\'on : Métodos de análisis de datos}}
+
+\AddToShipoutPictureFG*{%
+	\AtTextLowerRight{\hspace*{-.9in}\raisebox{-0.1\baselineskip}{
+%			\hyperlink{marcometodologico1}{\beamerskipbutton{}}
+			%			\hyperlink{marcoteorico}{\beamergotobutton{}}
+			\hyperlink{rr}{\beamerreturnbutton{}}
+	}}
+}
+\end{frame}
+
+
+\subsection{Hipótesis}
+\begin{frame}{Hipótesis general y específicos}
+\hypertarget{marcometodologico1}{} 
+%\hipotesis\\
+La aplicación de la \MakeTextLowercase{\textbf{\variablei}} influye significativamente  en la \MakeTextLowercase{\textbf{\variabled}} de estudiantes de la \lugar?.\vspace{1cm}
+\begin{tabular}{cc>{\bfseries}ccc}
+	\multirow{5}{*}{\makecell[{{M{2cm}}}]{La aplicación de la \MakeTextLowercase{\variablei}}}&\multirow{5}{*}{\makecell[{{M{2cm}}}]{influye significativamente en}}&\multirow{1}{*}{\dimd}&\multirow{5}{*}{de la}&\multirow{5}{*}{\makecell[{{M{5cm}}}]{\MakeTextLowercase{\variabled} los estudiantes?}}\\
+	&&\multirow{1}{*}{\dimdd}&&\\
+	&&\multirow{1}{*}{\dimddd}&&\\
+	&&\multirow{1}{*}{\dimdddd}&&\\
+	&&\multirow{1}{*}{\dimddddd}&&\\
+\end{tabular}
+
+\AddToShipoutPictureFG*{%
+	\AtTextLowerRight{\hspace*{-.9in}\raisebox{-0.1\baselineskip}{
+%			\hyperlink{marcometodologico2}{\beamerskipbutton{}}
+			\hyperlink{marcometodologico}{\beamergotobutton{}}
+			\hyperlink{rr}{\beamerreturnbutton{}}
+	}}
+}
+\end{frame}
+
+
+\subsection{Variables}
+\begin{frame}[allowframebreaks]{Variables y definición conceptual}
+\hypertarget{marcometodologico2}{}
+\begin{enumerate}
+	\item \textbf{Variable Independiente} (\variablei)
+	\item \textbf{Variable Dependiente} (\variabled) 
+\end{enumerate}
+
+\begin{itemize}
+	\item \textbf{Variable Independiente (}\textbf{\variablei}\textbf{):}
+	La geometría fractal ofrece un modelo alternativo que busca
+	una regularidad en las relaciones entre un objeto y sus partes a diferentes
+	escalas. Esta forma de regularidad no precisa el encorsetamiento del
+	objeto en otras formas geométricas que, aunque elementales, no dejan
+	de ser externas al mismo, sino que busca la lógica interna del propio
+	objeto mediante relaciones intrínsecas entre sus elementos constitutivos
+	cuando estos se examinan a diferentes escalas. La geometría fractal
+	busca y estudia los aspectos geométricos que son invariantes con el
+	cambio de escala. %\citeA{ghyka1977estetica}.
+	
+	\end{itemize}
+\AddToShipoutPictureFG*{%
+	\AtTextLowerRight{\hspace*{-.9in}\raisebox{-0.1\baselineskip}{
+			\hyperlink{marcometodologico3w_7}{\beamerskipbutton{}}
+			\hyperlink{marcometodologico}{\beamergotobutton{}}
+			\hyperlink{rr}{\beamerreturnbutton{}}
+	}}
+}
+\end{frame}
+\begin{frame}
+\hypertarget{marcometodologico3w_7}{}
+	\begin{itemize}
+	\item \textbf{Variable Dependiente (}\textbf{\variabled}\textbf{):} La
+	composición plástica tridimensional se refiere a las
+	interminables posibilidades que brindan la manipulación creativa de
+	los diversos elementos plásticos. Estos recursos se enriquecen con
+	las formas y las figuras geométricas, que al combinarlos de manera
+	armónica se transforman con el toque personal y posibilitan innumerables
+	formas de expresión artística. 
+\end{itemize}
+
+\AddToShipoutPictureFG*{%
+	\AtTextLowerRight{\hspace*{-.9in}\raisebox{-0.1\baselineskip}{
+%			\hyperlink{marcometodologico3wr}{\beamerskipbutton{}}
+			\hyperlink{marcometodologico}{\beamergotobutton{}}
+			\hyperlink{rr}{\beamerreturnbutton{}}
+	}}
+}
+\end{frame}
+
+\begin{frame}{Operacionalización de variables}
+\hypertarget{marcometodologico3wr}{}
+\begin{table}[ht!]\footnotesize
+	\caption{Definición operacional de la variable independiente}
+	\label{first}\begin{tabular}{ccccccc} 
+		\Xhline{1pt} 		\textbf{VD}& \textbf{D} & \textbf{Ind 			icadores}&\textbf{Items}&\textbf{Escala}& \textbf{Valores} \\ 		\hline 		\multirow{10}{*}{\rotatebox[origin=c]{90}{\variablei}} 	
+		&\multirow{5}{*}{\makecell{Fractales\\ naturales}} %\dimi	
+		& \multirow{1}{*}{\fb}&\multirow{1}{*}{P1--P2} 		&\multirow{10}{*}{\rotatebox[origin=c]{90}{\makecell{Cuantitativa\\ continua}}} 		&\multirow{10}{*}{\rotatebox[origin=c]{90}{\makecell{Valoración cuantitaitva \\ 0 a 20}}} 		\\\cline{3-4} 	
+		&&\multirow{1}*{\gbb}&
+		\multirow{1}{*}{C3--C4}&\\\cline{3-4}
+		&&\multirow{1}*{\gbbb}&
+		\multirow{1}{*}{C5}&\\\cline{3-4}
+		&&\multirow{1}*{\gbbbb}&
+		\multirow{1}{*}{C6--C7}&\\\cline{3-4}
+		&&\multirow{1}*{\gbbbbb}&
+		\multirow{1}{*}{C8}&\\\cline{2-4}
+		&\multirow{5}*{\makecell{Fractales\\ abstractos}} %\dimii 
+		&\multirow{1}*{\gbbbbbb}&
+		\multirow{1}{*}{C9--C10}&\\\cline{3-4}
+		&&\multirow{1}*{\gbbbbbbb}&
+		\multirow{1}{*}{C11}&\\\cline{3-4}
+		&&\multirow{1}*{\gbbbbbbbb}&
+		\multirow{1}{*}{C12--C13}&\\\cline{3-4}
+		&&\multirow{1}*{\gbbbbbbbbb}&
+		\multirow{1}{*}{C14--C15}&\\\cline{3-4}
+		&&\multirow{1}*{\gbbbbbbbbbb}&
+		\multirow{1}{*}{C16--C17}&\\\cline{3-4}
+		\hline 
+	\end{tabular}
+\end{table}
+
+\AddToShipoutPictureFG*{%
+	\AtTextLowerRight{\hspace*{-.9in}\raisebox{-0.1\baselineskip}{
+			\hyperlink{marcometodologico3rww1}{\beamerskipbutton{}}
+			\hyperlink{marcometodologico}{\beamergotobutton{}}
+			\hyperlink{rr}{\beamerreturnbutton{}}
+	}}
+}
+\end{frame}
+
+\begin{frame}
+\hypertarget{marcometodologico3rww1}{}
+\begin{table}[ht!]\footnotesize
+	\renewcommand\tabcolsep{0.15cm}\renewcommand\arraystretch{0.9}
+	\caption{Definición operacional de la variable dependiente}
+	\label{second}
+	\begin{tabular}{cccccc} 		\Xhline{1pt} 		\textbf{VD}& \textbf{D} & \textbf{Ind 			icadores}&\textbf{Items}&\textbf{Escala}& \textbf{Valores} \\ 		\hline 		\multirow{16}{*}{\rotatebox[origin=c]{90}{\variabled}} 	
+		&\multirow{3}{*}{\dimd} 	
+		& \multirow{1}{*}{\fb}&\multirow{1}{*}{P1--P2} 		&\multirow{16}{*}{\rotatebox[origin=c]{90}{\makecell{Cuantitativa continua}}} 		&\multirow{16}{*}{\rotatebox[origin=c]{90}{\makecell{Valoración cuantitaitva de 0 a 20}}} 		\\\cline{3-4} 	
+		&&\multirow{1}{*}{\fbb}&\multirow{1}{*}{P3--P4}&& 		\\\cline{3-4} 
+		&&\multirow{1}{*}{\fbbb}&\multirow{1}{*}{P5}&&\\\cline{2-4} 	
+		&\multirow{3}{*}{\dimdd} 		& \multirow{1}{*}{\fbbbb}&\multirow{1}{*}{P6--P7}&& 		\\\cline{3-4} 	
+		&&\multirow{1}{*}{\fbbbbb}&\multirow{1}{*}{P8}&& 		\\\cline{3-4}
+		&&\multirow{1}{*}{\fbbbbbb}&\multirow{1}{*}{P9--P10}&& 		\\\cline{2-4} 	
+		&\multirow{4}{*}{\dimddd} 	
+		&\multirow{1}{*}{\fbbbbbbb}&\multirow{1}{*}{P11--P12}&&\\\cline{3-4} 
+		&&\multirow{1}{*}{\fbbbbbbbb}&\multirow{1}{*}{P13}&&\\\cline{3-4} 
+		&&\multirow{1}{*}{\fbbbbbbbbb}&\multirow{1}{*}{P14--P15}&&\\\cline{3-4} 
+		&&\multirow{1}{*}{\fbbbbbbbbbb}&\multirow{1}{*}{P16--P17}&&\\\cline{2-4} 	
+		&\multirow{3}{*}{\dimdddd} 	
+		& \multirow{1}{*}{\fbbbbbbbbbbb}&\multirow{1}{*}{P18--P19}&&\\\cline{3-4}
+		&&\multirow{1}{*}{\fbbbbbbbbbbbb}&\multirow{1}{*}{P20}&&\\\cline{3-4} &&\multirow{1}{*}{\fbbbbbbbbbbbbb}&\multirow{1}{*}{P21--P22}&&\\ \cline{2-4} 	
+		&\multirow{3}{*}{\dimddddd}
+		&\multirow{1}{*}{\fbbbbbbbbbbbbbb}&\multirow{1}{*}{P23--P24}&&\\\cline{3-4} 
+		&&\multirow{1}{*}{\fbbbbbbbbbbbbbbb}&\multirow{1}{*}{P5}&&\\\cline{3-4} 	
+		&&\multirow{1}{*}{\fbbbbbbbbbbbbbbbb}&\multirow{1}{*}{P26--P27}&&\\		\Xhline{1pt}	\end{tabular}
+\end{table}
+
+\AddToShipoutPictureFG*{%
+	\AtTextLowerRight{\hspace*{-.9in}\raisebox{-0.1\baselineskip}{
+%			\hyperlink{marcometodologicoww}{\beamerskipbutton{}}
+			\hyperlink{marcometodologico}{\beamergotobutton{}}
+			\hyperlink{rr}{\beamerreturnbutton{}}
+	}}
+}
+\end{frame}
+
+\section{Metodología}
+\begin{frame}{Metodología}
+\hypertarget{marcometodologico3}{}
+
+\textbf{Tipo de estudio}: Explicativa experimental, porque
+se busca la causa y efecto en cada una de las variables de estudio.
+
+
+\textbf{Diseño}: Preexperimental de un mismo grupo
+de trabajo con pre y posprueba en series temporales, porque se tomó un solo grupo experimental. Cuyo esquema de referencia es:
+\vspace{-.45cm}
+\begin{center}%\renewcommand\arraystretch{.9}
+	\begin{tabular}{cccccc}
+		GE: & $X_{1}$  & $\cdots$  & $O_{1}$ &  & \tabularnewline
+		&  &  & $X_{0}$ & $\cdots$  & $O_{2}.$\tabularnewline
+		& $X_{2}$  & $\cdots$  & $O_{3}$ &  & \tabularnewline
+		&  &  & $X_{0}$ & $\cdots$  & $O_{4}.$\tabularnewline
+		& $X_{3}$  & $\cdots$  & $O_{5}$ &  & \tabularnewline
+		&  &  & $X_{0}$ & $\cdots$  & $O_{6}.$\tabularnewline
+	\end{tabular}
+\end{center}
+\vspace{-.45cm}
+Donde $GE$ (grupo experimental), $X_{1}$ a $X_{3}$ son variables
+de interés, $O_{1}$ a $O_{6}$ son
+las observaciones realizadas en cada serie de tiempo. $X_{0}$ significa
+la no aplicación del experimento pero si el tratamiento normal anterior.
+%\textbf{Tipo de investigación}: \tipo	
+
+\AddToShipoutPictureFG*{%
+	\AtTextLowerRight{\hspace*{-.9in}\raisebox{-0.1\baselineskip}{
+%			\hyperlink{marcometodologicowww}{\beamerskipbutton{}}
+			\hyperlink{marcometodologico}{\beamergotobutton{}}
+			\hyperlink{rr}{\beamerreturnbutton{}}
+	}}
+}
+\end{frame}
+
+
+\section{{Metodos de investigación}}
+\begin{frame}{Metodos de investigación}
+\hypertarget{marcometodologico4}{}
+\AddToShipoutPictureFG*{%
+	\AtTextLowerRight{\hspace*{-.9in}\raisebox{-0.1\baselineskip}{
+			%			\hyperlink{marcometodologicoww}{\beamerskipbutton{}}
+			\hyperlink{marcometodologico}{\beamergotobutton{}}
+			\hyperlink{rr}{\beamerreturnbutton{}}
+	}}
+}
+\begin{itemize}
+\item Método experimental
+\item Método hipotético deductivo
+\item Método análitico
+\item Método estadístico
+	\end{itemize}
+\end{frame}
+
+
+
+\subsection{Poblacion, muestra y muestreo}
+\begin{frame}{Poblacion, muestra y muestreo}
+\hypertarget{marcometodologico5}{}
+\AddToShipoutPictureFG*{%
+	\AtTextLowerRight{\hspace*{-.9in}\raisebox{-0.1\baselineskip}{
+			%			\hyperlink{marcometodologicoww}{\beamerskipbutton{}}
+			\hyperlink{marcometodologico}{\beamergotobutton{}}
+			\hyperlink{rr}{\beamerreturnbutton{}}
+	}}
+}
+\textbf{\emph{La población}}, estuvo constituida por 963 estudiantes, de ambos
+sexos, de la \lugar matriculados en el semestre par, del año 2019.
+
+En la presente investigación \textbf{\emph{la muestra}} fue {no probabilística
+	e intencional} compuesta por \muestra.
+
+Fue {\textbf{\emph{no probabilístico e intencional}}}, porque los grupos ya están
+formados con los estudiantes de la serie 300 en la \lugar
+\end{frame}
+
+\subsection{Tecnicas e instrumentos de investigacion}
+
+
+
+\begin{frame}{Tecnicas e instrumentos de investigacion}
+\hypertarget{marcometodologico6}{}
+\AddToShipoutPictureFG*{%
+	\AtTextLowerRight{\hspace*{-.9in}\raisebox{-0.1\baselineskip}{
+			\hyperlink{tttww}{\beamerskipbutton{}}
+			\hyperlink{marcometodologico}{\beamergotobutton{}}
+			\hyperlink{rr}{\beamerreturnbutton{}}
+	}}
+}
+\begin{itemize}
+\item Tecnicas
+\begin{itemize}
+	\item Observación
+	\item Prueba pedagógica
+	\item Experimental
+\end{itemize}
+
+\item Instrumentos
+
+\begin{itemize}
+	\item Ficha de observación
+	\item Lista de cotejo
+	\item Ficha de opinión
+	\item Modulos de experimentación
+\end{itemize}	
+\end{itemize}
+\end{frame}
+
+\begin{frame}%{Validación y confiabilidad de instrumentos}
+\hypertarget{tttww}{}
+\AddToShipoutPictureFG*{%
+	\AtTextLowerRight{\hspace*{-.9in}\raisebox{-0.1\baselineskip}{
+			\hyperlink{tttwww}{\beamerskipbutton{}}
+			\hyperlink{marcometodologico}{\beamergotobutton{}}
+			\hyperlink{rr}{\beamerreturnbutton{}}
+	}}
+}
+\begin{itemize}
+	\item Validación
+	
+	\begin{table}[ht!]
+		\caption{La validez de los instrumentos}
+		\begin{tabular}{ccc}
+			\toprule 
+			Expertos  & Validación  & Situación \tabularnewline
+			\midrule 
+			\asesor  & 0,8 & Aceptable \tabularnewline
+			\expert & 0,84  & Aceptable\tabularnewline
+			\expertt & 0,84 & Aceptable \tabularnewline
+			\midrule 
+			Promedio  & 0,83 (83\%)  & Aceptable \tabularnewline
+			\bottomrule
+		\end{tabular}\label{expertos1}
+	\end{table}
+\end{itemize}
+\end{frame}
+
+
+\begin{frame}
+\hypertarget{tttwww}{}
+\AddToShipoutPictureFG*{%
+	\AtTextLowerRight{\hspace*{-.9in}\raisebox{-0.1\baselineskip}{
+			%			\hyperlink{marcometodologicoww}{\beamerskipbutton{}}
+			\hyperlink{marcometodologico}{\beamergotobutton{}}
+			\hyperlink{rr}{\beamerreturnbutton{}}
+	}}
+}
+\begin{itemize}
+	\item Confiabilidad
+
+
+\end{itemize}
+
+\end{frame}
+
+
+\subsection{Metodos y análisis de datos}
+\begin{frame}{Metodos y análisis de datos}
+\hypertarget{marcometodologico7}{}
+\AddToShipoutPictureFG*{%
+	\AtTextLowerRight{\hspace*{-.9in}\raisebox{-0.1\baselineskip}{
+			%			\hyperlink{marcometodologicoww}{\beamerskipbutton{}}
+			\hyperlink{marcometodologico}{\beamergotobutton{}}
+			\hyperlink{rr}{\beamerreturnbutton{}}
+	}}
+}
+\textbf{\emph{Análisis descriptivo}}
+
+A nivel descriptivo se utilizó los estadígrafos, particulares de la
+estadística descriptiva tales como las\textbf{ medidas de tendencia central}
+(media, mediana, moda), las \textbf{mediadas de dispersión} (desviación estándar,
+varianza, coeficiente de variación) \textbf{medidas de posición} (deciles,
+cuartiles, percentiles). 
+
+\textbf{\emph{Análisis inferencial}}
+
+A nivel {inferencial} se realizó la prueba de \textbf{normalidad} y la
+de {\textbf{homocedasticidad}}, con el objetivo de elegir entre una prueba
+{paramétrica} o {no paramétrica}, en las pruebas de hipótesis.
+\end{frame}
+
+
+\section{Resultados}
+
+
+    
+\subsection{Discusión de resultados}
+\hypertarget{discuciones}{}
+\begin{frame}{Discusion de resultados}
+\begin{itemize}	
+	\item {\textbf{Discusión de la 1 hipótesis}}: 
+		\item {\textbf{Discusión de la 2 hipótesis}}:
+\end{itemize}
+\AddToShipoutPictureFG*{%
+	\AtTextLowerRight{\hspace*{-.9in}\raisebox{-0.1\baselineskip}{
+			\hyperlink{uu}{\beamerskipbutton{}}
+			\hyperlink{resultados}{\beamergotobutton{}}
+			\hyperlink{rr}{\beamerreturnbutton{}}
+	}}
+}
+\end{frame}
+
+\hypertarget{uu}{}
+\begin{frame}{Discusion de resultados}
+\begin{itemize}	
+	\item {\textbf{Discusión de la tercera hipótesis}}: 
+		\item {\textbf{Discusión de la cuarta hipótesis}}:
+\end{itemize}
+\AddToShipoutPictureFG*{%
+	\AtTextLowerRight{\hspace*{-.9in}\raisebox{-0.1\baselineskip}{
+			\hyperlink{uuu}{\beamerskipbutton{}}
+			\hyperlink{resultados}{\beamergotobutton{}}
+			\hyperlink{rr}{\beamerreturnbutton{}}
+	}}
+}
+\end{frame}
+
+\subsection{Discusión de resultados}
+\hypertarget{uuu}{}
+\begin{frame}
+\begin{itemize}
+	\item {\textbf{Discusión de la quinta hipótesis}}: 
+	\item {\textbf{Discusión de la hipótesis general}}: 
+	
+\end{itemize}
+\AddToShipoutPictureFG*{%
+	\AtTextLowerRight{\hspace*{-.9in}\raisebox{-0.1\baselineskip}{
+			%			\hyperlink{concluciones}{\beamerskipbutton{}}
+			\hyperlink{resultados}{\beamergotobutton{}}
+			\hyperlink{rr}{\beamerreturnbutton{}}
+	}}
+}
+\end{frame}
+
+\begin{frame}[allowframebreaks]{}
+\hyperlink{concluciones1}{\beamergotobutton{Secci\'on 1: Concluciones}}
+\hypertarget{concluciones}{}
+
+\hyperlink{concluciones2}{\beamergotobutton{Secci\'on 2: Recomendaciones}}
+
+\hyperlink{bibliografia}{\beamergotobutton{Bibliografía}}
+
+\AddToShipoutPictureFG*{%
+	\AtTextLowerRight{\hspace*{-.9in}\raisebox{-0.1\baselineskip}{
+			%			\hyperlink{1}{\beamerskipbutton{}}
+			%			\hyperlink{marcoteorico}{\beamergotobutton{}}
+			\hyperlink{rr}{\beamerreturnbutton{}}
+	}}
+}
+\end{frame}
+
+
+\section{Conclusiones}
+\hypertarget{concluciones1}{}
+\begin{frame}[allowframebreaks]{Conclusiones}
+\begin{enumerate}
+\item \hipotesise
+\item \hipotesisee
+\item \hipotesiseee
+\item \hipotesiseeee
+\item \hipotesiseeeee
+\item \hipotesis 
+\end{enumerate}
+\AddToShipoutPictureFG*{%
+	\AtTextLowerRight{\hspace*{-.9in}\raisebox{-0.1\baselineskip}{
+%	\hyperlink{bibliografia}{\beamerskipbutton{}}
+	\hyperlink{concluciones}{\beamergotobutton{}}
+	\hyperlink{rr}{\beamerreturnbutton{}}
+}}
+}
+\end{frame}
+
+%\section{Conclusiones}
+\hypertarget{concluciones2}{}
+\begin{frame}{Recomendaciones}
+
+De acuerdo a los resultados de la investigación me permito recomendar:
+% y a la necesidad de colaborar, con estrategias didácticas en la enseñanza de la composición plástica tridimensional en el campo educativo, me permito recomendar: 
+\begin{itemize}
+	\item A las autoridades universitarias a fin de implementar en la reglamentación
+	de los términos de referencia, sobre la \MakeTextLowercase{\variablei}
+	para contribuir a la solución de los problemas de la enseñanza y aprendizaje,
+	en la comunidad universitaria.
+	\item A las autoridades de la facultad de ingeniería minas, geología y civil
+	UNSCH y sus correspondientes escuelas profesionales, a
+	fin de implementar en los planes curriculares, nuevas asignaturas
+	que permitan orientar la formación profesional de los estudiantes,
+	que involucren el desarrollo de los siguientes principios de la composición
+	plástica tridimensional: \MakeTextLowercase{\dimd}, \MakeTextLowercase{\dimdd},
+	\MakeTextLowercase{\dimddd} y \MakeTextLowercase{\dimdddd}; para
+	coadyuvar en la solución de los problemas compositivos, en la comunidad
+	local, regional y nacional. 
+	\AddToShipoutPictureFG*{%
+		\AtTextLowerRight{\hspace*{-.9in}\raisebox{-0.1\baselineskip}{
+				\hyperlink{recomendacion1}{\beamerskipbutton{}}
+				\hyperlink{concluciones}{\beamergotobutton{}}
+				\hyperlink{rr}{\beamerreturnbutton{}}
+		}}
+	}
+\end{itemize}
+\end{frame}
+\begin{frame}	
+\begin{itemize}
+	\hypertarget{recomendacion1}{}
+	\item A los docentes y estudiantes de la \lugar, a fin de poner en práctica
+	la \MakeTextLowercase{\variablei}.
+\end{itemize}
+\AddToShipoutPictureFG*{%
+	\AtTextLowerRight{\hspace*{-.9in}\raisebox{-0.1\baselineskip}{
+			%	\hyperlink{bibliografia}{\beamerskipbutton{}}
+			\hyperlink{conclusiones}{\beamergotobutton{}}
+			\hyperlink{rr}{\beamerreturnbutton{}}
+	}}
+}
+\end{frame}
+\hypertarget{bibliografía}{}
+%\section{Referencias bibliográficas}
+\begin{frame}[allowframebreaks]{Bibliografía}
+\hypertarget{bibliografía}{}
+\AddToShipoutPictureFG*{%
+	\AtTextLowerRight{\hspace*{-.9in}\raisebox{-0.1\baselineskip}{
+			%	\hyperlink{bibliografía}{\beamerskipbutton{}}
+			\hyperlink{conclusiones}{\beamergotobutton{}}
+			\hyperlink{rr}{\beamerreturnbutton{}}
+	}}
+}
+%\renewcommand{\bibname}{REFERENCIAS BIBLIOGRÁFICAS}
+\bibliographystyle{apacite}
+\bibliography{une}
+\end{frame}
+\end{document}
