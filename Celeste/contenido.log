@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.7.4)  4 JUL 2023 12:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.7.4)  4 JUL 2023 12:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -32867,7 +32867,7 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no e in font nullfont!
 ! Undefined control sequence.
 l.390 			\Xhline
-                {1pt} 		\textbf{\glstext{VD}}& \textbf{\glstext{D}} & \textb...
+                {1pt} 		\textbf{\glstext{VD}}& \textbf{\glstext{Dimension}} ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -32881,7 +32881,7 @@ Missing character: There is no t in font nullfont!
 <recently read> \glstext 
                          
 l.390 			\Xhline{1pt} 		\textbf{\glstext{VD}}
-                                             & \textbf{\glstext{D}} & \textb...
+                                             & \textbf{\glstext{Dimension}} ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -32891,7 +32891,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \glstext 
                          
-l.390 ...extbf{\glstext{VD}}& \textbf{\glstext{D}}
+l.390 ...lstext{VD}}& \textbf{\glstext{Dimension}}
                                                    & \textbf{Indicadores}&\t...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -33827,7 +33827,7 @@ Overfull \hbox (5.00002pt too wide) in paragraph at lines 387--428
  []
 
 
-Overfull \hbox (180.66429pt too wide) in paragraph at lines 387--428
+Overfull \hbox (224.971pt too wide) in paragraph at lines 387--428
 [][]
  []
 
@@ -48861,7 +48861,7 @@ Overfull \hbox (102.31715pt too wide) detected at line 745
 Here is how much of TeX's memory you used:
  71 strings out of 480185
  873 string characters out of 5894214
- 419109 words of memory out of 5000000
+ 419125 words of memory out of 5000000
  18117 multiletter control sequences out of 15000+600000
  470248 words of font info for 31 fonts, out of 8000000 for 9000
  40 hyphenation exceptions out of 8191

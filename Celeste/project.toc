@@ -104,17 +104,19 @@
 \addvspace {0.5em plus 0.015emminus 0.015em}
 \contentsline {subsubsection}{\numberline {6.7.2}La estadística inferencial}{27}{}%
 \addvspace {0.5em plus 0.015emminus 0.015em}
+\contentsline {subsubsection}{\numberline {6.7.3}Validación de instrumentos}{27}{}%
+\addvspace {0.5em plus 0.015emminus 0.015em}
 \contentsline {subsection}{\numberline {6.8}Procedimientos}{27}{}%
 \addvspace {0.5em plus 0.015emminus 0.015em}
 \contentsline {subsection}{\numberline {6.9}Estadísticos descriptivos}{27}{}%
 \addvspace {0.5em plus 0.015emminus 0.015em}
 \contentsline {subsection}{\numberline {6.10}Estadísticos inferenciales}{27}{}%
 \addvspace {-0.2em plus 0.015emminus 0.015em}
-\contentsline {section}{\numberline {VII}ASPECTO ADMINISTRATIVO}{28}{}%
+\contentsline {section}{\numberline {VII}ASPECTO ADMINISTRATIVO}{29}{}%
 \addvspace {0.5em plus 0.015emminus 0.015em}
-\contentsline {subsection}{\numberline {7.1}Recursos}{28}{}%
+\contentsline {subsection}{\numberline {7.1}Recursos}{29}{}%
 \addvspace {0.5em plus 0.015emminus 0.015em}
-\contentsline {subsubsection}{\numberline {7.1.1}Recursos humanos}{28}{}%
+\contentsline {subsubsection}{\numberline {7.1.1}Recursos humanos}{29}{}%
 \addvspace {0.5em plus 0.015emminus 0.015em}
 \contentsline {subsubsection}{\numberline {7.1.2}Recursos materiales}{29}{}%
 \addvspace {0.5em plus 0.015emminus 0.015em}
@@ -124,9 +126,9 @@
 \addvspace {0.5em plus 0.015emminus 0.015em}
 \contentsline {subsection}{\numberline {7.3}Cronograma de actividades}{29}{}%
 \addvspace {-0.2em plus 0.015emminus 0.015em}
-\contentsline {section}{\numberline {VIII}Referencias}{29}{}%
+\contentsline {section}{\numberline {VIII}REFERENCIAS}{29}{}%
 \addvspace {-0.2em plus 0.015emminus 0.015em}
-\contentsline {section}{ACRÓNIMOS}{31}{}%
+\contentsline {section}{ACRÓNIMOS}{I}{}%
 \addvspace {-0.2em plus 0.015emminus 0.015em}
 \contentsline {section}{SÍMBOLOS}{I}{}%
 \addvspace {-0.2em plus 0.015emminus 0.015em}

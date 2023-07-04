@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.7.4)  4 JUL 2023 12:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.7.4)  4 JUL 2023 13:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -918,15 +918,15 @@ Package: glossary-superragged 2021/11/01 v4.49 (NLCT)
 \glo@main@file=\write5
 \openout5 = `project.glo'.
 
-Package glossaries Info: Writing glossary file project.glo on input line 133.
+Package glossaries Info: Writing glossary file project.glo on input line 140.
 \glo@acronym@file=\write6
 \openout6 = `project.acn'.
 
-Package glossaries Info: Writing glossary file project.acn on input line 133.
+Package glossaries Info: Writing glossary file project.acn on input line 140.
 \glo@symbols@file=\write7
 \openout7 = `project.slo'.
 
-Package glossaries Info: Writing glossary file project.slo on input line 133.
+Package glossaries Info: Writing glossary file project.slo on input line 140.
  (/usr/share/texlive/texmf-dist/tex/latex/doublestroke/dsfont.sty
 Package: dsfont 1995/08/01 v0.1 Double stroke roman fonts
 )
@@ -1131,7 +1131,7 @@ Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'spanish'.
 LaTeX Font Info:    Trying to load font information for T1+ptm on input line 17
-1.
+8.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
@@ -1141,22 +1141,22 @@ LaTeX Info: Redefining \% on input line 15.
 )
 \openout1 = `project.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 171.
-LaTeX Font Info:    ... okay on input line 171.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 171.
-LaTeX Font Info:    ... okay on input line 171.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 171.
-LaTeX Font Info:    ... okay on input line 171.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 171.
-LaTeX Font Info:    ... okay on input line 171.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 171.
-LaTeX Font Info:    ... okay on input line 171.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 171.
-LaTeX Font Info:    ... okay on input line 171.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 171.
-LaTeX Font Info:    ... okay on input line 171.
-LaTeX Info: Redefining \. on input line 171.
-LaTeX Info: Redefining \% on input line 171.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 178.
+LaTeX Font Info:    ... okay on input line 178.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 178.
+LaTeX Font Info:    ... okay on input line 178.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 178.
+LaTeX Font Info:    ... okay on input line 178.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 178.
+LaTeX Font Info:    ... okay on input line 178.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 178.
+LaTeX Font Info:    ... okay on input line 178.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 178.
+LaTeX Font Info:    ... okay on input line 178.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 178.
+LaTeX Font Info:    ... okay on input line 178.
+LaTeX Info: Redefining \. on input line 178.
+LaTeX Info: Redefining \% on input line 178.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1224,7 +1224,7 @@ LaTeX Info: Redefining \BHBI on input line 139.
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: Option `justification=RaggedRight' requires the `ragged2e
-' package on input line 171.
+' package on input line 178.
 
 (/usr/share/texlive/texmf-dist/tex/latex/ragged2e/ragged2e.sty
 Package: ragged2e 2021/12/15 v3.1 ragged2e Package
@@ -1252,7 +1252,7 @@ enefit from \pgfplotsset{compat=1.18} (current compat level: 1.15).
 <logo.pdf, id=4, 401.5pt x 577.15625pt>
 File: logo.pdf Graphic file (type pdf)
 <use logo.pdf>
-Package pdftex.def Info: logo.pdf  used on input line 182.
+Package pdftex.def Info: logo.pdf  used on input line 189.
 (pdftex.def)             Requested size: 128.65416pt x 184.9429pt.
 [1
 
@@ -1327,12 +1327,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [3]
-Overfull \hbox (2.99971pt too wide) detected at line 113
+Overfull \hbox (2.99971pt too wide) detected at line 115
 \T1/ptm/b/n/12 VII. 
  []
 
 
-Overfull \hbox (7.66759pt too wide) detected at line 127
+Overfull \hbox (7.66759pt too wide) detected at line 129
 \T1/ptm/b/n/12 VIII. 
  []
 
@@ -1392,7 +1392,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [3]
 
-LaTeX Warning: Citation `radford2017ensenanza' undefined on input line 232.
+LaTeX Warning: Citation `radford2017ensenanza' undefined on input line 239.
 
 (./contenido.tex) (./contenido.tex)
 
@@ -1405,7 +1405,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [4]
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 2
-51.
+58.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 ) (./contenido.tex) (./contenido.tex)
@@ -1427,7 +1427,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [6] (./contenido.tex)
-Overfull \hbox (2.96953pt too wide) in paragraph at lines 259--259
+Overfull \hbox (2.96953pt too wide) in paragraph at lines 266--266
 []\T1/ptm/m/n/12 Síntesis vi-sual: La ca-ri-ca-tu-ra con-den-sa in-for-ma-ción 
 en imá-ge-nes, per-mi-tien-do trans-
  []
@@ -1552,7 +1552,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [19]
-Overfull \hbox (0.24168pt too wide) in paragraph at lines 452--452
+Overfull \hbox (0.24168pt too wide) in paragraph at lines 459--459
 |[]\T1/ptm/b/n/12 DEFINICIÓN CON-CEP-TUAL Y OPE-RA-CIO-NA-LI-ZA-CÍÓN DE VA-RIA-
 BLES
  []
@@ -1567,15 +1567,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [20]
 
-LaTeX Warning: Citation `kumar' undefined on input line 484.
+LaTeX Warning: Citation `kumar' undefined on input line 491.
 
 (./contenido.tex)
-Overfull \hbox (3.83636pt too wide) in paragraph at lines 490--490
+Overfull \hbox (3.83636pt too wide) in paragraph at lines 497--497
 [][] 
  []
 
 
-LaTeX Warning: Reference `vd' on page 21 undefined on input line 490.
+LaTeX Warning: Reference `vd' on page 21 undefined on input line 497.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1586,82 +1586,82 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [21]
-Overfull \vbox (1.4501pt too high) detected at line 490
+Overfull \vbox (1.4501pt too high) detected at line 497
  []
 
 
-Overfull \vbox (1.4501pt too high) detected at line 490
+Overfull \vbox (1.4501pt too high) detected at line 497
  []
 
 
-Overfull \vbox (1.4501pt too high) detected at line 490
+Overfull \vbox (1.4501pt too high) detected at line 497
  []
 
 
-Overfull \vbox (1.4501pt too high) detected at line 490
+Overfull \vbox (1.4501pt too high) detected at line 497
  []
 
 
-Overfull \vbox (1.4501pt too high) detected at line 490
+Overfull \vbox (1.4501pt too high) detected at line 497
  []
 
 
-Overfull \vbox (1.4501pt too high) detected at line 490
+Overfull \vbox (1.4501pt too high) detected at line 497
  []
 
 
-Overfull \vbox (1.4501pt too high) detected at line 490
+Overfull \vbox (1.4501pt too high) detected at line 497
  []
 
 
-Overfull \vbox (1.4501pt too high) detected at line 490
+Overfull \vbox (1.4501pt too high) detected at line 497
  []
 
 
-Overfull \vbox (1.4501pt too high) detected at line 490
+Overfull \vbox (1.4501pt too high) detected at line 497
  []
 
 
-Overfull \vbox (1.4501pt too high) detected at line 490
+Overfull \vbox (1.4501pt too high) detected at line 497
  []
 
 
-Overfull \vbox (1.4501pt too high) detected at line 490
+Overfull \vbox (1.4501pt too high) detected at line 497
  []
 
 
-Overfull \vbox (1.4501pt too high) detected at line 490
+Overfull \vbox (1.4501pt too high) detected at line 497
  []
 
 
-Overfull \vbox (1.4501pt too high) detected at line 490
+Overfull \vbox (1.4501pt too high) detected at line 497
  []
 
 
-Overfull \vbox (1.4501pt too high) detected at line 490
+Overfull \vbox (1.4501pt too high) detected at line 497
  []
 
 
-Overfull \vbox (1.4501pt too high) detected at line 490
+Overfull \vbox (1.4501pt too high) detected at line 497
  []
 
 
-Overfull \vbox (1.4501pt too high) detected at line 490
+Overfull \vbox (1.4501pt too high) detected at line 497
  []
 
 
-Overfull \vbox (1.4501pt too high) detected at line 490
+Overfull \vbox (1.4501pt too high) detected at line 497
  []
 
 
-Overfull \vbox (1.4501pt too high) detected at line 490
+Overfull \vbox (1.4501pt too high) detected at line 497
  []
 
 
-LaTeX Warning: Citation `bernal' undefined on input line 504.
+LaTeX Warning: Citation `bernal' undefined on input line 511.
 
 
-LaTeX Warning: Citation `inv1' undefined on input line 504.
+LaTeX Warning: Citation `inv1' undefined on input line 511.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1690,9 +1690,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [24]
-
-LaTeX Warning: Citation `khotari' undefined on input line 632.
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1757,7 +1754,6 @@ Underfull \hbox (badness 1303) in paragraph at lines 427--446
  index [] .php / investigacion / article /
  []
 
-) (./project.acr
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1766,7 +1762,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[31]) (./project.sls)
+[31]) (./project.acr) (./project.sls)
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1804,32 +1800,32 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [4]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1049.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1037.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1049.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1037.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1049.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1037.
 
-Overfull \vbox (44.23001pt too high) detected at line 1049
+Overfull \vbox (44.23001pt too high) detected at line 1037
  []
 
 
-Overfull \vbox (61.73001pt too high) detected at line 1049
+Overfull \vbox (61.73001pt too high) detected at line 1037
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1049--1049
+Underfull \hbox (badness 10000) in paragraph at lines 1037--1037
 []\T1/ptm/b/n/8 Tipo de es-tu-dio: \T1/ptm/m/n/8 In-ves-ti-ga-ción \T1/ptm/m/it
 /8 pre-
  []
 
 
-Underfull \hbox (badness 5217) in paragraph at lines 1049--1049
+Underfull \hbox (badness 5217) in paragraph at lines 1037--1037
 []\T1/ptm/b/n/8 Técnica: \T1/ptm/m/n/8 Ob-ser-va-ción, eva-lua-ción peda-
  []
 
 
-Overfull \vbox (29.38223pt too high) detected at line 1049
+Overfull \vbox (29.38223pt too high) detected at line 1037
  []
 
 
@@ -1868,12 +1864,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 
 ]
-Underfull \hbox (badness 2310) in paragraph at lines 1172--1172
+Underfull \hbox (badness 2310) in paragraph at lines 1160--1160
 []|\T1/ptm/m/n/12 ¾Está for-mu-la-do con len-gua-je cla-ro,
  []
 
 
-Overfull \hbox (0.85919pt too wide) in paragraph at lines 1197--1198
+Overfull \hbox (0.85919pt too wide) in paragraph at lines 1185--1186
 []\T1/ptm/m/n/12 --------------------------------------------------------------
 -------------------------------------
  []
@@ -1897,11 +1893,11 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 41523 strings out of 480185
- 955428 string characters out of 5894214
- 1481307 words of memory out of 5000000
- 58665 multiletter control sequences out of 15000+600000
- 543667 words of font info for 141 fonts, out of 8000000 for 9000
+ 41352 strings out of 480185
+ 953282 string characters out of 5894214
+ 1478228 words of memory out of 5000000
+ 58497 multiletter control sequences out of 15000+600000
+ 541803 words of font info for 138 fonts, out of 8000000 for 9000
  40 hyphenation exceptions out of 8191
  106i,20n,105p,8822b,989s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/linux/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1200.600
@@ -1914,7 +1910,7 @@ t/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts
 .pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf
 -dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on project.pdf (43 pages, 240725 bytes).
+Output written on project.pdf (43 pages, 240745 bytes).
 PDF statistics:
  243 PDF objects out of 1000 (max. 8388607)
  135 compressed objects within 2 object streams

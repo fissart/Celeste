@@ -445,6 +445,36 @@ Yupanqui, C\BPBI I.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Zacarías%
+\ \BBA {} Supo%
+}{%
+Zacarías%
+\ \BBA {} Supo%
+}{%
+{\protect \APACyear {2020}}%
+}]{%
+zacarias_metodologiinvestigacion_2020}
+\APACinsertmetastar {%
+zacarias_metodologiinvestigacion_2020}%
+\begin{APACrefauthors}%
+Zacarías, H.%
+\BCBT {}\ \BBA {} Supo, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2020}.
+\newblock
+\APACrefbtitle {{MetodologÍa} de la {Investigación} {CientÍfica}: {Para}
+  {Las} {Ciencias} de la {Salud} y {Las} {Ciencias} {Sociales}} {{MetodologÍa}
+  de la {Investigación} {CientÍfica}: {Para} {Las} {Ciencias} de la {Salud} y
+  {Las} {Ciencias} {Sociales}}.
+\newblock
+\APACaddressPublisher{}{Amazon Digital Services LLC - KDP Print US}.
+\newblock
+\APACrefnote{Google-Books-ID: WruXzQEACAAJ}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Zurita~Camacho%
 }{%
 Zurita~Camacho%

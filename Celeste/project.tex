@@ -47,6 +47,13 @@
 \usepackage[apaciteclassic, numberedbib, nosectionbib, tocbib]{apacite}
 \usepackage{usebib}
 \bibinput{une}
+%\printbibliography[heading=none] with apacite
+\makeatletter
+\let\st@rtbibsection\@bibnewpage
+\let\st@rtbibchapter\@bibnewpage
+\makeatother
+%\printbibliography[heading=none] with apacite
+
 \usepackage[tablewithout,belowskip=-15pt,aboveskip=0pt]{caption}
 \renewcommand{\thefigure}{\arabic{figure}}
 \renewcommand{\thetable}{\arabic{table}}
@@ -580,7 +587,7 @@ De acuerdo a :
 
 \subsubsection{Población}
 
-Constituida por \poblacion, matriculados en el semestre impar del año 2019. %Los criterios que se considerarán en la selección de la muestra se describen en el Cuadro \ref{apt7}
+Constituida por \poblacion, matriculados en el 2023. %Los criterios que se considerarán en la selección de la muestra se describen en el Cuadro \ref{apt7}
 
 
 \begin{table}[ht!]
@@ -597,7 +604,7 @@ Población&Aptos&No aptos\\\midrule
 \end{table}
 
 
-De acuerdo a \cite{inv1}, la población o universo es el agregado de todos los casos que concuerdan con determinadas descripciones o características, es decir es un conjunto de elementos que tiene al menos una misma característica que pueden ser medidos cuantitativamente o cualitativamente.
+De acuerdo a \cite{zacarias_metodologiinvestigacion_2020}, la población o universo es el agregado de todos los casos que concuerdan con determinadas descripciones o características, es decir es un conjunto de elementos que tiene al menos una misma característica que pueden ser medidos cuantitativamente o cualitativamente.
 
 \subsubsection{Muestra}
 
@@ -629,7 +636,7 @@ Según \cite{paz_metodologiinvestigacion_2014} el método de observación es el 
 \paragraph{Experimental} Técnica que permitió aplicar los módulos de experimentación de la variable \variablei.
 
 
-{Según \cite{khotari} el método de observación es el método más utilizado, especialmente en estudios relacionados con ciencias. La observación se convierte en una herramienta científica y en el método de recolección de datos para el investigador, cuando sirve a un propósito de investigación formulado, se planifica y registra sistemáticamente y se somete a controles de validez y fiabilidad.}
+{Según \cite{kothari_research_2004} el método de observación es el método más utilizado, especialmente en estudios relacionados con ciencias. La observación se convierte en una herramienta científica y en el método de recolección de datos para el investigador, cuando sirve a un propósito de investigación formulado, se planifica y registra sistemáticamente y se somete a controles de validez y fiabilidad.}
 
 \subsubsection{Instrumento de recolección de datos}
 
@@ -678,30 +685,11 @@ Las competencias y sus valoraciones cualitativas y cuantitativas se describen en
 \end{tabular}
 \end{table}
 
-%%  Es la forma de justipreciar las destrezas, conductas, contenidos, procurando un visto bueno, puntaje, calificativos o un concepto, este actúa como un dispositivo de revisión durante el proceso de enseñanza de ciertos indicadores establecidos y la exploración del efecto.
-%%Se emplea, generalmente, para observar la conducta de los observados.
-%%
-%%
-%%
-%%Por \cite{inv1}, enuncia. Es un instrumento de medición cuyo propósito es que el estudiante demuestre la adquisición de un aprendizaje cognoscitivo, el dominio de una destreza o el desarrollo progresivo de una habilidad. Por su naturaleza, requiere respuesta escrita por parte del estudiante.
-%
-%\paragraph{Módulos de experimentación} Módulos que permitirán elaborar los materiales de aplicación de la variable \MakeTextLowercase{\variablei} con el objetivo de generar el \MakeTextLowercase{\variabled}. El plan experimentación se muestra en el Anexo 7.
-%
-%
-%
-%
-%%Los indicadores que conforman la estructura de la Lista de cotejo
-%%se obtuvieron a partir de la operacionalización de la variable
-%%dependiente, siendo las posibilidades de sus respuestas: No, A veces y Sí.
-%%Aplicado por los investigadores en las sesiones de aprendizajes y
-%%con los resultados.
-%
-%
-
 \subsection{Tratamiento estadístico de los datos}
 Con el objetivo de procesar adecuadamente los datos y sacar conclusiones confiables, se utiliza  las siguientes estadísticas.
  
 \subsubsection{La estadística descriptiva} Esta estadística se utiliza en el estudio  del comportamiento de los datos, para inferir conclusiones relativas de nuestras variables y la relación entre ellas.  
+
 \begin{enumerate}
 \item Tendencia central (media, mediana y moda),
 \item dispersión o variabilidad (desviación estándar, la varianza y la regresión estándar),
@@ -713,20 +701,20 @@ Con el objetivo de procesar adecuadamente los datos y sacar conclusiones confiab
 
 Cabe mencionar que se hará uso del software R Sweave y Excel para el procesamiento de los datos.
 
-%\subsubsection{Validación de instrumentos}
-%Consistirá en validar el contenido del instrumento por el criterio de jueces o expertos (con maestría o doctorado), quienes verificarán y evaluarán la coherencia y secuencialidad de los instrumentos.
-%
-%
-%
-%La opinión de los expertos consultados permitirá establecer la validez de los instrumentos que se empleará en la investigación. La validez se establecerá mediante el método del juicio de expertos.
-%
-%
-%
-%\begin{adjustwidth}{1cm}{}\gggl
-%\emph{La validez, en términos generales, se refiere al grado en que un instrumento mide
-%realmente la variable que pretende medir. Por ejemplo, un instrumento válido para medir la inteligencia debe medir la inteligencia y no la memoria. Un método para medir
-%el rendimiento bursátil tiene que medir precisamente esto y no la imagen de una empresa. Un ejemplo aunque muy obvio de completa invalidez sería intentar medir el peso de los objetos con una cinta métrica en lugar de con una báscula.} \cite[p.~200]{inv1}
-%\end{adjustwidth}
+\subsubsection{Validación de instrumentos}
+Consistirá en validar el contenido del instrumento por el criterio de jueces o expertos (con maestría o doctorado), quienes verificarán y evaluarán la coherencia y secuencialidad de los instrumentos.
+
+
+
+La opinión de los expertos consultados permitirá establecer la validez de los instrumentos que se empleará en la investigación. La validez se establecerá mediante el método del juicio de expertos.
+
+
+
+\begin{adjustwidth}{1cm}{}
+\emph{La validez, en términos generales, se refiere al grado en que un instrumento mide
+realmente la variable que pretende medir. Por ejemplo, un instrumento válido para medir la inteligencia debe medir la inteligencia y no la memoria. Un método para medir
+el rendimiento bursátil tiene que medir precisamente esto y no la imagen de una empresa. Un ejemplo aunque muy obvio de completa invalidez sería intentar medir el peso de los objetos con una cinta métrica en lugar de con una báscula.} \cite[p.~200]{inv1}
+\end{adjustwidth}
 
 \subsection{Procedimientos}
 \subsection{Estadísticos descriptivos}
@@ -885,8 +873,8 @@ Temporalización-cronograma de acciones refiérase al Cuadro \ref{cronog}.
 %\bottomrule
 %\end{spreadtab}
 %\end{table}
-
-\renewcommand{\bibname}{REFERENCIAS BIBLIOGRÁFICAS}
+\section{REFERENCIAS}
+%\renewcommand{\bibname}{REFERENCIAS BIBLIOGRÁFICAS}
 \bibliographystyle{apacite}
 \bibliography{une}
 
