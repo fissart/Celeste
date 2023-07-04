@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.7.4)  4 JUL 2023 09:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.7.4)  4 JUL 2023 12:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -30930,6 +30930,325 @@ Overfull \hbox (3116.36317pt too wide) in paragraph at lines 365--366
  []
 
 Missing character: There is no [ in font nullfont!
+\citation{yupanqui_flujos_2019}
+! Undefined control sequence.
+<write> ...: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.367 \cite{yupanqui_flujos_2019}
+                                  en su tesis ``\usebibentry{yupanqui_flujos...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `yupanqui_flujos_2019' on page  undefined on input line
+ 367.
+
+Missing character: There is no ] in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no ` in font nullfont!
+Missing character: There is no ` in font nullfont!
+! Undefined control sequence.
+l.367 ...i_flujos_2019} en su tesis ``\usebibentry
+                                                  {yupanqui_flujos_2019}{tit...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no y in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no q in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no i in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.367 ...019} en su tesis ``\usebibentry{yupanqui_
+                                                  flujos_2019}{title}'', En ...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.367 ...esis ``\usebibentry{yupanqui_flujos_2019}
+                                                  {title}'', En conclusión,...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 367.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 367.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.367 ...nqui_flujos_2019}{title}'', En conclusió
+                                                  n, el estudio realizado mo...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+! Missing { inserted.
+<to be read again> 
+                   \edef 
+l.367 ...nqui_flujos_2019}{title}'', En conclusió
+                                                  n, el estudio realizado mo...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 367.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.367 ...conclusión, el estudio realizado mostró
+                                                   que la caricatura políti...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 367.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.367 ...realizado mostró que la caricatura polí
+                                                  tica fue capaz de resistir...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+! Missing { inserted.
+<to be read again> 
+                   \begingroup 
+l.367 ...realizado mostró que la caricatura polí
+                                                  tica fue capaz de resistir...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+
+LaTeX Warning: Command \i invalid in math mode on input line 367.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 367.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.367 ...apaz de resistir y adaptarse a la tensió
+                                                  n generada por el conflict...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 367.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.367 ... por el conflicto armado interno en Perú
+                                                  . La caricatura fue utiliz...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 367.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.367 ...ra fue utilizada como una herramienta má
+                                                  s para transmitir informac...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 367.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.367 ...ramienta más para transmitir informació
+                                                  n, criticar y denunciar, p...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 367.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.367 ...ción, criticar y denunciar, pero tambié
+                                                  n mostró momentos de indi...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 367.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.367 ...iticar y denunciar, pero también mostró
+                                                   momentos de indiferencia ...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 367.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.367 ...s estructurales del conflicto. En los añ
+                                                  os finales de la década d...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 367.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.367 ...conflicto. En los años finales de la dé
+                                                  cada de los ochenta, la ca...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 367.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.367 ...�cada de los ochenta, la caricatura polí
+                                                  tica se volvió más lacó...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+! Missing { inserted.
+<to be read again> 
+                   \begingroup 
+l.367 ...�cada de los ochenta, la caricatura polí
+                                                  tica se volvió más lacó...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+
+LaTeX Warning: Command \i invalid in math mode on input line 367.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 367.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.367 ...henta, la caricatura política se volvió
+                                                   más lacónica y menos pr...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 367.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.367 ...a, la caricatura política se volvió má
+                                                  s lacónica y menos proact...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 367.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.367 ...aricatura política se volvió más lacó
+                                                  nica y menos proactiva.
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.368 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.368 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.368 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.368 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (25.43053pt too wide) in paragraph at lines 367--368
+[][]
+ []
+
+
+Overfull \hbox (2123.64827pt too wide) in paragraph at lines 367--368
+[]\OML/cmm/m/it/10 lujos[]\/cmr/m/n/10 019[][]\OML/cmm/m/it/10 ; Enconclusi[]$ 
+
+ []
+
+Missing character: There is no [ in font nullfont!
 \citation{taipe_herreras_construccion_2015}
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
@@ -48542,9 +48861,9 @@ Overfull \hbox (102.31715pt too wide) detected at line 745
 Here is how much of TeX's memory you used:
  71 strings out of 480185
  873 string characters out of 5894214
- 416193 words of memory out of 5000000
+ 419109 words of memory out of 5000000
  18117 multiletter control sequences out of 15000+600000
  470248 words of font info for 31 fonts, out of 8000000 for 9000
  40 hyphenation exceptions out of 8191
- 25i,9n,32p,1553b,241s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 25i,9n,32p,1553b,251s stack positions out of 5000i,500n,10000p,200000b,80000s
 !  ==> Fatal error occurred, no output PDF file produced!

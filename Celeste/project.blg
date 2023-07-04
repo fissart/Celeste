@@ -13,50 +13,50 @@ Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: une.bib
 Warning--I didn't find a database entry for "radford2017ensenanza"
-Warning--I didn't find a database entry for "lenguaje"
+Warning--I didn't find a database entry for "kumar"
 Warning--I didn't find a database entry for "bernal"
 Warning--I didn't find a database entry for "inv1"
 Warning--I didn't find a database entry for "khotari"
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
-You've used 13 entries,
+You've used 16 entries,
             6951 wiz_defined-function locations,
-            1357 strings with 14307 characters,
-and the built_in function-call counts, 27550 in all, are:
-= -- 3430
-> -- 144
-< -- 1565
-+ -- 1585
-- -- 26
-* -- 1865
-:= -- 5663
-add.period$ -- 52
-call.type$ -- 13
-change.case$ -- 225
+            1377 strings with 14933 characters,
+and the built_in function-call counts, 33121 in all, are:
+= -- 4114
+> -- 184
+< -- 1849
++ -- 1863
+- -- 32
+* -- 2207
+:= -- 6695
+add.period$ -- 64
+call.type$ -- 16
+change.case$ -- 280
 chr.to.int$ -- 0
-cite$ -- 26
-duplicate$ -- 542
-empty$ -- 974
-format.name$ -- 215
-if$ -- 4965
+cite$ -- 32
+duplicate$ -- 684
+empty$ -- 1208
+format.name$ -- 275
+if$ -- 6034
 int.to.chr$ -- 0
-int.to.str$ -- 39
+int.to.str$ -- 48
 missing$ -- 0
-newline$ -- 334
-num.names$ -- 106
-pop$ -- 411
+newline$ -- 413
+num.names$ -- 131
+pop$ -- 538
 preamble$ -- 1
-purify$ -- 56
+purify$ -- 72
 quote$ -- 0
-skip$ -- 1670
+skip$ -- 2006
 stack$ -- 0
-substring$ -- 1688
-swap$ -- 308
-text.length$ -- 30
+substring$ -- 1990
+swap$ -- 370
+text.length$ -- 40
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 1168
+type$ -- 1408
 warning$ -- 0
-while$ -- 77
+while$ -- 103
 width$ -- 0
-write$ -- 371
+write$ -- 463
 (There were 5 warnings)

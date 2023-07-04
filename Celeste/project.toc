@@ -47,95 +47,95 @@
 \addvspace {0.5em plus 0.015emminus 0.015em}
 \contentsline {subsubsection}{\numberline {3.2.1}Contexto de la investigación}{13}{}%
 \addvspace {0.5em plus 0.015emminus 0.015em}
-\contentsline {subsubsection}{\numberline {3.2.2}{{Caricatura}}\xspace }{14}{}%
+\contentsline {subsubsection}{\numberline {3.2.2}{{Caricatura}}\xspace }{13}{}%
 \addvspace {0.5em plus 0.015emminus 0.015em}
 \contentsline {subsubsection}{\numberline {3.2.3}{{Comunicación asertiva}}\xspace }{16}{}%
 \addvspace {0.5em plus 0.015emminus 0.015em}
 \contentsline {subsection}{\numberline {3.3}Definiciones de términos básicos}{17}{}%
 \addvspace {-0.2em plus 0.015emminus 0.015em}
-\contentsline {section}{\numberline {IV}HIPÓTESIS}{18}{}%
+\contentsline {section}{\numberline {IV}HIPÓTESIS}{20}{}%
 \addvspace {0.5em plus 0.015emminus 0.015em}
-\contentsline {subsection}{\numberline {4.1}Hipótesis}{18}{}%
+\contentsline {subsection}{\numberline {4.1}Hipótesis}{20}{}%
 \addvspace {0.5em plus 0.015emminus 0.015em}
-\contentsline {subsubsection}{\numberline {4.1.1}Hipótesis principal}{18}{}%
+\contentsline {subsubsection}{\numberline {4.1.1}Hipótesis principal}{20}{}%
 \addvspace {0.5em plus 0.015emminus 0.015em}
-\contentsline {subsubsection}{\numberline {4.1.2}Hipótesis específicas}{18}{}%
+\contentsline {subsubsection}{\numberline {4.1.2}Hipótesis específicas}{20}{}%
 \addvspace {-0.2em plus 0.015emminus 0.015em}
-\contentsline {section}{\numberline {V}DEFINICIÓN CONCEPTUAL Y OPERACIONALIZACÍÓN DE VARIABLES }{18}{}%
+\contentsline {section}{\numberline {V}DEFINICIÓN CONCEPTUAL Y OPERACIONALIZACÍÓN DE VARIABLES }{20}{}%
 \addvspace {0.5em plus 0.015emminus 0.015em}
-\contentsline {subsubsection}{\numberline {5.0.1}Definición conceptual de variables}{19}{}%
+\contentsline {subsubsection}{\numberline {5.0.1}Definición conceptual de variables}{20}{}%
 \addvspace {0.5em plus 0.015emminus 0.015em}
-\contentsline {subsubsection}{\numberline {5.0.2}Operacionalización de variables}{20}{}%
+\contentsline {subsubsection}{\numberline {5.0.2}Operacionalización de variables}{21}{}%
 \addvspace {-0.2em plus 0.015emminus 0.015em}
-\contentsline {section}{\numberline {VI}ASPECTO METODOLÓGICO}{21}{}%
+\contentsline {section}{\numberline {VI}ASPECTO METODOLÓGICO}{22}{}%
 \addvspace {0.5em plus 0.015emminus 0.015em}
-\contentsline {subsection}{\numberline {6.1}Enfoque de la investigación}{21}{}%
+\contentsline {subsection}{\numberline {6.1}Enfoque de la investigación}{22}{}%
 \addvspace {0.5em plus 0.015emminus 0.015em}
-\contentsline {subsection}{\numberline {6.2}Método de investigación}{21}{}%
+\contentsline {subsection}{\numberline {6.2}Método de investigación}{23}{}%
 \addvspace {0.5em plus 0.015emminus 0.015em}
-\contentsline {subsection}{\numberline {6.3}Tipo de investigación}{21}{}%
+\contentsline {subsection}{\numberline {6.3}Tipo de investigación}{23}{}%
 \addvspace {0.5em plus 0.015emminus 0.015em}
-\contentsline {subsection}{\numberline {6.4}Diseño de investigación}{22}{}%
+\contentsline {subsection}{\numberline {6.4}Diseño de investigación}{23}{}%
 \addvspace {0.5em plus 0.015emminus 0.015em}
-\contentsline {subsection}{\numberline {6.5}Población y muestra}{23}{}%
+\contentsline {subsection}{\numberline {6.5}Población y muestra}{24}{}%
 \addvspace {0.5em plus 0.015emminus 0.015em}
-\contentsline {subsubsection}{\numberline {6.5.1}Población}{23}{}%
+\contentsline {subsubsection}{\numberline {6.5.1}Población}{24}{}%
 \addvspace {0.5em plus 0.015emminus 0.015em}
-\contentsline {subsubsection}{\numberline {6.5.2}Muestra}{23}{}%
+\contentsline {subsubsection}{\numberline {6.5.2}Muestra}{24}{}%
 \addvspace {0.5em plus 0.015emminus 0.015em}
-\contentsline {subsubsection}{\numberline {6.5.3}Muestreo}{23}{}%
+\contentsline {subsubsection}{\numberline {6.5.3}Muestreo}{25}{}%
 \addvspace {0.5em plus 0.015emminus 0.015em}
-\contentsline {subsection}{\numberline {6.6}Técnicas e instrumentos de recolección de datos}{23}{}%
+\contentsline {subsection}{\numberline {6.6}Técnicas e instrumentos de recolección de datos}{25}{}%
 \addvspace {0.5em plus 0.015emminus 0.015em}
-\contentsline {subsubsection}{\numberline {6.6.1}Técnica de recolección de datos}{23}{}%
-\contentsline {paragraph}{Observación}{23}{}%
-\contentsline {paragraph}{Prueba pedagógica}{24}{}%
-\contentsline {paragraph}{Experimental}{24}{}%
+\contentsline {subsubsection}{\numberline {6.6.1}Técnica de recolección de datos}{25}{}%
+\contentsline {paragraph}{Observación}{25}{}%
+\contentsline {paragraph}{Prueba pedagógica}{25}{}%
+\contentsline {paragraph}{Experimental}{25}{}%
 \addvspace {0.5em plus 0.015emminus 0.015em}
-\contentsline {subsubsection}{\numberline {6.6.2}Instrumento de recolección de datos}{24}{}%
-\contentsline {paragraph}{Plan de experimentación.}{24}{}%
-\contentsline {paragraph}{La ficha de observación}{24}{}%
-\contentsline {paragraph}{La ficha de opinión}{24}{}%
-\contentsline {paragraph}{Prueba escrita}{25}{}%
+\contentsline {subsubsection}{\numberline {6.6.2}Instrumento de recolección de datos}{26}{}%
+\contentsline {paragraph}{Plan de experimentación.}{26}{}%
+\contentsline {paragraph}{La ficha de observación}{26}{}%
+\contentsline {paragraph}{La ficha de opinión}{26}{}%
+\contentsline {paragraph}{Prueba escrita}{26}{}%
 \addvspace {0.5em plus 0.015emminus 0.015em}
-\contentsline {subsection}{\numberline {6.7}Tratamiento estadístico de los datos}{25}{}%
+\contentsline {subsection}{\numberline {6.7}Tratamiento estadístico de los datos}{26}{}%
 \addvspace {0.5em plus 0.015emminus 0.015em}
-\contentsline {subsubsection}{\numberline {6.7.1}La estadística descriptiva}{25}{}%
+\contentsline {subsubsection}{\numberline {6.7.1}La estadística descriptiva}{26}{}%
 \addvspace {0.5em plus 0.015emminus 0.015em}
-\contentsline {subsubsection}{\numberline {6.7.2}La estadística inferencial}{25}{}%
+\contentsline {subsubsection}{\numberline {6.7.2}La estadística inferencial}{27}{}%
 \addvspace {0.5em plus 0.015emminus 0.015em}
-\contentsline {subsection}{\numberline {6.8}Procedimientos}{25}{}%
+\contentsline {subsection}{\numberline {6.8}Procedimientos}{27}{}%
 \addvspace {0.5em plus 0.015emminus 0.015em}
-\contentsline {subsection}{\numberline {6.9}Estadísticos descriptivos}{25}{}%
+\contentsline {subsection}{\numberline {6.9}Estadísticos descriptivos}{27}{}%
 \addvspace {0.5em plus 0.015emminus 0.015em}
-\contentsline {subsection}{\numberline {6.10}Estadísticos inferenciales}{25}{}%
+\contentsline {subsection}{\numberline {6.10}Estadísticos inferenciales}{27}{}%
 \addvspace {-0.2em plus 0.015emminus 0.015em}
-\contentsline {section}{\numberline {VII}ASPECTO ADMINISTRATIVO}{27}{}%
+\contentsline {section}{\numberline {VII}ASPECTO ADMINISTRATIVO}{28}{}%
 \addvspace {0.5em plus 0.015emminus 0.015em}
-\contentsline {subsection}{\numberline {7.1}Recursos}{27}{}%
+\contentsline {subsection}{\numberline {7.1}Recursos}{28}{}%
 \addvspace {0.5em plus 0.015emminus 0.015em}
-\contentsline {subsubsection}{\numberline {7.1.1}Recursos humanos}{27}{}%
+\contentsline {subsubsection}{\numberline {7.1.1}Recursos humanos}{28}{}%
 \addvspace {0.5em plus 0.015emminus 0.015em}
-\contentsline {subsubsection}{\numberline {7.1.2}Recursos materiales}{27}{}%
+\contentsline {subsubsection}{\numberline {7.1.2}Recursos materiales}{29}{}%
 \addvspace {0.5em plus 0.015emminus 0.015em}
-\contentsline {subsubsection}{\numberline {7.1.3}Recursos financieros}{27}{}%
+\contentsline {subsubsection}{\numberline {7.1.3}Recursos financieros}{29}{}%
 \addvspace {0.5em plus 0.015emminus 0.015em}
-\contentsline {subsection}{\numberline {7.2}Presupuesto}{27}{}%
+\contentsline {subsection}{\numberline {7.2}Presupuesto}{29}{}%
 \addvspace {0.5em plus 0.015emminus 0.015em}
-\contentsline {subsection}{\numberline {7.3}Cronograma de actividades}{27}{}%
+\contentsline {subsection}{\numberline {7.3}Cronograma de actividades}{29}{}%
 \addvspace {-0.2em plus 0.015emminus 0.015em}
-\contentsline {section}{\numberline {VIII}Referencias}{28}{}%
+\contentsline {section}{\numberline {VIII}Referencias}{29}{}%
 \addvspace {-0.2em plus 0.015emminus 0.015em}
-\contentsline {section}{ACRÓNIMOS}{29}{}%
+\contentsline {section}{ACRÓNIMOS}{31}{}%
 \addvspace {-0.2em plus 0.015emminus 0.015em}
 \contentsline {section}{SÍMBOLOS}{I}{}%
 \addvspace {-0.2em plus 0.015emminus 0.015em}
-\contentsline {section}{APÉNDICES}{II}{}%
+\contentsline {section}{APÉNDICES}{I}{}%
 \addvspace {0.5em plus 0.015emminus 0.015em}
-\contentsline {subsection}{\numberline {A}Ficha técnica de la investigación }{II}{}%
+\contentsline {subsection}{\numberline {A}Ficha técnica de la investigación }{I}{}%
 \addvspace {0.5em plus 0.015emminus 0.015em}
-\contentsline {subsection}{\numberline {B}Matriz de consistencia}{VI}{}%
+\contentsline {subsection}{\numberline {B}Matriz de consistencia}{V}{}%
 \addvspace {0.5em plus 0.015emminus 0.015em}
-\contentsline {subsection}{\numberline {C}Matriz de instrumentos de la variable \MakeTextLowercase {{{Caricatura}}\xspace } }{VII}{}%
+\contentsline {subsection}{\numberline {C}Matriz de instrumentos de la variable \MakeTextLowercase {{{Caricatura}}\xspace } }{VI}{}%
 \addvspace {0.5em plus 0.015emminus 0.015em}
-\contentsline {subsection}{\numberline {D}Matriz de instrumentos de la variable \MakeTextLowercase {{{Comunicación asertiva}}\xspace } }{VIII}{}%
+\contentsline {subsection}{\numberline {D}Matriz de instrumentos de la variable \MakeTextLowercase {{{Comunicación asertiva}}\xspace } }{VII}{}%
