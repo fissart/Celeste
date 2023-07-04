@@ -26,39 +26,6 @@ Alzina, R\BPBI B.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Auccapuclla~Maccerhua%
-}{%
-Auccapuclla~Maccerhua%
-}{%
-{\protect \APACyear {2015}}%
-}]{%
-auccapuclla_maccerhua_caricaturas_2015}
-\APACinsertmetastar {%
-auccapuclla_maccerhua_caricaturas_2015}%
-\begin{APACrefauthors}%
-Auccapuclla~Maccerhua, L.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2015}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Caricaturas políticas de los diarios "{La}
-  {República}" y "{Correo}"; durante las elecciones regionales y municipales
-  2014.} {Caricaturas políticas de los diarios "{La} {República}" y
-  "{Correo}"; durante las elecciones regionales y municipales 2014.}{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Universidad Nacional de San Cristóbal de
-  Huamanga}{}{}{}.
-\newblock
-\begin{APACrefURL}
-  [{2023-07-01}]\url{http://repositorio.unsch.edu.pe/handle/UNSCH/2917}
-  \end{APACrefURL}
-\newblock
-\APACrefnote{Accepted: 2019-02-28T20:03:11Z Publisher: Universidad Nacional de
-  San Cristóbal de Huamanga}
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
 Berrocal~Vivanco%
 }{%
 Berrocal~Vivanco%
@@ -69,7 +36,7 @@ berrocal_vivanco_representacion_2015}
 \APACinsertmetastar {%
 berrocal_vivanco_representacion_2015}%
 \begin{APACrefauthors}%
-Berrocal~Vivanco, �.%
+Berrocal~Vivanco, A.%
 \end{APACrefauthors}%
 \unskip\
 \newblock

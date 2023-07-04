@@ -18,45 +18,45 @@ Warning--I didn't find a database entry for "bernal"
 Warning--I didn't find a database entry for "inv1"
 Warning--I didn't find a database entry for "khotari"
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
-You've used 14 entries,
+You've used 13 entries,
             6951 wiz_defined-function locations,
-            1362 strings with 14639 characters,
-and the built_in function-call counts, 29682 in all, are:
-= -- 3684
-> -- 154
-< -- 1704
-+ -- 1710
-- -- 28
-* -- 2019
-:= -- 6121
-add.period$ -- 56
-call.type$ -- 14
-change.case$ -- 242
+            1357 strings with 14307 characters,
+and the built_in function-call counts, 27550 in all, are:
+= -- 3430
+> -- 144
+< -- 1565
++ -- 1585
+- -- 26
+* -- 1865
+:= -- 5663
+add.period$ -- 52
+call.type$ -- 13
+change.case$ -- 225
 chr.to.int$ -- 0
-cite$ -- 28
-duplicate$ -- 583
-empty$ -- 1048
-format.name$ -- 229
-if$ -- 5342
+cite$ -- 26
+duplicate$ -- 542
+empty$ -- 974
+format.name$ -- 215
+if$ -- 4965
 int.to.chr$ -- 0
-int.to.str$ -- 42
+int.to.str$ -- 39
 missing$ -- 0
-newline$ -- 360
-num.names$ -- 114
-pop$ -- 435
+newline$ -- 334
+num.names$ -- 106
+pop$ -- 411
 preamble$ -- 1
-purify$ -- 60
+purify$ -- 56
 quote$ -- 0
-skip$ -- 1798
+skip$ -- 1670
 stack$ -- 0
-substring$ -- 1818
-swap$ -- 330
-text.length$ -- 32
+substring$ -- 1688
+swap$ -- 308
+text.length$ -- 30
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 1248
+type$ -- 1168
 warning$ -- 0
-while$ -- 82
+while$ -- 77
 width$ -- 0
-write$ -- 399
+write$ -- 371
 (There were 5 warnings)
