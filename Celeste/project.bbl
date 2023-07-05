@@ -96,6 +96,39 @@ Bravo~Quezada, R\BPBI L.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Cañas%
+\ \BBA {} Hernández%
+}{%
+Cañas%
+\ \BBA {} Hernández%
+}{%
+{\protect \APACyear {2019}}%
+}]{%
+canas_comunicacion_2019}
+\APACinsertmetastar {%
+canas_comunicacion_2019}%
+\begin{APACrefauthors}%
+Cañas, D\BPBI C.%
+\BCBT {}\ \BBA {} Hernández, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2019}{{\APACmonth{09}}}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Comunicación asertiva en profesores: diagnóstico y
+  propuesta educativa} {Comunicación asertiva en profesores: diagnóstico y
+  propuesta educativa}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Praxis \& Saber}{10}{24}{143--165}.
+\newblock
+\begin{APACrefURL}
+  [{2023-07-01}]\url{https://revistas.uptc.edu.co/index.php/praxis_saber/article/view/8936}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.19053/22160159.v10.n25.2019.8936} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Félix~Seras%
 }{%
 Félix~Seras%
@@ -233,6 +266,43 @@ Kothari, C\BPBI R.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Lachira~Estrada%
+, Luján~Vera%
+, Mogollón~Taboada%
+\BCBL {}\ \BBA {} Silva~Juárez%
+}{%
+Lachira~Estrada%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2020}}%
+}]{%
+lachira_estrada_comunicacion_2020}
+\APACinsertmetastar {%
+lachira_estrada_comunicacion_2020}%
+\begin{APACrefauthors}%
+Lachira~Estrada, D\BPBI S.%
+, Luján~Vera, P\BPBI E.%
+, Mogollón~Taboada, M\BPBI M.%
+\BCBL {}\ \BBA {} Silva~Juárez, R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{{\APACmonth{08}}}{}.
+\newblock
+{\BBOQ}\APACrefatitle {La comunicación asertiva: una estrategia para
+  desarrollar las relaciones interpersonales} {La comunicación asertiva: una
+  estrategia para desarrollar las relaciones interpersonales}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Revista Latinoamericana de Difusión Científica}{}{Vol
+  2 Núm 3}{72--82}.
+\newblock
+\begin{APACrefURL}
+  [{2023-07-01}]\url{http://www.difusioncientifica.info/index.php/difusioncientifica/article/view/18/20}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.38186/difcie.23.06} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Muñoz%
 \ \BBA {} Germán%
 }{%
@@ -288,6 +358,30 @@ Paz, G\BPBI M\BPBI E\BPBI B.%
 \APACaddressPublisher{}{Grupo Editorial Patria}.
 \newblock
 \APACrefnote{Google-Books-ID: 6aCEBgAAQBAJ}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Plaza%
+}{%
+Plaza%
+}{%
+{\protect \APACyear {2015}}%
+}]{%
+plaza_inteligencia_2015}
+\APACinsertmetastar {%
+plaza_inteligencia_2015}%
+\begin{APACrefauthors}%
+Plaza, J\BPBI D\BPBI l.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2015}.
+\newblock
+\APACrefbtitle {Inteligencia asertiva} {Inteligencia asertiva}.
+\newblock
+\APACaddressPublisher{}{Zig-Zag}.
+\newblock
+\APACrefnote{Google-Books-ID: wJPFDwAAQBAJ}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%

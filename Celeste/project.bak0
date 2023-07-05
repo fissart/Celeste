@@ -183,27 +183,27 @@
 \pagenumbering{roman}
 \thispagestyle{empty}
 
-{\normalsize\centering\thispagestyle{empty} MINISTERIO DE EDUCACIÓN{}\\  SUPERINTENDENCIA NACIONAL DE EDUCACIÓN SUPERIOR UNIVERSITARIA (SUNEDU)\\ \vspace{0.65cm}
-
-{\large ESCUELA SUPERIOR DE FORMACIÓN ARTÍSTICA PÚBLICA\\ ``FELIPE GUAMÁN POMA DE AYALA''}\\  {\scriptsize CON NIVEL UNIVERSITARIO: LEY 30220}\\
-\vspace{0.65cm}  \includegraphics[height=6.5cm]{logo}\\
-\vspace{0.65cm}  {\large TÍTULO}\\
-\vspace{0.65cm}
-\MakeUppercase{\Large\titulo}\\
-\vspace{0.65cm}   {\large PRESENTADO POR \\
-	\vspace{0.65cm}  \autor}\\
-\vspace{0.65cm} \large TPROYECTO DE INVESTIGACIÓN PARA OPTAR EL TÍTULO PROFESIONAL DE LICENCIADA EN EDUCACIÓN ARTÍSTICA\\
-\vspace{0.3cm}  ESPECIALIDAD DE ARTES PLÁSTICAS\\
-\vspace{0.3cm}  AYACUCHO -- PERÚ\\
-\vfill
-{ 2023}
-
+	{\normalsize\centering\thispagestyle{empty} MINISTERIO DE EDUCACIÓN{}\\  SUPERINTENDENCIA NACIONAL DE EDUCACIÓN SUPERIOR UNIVERSITARIA (SUNEDU)\\ \vspace{0.65cm}
+	
+	{\large ESCUELA SUPERIOR DE FORMACIÓN ARTÍSTICA PÚBLICA\\ ``FELIPE GUAMÁN POMA DE AYALA''}\\  {\scriptsize CON NIVEL UNIVERSITARIO: LEY 30220}\\
+	\vspace{0.65cm}  \includegraphics[height=6.5cm]{logo}\\
+	\vspace{0.65cm}  {\large TÍTULO}\\ 
+	\vspace{0.65cm}   
+	\MakeUppercase{\Large\titulo}\\ 
+	\vspace{0.65cm}   {\large PRESENTADO POR \\ 
+		\vspace{0.65cm}  \autor}\\ 
+	\vspace{0.65cm} \large TPROYECTO DE INVESTIGACIÓN PARA OPTAR EL TÍTULO PROFESIONAL DE LICENCIADA EN EDUCACIÓN ARTÍSTICA\\ 
+	\vspace{0.3cm}  ESPECIALIDAD DE ARTES PLÁSTICAS\\ 
+	\vspace{0.3cm}  AYACUCHO -- PERÚ\\ 
+	\vfill
+	{ 2023}
+	
 }
 
 \newpage{}
 \newpage
 
-\flushbottom
+\flushbottom 
 
 %\renewcommand{\contentsname}{ÍNDICE DE CONTENIDOS}
 %%\addcontentsline{toc}{section}{Índice de contenidos}
@@ -275,7 +275,7 @@ A nivel local, El problema de la comunicación asertiva en los colegios de Ayacu
 	\item  Falta de empatía: La falta de empatía puede dificultar la comprensión y empatía hacia los demás, lo que puede llevar a una comunicación no asertiva.
 	\item  Ambiente inseguro: Un ambiente escolar inseguro puede hacer que los estudiantes se sientan inseguros o temerosos de expresar sus ideas o necesidades de manera asertiva.
 	\item  Falta de enseñanza en habilidades de comunicación: Los colegios pueden no dar suficiente importancia a la enseñanza de habilidades de comunicación asertiva, lo que puede resultar en una falta de conocimiento sobre cómo comunicarse de manera efectiva.
-
+	
 \end{enumerate}
 
 Para abordar este problema, es importante implementar programas y actividades que fomenten la comunicación asertiva en los colegios. Esto puede incluir talleres y sesiones de capacitación en habilidades de comunicación, promover un ambiente seguro y de apoyo para la expresión de ideas y sentimientos, y fomentar la empatía y la comprensión entre los estudiantes. También es esencial involucrar a los profesores y padres en el proceso, asegurándose de que también estén familiarizados con las habilidades de comunicación asertiva y puedan apoyar a los estudiantes en su desarrollo.
@@ -300,10 +300,10 @@ En resumen, las caricaturas son una forma de comunicación efectiva y atractiva,
 \problema.
 \subsubsection{Problemas Específicos}
 \begin{itemize}
-	\item \problemae.
-	\item \problemaee.
-	\item \problemaeee.
-	\item \problemaeeee.
+\item \problemae.
+\item \problemaee.
+\item \problemaeee.
+\item \problemaeeee.
 \end{itemize}
 
 %\subsection{Importancia y alcances de la investigación}
@@ -386,19 +386,19 @@ En resumen, la caricatura es una forma de comunicación práctica y efectiva, qu
 Los objetivos de la investigación se refieren a las metas o propósitos que se pretenden alcanzar a través de la realización del estudio. Estos pueden variar según la naturaleza de la investigación y los intereses del investigador, pero algunos ejemplos comunes de objetivos de investigación incluyen:
 
 \begin{enumerate}
-	\item  Identificar y describir un problema o fenómeno particular.
-	\item  Determinar las causas o factores que contribuyen a un problema o fenómeno.
-	\item  Explorar y analizar las opiniones, actitudes o comportamientos de un grupo de personas.
-	\item  Evaluar la eficacia o impacto de un programa, política o intervención.
-	\item  Desarrollar y probar una teoría o hipótesis.
-	\item  Generar conocimiento nuevo o contribuir a un área de estudio existente.
-	\item  Comparar y contrastar diferentes enfoques o intervenciones para determinar cuál es el más efectivo.
-	\item  Recopilar datos y obtener una comprensión profunda de un tema o área específica.
-	\item  Proponer recomendaciones o soluciones basadas en los hallazgos de la investigación.
-	\item  Contribuir al avance de la ciencia y el conocimiento en general.
+\item  Identificar y describir un problema o fenómeno particular.
+\item  Determinar las causas o factores que contribuyen a un problema o fenómeno.
+\item  Explorar y analizar las opiniones, actitudes o comportamientos de un grupo de personas.
+\item  Evaluar la eficacia o impacto de un programa, política o intervención.
+\item  Desarrollar y probar una teoría o hipótesis.
+\item  Generar conocimiento nuevo o contribuir a un área de estudio existente.
+\item  Comparar y contrastar diferentes enfoques o intervenciones para determinar cuál es el más efectivo.
+\item  Recopilar datos y obtener una comprensión profunda de un tema o área específica.
+\item  Proponer recomendaciones o soluciones basadas en los hallazgos de la investigación.
+\item  Contribuir al avance de la ciencia y el conocimiento en general.
 \end{enumerate}
 
-Estos son solo algunos ejemplos, y los objetivos de investigación pueden variar ampliamente dependiendo del tema y el contexto específico de la investigación. Es importante que los objetivos sean claros, específicos y alcanzables, lo que permitirá guiar el diseño, la ejecución y la interpretación de los resultados de la investigación.
+Estos son solo algunos ejemplos, y los objetivos de investigación pueden variar ampliamente dependiendo del tema y el contexto específico de la investigación. Es importante que los objetivos sean claros, específicos y alcanzables, lo que permitirá guiar el diseño, la ejecución y la interpretación de los resultados de la investigación. 
 
 \subsubsection{Objetivo general}
 \objetivo.
@@ -421,7 +421,7 @@ Se utilizará la Versión Técnica Comunicacional (VTC) para analizar la frase n
 
 Se analizarán las Marcas de Racionalidad Comunicacional propuestas por ambos personajes animados desde diferentes dimensiones de la comunicación. Además, se aplicarán indicadores de cambio social para evaluar el impacto e influencia de los procesos comunicativos, teniendo en cuenta la transformación social como respuesta a las características socioculturales locales.
 
-El estudio se basará en entrevistas a personas clave involucradas en la creación de ambas caricaturas, con el fin de obtener distintos niveles de análisis, desde el estilo de gobierno de cada administración hasta las fortalezas y debilidades de cada caricatura en términos de comunicación estratégica. Se considerará a la comunicación estratégica como un fenómeno histórico, complejo, situacional y fluido que adopta diferentes configuraciones.
+El estudio se basará en entrevistas a personas clave involucradas en la creación de ambas caricaturas, con el fin de obtener distintos niveles de análisis, desde el estilo de gobierno de cada administración hasta las fortalezas y debilidades de cada caricatura en términos de comunicación estratégica. Se considerará a la comunicación estratégica como un fenómeno histórico, complejo, situacional y fluido que adopta diferentes configuraciones. 
 
 
 \cite{segarra_morocho_caricatura_2021} en la tesis ``\usebibentry{segarra_morocho_caricatura_2021}{title}'', se estudió el sistema narrativo de la caricatura en tres de los principales medios impresos en Ecuador. Se empleó una metodología cualitativa a través del análisis de contenido de las caricaturas publicadas durante los meses de octubre, noviembre y diciembre de 2019.
@@ -439,7 +439,7 @@ El estudio se divide en siete capítulos. El primero aborda el lenguaje en la co
 
 El quinto capítulo se enfoca en la comunicación política a través de la caricatura, y el sexto considera a la caricatura como una expresión artística de comunicación política. Finalmente, el séptimo capítulo comprende el trabajo de campo, que consiste en el análisis de la caricatura en el público lector.
 
-En las conclusiones y recomendaciones se exponen los hallazgos del estudio, así como las sugerencias para futuras investigaciones en el tema. Con esto, se espera contribuir al análisis de la tendencia política de los diarios locales a través de la caricatura como herramienta de comunicación política.
+En las conclusiones y recomendaciones se exponen los hallazgos del estudio, así como las sugerencias para futuras investigaciones en el tema. Con esto, se espera contribuir al análisis de la tendencia política de los diarios locales a través de la caricatura como herramienta de comunicación política. 
 
 
 
@@ -452,12 +452,12 @@ En la tercera parte se analiza la producción de los caricaturistas peruanos Car
 Finalmente, en la última parte se exponen las conclusiones generales de la investigación.
 
 
-\cite{vergel_loo_imagenes_2008} en la tesis ``\usebibentry{vergel_loo_imagenes_2008}{title}'', compara el uso estratégico y comunicativo del personaje animado Don Evaristo durante las administraciones municipales de Rodrigo Paz y Augusto Barrera en Quito. A través de la metodología de la comunicación estratégica propuesta por Sandra Massoni, se analiza cómo esta caricatura se utiliza como una herramienta de comunicación estratégica para promover el cambio social en el entorno urbano. Se utiliza la Versión Técnica Comunicacional para descomponer el problema de comunicación, identificando los componentes, síntomas y consecuencias relacionadas con el espacio público urbano. Se analiza también el papel de los actores implicados en cada componente del problema comunicacional en ambas épocas. Se examinan las Marcas de Racionalidad Comunicacional propuestas por ambos personajes animados, considerando las diferentes dimensiones de la comunicación. Además, se aplican indicadores de cambio social para medir el impacto e influencia de los procesos de comunicación desde una perspectiva transformadora que tenga en cuenta las particularidades socioculturales de la localidad. El estudio se apoya en entrevistas a personas clave involucradas en la creación de ambas caricaturas, proporcionando diferentes niveles de análisis, desde el estilo de gobierno de cada administración hasta las fortalezas y debilidades de cada caricatura en términos de comunicación estratégica.
+\cite{vergel_loo_imagenes_2008} en la tesis ``\usebibentry{vergel_loo_imagenes_2008}{title}'', compara el uso estratégico y comunicativo del personaje animado Don Evaristo durante las administraciones municipales de Rodrigo Paz y Augusto Barrera en Quito. A través de la metodología de la comunicación estratégica propuesta por Sandra Massoni, se analiza cómo esta caricatura se utiliza como una herramienta de comunicación estratégica para promover el cambio social en el entorno urbano. Se utiliza la Versión Técnica Comunicacional para descomponer el problema de comunicación, identificando los componentes, síntomas y consecuencias relacionadas con el espacio público urbano. Se analiza también el papel de los actores implicados en cada componente del problema comunicacional en ambas épocas. Se examinan las Marcas de Racionalidad Comunicacional propuestas por ambos personajes animados, considerando las diferentes dimensiones de la comunicación. Además, se aplican indicadores de cambio social para medir el impacto e influencia de los procesos de comunicación desde una perspectiva transformadora que tenga en cuenta las particularidades socioculturales de la localidad. El estudio se apoya en entrevistas a personas clave involucradas en la creación de ambas caricaturas, proporcionando diferentes niveles de análisis, desde el estilo de gobierno de cada administración hasta las fortalezas y debilidades de cada caricatura en términos de comunicación estratégica.  
 
-\cite{munoz_caricatura_2005} en su tesis ``\usebibentry{munoz_caricatura_2005}{title}'', se centra en el dibujo caricaturesco que se reprodujo y difundió en los medios gráficos masivos. Este género se basa en la deformación de los rasgos del rostro, reducción del cuerpo y la inclusión de objetos para resaltar las características de los personajes. El dibujo privilegia la observación cuidadosa de la estampa y los detalles, ya que una sola imagen debe transmitir toda la información necesaria. Además de la calidad de las obras, el valor de estas caricaturas radica en la cantidad de información que proporcionan sobre efemérides y el contexto en el que se crearon. Este género nos introduce en la experiencia humana a través de formas artísticas, linguísticas, religiosas, etc., y en el ámbito de la cultura política. La deformación de los rasgos humanos en este tipo de arte es una cualidad que solo los dibujantes talentosos pueden lograr, ya que requiere habilidades de las artes plásticas y una capacidad estética para experimentar y juzgar el mundo cotidiano.
+\cite{munoz_caricatura_2005} en su tesis ``\usebibentry{munoz_caricatura_2005}{title}'', se centra en el dibujo caricaturesco que se reprodujo y difundió en los medios gráficos masivos. Este género se basa en la deformación de los rasgos del rostro, reducción del cuerpo y la inclusión de objetos para resaltar las características de los personajes. El dibujo privilegia la observación cuidadosa de la estampa y los detalles, ya que una sola imagen debe transmitir toda la información necesaria. Además de la calidad de las obras, el valor de estas caricaturas radica en la cantidad de información que proporcionan sobre efemérides y el contexto en el que se crearon. Este género nos introduce en la experiencia humana a través de formas artísticas, linguísticas, religiosas, etc., y en el ámbito de la cultura política. La deformación de los rasgos humanos en este tipo de arte es una cualidad que solo los dibujantes talentosos pueden lograr, ya que requiere habilidades de las artes plásticas y una capacidad estética para experimentar y juzgar el mundo cotidiano. 
 
 \subsubsection{Regionales}
-\cite{berrocal_vivanco_representacion_2015} en la tesis ``\usebibentry{berrocal_vivanco_representacion_2015}{title}'', analiza los dibujos de Guamán Poma de Ayala en su memorial Nueva Crónica y Buen Gobierno para demostrar la presencia dominante de la violencia simbólica. Se utilizó un enfoque sociocultural y se aplicaron metodologías de Hermenéutica y Semiología. Se identificaron dos tipos de violencia colonial: explícita y simbólica. Se encontró que la cultura dominante española utiliza la violencia simbólica para someter y empequeñecer a los indígenas, mientras que se representa a los españoles como poderosos y dominantes. La conclusión principal es que en los dibujos se representan la pasión, muerte y resurrección de Cristo para los indígenas, mientras que los españoles se representan como triunfantes y dominantes.
+\cite{berrocal_vivanco_representacion_2015} en la tesis ``\usebibentry{berrocal_vivanco_representacion_2015}{title}'', analiza los dibujos de Guamán Poma de Ayala en su memorial Nueva Crónica y Buen Gobierno para demostrar la presencia dominante de la violencia simbólica. Se utilizó un enfoque sociocultural y se aplicaron metodologías de Hermenéutica y Semiología. Se identificaron dos tipos de violencia colonial: explícita y simbólica. Se encontró que la cultura dominante española utiliza la violencia simbólica para someter y empequeñecer a los indígenas, mientras que se representa a los españoles como poderosos y dominantes. La conclusión principal es que en los dibujos se representan la pasión, muerte y resurrección de Cristo para los indígenas, mientras que los españoles se representan como triunfantes y dominantes. 
 
 \cite{yupanqui_flujos_2019} en su tesis ``\usebibentry{yupanqui_flujos_2019}{title}'', En conclusión, el estudio realizado mostró que la caricatura política fue capaz de resistir y adaptarse a la tensión generada por el conflicto armado interno en Perú. La caricatura fue utilizada como una herramienta más para transmitir información, criticar y denunciar, pero también mostró momentos de indiferencia y falta de compromiso hacia las causas estructurales del conflicto. En los años finales de la década de los ochenta, la caricatura política se volvió más lacónica y menos proactiva.
 
@@ -470,13 +470,13 @@ El análisis hermenéutico permitió interpretar el significado simbólico de la
 
 Por otro lado, el análisis hemerográfico reveló que estas caricaturas son publicadas con frecuencia en los diarios nacionales, lo que demuestra su presencia y alcance en la sociedad peruana. Asimismo, se encontró que estas caricaturas se alejan de los valores morales aceptados por la sociedad, perpetuando la desigualdad de género y la objetificación de la mujer.
 
-En conclusión, este estudio muestra que las caricaturas de corte erótico presentes en los diarios nacionales contribuyen a la construcción de estereotipos de la mujer peruana, promoviendo la cosificación y la discriminación de género. Es importante generar conciencia sobre esta problemática y promover la inclusión y el respeto hacia la mujer en los medios de comunicación.
+En conclusión, este estudio muestra que las caricaturas de corte erótico presentes en los diarios nacionales contribuyen a la construcción de estereotipos de la mujer peruana, promoviendo la cosificación y la discriminación de género. Es importante generar conciencia sobre esta problemática y promover la inclusión y el respeto hacia la mujer en los medios de comunicación. 
 
 \subsection{Bases teóricas}
 \subsubsection{Contexto de la investigación}
 Ayacucho es una ciudad ubicada en los Andes de Perú, conocida por su historia, cultura y arte. Durante la época colonial, la ciudad fue un importante centro de producción artística, destacándose en áreas como la pintura, escultura, arquitectura y artesanía.
 
-En Ayacucho se desarrolló la famosa escuela pictórica conocida como la "Escuela de Ayacucho", la cual produjo una gran cantidad de pinturas religiosas de estilo barroco. Estas obras se caracterizan por su gran detalle, colorido y dramatismo, y se encuentran en numerosas iglesias y conventos de la ciudad. \cite{velasco_historia_2008}
+En Ayacucho se desarrolló la famosa escuela pictórica conocida como la "Escuela de Ayacucho", la cual produjo una gran cantidad de pinturas religiosas de estilo barroco. Estas obras se caracterizan por su gran detalle, colorido y dramatismo, y se encuentran en numerosas iglesias y conventos de la ciudad. \cite{velasco_historia_2008} 
 
 En cuanto a la escultura, Ayacucho destaca por sus imágenes religiosas, talladas en madera o piedra. Estas esculturas son consideradas verdaderas obras de arte, con una gran expresividad y detalle en sus rasgos.
 
@@ -501,9 +501,9 @@ En resumen, las caricaturas son una forma de arte humorístico que utiliza técn
 \noindent\textbf{\dimi}. De acuerdo a \cite{gray_caricaturas_2015}
 son caricaturas que abordan temas relacionados con hechos reales o situaciones cotidianas comunes a los lectores, ya sea de manera simple o compleja. No todas las caricaturas de realidad son críticas, algunas tienen como único propósito hacer reír a los lectores al ridiculizar situaciones comunes, sin darles una mayor trascendencia. Se tiene los indicadores.
 \begin{enumerate}
-	\item  Eventos en el hogar
-	\item  Eventos en el trabajo
-	\item  Eventos  en centros de estudios
+\item  Eventos en el hogar
+\item  Eventos en el trabajo
+\item  Eventos  en centros de estudios
 	\item  Eventos en centro de esparcimiento
 \end{enumerate}
 
@@ -521,10 +521,10 @@ A lo largo de la historia, la caricatura política ha enfrentado censura y repre
 En conclusión, la caricatura política es un medio de comunicación importante que utiliza la sátira y la exageración para abordar temas políticos y sociales. Su poder radica en su capacidad para generar críticas y reflexiones en la opinión pública, convirtiéndola en una herramienta esencial en la construcción de una sociedad informada y participativa. Se tiene los indicadores
 
 \begin{enumerate}
-	\item  Eventos sociales
-	\item  Personajes importantes
-	\item  Representación de protesta
-	\item  Opinión publica
+\item  Eventos sociales
+\item  Personajes importantes
+\item  Representación de protesta
+\item  Opinión publica
 \end{enumerate}
 
 \noindent\textbf{\dimiiii}. Según \cite{gray_caricaturas_2015}	el propósito de la caricatura periodística es transmitir su mensaje de manera efectiva y provocadora, utilizando elementos visuales como la exageración de rasgos físicos y la representación simbólica de personas o ideas. A través de estas representaciones caricaturescas, se busca capturar la atención del lector y generar reflexión sobre la noticia o tema en cuestión.
@@ -534,10 +534,10 @@ En conclusión, la caricatura periodística combina el arte visual y el periodis
 
 
 \begin{enumerate}
-	\item  Temas de actualidad
-	\item  Temas de controversia
-	\item  Escándalos sociales
-	\item  Corrupción social
+\item  Temas de actualidad
+\item  Temas de controversia
+\item  Escándalos sociales
+\item  Corrupción social
 \end{enumerate}
 
 
@@ -550,19 +550,19 @@ Al utilizar una comunicación asertiva, podemos transmitir nuestros pensamientos
 \noindent\textbf{\dimd}. Segun \cite{lachira_estrada_comunicacion_2020} la empatía es la capacidad de ponerse en el lugar de otra persona y comprender cómo se siente. Es la habilidad de entender y responder a las emociones y los sentimientos de los demás, y se considera una habilidad social muy valiosa para crear relaciones saludables y efectivas. La empatía requiere una combinación de atención, comprensión y sensibilidad hacia los demás para poder conectarse con ellos y mostrarles compasión y apoyo.
 
 \begin{enumerate}
-	\item  Comprende al prójimo
-	\item  Entiende emociones
-	\item  Atiende su entorno
-	\item  Compasión y apoyo
+\item  Comprende al prójimo
+\item  Entiende emociones
+\item  Atiende su entorno
+\item  Compasión y apoyo
 \end{enumerate}
 
 \noindent\textbf{\dimdd}. Según \cite{canas_comunicacion_2019},	la asertividad es la capacidad de expresar nuestros pensamientos, opiniones, sentimientos y deseos de forma clara y directa, sin agredir o ser agredidos por los demás. Consiste en ser capaces de defender nuestros derechos y actuar de forma autónoma y responsable, sin caer en la sumisión o la agresividad. La asertividad es una habilidad importante en la comunicación interpersonal y en la resolución de conflictos.
 
 \begin{enumerate}
-	\item Expresa pensamientos claros
-	\item Expresa opinión responsable
-	\item Realiza actos autónomos
-	\item Resolución de conflictos
+\item Expresa pensamientos claros
+\item Expresa opinión responsable
+\item Realiza actos autónomos
+\item Resolución de conflictos
 \end{enumerate}
 \noindent\textbf{\dimddd}. Según \cite{plaza_inteligencia_2015}	La atención es un proceso cognitivo que nos permite enfocar nuestra mente en un estímulo específico o en una tarea determinada, al tiempo que ignoramos o filtramos otras distracciones. Es la capacidad de concentrarse y dirigir los recursos mentales hacia un objetivo o actividad en particular.
 La atención es esencial para el aprendizaje, la memoria, la toma de decisiones y el rendimiento en general. Nos permite procesar la información de manera más eficiente, mejorar la comprensión, retención y aplicación de lo que aprendemos.
@@ -570,20 +570,20 @@ Existen diferentes tipos de atención, como la atención sostenida, que es la ca
 La atención puede verse afectada por diversos factores, como el cansancio, el estrés, la falta de motivación o la presencia de distracciones externas. Es posible mejorar y entrenar la atención a través de técnicas y estrategias como la meditación, la práctica de mindfulness, la organización y planificación, entre otras.
 
 \begin{enumerate}
-	\item Enfoque
-	\item Comprensión
-	\item Retención
-	\item Aplicación
+\item Enfoque
+\item Comprensión
+\item Retención
+\item Aplicación
 \end{enumerate}
 
 \noindent\textbf{\dimdddd}. De acuerdo a \cite{canas_comunicacion_2019} el pensamiento es la capacidad cognitiva y mental de los seres humanos para procesar información, construir ideas, formular juicios, realizar reflexiones y razonar. Es una actividad mental compleja que involucra diversos procesos como la percepción, la memoria, el lenguaje, la atención y la resolución de problemas. El pensamiento puede ser consciente o inconsciente, y se manifiesta a través de diferentes formas como el razonamiento lógico, la imaginación, la intuición, la creatividad y la toma de decisiones. Es la base de la actividad mental y de la construcción del conocimiento.
 
-\begin{enumerate}
-	\item Procesa información
-	\item Construye ideas
-	\item Formula juicios
-	\item Realiza reflexiones
-\end{enumerate}
+	\begin{enumerate}
+\item Procesa información 
+\item Construye ideas
+\item Formula juicios
+\item Realiza reflexiones
+	\end{enumerate}
 \setglossarysection{subsection}\flushbottom \printglossary[numberedsection,nonumberlist,title=Definiciones  de términos básicos]
 
 
@@ -596,21 +596,21 @@ La atención puede verse afectada por diversos factores, como el cansancio, el e
 \section{HIPÓTESIS}
 \subsection{Hipótesis}
 \subsubsection{Hipótesis principal}
-\hipotesis.
+      \hipotesis.
 \subsubsection{Hipótesis específicas}
 \begin{itemize}
-	\item \hipotesise.
-	\item \hipotesisee.
-	\item \hipotesiseee.
-	\item \hipotesiseeee.
+\item \hipotesise.
+\item \hipotesisee.
+\item \hipotesiseee.
+\item \hipotesiseeee.
 \end{itemize}
 
 \section{DEFINICIÓN CONCEPTUAL Y OPERACIONALIZACÍÓN DE VARIABLES }
 %\subsubsection{Operacionalización de variables}
 \begin{itemize}
-	\item \textbf{Variable Independiente} (\variablei)
-	\item \textbf{Variable Dependiente} (\variabled)
-	\item \textbf{Variable Interviniente} (Capacidad artística, interrelación social)
+  \item \textbf{Variable Independiente} (\variablei)
+  \item \textbf{Variable Dependiente} (\variabled)
+  \item \textbf{Variable Interviniente} (Capacidad artística, interrelación social)
 \end{itemize}
 
 \subsubsection{Definición conceptual de variables}
@@ -618,73 +618,73 @@ La atención puede verse afectada por diversos factores, como el cansancio, el e
 Las variables son los conceptos, atributos o propiedades de carácter social o natural, que tienden a variar, a cambiar, a modificar para asumir niveles o escalas. Se caracterizan por ser observables, medibles y cuantificables; por tal motivo asumen valores bien definidos.
 
 \begin{itemize}
-	\item \textbf{Variable Independiente (\variablei):} Una caricatura es un retrato que exagera o distorsiona la apariencia física de una o varias personas. Es en ocasiones un retrato de la sociedad reconocible, para crear un parecido fácilmente identificable y, generalmente, humorístico. También puede tratarse de alegorías.%Es la capacidad de generar imágenes \emph{dinámicas}, mental o gráficamente (sobre una superficie o una computadora) con el objetivo de estudiar un ente abstracto o figurativo lo cual se categorizó en dos dimensiones \MakeTextLowercase{\dimi} y \MakeTextLowercase{\dimii}.
+  \item \textbf{Variable Independiente (\variablei):} Una caricatura es un retrato que exagera o distorsiona la apariencia física de una o varias personas. Es en ocasiones un retrato de la sociedad reconocible, para crear un parecido fácilmente identificable y, generalmente, humorístico. También puede tratarse de alegorías.%Es la capacidad de generar imágenes \emph{dinámicas}, mental o gráficamente (sobre una superficie o una computadora) con el objetivo de estudiar un ente abstracto o figurativo lo cual se categorizó en dos dimensiones \MakeTextLowercase{\dimi} y \MakeTextLowercase{\dimii}.
 
-	\item \textbf{Variable Dependiente (\variabled):} Nos podemos referir a cualquier tipo de comunicación, ya que el mero hecho de comunicar es un acto creativo, en tanto que, con las informaciones que tenemos añadimos algo más ya sea consciente o inconscientemente a la información que queremos transmitir.%Es el incremento de factores que identifican la eficacia del procesamiento mental matemático en un entorno social determinado, las que deben seguir una secuencia de pasos tales como la \MakeTextLowercase{\dimd}, \MakeTextLowercase{\dimdd}, \MakeTextLowercase{\dimddd} y \MakeTextLowercase{\dimdddd}.
+  \item \textbf{Variable Dependiente (\variabled):} Nos podemos referir a cualquier tipo de comunicación, ya que el mero hecho de comunicar es un acto creativo, en tanto que, con las informaciones que tenemos añadimos algo más ya sea consciente o inconscientemente a la información que queremos transmitir.%Es el incremento de factores que identifican la eficacia del procesamiento mental matemático en un entorno social determinado, las que deben seguir una secuencia de pasos tales como la \MakeTextLowercase{\dimd}, \MakeTextLowercase{\dimdd}, \MakeTextLowercase{\dimddd} y \MakeTextLowercase{\dimdddd}.
 
-	\item  \textbf{Variable Interviniente (Capacidad artística, interrelación social):} La capacidad artística se refiere a las habilidades, conocimientos y talentos relacionados con la creación y expresión artística. Esto incluye habilidades en áreas como la pintura, la música, la danza, la escritura, el teatro y más.
+  \item  \textbf{Variable Interviniente (Capacidad artística, interrelación social):} La capacidad artística se refiere a las habilidades, conocimientos y talentos relacionados con la creación y expresión artística. Esto incluye habilidades en áreas como la pintura, la música, la danza, la escritura, el teatro y más.
+  
+  La interrelación social se refiere a la capacidad de interactuar y relacionarse con otras personas de manera efectiva y satisfactoria. Implica habilidades como la comunicación, la empatía, la escucha activa y la capacidad de trabajar en equipo.
+  
+  La capacidad artística puede tener un impacto positivo en la interrelación social. Participar en actividades artísticas puede ayudar a mejorar las habilidades de comunicación y expresión, fomentar la creatividad y promover la interacción con otras personas que comparten intereses similares.
+  
+  Además, las actividades artísticas pueden proporcionar un espacio seguro para la expresión emocional y personal, lo que a su vez puede ayudar a mejorar el bienestar emocional y la confianza en uno mismo. Esto puede facilitar la interrelación social al brindar a las personas una mayor seguridad y comodidad al interactuar con los demás.
+  
+  La interrelación social, a su vez, puede beneficiar la capacidad artística. Al interactuar con otras personas y compartir ideas y perspectivas, los artistas pueden ampliar su horizonte artístico y encontrar nuevas inspiraciones y enfoques. Además, la retroalimentación y el apoyo de la comunidad artística pueden ayudar a desarrollar y mejorar las habilidades artísticas.
+  
+  En resumen, la capacidad artística y la interrelación social están estrechamente relacionadas y se refuerzan mutuamente. Participar en actividades artísticas puede mejorar las habilidades de interrelación social, al tiempo que las habilidades sociales pueden beneficiar la creatividad y el desarrollo artístico.
+  
+  % La primera influye en poca tendencia hacia la lógica y los números y desinterés hacia los factores de productividad matemática, la segunda debido a la escasa llegada hacia la información idónea y adecuada asistida.
 
-	      La interrelación social se refiere a la capacidad de interactuar y relacionarse con otras personas de manera efectiva y satisfactoria. Implica habilidades como la comunicación, la empatía, la escucha activa y la capacidad de trabajar en equipo.
-
-	      La capacidad artística puede tener un impacto positivo en la interrelación social. Participar en actividades artísticas puede ayudar a mejorar las habilidades de comunicación y expresión, fomentar la creatividad y promover la interacción con otras personas que comparten intereses similares.
-
-	      Además, las actividades artísticas pueden proporcionar un espacio seguro para la expresión emocional y personal, lo que a su vez puede ayudar a mejorar el bienestar emocional y la confianza en uno mismo. Esto puede facilitar la interrelación social al brindar a las personas una mayor seguridad y comodidad al interactuar con los demás.
-
-	      La interrelación social, a su vez, puede beneficiar la capacidad artística. Al interactuar con otras personas y compartir ideas y perspectivas, los artistas pueden ampliar su horizonte artístico y encontrar nuevas inspiraciones y enfoques. Además, la retroalimentación y el apoyo de la comunidad artística pueden ayudar a desarrollar y mejorar las habilidades artísticas.
-
-	      En resumen, la capacidad artística y la interrelación social están estrechamente relacionadas y se refuerzan mutuamente. Participar en actividades artísticas puede mejorar las habilidades de interrelación social, al tiempo que las habilidades sociales pueden beneficiar la creatividad y el desarrollo artístico.
-
-	      % La primera influye en poca tendencia hacia la lógica y los números y desinterés hacia los factores de productividad matemática, la segunda debido a la escasa llegada hacia la información idónea y adecuada asistida.
-
-	      \begin{displayquote}
-		      \emph{A veces llamada la variable de confusión, vincula las variables independientes y dependientes. En ciertas situaciones, la relación entre una variable independiente y una variable dependiente no puede establecerse sin la intervención de otra variable. La causa, o variable independiente, tendrá el efecto supuesto solo en presencia de una variable intermedia.} Grinnell (1988, p. 203 citado en \cite{kothari_research_2004})
-		      \end{displayquote}
+\begin{displayquote}
+\emph{A veces llamada la variable de confusión, vincula las variables independientes y dependientes. En ciertas situaciones, la relación entre una variable independiente y una variable dependiente no puede establecerse sin la intervención de otra variable. La causa, o variable independiente, tendrá el efecto supuesto solo en presencia de una variable intermedia.} Grinnell (1988, p. 203 citado en \cite{kothari_research_2004})
+\end{displayquote}
 
 \end{itemize}
 
 \subsubsection{Operacionalización de variables}
-\textbf{\variablei}
+\textbf{\variablei} 
 Para analizar las características del proceso de aplicación de la \MakeTextLowercase{\variablei}, se establecen como dimensiones la \emph{\MakeTextLowercase{\dimi}} y \emph{\MakeTextLowercase{\dimii}}, que cuentan con un total de 10 indicadores, que permitirán determinar el objetivo general esperado por estos procesos, por lo que se aplicara módulos de clases, talleres, exposición y discusión para mejorar el \MakeTextLowercase{\variabled}. Refiérase al Cuadro \ref{www}.
 
 \begin{table}[ht!]
 	\caption{Definición operacional de la variable independiente}
-	\label{www}\begin{tabular}{ccccccc}
-		\Xhline{1pt} 		\textbf{{VD}} & \textbf{{D}}                                      & \textbf{Indicadores}            & \textbf{Items}                                                   & \textbf{Escala} & \textbf{Valores} \\ 		\hline 		\multirow{14}{*}{\rotatebox[origin=c]{90}
-			{\makecell[{{p{5cm}}}]{\centering\variablei}}}
-		                           & \multirow{3}{*}{\makecell[{{p{3cm}}}]{\ce\dimi}}
-		                           & \multirow{1}{*}{\gb}                              & \multirow{1}{*}{P1--P2}         & \multirow{14}{*}{\rotatebox[origin=c]{90}{\makecell{Cuantitativa                                      \\ continua}}} 		&\multirow{14}{*}{\rotatebox[origin=c]{90}{\makecell{Valoración cuantitaitva \\ 0 a 20}}} 		\\\cline{3-4}
-		                           &                                                   & \multirow{1}*{\gbb}             &
-		\multirow{1}{*}{C3--C4}    &                                                                                                                                                                                             \\\cline{3-4}
-		                           &                                                   & \multirow{1}*{\gbbb}            &
-		\multirow{1}{*}{C8}        &                                                                                                                                                                                             \\\cline{2-4}
-		                           & \multirow{4}*{\makecell[{{p{3cm}}}]{\ce\dimii}}
-		                           & \multirow{1}*{\gbbbb}                             &
-		\multirow{1}{*}{C9--C10}   &                                                                                                                                                                                             \\\cline{3-4}
-		                           &                                                   & \multirow{1}*{\gbbbbb}          &
-		\multirow{1}{*}{C11}       &                                                                                                                                                                                             \\\cline{3-4}
-		                           &                                                   & \multirow{1}*{\gbbbbbb}         &
-		\multirow{1}{*}{C12--C13}  &                                                                                                                                                                                             \\\cline{3-4}
-		                           &                                                   & \multirow{1}*{\gbbbbbbb}        &
-		\multirow{1}{*}{C14--C15}  &                                                                                                                                                                                             \\\cline{3-4}
+	\label{www}\begin{tabular}{ccccccc} 
+		\Xhline{1pt} 		\textbf{{VD}}& \textbf{{D}} & \textbf{Indicadores}&\textbf{Items}&\textbf{Escala}& \textbf{Valores} \\ 		\hline 		\multirow{14}{*}{\rotatebox[origin=c]{90}
+			{\makecell[{{p{5cm}}}]{\centering\variablei}}} 	
+		&\multirow{3}{*}{\makecell[{{p{3cm}}}]{\ce\dimi}}
+		& \multirow{1}{*}{\gb}&\multirow{1}{*}{P1--P2} 		&\multirow{14}{*}{\rotatebox[origin=c]{90}{\makecell{Cuantitativa\\ continua}}} 		&\multirow{14}{*}{\rotatebox[origin=c]{90}{\makecell{Valoración cuantitaitva \\ 0 a 20}}} 		\\\cline{3-4} 	
+		&&\multirow{1}*{\gbb}&
+		\multirow{1}{*}{C3--C4}&\\\cline{3-4}
+		&&\multirow{1}*{\gbbb}&
+		\multirow{1}{*}{C8}&\\\cline{2-4}
+		&\multirow{4}*{\makecell[{{p{3cm}}}]{\ce\dimii}}
+		&\multirow{1}*{\gbbbb}&
+		\multirow{1}{*}{C9--C10}&\\\cline{3-4}
+		&&\multirow{1}*{\gbbbbb}&
+		\multirow{1}{*}{C11}&\\\cline{3-4}
+		&&\multirow{1}*{\gbbbbbb}&
+		\multirow{1}{*}{C12--C13}&\\\cline{3-4}
+		&&\multirow{1}*{\gbbbbbbb}&
+		\multirow{1}{*}{C14--C15}&\\\cline{3-4}
 		\cline{2-4}
-		                           & \multirow{4}*{\makecell[{{p{3cm}}}]{\ce\dimiii}}
-		                           & \multirow{1}*{\gbbbbbbbbb}                        &
-		\multirow{1}{*}{C9--C10}   &                                                                                                                                                                                             \\\cline{3-4}
-		                           &                                                   & \multirow{1}*{\gbbbbbbbbb}      &
-		\multirow{1}{*}{C11}       &                                                                                                                                                                                             \\\cline{3-4}
-		                           &                                                   & \multirow{1}*{\gbbbbbbbbbb}     &
-		\multirow{1}{*}{C12--C13}  &                                                                                                                                                                                             \\\cline{3-4}
-		                           &                                                   & \multirow{1}*{\gbbbbbbbbbbb}    &
-		\multirow{1}{*}{C12--C13}  &                                                                                                                                                                                             \\\cline{3-4}
+		&\multirow{4}*{\makecell[{{p{3cm}}}]{\ce\dimiii}}
+		&\multirow{1}*{\gbbbbbbbbb}&
+		\multirow{1}{*}{C9--C10}&\\\cline{3-4}
+		&&\multirow{1}*{\gbbbbbbbbb}&
+		\multirow{1}{*}{C11}&\\\cline{3-4}
+		&&\multirow{1}*{\gbbbbbbbbbb}&
+		\multirow{1}{*}{C12--C13}&\\\cline{3-4}
+		&&\multirow{1}*{\gbbbbbbbbbbb}&
+		\multirow{1}{*}{C12--C13}&\\\cline{3-4}
 		\cline{2-4}
-		                           & \multirow{3}*{\makecell[{{p{3cm}}}]{\ce\dimiiii}}
-		                           & \multirow{1}*{\gbbbbbbbbbbbb}                     &
-		\multirow{1}{*}{C9--C10}   &                                                                                                                                                                                             \\\cline{3-4}
-		                           &                                                   & \multirow{1}*{\gbbbbbbbbbbbbb}  &
-		\multirow{1}{*}{C11}       &                                                                                                                                                                                             \\\cline{3-4}
-		                           &                                                   & \multirow{1}*{\gbbbbbbbbbbbbbb} &
-		\multirow{1}{*}{C14--C15}  &                                                                                                                                                                                             \\
-		\hline
+		&\multirow{3}*{\makecell[{{p{3cm}}}]{\ce\dimiiii}}
+		& \multirow{1}*{\gbbbbbbbbbbbb}&
+		\multirow{1}{*}{C9--C10}&\\\cline{3-4}
+		&&\multirow{1}*{\gbbbbbbbbbbbbb}&
+		\multirow{1}{*}{C11}&\\\cline{3-4}
+		&&\multirow{1}*{\gbbbbbbbbbbbbbb}&
+		\multirow{1}{*}{C14--C15}&\\
+		\hline 
 	\end{tabular}
 \end{table}
 
@@ -700,18 +700,18 @@ El cumplimiento determinará el crecimiento de la  eficacia del conocimiento mat
 	\renewcommand\tabcolsep{0.15cm}\renewcommand\arraystretch{0.9}
 	\caption{Definición operacional de la variable dependiente}
 	\label{wwwww}
-	\begin{tabular}{cccccc} 		\Xhline{1pt} 		\textbf{{VD}} & \textbf{{D}}                                         & \textbf{Indicadores}         & \textbf{Items}                                                              & \textbf{Escala}                                               & \textbf{Valores} \\ 		\hline 		\multirow{9}{*}{\rotatebox[origin=c]{90}{\makecell[{{p{3.9cm}}}]{\ce\variabled}}}
-		                                    & \multirow{3}{*}{\makecell[{{p{3.9cm}}}]{\ce\dimd}}
-		                                    & \multirow{1}{*}{\fb}                                 & \multirow{1}{*}{P1--P2}      & \multirow{9}{*}{\rotatebox[origin=c]{90}{\makecell{Cuantitativa continua}}} & \multirow{9}{*}{\rotatebox[origin=c]{90}{\makecell{Valoración                    \\cuantitaitva de 0 a 20}}} 		\\\cline{3-4}
-		                                    &                                                      & \multirow{1}{*}{\fbb}        & \multirow{1}{*}{P3--P4}                                                     &                                                               &                  \\\cline{3-4}
-		                                    &                                                      & \multirow{1}{*}{\fbbb}       & \multirow{1}{*}{P5}                                                         &                                                               &                  \\\cline{2-4}
-		                                    & \multirow{3}{*}{\makecell[{{p{3.9cm}}}]{\ce\dimdd}}  & \multirow{1}{*}{\fbbbb}      & \multirow{1}{*}{P6--P7}                                                     &                                                               &                  \\\cline{3-4}
-		                                    &                                                      & \multirow{1}{*}{\fbbbbb}     & \multirow{1}{*}{P8}                                                         &                                                               &                  \\\cline{3-4}
-		                                    &                                                      & \multirow{1}{*}{\fbbbbbb}    & \multirow{1}{*}{P9--P10}                                                    &                                                               &                  \\\cline{2-4}
-		                                    & \multirow{3}{*}{\makecell[{{p{3.9cm}}}]{\ce\dimddd}}
-		                                    & \multirow{1}{*}{\fbbbbbbb}                           & \multirow{1}{*}{P11--P12}    &                                                                             &                                                                                  \\\cline{3-4}
-		                                    &                                                      & \multirow{1}{*}{\fbbbbbbbb}  & \multirow{1}{*}{P13}                                                        &                                                               &                  \\\cline{3-4}
-		                                    &                                                      & \multirow{1}{*}{\fbbbbbbbbb} & \multirow{1}{*}{P16--P17}                                                   &                                                               &                  \\	\Xhline{1pt}\end{tabular}
+	\begin{tabular}{cccccc} 		\Xhline{1pt} 		\textbf{{VD}}& \textbf{{D}} & \textbf{Indicadores}&\textbf{Items}&\textbf{Escala}& \textbf{Valores} \\ 		\hline 		\multirow{9}{*}{\rotatebox[origin=c]{90}{\makecell[{{p{3.9cm}}}]{\ce\variabled}}} 	
+		&\multirow{3}{*}{\makecell[{{p{3.9cm}}}]{\ce\dimd}} 	
+		& \multirow{1}{*}{\fb}&\multirow{1}{*}{P1--P2} 		&\multirow{9}{*}{\rotatebox[origin=c]{90}{\makecell{Cuantitativa continua}}} 		&\multirow{9}{*}{\rotatebox[origin=c]{90}{\makecell{Valoración \\cuantitaitva de 0 a 20}}} 		\\\cline{3-4} 	
+		&&\multirow{1}{*}{\fbb}&\multirow{1}{*}{P3--P4}&& 		\\\cline{3-4} 
+		&&\multirow{1}{*}{\fbbb}&\multirow{1}{*}{P5}&&\\\cline{2-4} 	
+		&\multirow{3}{*}{\makecell[{{p{3.9cm}}}]{\ce\dimdd}} 		& \multirow{1}{*}{\fbbbb}&\multirow{1}{*}{P6--P7}&& 		\\\cline{3-4} 	
+		&&\multirow{1}{*}{\fbbbbb}&\multirow{1}{*}{P8}&& 		\\\cline{3-4}
+		&&\multirow{1}{*}{\fbbbbbb}&\multirow{1}{*}{P9--P10}&& 		\\\cline{2-4} 	
+		&\multirow{3}{*}{\makecell[{{p{3.9cm}}}]{\ce\dimddd}} 	
+		&\multirow{1}{*}{\fbbbbbbb}&\multirow{1}{*}{P11--P12}&&\\\cline{3-4} 
+		&&\multirow{1}{*}{\fbbbbbbbb}&\multirow{1}{*}{P13}&&\\\cline{3-4} 
+		&&\multirow{1}{*}{\fbbbbbbbbb}&\multirow{1}{*}{P16--P17}&&\\	\Xhline{1pt}	\end{tabular}
 \end{table}
 
 
@@ -729,18 +729,18 @@ Investigación de enfoque cuantitativo debido a que se manipulan datos numérico
 De acuerdo a \cite{alzina_metodologiinvestigacion_2004} La orientación cuantitativa se fundamenta en el cálculo de características de los fenómenos sociales, lo cual presupone derivar de un cuadro conceptual adecuado al problema examinado, una cadena de proposiciones que enuncien relaciones entre si las variables experimentadas de forma justificada. Este procedimiento tiende a extender y sistematizar resultados. Según \cite{hernandez_sampieri_metodologiinvestigacion_2014}.
 
 \begin{displayquote}
-	{La orientación cuantitativa se constituye, de un conjunto de términos que es secuencial y demostrativo. Cada fase antecede a la subsiguiente y no es posible omitir o evitar sucesos. La disposición es inflexible. Parte de una idea que va delimitándose y, una vez definida, se proceden a generar objetivos y cuestiones de exploración, se revisa la bibliografía y se elabora un marco o una configuración teórica. De las cuestiones se forman hipótesis y establecen variables; se bosqueja un procedimiento para experimentar la cual se conoce como diseño, se calculan las variables en un determinado contexto; se exploran los datos obtenidos, recurriendo a procesos estadísticos, y se deduce una serie de conclusiones con relación a la o las hipótesis}. (p. 97)
+{La orientación cuantitativa se constituye, de un conjunto de términos que es secuencial y demostrativo. Cada fase antecede a la subsiguiente y no es posible omitir o evitar sucesos. La disposición es inflexible. Parte de una idea que va delimitándose y, una vez definida, se proceden a generar objetivos y cuestiones de exploración, se revisa la bibliografía y se elabora un marco o una configuración teórica. De las cuestiones se forman hipótesis y establecen variables; se bosqueja un procedimiento para experimentar la cual se conoce como diseño, se calculan las variables en un determinado contexto; se exploran los datos obtenidos, recurriendo a procesos estadísticos, y se deduce una serie de conclusiones con relación a la o las hipótesis}. (p. 97)
 \end{displayquote}
 
 \subsection{Método de investigación}
 
-La investigación es de tipo aplicada pues esta investigación busca una teoría didáctica que pueda ser aplicada en el campo educativo una vez sea probada la veracidad y objetividad de las hipótesis planteadas.
+La investigación es de tipo aplicada pues esta investigación busca una teoría didáctica que pueda ser aplicada en el campo educativo una vez sea probada la veracidad y objetividad de las hipótesis planteadas. 
 
 \subsection{Tipo de investigación}
 La investigación es de tipo aplicada, que tiene por finalidad contribuir al conocimiento científicos de aprendizaje y herramientas pedagógicas. De acuerdo a textcite{santiago}.%\citeauthor{Duval} (1999, p. 15 citado en \citeauthor{ines}, \citeyear{ines}, p.~15).
 
 \begin{displayquote}
-	\emph{Es también llamada práctica, empírica, activa y se encuentra íntimamente ligada a la investigación básica, ya que depende de sus descubrimientos y aportes teóricos para poder generar beneficios y bienestar a la sociedad. Se fundamenta en la investigación teórica; su finalidad especifica es aplicar las teorías existentes a la producción de normas y procedimientos tecnológicos para controlar situaciones  o procesos de la realidad.} (p.~15)
+\emph{Es también llamada práctica, empírica, activa y se encuentra íntimamente ligada a la investigación básica, ya que depende de sus descubrimientos y aportes teóricos para poder generar beneficios y bienestar a la sociedad. Se fundamenta en la investigación teórica; su finalidad especifica es aplicar las teorías existentes a la producción de normas y procedimientos tecnológicos para controlar situaciones  o procesos de la realidad.} (p.~15)
 \end{displayquote}
 
 Al respecto cite{cerezal}, describe la investigación aplicada, como el manejo de las sapiencias, en la experiencia cotidiana, para emplearlos, en la totalidad de los casos, en beneficio de la humanidad.
@@ -771,18 +771,18 @@ El diseño de investigación \MakeTextLowercase{\diseno}, que se estructura de a
 
 \begin{figure}[ht!]\centering
 	\begin{tikzpicture}[> = stealth,shorten > = 2pt,semithick]
-		\node[] at (0,0)  (T){$M$};
-		\node[] at (2,1.3)  (o1){$O_1$};
-		\node[] at (5,1.3)  (w){$V_1$};
-		\node[] at (2,0)  (r){$r$};
-		\node[] at (2,-1.3)  (o2){$O_2$};
-		\node[] at (5,-1.3)  (ww){$V_2$};
-		\path[->] (T) edge node {} (o1);
-		\path[->] (T) edge node {} (o2);
-		\path[<-] (o1) edge node {} (w);
-		\path[<-] (o2) edge node {} (ww);
-		\path[->] (o1) edge node {} (r);
-		\path[->] (o2) edge node {} (r);
+	\node[] at (0,0)  (T){$M$};
+	\node[] at (2,1.3)  (o1){$O_1$};
+	\node[] at (5,1.3)  (w){$V_1$};
+	\node[] at (2,0)  (r){$r$};
+	\node[] at (2,-1.3)  (o2){$O_2$};
+	\node[] at (5,-1.3)  (ww){$V_2$};
+	\path[->] (T) edge node {} (o1);
+	\path[->] (T) edge node {} (o2);
+	\path[<-] (o1) edge node {} (w);
+	\path[<-] (o2) edge node {} (ww);
+	\path[->] (o1) edge node {} (r);
+	\path[->] (o2) edge node {} (r);
 	\end{tikzpicture}
 	\caption{Diseño \MakeTextLowercase{\diseno}}
 	\label{figg}
@@ -796,7 +796,7 @@ El diseño de la investigación es cuasi -- experimental de un mismo grupo de tr
 
 De acuerdo a :
 \begin{displayquote}
-	\emph{Al elegir un diseño se tiene en cuenta una secuencia de procesos para aplicarlos en un determinado problema y deducir resultados que verifiquen las hipótesis del problema. En este caso se tendrá el diseño propuesto con un solo grupo, que permitirá aplicar la primera variable sobre la segunda, para fortalecer la elaboración plástica tridimensional.}. \cite{kothari_research_2004}[p 243]
+\emph{Al elegir un diseño se tiene en cuenta una secuencia de procesos para aplicarlos en un determinado problema y deducir resultados que verifiquen las hipótesis del problema. En este caso se tendrá el diseño propuesto con un solo grupo, que permitirá aplicar la primera variable sobre la segunda, para fortalecer la elaboración plástica tridimensional.}. \cite{kothari_research_2004}[p 243]
 \end{displayquote}
 
 
@@ -809,16 +809,16 @@ Constituida por \poblacion, matriculados en el 2023. %Los criterios que se consi
 
 
 \begin{table}[ht!]
-	\caption{Criterio de inclusión y exclusión}\label{apt7}
-	%\centering
-	\begin{tabular}{ccc}\Xhline{2pt}
-		Población                                                                        & Aptos & No aptos \\\midrule
-		\makecell*[{{p{3.5cm}}}]{\centering Estudiantes matriculados del semestre impar} &
-		\makecell*[{{p{3.9cm}}}]{\centering Estudiantes regulares                                           \\Asistentes puntuales} &\makecell[c]{ Estudiantes repitentes \\
-			Estudiantes retirados                                                                               \\
-			Estudiantes del quinto superior                                                                     \\
-			Estudiantes no asistentes}                                                                          \\\bottomrule
-	\end{tabular}
+\caption{Criterio de inclusión y exclusión}\label{apt7}
+%\centering
+\begin{tabular}{ccc}\Xhline{2pt}
+Población&Aptos&No aptos\\\midrule
+\makecell*[{{p{3.5cm}}}]{\centering Estudiantes matriculados del semestre impar} &
+\makecell*[{{p{3.9cm}}}]{\centering Estudiantes regulares\\Asistentes puntuales} &\makecell[c]{ Estudiantes repitentes \\
+   Estudiantes retirados \\
+   Estudiantes del quinto superior\\
+   Estudiantes no asistentes}\\\bottomrule
+\end{tabular}
 \end{table}
 
 
@@ -889,30 +889,30 @@ Esta ficha puede tener: Número (es para tener orden de las fichas), Autor (la p
 Las competencias y sus valoraciones cualitativas y cuantitativas se describen en el siguiente Cuadro \ref{evaluacion}.
 
 \begin{table}[ht!]
-	%\centering
-	\caption{Criterio de calificación}\label{evaluacion}
-	\begin{tabular}{cccc}\Xhline{2pt}
-		\bf \multirow{2}*[-.01cm]{Capacidades}                                                   & \bf Valoración   & \bf Valoración    \\
-		                                                                                         & \bf  cualificada & \bf  cuantificada \\\midrule
-		\multirow{5}*[-.01cm]{\makecell*[{{p{7cm}}}]{\centering  \dimd  \dimdd \dimddd \dimddd}} & Excelente        & 17 -- 20          \\
-		                                                                                         & Bueno            & 13 -- 16          \\
-		                                                                                         & Regular          & 09 -- 12          \\
-		                                                                                         & Malo             & 05 -- 08          \\
-		                                                                                         & Deficiente       & 00 -- 04          \\
-		\bottomrule
-	\end{tabular}
+%\centering
+\caption{Criterio de calificación}\label{evaluacion}
+\begin{tabular}{cccc}\Xhline{2pt}
+\bf \multirow{2}*[-.01cm]{Capacidades}&\bf Valoración&\bf Valoración\\
+&\bf  cualificada&\bf  cuantificada\\\midrule
+\multirow{5}*[-.01cm]{\makecell*[{{p{7cm}}}]{\centering  \dimd  \dimdd \dimddd \dimddd}}&Excelente&17 -- 20\\
+	&Bueno&13 -- 16\\	
+	&Regular&09 -- 12\\	
+	&Malo&05 -- 08\\
+	&Deficiente&00 -- 04\\	
+\bottomrule
+\end{tabular}
 \end{table}
 
 \subsection{Tratamiento estadístico de los datos}
 Con el objetivo de procesar adecuadamente los datos y sacar conclusiones confiables, se utiliza  las siguientes estadísticas.
-
-\subsubsection{La estadística descriptiva} Esta estadística se utiliza en el estudio  del comportamiento de los datos, para inferir conclusiones relativas de nuestras variables y la relación entre ellas.
+ 
+\subsubsection{La estadística descriptiva} Esta estadística se utiliza en el estudio  del comportamiento de los datos, para inferir conclusiones relativas de nuestras variables y la relación entre ellas.  
 
 \begin{enumerate}
-	\item Tendencia central (media, mediana y moda),
-	\item dispersión o variabilidad (desviación estándar, la varianza y la regresión estándar),
-	\item curtosis (leptocurtica, mesocúrtica y platicúrtica) y
-	\item asimetría (asimétrica positiva, simétrica y asimétrica negativa).
+\item Tendencia central (media, mediana y moda),
+\item dispersión o variabilidad (desviación estándar, la varianza y la regresión estándar),
+\item curtosis (leptocurtica, mesocúrtica y platicúrtica) y 
+\item asimetría (asimétrica positiva, simétrica y asimétrica negativa).
 \end{enumerate}
 
 \subsubsection{La estadística inferencial} Esta estadística se utilizará para probar, la normalidad y la homocedasticidad  de los datos, además de las prueba de hipótesis.
@@ -929,9 +929,9 @@ La opinión de los expertos consultados permitirá establecer la validez de los 
 
 
 \begin{adjustwidth}{1cm}{}
-	\emph{La validez, en términos generales, se refiere al grado en que un instrumento mide
-		realmente la variable que pretende medir. Por ejemplo, un instrumento válido para medir la inteligencia debe medir la inteligencia y no la memoria. Un método para medir
-		el rendimiento bursátil tiene que medir precisamente esto y no la imagen de una empresa. Un ejemplo aunque muy obvio de completa invalidez sería intentar medir el peso de los objetos con una cinta métrica en lugar de con una báscula.} \cite[p.~200]{alzina_metodologiinvestigacion_2004}
+\emph{La validez, en términos generales, se refiere al grado en que un instrumento mide
+realmente la variable que pretende medir. Por ejemplo, un instrumento válido para medir la inteligencia debe medir la inteligencia y no la memoria. Un método para medir
+el rendimiento bursátil tiene que medir precisamente esto y no la imagen de una empresa. Un ejemplo aunque muy obvio de completa invalidez sería intentar medir el peso de los objetos con una cinta métrica en lugar de con una báscula.} \cite[p.~200]{alzina_metodologiinvestigacion_2004}
 \end{adjustwidth}
 
 \subsection{Procedimientos}
@@ -944,7 +944,7 @@ La confiabilidad de consistencia interna del instrumento, se determinará con la
 
 La corrección con Spearman Brow $$r=\frac{2r_{xy}}{1+r_{xy}}$$
 
-Donde:
+	Donde:
 $n$ tamaño de muestra
 $x$ es la puntuación de la primera mitad (Impares)
 $y$ es la puntuación de la segunda mitad (Pares)
@@ -952,30 +952,30 @@ $r_{xy}$ es el coeficiente Pearson
 $r$ es el coeficiente de Spearman Brow. Si $0\leq r\leq 0.8$ se considera no confiable y si $0.8< r \leq1$ se considera confiable.
 
 \begin{displayquote}
-	\emph{La confiabilidad de un instrumento de medición es el grado en que su aplicación
-		repetida al mismo individuo u objeto genera resultados similares. Por ejemplo, si se midiera en este momento la temperatura ambiental usando un termómetro y éste indicara que hay $22^\circ C$, y un minuto más tarde se consultara otra vez y señalara $5^\circ C$, tres minutos después se observara nuevamente y éste indicara $40^\circ C$, dicho termómetro no sería confiable, ya que su aplicación repetida produce resultados distintos. Asimismo, si una prueba de inteligencia (Intelligence Quotient, IQ) se aplica hoy a un grupo de personas y da ciertos valores de inteligencia, se aplica un mes después y proporciona valores diferentes, al igual que en subsecuentes mediciones, tal prueba no sería confiable. Los resultados no son coherentes, pues no se puede confiar en ellos.
-	} \cite[p.~61]{inv1}\end{displayquote}
+\emph{La confiabilidad de un instrumento de medición es el grado en que su aplicación
+repetida al mismo individuo u objeto genera resultados similares. Por ejemplo, si se midiera en este momento la temperatura ambiental usando un termómetro y éste indicara que hay $22^\circ C$, y un minuto más tarde se consultara otra vez y señalara $5^\circ C$, tres minutos después se observara nuevamente y éste indicara $40^\circ C$, dicho termómetro no sería confiable, ya que su aplicación repetida produce resultados distintos. Asimismo, si una prueba de inteligencia (Intelligence Quotient, IQ) se aplica hoy a un grupo de personas y da ciertos valores de inteligencia, se aplica un mes después y proporciona valores diferentes, al igual que en subsecuentes mediciones, tal prueba no sería confiable. Los resultados no son coherentes, pues no se puede confiar en ellos.
+} \cite[p.~61]{inv1}\end{displayquote}
 
 \begin{table}[ht!]
-	% \centering\STautoround{3}
-	{%\tiny
-		\caption{Prueba de confiabilidad de la ficha de observación}\label{pret:1}
-		%\vspace{0.5cm}
-		\begin{tabular}{cccccccccccc}\Xhline{2pt}
-			AI             & \multicolumn{10}{c}{INDICADORES} & $\sum$                                                    \\\midrule
-			               & IN1                              & IN2    & IN3 & IN4 & IN5 & IN6 & IN7 & IN8 & IN9 & IN10 & \\\cline{2-11}
-			1              &                                  &        &     &     &     &     &     &     &     &      & \\
-			2              &                                  &        &     &     &     &     &     &     &     &      & \\
-			3              &                                  &        &     &     &     &     &     &     &     &      & \\
-			4              &                                  &        &     &     &     &     &     &     &     &      & \\
-			5              &                                  &        &     &     &     &     &     &     &     &      & \\\midrule
-			$\sum$         &                                  &        &     &     &     &     &     &     &     &      & \\
-			$\overline{x}$ &                                  &        &     &     &     &     &     &     &     &      & \\
-			$s_i^2$        &                                  &        &     &     &     &     &     &     &     &      & \\
-			$s_i$          &                                  &        &     &     &     &     &     &     &     &      & \\\bottomrule
-		\end{tabular}\\\vspace{0.5cm}
-		{\normalsize Fuente: Datos obtenidos de la muestra}
-	}
+% \centering\STautoround{3}
+{%\tiny
+\caption{Prueba de confiabilidad de la ficha de observación}\label{pret:1}
+%\vspace{0.5cm}
+\begin{tabular}{cccccccccccc}\Xhline{2pt}
+AI&\multicolumn{10}{c}{INDICADORES}&$\sum$\\\midrule
+&IN1&IN2&IN3&IN4&IN5&IN6&IN7&IN8&IN9&IN10&\\\cline{2-11}
+1 &&&&&&&&&&&\\
+2 &&&&&&&&&&&\\
+3 &&&&&&&&&&&\\
+4 &&&&&&&&&&&\\
+5 &&&&&&&&&&&\\\midrule
+$\sum$         &&&&&&&&&&&\\
+$\overline{x}$ &&&&&&&&&&&\\
+$s_i^2$        &&&&&&&&&&&\\
+$s_i$          &&&&&&&&&&&\\\bottomrule
+\end{tabular}\\\vspace{0.5cm}
+{\normalsize Fuente: Datos obtenidos de la muestra}
+}
 \end{table}
 
 
@@ -991,67 +991,67 @@ $$\alpha=\frac{k}{k-1}\left(1-\frac{\sum s_i^2}{s_t^2}\right)$$
 
 \subsubsection{Recursos humanos}
 \begin{enumerate}
-	\item Responsable de la investigación
-	\item Profesor Asesor
-	\item Estudiantes de la \lugar.
-	\item Autoridades de la EPG de la UNE “EGV” La Cantuta.
-	\item Autoridades de la Universidad Nacional De San Cristóbal De Huamanga.
+  \item Responsable de la investigación
+  \item Profesor Asesor
+  \item Estudiantes de la \lugar.
+  \item Autoridades de la EPG de la UNE “EGV” La Cantuta.
+  \item Autoridades de la Universidad Nacional De San Cristóbal De Huamanga.
 \end{enumerate}
 
 \subsubsection{Recursos materiales}
 \begin{enumerate}
-	\item Bibliografía especializada e Internet %\cite{geer}
-	      %\item Materiales y equipos de laboratorio %\cite{ctan}
-	\item Materiales de escritorio y computadora %\cite{rahtz:96-1}
-	\item Otros materiales %\cite{girou:01:}
+\item Bibliografía especializada e Internet %\cite{geer}
+%\item Materiales y equipos de laboratorio %\cite{ctan}
+\item Materiales de escritorio y computadora %\cite{rahtz:96-1}
+\item Otros materiales %\cite{girou:01:}
 \end{enumerate}
 
 \subsubsection{Recursos financieros}
 \begin{enumerate}
-	\item Auditorio de la \lugar
-	\item Laptop y Data Show
+\item Auditorio de la \lugar
+\item Laptop y Data Show
 \end{enumerate}
 
 \subsection{Presupuesto}
 Materiales y equipos (financiados) refiérase al Cuadro \ref{presup}.
 
 \begin{table}[ht!]
-	\caption{Presupuesto}\label{presup}
-	\begin{tabular}{ccc}\toprule
-		$\text N^\circ$ & Materiales y servicios              & \multicolumn1c{Gastos en S/} \\\midrule
-		1               & Materiales didácticos               & 135.30                       \\
-		2               & Impresión                           & 102.50                       \\
-		3               & Libros                              & 300.90                       \\
-		4               & Empastados de la tesis (4 unidades) & 80.10                        \\
-		5               & Gastos de movilidad                 & 90.00                        \\
-		6               & Otros gastos                        & 747.00                       \\\midrule
-		                & TOTAL                               & wwwww                        \\
-		\bottomrule
-	\end{tabular}
+\caption{Presupuesto}\label{presup}
+\begin{tabular}{ccc}\toprule
+$\text N^\circ$&  Materiales y servicios &\multicolumn1c{Gastos en S/} \\\midrule
+1 & Materiales didácticos       & 135.30               \\
+2 & Impresión                             & 102.50             \\
+3 & Libros                                & 300.90            \\
+4 & Empastados de la tesis (4 unidades)   & 80.10              \\
+5 & Gastos de movilidad                   & 90.00                \\
+6 & Otros gastos                          & 747.00               \\\midrule
+&TOTAL                                   &     wwwww\\
+\bottomrule
+\end{tabular}
 \end{table}
 
 \subsection{Cronograma de actividades}
 Temporalización-cronograma de acciones refiérase al Cuadro \ref{cronog}.
 \begin{table}[ht!]
 
-	\caption{Cronograma de acciones}\label{cronog}
-	\begin{tabular}{cp{6cm}ccccccccccccc}
-		\toprule
-		\ce $\text N^\circ$ & Actividades                       & \multicolumn{11}{c}{2019}                                                                                                               \\%&\multicolumn{2}{c}{2019}\\
-		\midrule
-		                    &                                   & E                         & F         & M         & A         & M         & J         & J         & A         & S         & O           \\\cline{3-13}
-		1                   & Análisis bibliográfico            & $\bullet$                 & $\bullet$ &           &           &           &           &           &           &           &             \\
-		2                   & Elaboración del marco teórico     & $\bullet$                 & $\bullet$ &           &           &           &           &           &           &           &             \\
-		3                   & Elaboración de los instrumentos   &                           & $\bullet$ & $\bullet$ &           &           &           &           &           &           &             \\
-		4                   & Prueba de los instrumentos        &                           &           & $\bullet$ &           &           &           &           &           &           &             \\
-		5                   & Aprobación del proyecto           &                           &           &           & $\bullet$ & $\bullet$ & $\bullet$ &           &           &           &             \\
-		6                   & Recolección de datos              &                           &           &           &           &           &           & $\bullet$ & $\bullet$ &           &             \\
-		7                   & Procesamiento y análisis de datos &                           &           &           &           &           &           &           & $\bullet$ &           &             \\
-		8                   & Redacción de la tesis             &                           &           &           &           &           &           &           &           & $\bullet$ &           & \\
-		9                   & Presentación de la tesis          &                           &           &           &           &           &           &           &           & $\bullet$ &             \\
-		10                  & Sustentación                      &                           &           &           &           &           &           &           &           &           & $\bullet$   \\
-		\bottomrule
-	\end{tabular}
+\caption{Cronograma de acciones}\label{cronog}
+\begin{tabular}{cp{6cm}ccccccccccccc}
+\toprule
+\ce $\text N^\circ$&Actividades&\multicolumn{11}{c}{2019}\\%&\multicolumn{2}{c}{2019}\\
+\midrule
+&&E&F&M&A&M&J&J&A&S&O\\\cline{3-13}
+1&Análisis bibliográfico&$\bullet$&$\bullet$&&&&&&&&\\
+2&Elaboración del marco teórico&$\bullet$&$\bullet$&&&&&&&&\\
+3&Elaboración de los instrumentos&&$\bullet$&$\bullet$&&&&&&&\\
+4&Prueba de los instrumentos&&&$\bullet$&&&&&&&\\
+5&Aprobación del proyecto&&&&$\bullet$&$\bullet$&$\bullet$&&&&\\
+6&Recolección de datos&&&&&&&$\bullet$&$\bullet$&&\\
+7&Procesamiento y análisis de datos&&&&&&&&$\bullet$&&\\
+8&Redacción de la tesis&&&&&&&&&$\bullet$&&\\
+9&Presentación de la tesis&&&&&&&&&$\bullet$&\\
+10&Sustentación&&&&&&&&&&$\bullet$\\
+\bottomrule
+\end{tabular}
 \end{table}
 
 %\begin{table}[ht!]
@@ -1098,14 +1098,14 @@ Temporalización-cronograma de acciones refiérase al Cuadro \ref{cronog}.
 
 \vspace{-0.3cm}
 
-\setglossarysection{section}
-\setlength{\glsdescwidth}{0.7\textwidth}
+\setglossarysection{section} 
+\setlength{\glsdescwidth}{0.7\textwidth} 
 \printglossary[nopostdot,style=long,nogroupskip,nonumberlist,type=\acronymtype,title=ACRÓNIMOS]
 \vspace{-0.3cm}
 
-\setglossarysection{section}
-\setlength{\glsdescwidth}{0.7\textwidth}
-\printglossary[nopostdot,style=long,nogroupskip,nonumberlist,type=symbols,title=SÍMBOLOS]
+\setglossarysection{section} 
+\setlength{\glsdescwidth}{0.7\textwidth} 
+\printglossary[nopostdot,style=long,nogroupskip,nonumberlist,type=symbols,title=SÍMBOLOS] 
 \vspace{-0.3cm}
 
 \section*{APÉNDICES}
@@ -1114,11 +1114,11 @@ Temporalización-cronograma de acciones refiérase al Cuadro \ref{cronog}.
 \pagenumbering{Roman}
 
 \setcounter{subsection}{0}
-\renewcommand{\thesubsection}{\Alph{subsection}}
+\renewcommand{\thesubsection}{\Alph{subsection}}  
 %\renewcommand{\thesubsubsection}{A.\arabic{subsection}}
 
 \numberwithin{equation}{subsection}
-\numberwithin{figure}{subsection}
+\numberwithin{figure}{subsection} 
 \numberwithin{table}{subsection}
 
 \subsection{Ficha técnica de la investigación \label{ficha tecnica}}
@@ -1126,285 +1126,285 @@ Temporalización-cronograma de acciones refiérase al Cuadro \ref{cronog}.
 	\item \textbf{Titulo }\titulo\textbf{ }
 	\item \textbf{Año de realización }2019
 	\item \textbf{Autor de la investigación }\autor
-	\item \textbf{Asesor de la investigación }\asesor
+	\item \textbf{Asesor de la investigación }\asesor   
 	\item \textbf{Colaboradores que validaron los instrumentos }\asesor, \expert y \expertt.
 	\item \textbf{Institución } \lugar
 	\item \textbf{Escuela profesional }\lugar
 	\item \textbf{Formato }PDF.\textbf{ }
-
-	      %	\item \textbf{Resumen }El presente trabajo de investigación tiene como objetivo 	\MakeTextLowercase{\objetivo}. Tipo de investigación básica, nivel 	de investigación experimental explicativa, de diseño cuasiexperimental 	de un grupo con pre y posprueba en series temporales equivalentes 	(alternado); se empleo el método hipotético deductivo, experimental	y estadístico descriptivo e inferencial; el lugar de estudio fue en	la \lugar; la muestra fue no probabilística e intencional compuesta	por un solo grupo experimental de 35 estudiantes de la serie 200,	matriculados en el curso de arquitectura, del semestre impar de la	escuela profesional de Ingeniería Civil UNSCH; los datos fueron recolectados	a través de la prueba escrita y la ficha de observación; la prueba 	de validez de instrumentos se realizó a través de juicio de expertos 	y la confiabilidad, a través de prueba del Coeficiente de Pearson 	y la corrección de Spearman Brow. Se verificó la no normalidad de 	los datos, mediante la prueba de  \emph{Shapiro Wilks}; se aplicó 	la prueba de Student dos muestras relacionadas para la prueba de hipótesis, 	con un nivel de confianza del 95\% y significancia del 5\% y se concluyó, 	que \MakeTextLowercase{\hipotesis}. \\Palabras Claves: \variablei, \MakeTextLowercase{\upshape \variabled, \dimddd, \dimi y \dimii}. 
+	
+%	\item \textbf{Resumen }El presente trabajo de investigación tiene como objetivo 	\MakeTextLowercase{\objetivo}. Tipo de investigación básica, nivel 	de investigación experimental explicativa, de diseño cuasiexperimental 	de un grupo con pre y posprueba en series temporales equivalentes 	(alternado); se empleo el método hipotético deductivo, experimental	y estadístico descriptivo e inferencial; el lugar de estudio fue en	la \lugar; la muestra fue no probabilística e intencional compuesta	por un solo grupo experimental de 35 estudiantes de la serie 200,	matriculados en el curso de arquitectura, del semestre impar de la	escuela profesional de Ingeniería Civil UNSCH; los datos fueron recolectados	a través de la prueba escrita y la ficha de observación; la prueba 	de validez de instrumentos se realizó a través de juicio de expertos 	y la confiabilidad, a través de prueba del Coeficiente de Pearson 	y la corrección de Spearman Brow. Se verificó la no normalidad de 	los datos, mediante la prueba de  \emph{Shapiro Wilks}; se aplicó 	la prueba de Student dos muestras relacionadas para la prueba de hipótesis, 	con un nivel de confianza del 95\% y significancia del 5\% y se concluyó, 	que \MakeTextLowercase{\hipotesis}. \\Palabras Claves: \variablei, \MakeTextLowercase{\upshape \variabled, \dimddd, \dimi y \dimii}. 
 	\item \textbf{Estructura de la tesis \flushbottom }
-	      \begin{enumerate}
-		      \item PLANTEAMIENTO DEL PROBLEMA
-		            \begin{enumerate}
-			            \item Identificación y descripción del problema
-			            \item Formulación del problema
-			            \item Objetivos
-			            \item Justificación de la investigación
-		            \end{enumerate}
-		      \item MARCO TEÓRICO
-		            \begin{enumerate}
-			            \item Antecedentes de la investigación
-			            \item Bases teóricas
-			            \item Definiciones de términos básicos
-		            \end{enumerate}
-		      \item METODOLOGÍA DE LA INVESTIGACIÓN
-		            \begin{enumerate}
-			            \item Sistema de hipótesis
-			            \item Sistema de variables
-			            \item Operacionalización de variables
-			            \item Aspecto metodológico
-		            \end{enumerate}
-		      \item RESULTADOS DE LA INVESTIGACIÓN
-		            \begin{enumerate}
-			            \item Análisis e interpretación
-			            \item Resultados inferenciales
-			            \item Discusión de resultados
-		            \end{enumerate}
-		            CONCLUSIONES
-
-		            RECOMENDACIONES
-
-		            REFERENCIAS BIBLIOGRÁFICAS
-
-		            ANEXOS
-	      \end{enumerate}
+	\begin{enumerate}
+		\item PLANTEAMIENTO DEL PROBLEMA 
+		\begin{enumerate}
+			\item Identificación y descripción del problema 
+			\item Formulación del problema 
+			\item Objetivos
+			\item Justificación de la investigación 
+		\end{enumerate}
+		\item MARCO TEÓRICO 
+		\begin{enumerate}
+			\item Antecedentes de la investigación 
+			\item Bases teóricas 
+			\item Definiciones de términos básicos 
+		\end{enumerate}
+		\item METODOLOGÍA DE LA INVESTIGACIÓN 
+		\begin{enumerate}
+			\item Sistema de hipótesis 
+			\item Sistema de variables 
+			\item Operacionalización de variables 
+			\item Aspecto metodológico 
+		\end{enumerate}
+		\item RESULTADOS DE LA INVESTIGACIÓN
+		\begin{enumerate}
+			\item Análisis e interpretación 
+			\item Resultados inferenciales 
+			\item Discusión de resultados 
+		\end{enumerate}
+		CONCLUSIONES
+		
+		RECOMENDACIONES
+		
+		REFERENCIAS BIBLIOGRÁFICAS
+		
+		ANEXOS
+	\end{enumerate}
 	\item \textbf{Antecedentes }
 
 	\item \textbf{Problema }
-	      \begin{enumerate}
-		      \item \textbf{Problema general.}
-
-		            \problema.
-		      \item \textbf{Problemas específicos}
-		            \begin{itemize}
-			            \item \problemae.
-			            \item \problemaee.
-			            \item \problemaeee.
-			            \item \problemaeeee.
-		            \end{itemize}
-	      \end{enumerate}
+	\begin{enumerate} 
+		\item \textbf{Problema general.}
+		
+		\problema.
+		\item \textbf{Problemas específicos}
+		\begin{itemize}
+			\item \problemae. 
+			\item \problemaee. 
+			\item \problemaeee. 
+			\item \problemaeeee.  
+		\end{itemize}
+	\end{enumerate}
 	\item \textbf{Objetivos }
-	      \begin{enumerate}
-		      \item \textbf{Objetivo general}
+	\begin{enumerate}
+		\item \textbf{Objetivo general}
+		
+		\objetivo.
 
-		            \objetivo.
-
-		      \item \textbf{Objetivos específicos }
-		            \begin{itemize}
-			            \item \objetivoe.
-			            \item \objetivoee.
-			            \item \objetivoeee.
-			            \item \objetivoeeee.
-		            \end{itemize}
-	      \end{enumerate}
+		\item \textbf{Objetivos específicos }
+		\begin{itemize}
+			\item \objetivoe. 
+			\item \objetivoee. 
+			\item \objetivoeee. 
+			\item \objetivoeeee. 
+		\end{itemize}
+	\end{enumerate}
 	\item \textbf{Hipótesis }
-	      \begin{enumerate}
-		      \item \textbf{Hipótesis general}
-
-		            \hipotesis.
-		      \item \textbf{Hipótesis específicas}
-		            \begin{itemize}
-			            \item \hipotesise.
-			            \item \hipotesisee.
-			            \item \hipotesiseee.
-			            \item \hipotesiseeee.
-		            \end{itemize}
-	      \end{enumerate}
+	\begin{enumerate}
+		\item \textbf{Hipótesis general}
+		
+		\hipotesis.
+		\item \textbf{Hipótesis específicas}
+		\begin{itemize}
+			\item \hipotesise. 
+			\item \hipotesisee. 
+			\item \hipotesiseee. 
+			\item \hipotesiseeee. 
+		\end{itemize}
+	\end{enumerate}
 	\item \textbf{Orientación metodológica y diseño muestral}
-	      \begin{itemize}
-		      \item \textbf{Enfoque} Cuantitativo.
-		      \item \textbf{Tipo} Investigación aplicada.
-		      \item \textbf{Nivel de estudio} Investigación explicativa experimental.
-		      \item \textbf{Diseño} Diseño \MakeTextLowercase{\diseno} de un mismo grupo
-		            con pre y postprueba en series temporales equivalentes (Alternado).
-		      \item \textbf{Metodología} Experimental, hipotético deductivo, estadístico
-		            y analítico.
-		      \item \textbf{Población} Constituida por \poblacion.
-		      \item \textbf{Muestra} Constituida por \muestra.
-		      \item \textbf{Muestreo} No probabilístico.
-		      \item \textbf{Técnica} Observación, evaluación pedagógica y experimentación.
-		      \item \textbf{Instrumentos} Ficha de observación, ficha de opinión prueba
-		            escrita y módulos experimentales.
-		      \item \textbf{Procesamiento} \textbf{de datos} Mediante los programas estadísticos R Sweave y Excel.
-	      \end{itemize}
+	\begin{itemize}
+		\item \textbf{Enfoque} Cuantitativo. 
+		\item \textbf{Tipo} Investigación aplicada. 
+		\item \textbf{Nivel de estudio} Investigación explicativa experimental. 
+		\item \textbf{Diseño} Diseño \MakeTextLowercase{\diseno} de un mismo grupo
+		con pre y postprueba en series temporales equivalentes (Alternado). 
+		\item \textbf{Metodología} Experimental, hipotético deductivo, estadístico
+		y analítico. 
+		\item \textbf{Población} Constituida por \poblacion. 
+		\item \textbf{Muestra} Constituida por \muestra. 
+		\item \textbf{Muestreo} No probabilístico. 
+		\item \textbf{Técnica} Observación, evaluación pedagógica y experimentación. 
+		\item \textbf{Instrumentos} Ficha de observación, ficha de opinión prueba
+		escrita y módulos experimentales. 
+		\item \textbf{Procesamiento} \textbf{de datos} Mediante los programas estadísticos R Sweave y Excel. 
+	\end{itemize}
 	\item \textbf{Análisis y presentación de resultados} Se procesará los datos
-	      recogidos en el salón de clases, es decir, se sistematizará, interpretará
-	      y se sintetizará para responder así a los objetivos y a la finalidad
-	      de la investigación, con la perspectiva, de que la presentación de
-	      los resultados de esta investigación sirva de reflexión, sobre el
-	      abordaje de la \MakeTextLowercase{\variablei}, como un factor
-	      fomentador del \MakeTextLowercase{\variabled}.
+	recogidos en el salón de clases, es decir, se sistematizará, interpretará
+	y se sintetizará para responder así a los objetivos y a la finalidad
+	de la investigación, con la perspectiva, de que la presentación de
+	los resultados de esta investigación sirva de reflexión, sobre el
+	abordaje de la \MakeTextLowercase{\variablei}, como un factor
+	fomentador del \MakeTextLowercase{\variabled}.
 	\item \textbf{Conclusión }\hipotesis\textbf{.}
 \end{enumerate}
 \textbf{\vspace{0.5cm}
 }
 \begin{center}
 	....................................................\\
-	El investigador
+	El investigador 
 \end{center}
 
 \clearpage
 
 \begin{landscape}
-	\subsection{Matriz de consistencia\label{consistencia}}
-
+\subsection{Matriz de consistencia\label{consistencia}}
+	
 	%\lugar -- TÍTULO: \titulo -- AUTOR: \autor
-
-	\begin{table}[ht!]\caption{Matriz de consistencia}
-		\centering \scriptsize  \renewcommand\tabcolsep{0.1cm}\renewcommand\arraystretch{1}\begin{tabular}{p{4.05cm}p{4.05cm}p{4.05cm}ccc} \hline \ce\bf PROBLEMAS & \ce\bf OBJETIVOS & \ce\bf HIPÓTESIS & \ce\bf VARIABLES & \ce\bf MARCO TEÓRICO & \bf METODOLOGÍA\Tstrut \\ \hline \ce \bf PROBLEMA GENERAL &\ce \bf OBJETIVO GENERAL &\ce \bf HIPÓTESIS GENERAL &\multirow{8}*[0cm]{\begin{minipage}[t]{2.9cm} \begin{itemize}[itemsep=-0pt,leftmargin=*,labelsep=.02cm,] \item \textbf{Variable 1}: \variablei. \begin{itemize}[itemsep=-0pt,leftmargin=*,labelsep=.02cm,topsep=-2pt] \item \dimi. \item \dimii \item \dimiii. \item \dimiiii. \end{itemize} \item \textbf{Variable 2}: \variabled. \begin{itemize}[itemsep=-0pt,leftmargin=*,labelsep=.02cm,topsep=-2pt] \item \dimd. \item \dimdd. \item \dimddd. \end{itemize} \end{itemize} \end{minipage} } &\multirow{8}*[0cm]{\begin{minipage}[t]{2.9cm} \begin{itemize}[itemsep=-0pt,leftmargin=*,labelsep=.02cm,] \item Contexto de la investigación. \item \variablei. \item \variabled. \item \dimi. \item \dimii. \item \dimiii. \item \dimiiii.\item \dimd.\item \dimdd. \item \dimddd. \end{itemize} \end{minipage} } &\multirow{22}*[0cm]{\begin{minipage}[t]{5.2cm} \begin{itemize}[itemsep=-0pt,leftmargin=*,labelsep=.02cm] \item \textbf{Enfoque de estudio:} Investigación \MakeTextLowercase{\enfoque}. \item \textbf{Tipo de estudio:} Investigación \MakeTextLowercase{\tipo}. \item \textbf{Nivel de estudio:} Investigación \MakeTextLowercase{\nivel}. \item \textbf{Diseño de estudio:} Diseño \MakeTextLowercase{\diseno} de un mismo grupo con pre y postprueba. \item \textbf{Metodología:} Experimental, hipotético deductivo, estadístico y analítico. \item \textbf{Población:} Constituida por \poblacion. \item \textbf{Muestra:} Constituida por \muestra. \item \textbf{Muestreo:} Probabilístico. \item \textbf{Técnica:} Observación, evaluación peda\-gógica y experimentación. \item \textbf{Instrumentos:} Ficha de observación, ficha de opinión prueba escrita y módulos experimentales. \item \textbf{Procesamiento de datos:} Mediante los programas estadísticos R Sweave y Excel. \end{itemize} \end{minipage} } \Tstrut\\ \cline{1-3} \problema&\objetivo&\hipotesis&&&\\ \cline{1-3} \ce\bf PROBLEMAS ESPECÍFICOS &\ce\bf OBJETIVOS ESPECÍFICOS &\ce\bf  HIPÓTESIS ESPECÍFICAS &&&\Tstrut\\\cline{1-3} \problemae&\objetivoe&\hipotesise&&&\\\cline{1-3}
-			\problemaee                                              & \objetivoee      & \hipotesisee     &                  &                      &                        \\\cline{1-3}
-			\problemaeee                                             & \objetivoeee     & \hipotesiseee    &                  &                      &                        \\\cline{1-3}
-			\problemaeeee                                            & \objetivoeeee    & \hipotesiseeee   &                  &                      &                        \\ \hline\end{tabular}
-	\end{table}
+	
+		\begin{table}[ht!]\caption{Matriz de consistencia}
+			\centering \scriptsize  \renewcommand\tabcolsep{0.1cm}\renewcommand\arraystretch{1}\begin{tabular}{p{4.05cm}p{4.05cm}p{4.05cm}ccc} \hline \ce\bf PROBLEMAS &\ce\bf OBJETIVOS &\ce\bf HIPÓTESIS&\ce\bf VARIABLES&\ce\bf MARCO TEÓRICO&\bf METODOLOGÍA\Tstrut\\ \hline \ce \bf PROBLEMA GENERAL &\ce \bf OBJETIVO GENERAL &\ce \bf HIPÓTESIS GENERAL &\multirow{8}*[0cm]{\begin{minipage}[t]{2.9cm} \begin{itemize}[itemsep=-0pt,leftmargin=*,labelsep=.02cm,] \item \textbf{Variable 1}: \variablei. \begin{itemize}[itemsep=-0pt,leftmargin=*,labelsep=.02cm,topsep=-2pt] \item \dimi. \item \dimii \item \dimiii. \item \dimiiii. \end{itemize} \item \textbf{Variable 2}: \variabled. \begin{itemize}[itemsep=-0pt,leftmargin=*,labelsep=.02cm,topsep=-2pt] \item \dimd. \item \dimdd. \item \dimddd. \end{itemize} \end{itemize} \end{minipage} } &\multirow{8}*[0cm]{\begin{minipage}[t]{2.9cm} \begin{itemize}[itemsep=-0pt,leftmargin=*,labelsep=.02cm,] \item Contexto de la investigación. \item \variablei. \item \variabled. \item \dimi. \item \dimii. \item \dimiii. \item \dimiiii.\item \dimd.\item \dimdd. \item \dimddd. \end{itemize} \end{minipage} } &\multirow{22}*[0cm]{\begin{minipage}[t]{5.2cm} \begin{itemize}[itemsep=-0pt,leftmargin=*,labelsep=.02cm] \item \textbf{Enfoque de estudio:} Investigación \MakeTextLowercase{\enfoque}. \item \textbf{Tipo de estudio:} Investigación \MakeTextLowercase{\tipo}. \item \textbf{Nivel de estudio:} Investigación \MakeTextLowercase{\nivel}. \item \textbf{Diseño de estudio:} Diseño \MakeTextLowercase{\diseno} de un mismo grupo con pre y postprueba. \item \textbf{Metodología:} Experimental, hipotético deductivo, estadístico y analítico. \item \textbf{Población:} Constituida por \poblacion. \item \textbf{Muestra:} Constituida por \muestra. \item \textbf{Muestreo:} Probabilístico. \item \textbf{Técnica:} Observación, evaluación peda\-gógica y experimentación. \item \textbf{Instrumentos:} Ficha de observación, ficha de opinión prueba escrita y módulos experimentales. \item \textbf{Procesamiento de datos:} Mediante los programas estadísticos R Sweave y Excel. \end{itemize} \end{minipage} } \Tstrut\\ \cline{1-3} \problema&\objetivo&\hipotesis&&&\\ \cline{1-3} \ce\bf PROBLEMAS ESPECÍFICOS &\ce\bf OBJETIVOS ESPECÍFICOS &\ce\bf  HIPÓTESIS ESPECÍFICAS &&&\Tstrut\\\cline{1-3} \problemae&\objetivoe&\hipotesise&&&\\\cline{1-3}
+				\problemaee&\objetivoee&\hipotesisee&&&\\\cline{1-3} 
+				\problemaeee&\objetivoeee&\hipotesiseee&&&\\\cline{1-3} 
+				\problemaeeee&\objetivoeeee&\hipotesiseeee&&&\\ \hline \end{tabular}
+		\end{table}
 \end{landscape}
 
 
 
 \begin{landscape}
 	\subsection{Matriz de instrumentos de la variable \MakeTextLowercase{\variablei} }
-
+	
 	\lugar -- TÍTULO: \titulo -- AUTOR: \autor
 	\begin{table}[ht!]\caption{Matriz de instrumentos de la variable \MakeTextLowercase{\variablei}}
-		\centering  \renewcommand\tabcolsep{0.1cm}\renewcommand\arraystretch{1}
-		\scriptsize
-		\begin{tabular}{cccccc}\hline			\ce\bf VARIABLE                                                     & \ce\bf DIMENSIONES                               & \ce\bf INDICADORES   & \ce\bf ÍTEMS & \bf VALORACIÓN & \bf INSTRUMENTOS\Tstrut \\\hline
-			\multirow{20}{*}{\rotatebox[origin=c]{90}{\variablei}}                            & \multirow{5}{*}{\makecell[{{M{2cm}}}]{\dimi}}    & \multirow{2}{*}{\gb} &
-			C1: ¿Observa y reconoce las formas modulares de los fractales en la flora?        & \multirow{17}{*}{\makecell[{{M{2cm}}}]{Alta.                                                                                      \\\vspace{.2cm} 					Moderado. \\\vspace{.2cm} 					Baja.\\\vspace{.2cm} 					Muy baja.\\\vspace{.2cm} 					Nula. 			}}&\multirow{17}{*}{\makecell[{{M{2cm}}}]{Ficha de opinión\\ Prueba escrita}}\\\cline{4-4} 			&&&
-			C2: ¿Representa lo percibido, en sus creaciones artísticas?                       &                                                                                                                                   \\\cline{3-4} 			&& \multirow{1}{*}{\gbbb} 			&
-			C3: ¿Identifica las variaciones de escala en los fractales hídricos?              &                                                                                                                                   \\\cline{3-4} 			&& \multirow{2}{*}{\gbbbb} 			&
-			C4: ¿Observa y relaciona registros bibliográficos con los fractales atmosféricos? &                                                                                                                                   \\ 			\cline{4-4}			 				&&&
-			C5: ¿Observa y relaciona registros bibliográficos con los fractales atmosféricos? &                                                                                                                                   \\ 			\cline{2-4}
-
-			                                                                                  & \multirow{5}{*}{\makecell[{{M{2cm}}}]{\dimii}}
-			                                                                                  & \multirow{2}{*}{\gbbbbbb}                        &
-			C9: ¿Reconoce la recursividad de elementos fractales?                                                                                                                                                                 \\ \cline{4-4}				&&&
-			C10: ¿Itera procesos funcionales sobre un objeto patrón?                          &                                                                                                                                   \\\cline{3-4} 			&&\multirow{1}{*}{\gbbbbbbb}&
-			C11: ¿Reconoce transformaciones algorítmicas complejas?                           &                                                                                                                                   \\\cline{3-4} 			&&\multirow{2}{*}{\gbbbbbbbb}&
-			C12: ¿Reconoce el movimiento Browniano?                                                                                                                                                                               \\ \cline{4-4}					&&&
-			A17: ¿Utiliza modelos de frecuencias percibidas en diversas aplicaciones?         &                                                                                                                                   \\
-			\cline{2-4}
-
-			                                                                                  & \multirow{5}{*}{\makecell[{{M{2cm}}}]{\dimiii}}
-			                                                                                  & \multirow{2}{*}{\gbbbbbb}                        &
-			C9: ¿Reconoce la recursividad de elementos fractales?                                                                                                                                                                 \\ \cline{4-4}				&&&
-			C10: ¿Itera procesos funcionales sobre un objeto patrón?                          &                                                                                                                                   \\\cline{3-4} 			&&\multirow{1}{*}{\gbbbbbbb}&
-			C11: ¿Reconoce transformaciones algorítmicas complejas?                           &                                                                                                                                   \\\cline{3-4} 			&&\multirow{2}{*}{\gbbbbbbbb}&
-			C12: ¿Reconoce el movimiento Browniano?                                                                                                                                                                               \\ \cline{4-4}					&&&
-			A17: ¿Utiliza modelos de frecuencias percibidas en diversas aplicaciones?         &                                                                                                                                   \\
-			\cline{2-4}
-
-			                                                                                  & \multirow{5}{*}{\makecell[{{M{2cm}}}]{\dimiiii}}
-			                                                                                  & \multirow{2}{*}{\gbbbbbb}                        &
-			C9: ¿Reconoce la recursividad de elementos fractales?                                                                                                                                                                 \\ \cline{4-4}				&&&
-			C10: ¿Itera procesos funcionales sobre un objeto patrón?                          &                                                                                                                                   \\\cline{3-4} 			&&\multirow{1}{*}{\gbbbbbbb}&
-			C11: ¿Reconoce transformaciones algorítmicas complejas?                           &                                                                                                                                   \\\cline{3-4} 			&&\multirow{2}{*}{\gbbbbbbbb}&
-			C12: ¿Reconoce el movimiento Browniano?                                                                                                                                                                               \\ \cline{4-4}					&&&
-			A17: ¿Utiliza modelos de frecuencias percibidas en diversas aplicaciones?         &                                                                                                                                   \\\hline
-		\end{tabular}
-	\end{table}
+			\centering  \renewcommand\tabcolsep{0.1cm}\renewcommand\arraystretch{1}
+			\scriptsize
+			\begin{tabular}{cccccc}\hline			\ce\bf VARIABLE&\ce\bf DIMENSIONES &\ce\bf INDICADORES&\ce\bf ÍTEMS &\bf VALORACIÓN& \bf INSTRUMENTOS\Tstrut 			\\\hline 			
+				\multirow{20}{*}{\rotatebox[origin=c]{90}{\variablei}}& 			\multirow{5}{*}{\makecell[{{M{2cm}}}]{\dimi}}  			& \multirow{2}{*}{\gb} 			&
+				C1: ¿Observa y reconoce las formas modulares de los fractales en la flora?& 			\multirow{17}{*}{\makecell[{{M{2cm}}}]{Alta.\\\vspace{.2cm} 					Moderado. \\\vspace{.2cm} 					Baja.\\\vspace{.2cm} 					Muy baja.\\\vspace{.2cm} 					Nula. 			}}&\multirow{17}{*}{\makecell[{{M{2cm}}}]{Ficha de opinión\\ Prueba escrita}}\\\cline{4-4} 			&&& 
+				C2: ¿Representa lo percibido, en sus creaciones artísticas?        &\\\cline{3-4} 			&& \multirow{1}{*}{\gbbb} 			&
+				C3: ¿Identifica las variaciones de escala en los fractales hídricos?&\\\cline{3-4} 			&& \multirow{2}{*}{\gbbbb} 			&
+				C4: ¿Observa y relaciona registros bibliográficos con los fractales atmosféricos? &\\ 			\cline{4-4}			 				&&& 
+				C5: ¿Observa y relaciona registros bibliográficos con los fractales atmosféricos? &\\ 			\cline{2-4}	
+				
+						 			&\multirow{5}{*}{\makecell[{{M{2cm}}}]{\dimii}} 		
+				& \multirow{2}{*}{\gbbbbbb}&
+				C9: ¿Reconoce la recursividad de elementos fractales?\\ \cline{4-4}				&&& 
+				C10: ¿Itera procesos funcionales sobre un objeto patrón?       &\\\cline{3-4} 			&&\multirow{1}{*}{\gbbbbbbb}&
+				C11: ¿Reconoce transformaciones algorítmicas complejas?       &\\\cline{3-4} 			&&\multirow{2}{*}{\gbbbbbbbb}&
+				C12: ¿Reconoce el movimiento Browniano?\\ \cline{4-4}					&&&
+				A17: ¿Utiliza modelos de frecuencias percibidas en diversas aplicaciones?       &\\
+				\cline{2-4}	
+				
+						 			&\multirow{5}{*}{\makecell[{{M{2cm}}}]{\dimiii}} 		
+				& \multirow{2}{*}{\gbbbbbb}&
+				C9: ¿Reconoce la recursividad de elementos fractales?\\ \cline{4-4}				&&& 
+				C10: ¿Itera procesos funcionales sobre un objeto patrón?       &\\\cline{3-4} 			&&\multirow{1}{*}{\gbbbbbbb}&
+				C11: ¿Reconoce transformaciones algorítmicas complejas?       &\\\cline{3-4} 			&&\multirow{2}{*}{\gbbbbbbbb}&
+				C12: ¿Reconoce el movimiento Browniano?\\ \cline{4-4}					&&&
+				A17: ¿Utiliza modelos de frecuencias percibidas en diversas aplicaciones?       &\\ 	
+				\cline{2-4}	
+				
+						 			&\multirow{5}{*}{\makecell[{{M{2cm}}}]{\dimiiii}} 		
+				& \multirow{2}{*}{\gbbbbbb}&
+				C9: ¿Reconoce la recursividad de elementos fractales?\\ \cline{4-4}				&&& 
+				C10: ¿Itera procesos funcionales sobre un objeto patrón?       &\\\cline{3-4} 			&&\multirow{1}{*}{\gbbbbbbb}&
+				C11: ¿Reconoce transformaciones algorítmicas complejas?       &\\\cline{3-4} 			&&\multirow{2}{*}{\gbbbbbbbb}&
+				C12: ¿Reconoce el movimiento Browniano?\\ \cline{4-4}					&&&
+				A17: ¿Utiliza modelos de frecuencias percibidas en diversas aplicaciones?       &\\\hline 	 	
+			\end{tabular} 
+		\end{table}
 \end{landscape}
 
 
 
 \begin{landscape}
 	\subsection{Matriz de instrumentos de la variable \MakeTextLowercase{\variabled} \label{1www}}
-
+	
 	\lugar -- TÍTULO: \titulo -- AUTOR: \autor
 	\begin{table}[ht!]\caption{Matriz de instrumentos de la variable \MakeTextLowercase{\variabled}}
-		\centering \scriptsize\renewcommand\tabcolsep{0.1cm}\renewcommand\arraystretch{1}
-		\begin{tabular}{cccccc} 			\hline\ce\bf VARIABLE                          & \ce\bf DIMENSIONES & \ce\bf INDICADORES & \ce\bf ÍTEMS                                        & \ce\bf VALORACIÓN & \bf INSTRUMENTOS \Tstrut \\
-			\hline
-			\multirow{20}{*}{\rotatebox[origin=c]{90}{\variabled}}  &
-			\multirow{5}{*}{\dimd}                                  &
-			\multirow{2}{*}{\fb}                                    &
-			P1: ¿Utiliza variedad de colores?                       &
-			\multirow{20}{*}{\makecell{Excelente                                                                                                                                                                   \\\vspace{.2cm}Bueno\\\vspace{.2cm}Regular\\\vspace{.2cm}Malo\\\vspace{.2cm}Deficiente}}&
-			\multirow{20}{*}{\rotatebox[origin=c]{90}{Ficha de observación}}                                                                                                                                       \\\cline{4-4}
-			                                                        &                    &                    &
-			P2: ¿Plasma degradación entre los colores?              &                                                                                                                                              \\\cline{3-4} 			&&
-			\multirow{2}{*}{\fbb}                                   &
-			P3: ¿Utiliza formas y superficies regulares?                                                                                                                                                           \\\cline{4-4}
-			                                                        &                    &                    &
-			P4: ¿Utiliza formas irregulares someramente?            &                                                                                                                                              \\\cline{3-4} 	&&
-			\multirow{1}{*}{\fbbb}                                  &
-			P5: ¿Manifiesta degradación de texturas?                                                                                                                                                               \\\cline{2-4} 			&
-			\multirow{5}{*}{\dimdd}                                 &
-			\multirow{2}{*}{\fbbbb}                                 &
-			P6: ¿Distribuye adecuadamente los tonos?                                                                                                                                                               \\\cline{4-4}
-			                                                        &                    &                    &
-			P7: ¿Asocia adecuadamente los tonos?                    &                                                                                                                                              \\\cline{3-4} 			&&
-			\multirow{1}{*}{\fbbbbb}                                &
-			P8: ¿Asocia proporcionalmente los volúmenes?                                                                                                                                                           \\\cline{3-4} 		&&
-			\multirow{2}{*}{\fbbbbbb}                               &
-			P9: ¿Conjuga texturas diversas?                                                                                                                                                                        \\\cline{4-4}
-			                                                        &                    &                    &
-			P10: ¿Homogeneiza texturas secuencialmente?             &                                                                                                                                              \\\cline{2-4} 			&
-			\multirow{7}{*}{\dimddd}                                &
-			\multirow{2}{*}{\fbbbbbbb}                              &
-			P11: ¿Representa elementos con dimensión creciente?                                                                                                                                                    \\ \cline{4-4}
-			                                                        &                    &                    &
-			P12: ¿Manifiesta elementos plásticos proporcionalmente? &                                                                                                                                              \\\cline{3-4}&&
-			\multirow{1}{*}{\fbbbbbbbb}                             &
-			P13: ¿Representa los elementos plásticos de manera decreciente?                                                                                                                                        \\\cline{3-4}&&
-			\multirow{2}{*}{\fbbbbbbbb}                             &
-			P14: ¿Conjuga los elementos plásticos?                                                                                                                                                                 \\\cline{4-4}
-			                                                        &                    &                    & p15: ¿Distribuye elementos, constantes ligeramente? &                                              \\\cline{3-4} 			&&
-			\multirow{2}{*}{\fbbbbbbbbb}                            &
-			P16: ¿Yuxtapone elementos plásticos mixtos?                                                                                                                                                            \\\cline{4-4}
-			                                                        &                    &                    & P17: ¿Yuxtapone los ritmos en el conjunto?          &                                              \\	\hline\end{tabular}
-	\end{table}
+			\centering \scriptsize\renewcommand\tabcolsep{0.1cm}\renewcommand\arraystretch{1}
+			\begin{tabular}{cccccc} 			\hline\ce\bf VARIABLE&\ce\bf DIMENSIONES &\ce\bf INDICADORES&\ce\bf ÍTEMS &\ce\bf VALORACIÓN& \bf INSTRUMENTOS \Tstrut 			\\
+				\hline 		
+				\multirow{20}{*}{\rotatebox[origin=c]{90}{\variabled}}& 			
+				\multirow{5}{*}{\dimd} 			& 
+				\multirow{2}{*}{\fb} 			&
+				P1: ¿Utiliza variedad de colores?& 			
+				\multirow{20}{*}{\makecell{Excelente\\\vspace{.2cm}Bueno\\\vspace{.2cm}Regular\\\vspace{.2cm}Malo\\\vspace{.2cm}Deficiente}}&
+				\multirow{20}{*}{\rotatebox[origin=c]{90}{Ficha de observación}}\\\cline{4-4}	
+				&&& 
+				P2: ¿Plasma degradación entre los colores? &\\\cline{3-4} 			&&
+				\multirow{2}{*}{\fbb} 			&
+				P3: ¿Utiliza formas y superficies regulares?\\\cline{4-4}	
+				&&& 
+				P4: ¿Utiliza formas irregulares someramente?      &\\\cline{3-4} 	&&
+				\multirow{1}{*}{\fbbb} 			&
+				P5: ¿Manifiesta degradación de texturas? \\\cline{2-4} 			&
+				\multirow{5}{*}{\dimdd} 			& 
+				\multirow{2}{*}{\fbbbb} 			&
+				P6: ¿Distribuye adecuadamente los tonos?\\\cline{4-4}	
+				&&& 
+				P7: ¿Asocia adecuadamente los tonos?       &\\\cline{3-4} 			&&
+				\multirow{1}{*}{\fbbbbb} 			&
+				P8: ¿Asocia proporcionalmente los volúmenes?\\\cline{3-4} 		&&
+				\multirow{2}{*}{\fbbbbbb} 			&
+				P9: ¿Conjuga texturas diversas?\\\cline{4-4}	
+				&&& 
+				P10: ¿Homogeneiza texturas secuencialmente?      &\\\cline{2-4} 			&
+				\multirow{7}{*}{\dimddd} 			& 
+				\multirow{2}{*}{\fbbbbbbb} 			&
+				P11: ¿Representa elementos con dimensión creciente?\\ \cline{4-4}	
+				&&&
+				P12: ¿Manifiesta elementos plásticos proporcionalmente?     &\\\cline{3-4}&&
+				\multirow{1}{*}{\fbbbbbbbb} 			&
+				P13: ¿Representa los elementos plásticos de manera decreciente?\\\cline{3-4}&&
+				\multirow{2}{*}{\fbbbbbbbb} 			&
+				P14: ¿Conjuga los elementos plásticos?\\\cline{4-4}	
+				&&& p15: ¿Distribuye elementos, constantes ligeramente?       &\\\cline{3-4} 			&&
+				\multirow{2}{*}{\fbbbbbbbbb} 			&
+				P16: ¿Yuxtapone elementos plásticos mixtos?\\\cline{4-4}	
+				&&& P17: ¿Yuxtapone los ritmos en el conjunto?      &\\	\hline	\end{tabular}
+		\end{table}
 \end{landscape}
 
-\begin{enumerate}
+	\begin{enumerate}
 	\item DATOS GENERALES
-	      \begin{itemize}
-		      \item Apellidos y nombres del experto: \dotfill
-		      \item Cargo e institución donde labora: \dotfill
-		      \item Nombre de los instrumentos: Ficha de observación de la  variable indendiente (INST1) y Ficha de observación de la  variable dendiente (INST2)
-		      \item Titulo de la tesis: \titulo
-		      \item Autor de los instrumentos: \autor
-	      \end{itemize}
-
+	\begin{itemize}
+		\item Apellidos y nombres del experto: \dotfill
+		\item Cargo e institución donde labora: \dotfill
+		\item Nombre de los instrumentos: Ficha de observación de la  variable indendiente (INST1) y Ficha de observación de la  variable dendiente (INST2)  
+		\item Titulo de la tesis: \titulo
+		\item Autor de los instrumentos: \autor
+	\end{itemize} 
+	
 	\item CRITERIOS DE VALIDACIÓN (Acuerdo: A, Descacuerdo: D)
-
-	      \begin{center}
-		      \begin{tabular}{|c|p{6.8cm}|c|c|c|c|}
-			      \hline
-			      \multirow{2}*[-.01cm]{INDICADORES} & \multirow{2}*[-.01cm]{CRITERIOS DE VALIDACIÓN}                                    & \multicolumn{2}{c|}{INST1} & \multicolumn{2}{c|}{INST2}         \\
-			      \cline{3-6}
-			                                         &                                                                                   & A                          & D                          & A & D \\
-			      \hline
-			      Claridad                           & ¿Está formulado con lenguaje claro, apropiado y cencillo?                         &                            &                            &   &   \\
-			      \hline
-			      Objetividad                        & ¿Las preguntas realmente recojen datos de las variables y los indicadores?        &                            &                            &   &   \\
-			      \hline
-			      Actualización                      & ¿El instrumento es adecuado para el tipo de variable en estudio?                  &                            &                            &   &   \\
-			      \hline
-			      Organización                       & ¿La presentacion formal (tipo, tamaño, letra, etc.) del instrumento es apropiado? &                            &                            &   &   \\
-			      \hline
-			      Suficiencia                        & ¿Las preguntas son suficientes para recoger datos de todos los indicadores?       &                            &                            &   &   \\
-			      \hline
-			      Intencionalidad                    & ¿Los items o preguntas responden al problema y objetivos del investigación?       &                            &                            &   &   \\
-			      \hline
-			      Consistencia                       & ¿Los items o preguntas tienen sustento teórico y científico?                      &                            &                            &   &   \\
-			      \hline
-			      Coherencia                         & ¿Los items o preguntas tienen son comprensibles y están bien redactados?          &                            &                            &   &   \\
-			      \hline
-			      %		Metodología	& ¿Esta formulado con lenguaje claro, apropiado y cencillo? &  &  &  &    \\
-			      %		\hline
-			      %		Pertinencia	& ¿Esta formulado con lenguaje claro, apropiado y cencillo? &  &  &  &    \\
-			      %		\hline
-		      \end{tabular}
-	      \end{center}
-
+	
+\begin{center}
+		\begin{tabular}{|c|p{6.8cm}|c|c|c|c|}
+		\hline
+		\multirow{2}*[-.01cm]{INDICADORES}	&\multirow{2}*[-.01cm]{CRITERIOS DE VALIDACIÓN} & \multicolumn{2}{c|}{INST1} & \multicolumn{2}{c|}{INST2}   \\
+		\cline{3-6}
+		&& A & D & A & D \\
+		\hline
+Claridad	& ¿Está formulado con lenguaje claro, apropiado y cencillo? &  &  &  &    \\
+		\hline
+		Objetividad	& ¿Las preguntas realmente recojen datos de las variables y los indicadores? &  &  &  &    \\
+		\hline
+		Actualización	& ¿El instrumento es adecuado para el tipo de variable en estudio? &  &  &  &    \\
+		\hline
+		Organización	& ¿La presentacion formal (tipo, tamaño, letra, etc.) del instrumento es apropiado? &  &  &  &    \\
+		\hline
+		Suficiencia	& ¿Las preguntas son suficientes para recoger datos de todos los indicadores? &  &  &  &    \\
+		\hline
+		Intencionalidad	& ¿Los items o preguntas responden al problema y objetivos del investigación? &  &  &  &      \\
+		\hline
+		Consistencia	& ¿Los items o preguntas tienen sustento teórico y científico? &  &  &  &      \\
+		\hline
+		Coherencia	& ¿Los items o preguntas tienen son comprensibles y están bien redactados? &  &  &  &    \\
+		\hline
+%		Metodología	& ¿Esta formulado con lenguaje claro, apropiado y cencillo? &  &  &  &    \\
+%		\hline
+%		Pertinencia	& ¿Esta formulado con lenguaje claro, apropiado y cencillo? &  &  &  &    \\
+%		\hline
+	\end{tabular}
+\end{center}
+	
 	\item OPINION DE APLICABILIDAD
-
-	      ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+	
+	---------------------------------------------------------------------------------------------------------------------------------------------------------------- 
 \end{enumerate}
 
 \begin{center}
-
+	
 	---------------------------\\
 	Firma del experto\\
 	Telefono: .....................\\
@@ -1412,4 +1412,4 @@ Temporalización-cronograma de acciones refiérase al Cuadro \ref{cronog}.
 \end{center}
 
 
-\end{document}
+\end{document} 
