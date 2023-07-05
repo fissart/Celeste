@@ -648,25 +648,42 @@ Para analizar las características del proceso de aplicación de la \MakeTextLow
 
 \begin{table}[ht!]
 	\caption{Definición operacional de la variable independiente}
-	\label{www}
-	\begin{tabular}{ccccccc}
-		\Xhline{1pt}
-		\textbf{{VD}} & \textbf{{D}}                                      & \textbf{Indicadores}            & \textbf{Items}            & \textbf{Escala}                                                  & \textbf{Valores} \\ 		\hline 		\multirow{14}{*}{\rotatebox[origin=c]{90}
+	\label{www}\begin{tabular}{ccccccc}
+		\Xhline{1pt} 		\textbf{{VD}} & \textbf{{D}}                                      & \textbf{Indicadores}            & \textbf{Items}                                                   & \textbf{Escala} & \textbf{Valores} \\ 		\hline 		\multirow{14}{*}{\rotatebox[origin=c]{90}
 			{\makecell[{{p{5cm}}}]{\centering\variablei}}}
-		              & \multirow{3}{*}{\makecell[{{p{3cm}}}]{\ce\dimi}}  & \multirow{1}{*}{\gb}            & \multirow{1}{*}{P1--P2}   & \multirow{14}{*}{\rotatebox[origin=c]{90}{\makecell{Cuantitativa                    \\ continua}}} 		&\multirow{14}{*}{\rotatebox[origin=c]{90}{\makecell{Valoración cuantitaitva \\ 0 a 20}}} 		\\\cline{3-4}
-		              &                                                   & \multirow{1}*{\gbb}             & \multirow{1}{*}{C3--C4}   &                                                                                     \\\cline{3-4}
-		              &                                                   & \multirow{1}*{\gbbb}            & \multirow{1}{*}{C8}       &                                                                                     \\\cline{2-4}
-		              & \multirow{4}*{\makecell[{{p{3cm}}}]{\ce\dimii}}   & \multirow{1}*{\gbbbb}           & \multirow{1}{*}{C9--C10}  &                                                                                     \\\cline{3-4}
-		              &                                                   & \multirow{1}*{\gbbbbb}          & \multirow{1}{*}{C11}      &                                                                                     \\\cline{3-4}
-		              &                                                   & \multirow{1}*{\gbbbbbb}         & \multirow{1}{*}{C12--C13} &                                                                                     \\\cline{3-4}
-		              &                                                   & \multirow{1}*{\gbbbbbbb}        & \multirow{1}{*}{C14--C15} &                                                                                     \\\cline{3-4}
-		              & \multirow{4}*{\makecell[{{p{3cm}}}]{\ce\dimiii}}  & \multirow{1}*{\gbbbbbbbbb}      & \multirow{1}{*}{C9--C10}  &                                                                                     \\\cline{3-4}
-		              &                                                   & \multirow{1}*{\gbbbbbbbbb}      & \multirow{1}{*}{C11}      &                                                                                     \\\cline{3-4}
-		              &                                                   & \multirow{1}*{\gbbbbbbbbbb}     & \multirow{1}{*}{C12--C13} &                                                                                     \\\cline{3-4}
-		              &                                                   & \multirow{1}*{\gbbbbbbbbbbb}    & \multirow{1}{*}{C12--C13} &                                                                                     \\\cline{3-4}
-		              & \multirow{3}*{\makecell[{{p{3cm}}}]{\ce\dimiiii}} & \multirow{1}*{\gbbbbbbbbbbbb}   & \multirow{1}{*}{C9--C10}  &                                                                                     \\\cline{3-4}
-		              &                                                   & \multirow{1}*{\gbbbbbbbbbbbbb}  & \multirow{1}{*}{C11}      &                                                                                     \\\cline{3-4}
-		              &                                                   & \multirow{1}*{\gbbbbbbbbbbbbbb} & \multirow{1}{*}{C14--C15} &                                                                                     \\
+		                           & \multirow{3}{*}{\makecell[{{p{3cm}}}]{\ce\dimi}}
+		                           & \multirow{1}{*}{\gb}                              & \multirow{1}{*}{P1--P2}         & \multirow{14}{*}{\rotatebox[origin=c]{90}{\makecell{Cuantitativa                                      \\ continua}}} 		&\multirow{14}{*}{\rotatebox[origin=c]{90}{\makecell{Valoración cuantitaitva \\ 0 a 20}}} 		\\\cline{3-4}
+		                           &                                                   & \multirow{1}*{\gbb}             &
+		\multirow{1}{*}{C3--C4}    &                                                                                                                                                                                             \\\cline{3-4}
+		                           &                                                   & \multirow{1}*{\gbbb}            &
+		\multirow{1}{*}{C8}        &                                                                                                                                                                                             \\\cline{2-4}
+		                           & \multirow{4}*{\makecell[{{p{3cm}}}]{\ce\dimii}}
+		                           & \multirow{1}*{\gbbbb}                             &
+		\multirow{1}{*}{C9--C10}   &                                                                                                                                                                                             \\\cline{3-4}
+		                           &                                                   & \multirow{1}*{\gbbbbb}          &
+		\multirow{1}{*}{C11}       &                                                                                                                                                                                             \\\cline{3-4}
+		                           &                                                   & \multirow{1}*{\gbbbbbb}         &
+		\multirow{1}{*}{C12--C13}  &                                                                                                                                                                                             \\\cline{3-4}
+		                           &                                                   & \multirow{1}*{\gbbbbbbb}        &
+		\multirow{1}{*}{C14--C15}  &                                                                                                                                                                                             \\\cline{3-4}
+		\cline{2-4}
+		                           & \multirow{4}*{\makecell[{{p{3cm}}}]{\ce\dimiii}}
+		                           & \multirow{1}*{\gbbbbbbbbb}                        &
+		\multirow{1}{*}{C9--C10}   &                                                                                                                                                                                             \\\cline{3-4}
+		                           &                                                   & \multirow{1}*{\gbbbbbbbbb}      &
+		\multirow{1}{*}{C11}       &                                                                                                                                                                                             \\\cline{3-4}
+		                           &                                                   & \multirow{1}*{\gbbbbbbbbbb}     &
+		\multirow{1}{*}{C12--C13}  &                                                                                                                                                                                             \\\cline{3-4}
+		                           &                                                   & \multirow{1}*{\gbbbbbbbbbbb}    &
+		\multirow{1}{*}{C12--C13}  &                                                                                                                                                                                             \\\cline{3-4}
+		\cline{2-4}
+		                           & \multirow{3}*{\makecell[{{p{3cm}}}]{\ce\dimiiii}}
+		                           & \multirow{1}*{\gbbbbbbbbbbbb}                     &
+		\multirow{1}{*}{C9--C10}   &                                                                                                                                                                                             \\\cline{3-4}
+		                           &                                                   & \multirow{1}*{\gbbbbbbbbbbbbb}  &
+		\multirow{1}{*}{C11}       &                                                                                                                                                                                             \\\cline{3-4}
+		                           &                                                   & \multirow{1}*{\gbbbbbbbbbbbbbb} &
+		\multirow{1}{*}{C14--C15}  &                                                                                                                                                                                             \\
 		\hline
 	\end{tabular}
 \end{table}
@@ -677,33 +694,36 @@ Para analizar las características del proceso de aplicación de la \MakeTextLow
 
 El presente trabajo de investigación, se refiere a la habilidad
 de incrementar el \MakeTextLowercase{\variabled} lo cual involucra procesos o indicadores como la \MakeTextLowercase{\dimd}, \MakeTextLowercase{\dimdd} y  \MakeTextLowercase{\dimddd}. Se recogerá los datos usando la lista de cotejo, la fichas de observación y pruebas escritas. Para determinar el desarrollo de el \MakeTextLowercase{\variabled}, que cuentan con un total de 16 indicadores.
-El cumplimiento determinará el crecimiento de la  eficacia del conocimiento matemático, refiérase al Cuadro \ref{wwwww}.
+El cumplimiento determinará el crecimiento de la  eficacia del conocimiento matemático, refiérase al Cuadro \ref{vd}.
 
 \begin{table}[ht!]
-	%\renewcommand\tabcolsep{0.15cm}\renewcommand\arraystretch{0.9}
+	\renewcommand\tabcolsep{0.15cm}\renewcommand\arraystretch{0.9}
 	\caption{Definición operacional de la variable dependiente}
 	\label{wwwww}
-	\begin{tabular}{cllcc}
+	\begin{tabular}{cccccc}
 		\Xhline{1pt}
-		\textbf{{Variable}} & \textbf{{Dimensiones}}                            & \textbf{Indicadores}               & \textbf{Escala}                                                              & \textbf{Valores}                                               \\
+		\textbf{{VD}} & \textbf{{D}}
+		              & \textbf{Indicadores}                                 & \textbf{Items}               & \textbf{Escala}                                                             & \textbf{Valores}                                                \\
 		\hline
-		\multirow{16}{*}{\rotatebox[origin=c]{90}{\makecell[{{p{3cm}}}]{\ce\variabled}}}
-		                    & \multirow{4}{*}{\makecell[{{p{2.5cm}}}]{\dimd}}   & \multirow{1}{*}{\fb}               & \multirow{16}{*}{\rotatebox[origin=c]{90}{\makecell{Cuantitativa continua}}} & \multirow{16}{*}{\rotatebox[origin=c]{90}{\makecell{Valoración \\cuantitaitva de 0 a 20}}}\\\cline{3-4}
-		                    &                                                   & \multirow{1}{*}{\fbb}              &                                                                              &                                                                \\\cline{3-3}
-		                    &                                                   & \multirow{1}{*}{\fbbb}             &                                                                              &                                                                \\\cline{3-3}
-		                    &                                                   & \multirow{1}{*}{\fbbb}             &                                                                              &                                                                \\\cline{3-3}
-		                    & \multirow{4}{*}{\makecell[{{p{2.5cm}}}]{\dimdd}}  & \multirow{1}{*}{\fbbbb}            &                                                                              &                                                                \\\cline{3-3}
-		                    &                                                   & \multirow{1}{*}{\fbbbbb}           &                                                                              &                                                                \\\cline{3-3}
-		                    &                                                   & \multirow{1}{*}{\fbbbbbb}          &                                                                              &                                                                \\\cline{3-3}
-		                    &                                                   & \multirow{1}{*}{\fbbbbbbb}         &                                                                              &                                                                \\\cline{3-3}
-		                    & \multirow{4}{*}{\makecell[{{p{2.5cm}}}]{\dimddd}} & \multirow{1}{*}{\fbbbbbbbb}        &                                                                              &                                                                \\\cline{3-3}
-		                    &                                                   & \multirow{1}{*}{\fbbbbbbbbb}       &                                                                              &                                                                \\\cline{3-3}
-		                    &                                                   & \multirow{1}{*}{\fbbbbbbbbbb}      &                                                                              &                                                                \\\cline{3-3}
-		                    &                                                   & \multirow{1}{*}{\fbbbbbbbbbbb}     &                                                                              &                                                                \\\cline{3-3}
-		                    & \multirow{4}{*}{\makecell[{{p{2.5cm}}}]{\dimddd}} & \multirow{1}{*}{\fbbbbbbbbbbbb}    &                                                                              &                                                                \\\cline{3-3}
-		                    &                                                   & \multirow{1}{*}{\fbbbbbbbbbbbbb}   &                                                                              &                                                                \\\cline{3-3}
-		                    &                                                   & \multirow{1}{*}{\fbbbbbbbbbbbbbb}  &                                                                              &                                                                \\\cline{3-3}
-		                    &                                                   & \multirow{1}{*}{\fbbbbbbbbbbbbbbb} &                                                                              &                                                                \\\Xhline{1pt}
+		\multirow{9}{*}{\rotatebox[origin=c]{90}{\makecell[{{p{3.9cm}}}]{\ce\variabled}}}
+		              & \multirow{3}{*}{\makecell[{{p{3.9cm}}}]{\ce\dimd}}
+		              & \multirow{1}{*}{\fb}                                 & \multirow{1}{*}{P1--P2}      & \multirow{9}{*}{\rotatebox[origin=c]{90}{\makecell{Cuantitativa continua}}} & \multirow{9}{*}{\rotatebox[origin=c]{90}{\makecell{Valoración   \\cuantitaitva de 0 a 20}}} 		\\\cline{3-4}
+		              &                                                      & \multirow{1}{*}{\fbb}        & \multirow{1}{*}{P3--P4}                                                     &                                                               & \\\cline{3-4}
+		              &                                                      & \multirow{1}{*}{\fbbb}       & \multirow{1}{*}{P5}                                                         &                                                               & \\\cline{2-4}
+		              &                                                      & \multirow{1}{*}{\fbbb}       & \multirow{1}{*}{P5}                                                         &                                                               & \\\cline{2-4}
+		              & \multirow{3}{*}{\makecell[{{p{3.9cm}}}]{\ce\dimdd}}  & \multirow{1}{*}{\fbbbb}      & \multirow{1}{*}{P6--P7}                                                     &                                                               & \\\cline{3-4}
+		              &                                                      & \multirow{1}{*}{\fbbbbb}     & \multirow{1}{*}{P8}                                                         &                                                               & \\\cline{3-4}
+		              &                                                      & \multirow{1}{*}{\fbbb}       & \multirow{1}{*}{P5}                                                         &                                                               & \\\cline{2-4}
+		              &                                                      & \multirow{1}{*}{\fbbbbbb}    & \multirow{1}{*}{P9--P10}                                                    &                                                               & \\\cline{2-4}
+		              & \multirow{3}{*}{\makecell[{{p{3.9cm}}}]{\ce\dimddd}} & \multirow{1}{*}{\fbbbbbbb}   & \multirow{1}{*}{P11--P12}                                                   &                                                               & \\\cline{3-4}
+		              &                                                      & \multirow{1}{*}{\fbbbbbbbb}  & \multirow{1}{*}{P13}                                                        &                                                               & \\\cline{3-4}
+		              &                                                      & \multirow{1}{*}{\fbbb}       & \multirow{1}{*}{P5}                                                         &                                                               & \\\cline{2-4}
+		              &                                                      & \multirow{1}{*}{\fbbbbbbbbb} & \multirow{1}{*}{P16--P17}                                                   &                                                               & \\\Xhline{1pt}
+		              & \multirow{3}{*}{\makecell[{{p{3.9cm}}}]{\ce\dimddd}} & \multirow{1}{*}{\fbbbbbbb}   & \multirow{1}{*}{P11--P12}                                                   &                                                               & \\\cline{3-4}
+&                                                      & \multirow{1}{*}{\fbbbbbbbb}  & \multirow{1}{*}{P13}                                                        &                                                               & \\\cline{3-4}
+		              &                                                      & \multirow{1}{*}{\fbbb}       & \multirow{1}{*}{P5}                                                         &                                                               & \\\cline{2-4}
+&                                                      & \multirow{1}{*}{\fbbbbbbbbb} & \multirow{1}{*}{P16--P17}                                                   &                                                               & \\\Xhline{1pt}
+
 	\end{tabular}
 \end{table}
 
