@@ -650,24 +650,24 @@ Para analizar las características del proceso de aplicación de la \MakeTextLow
 	\label{www}
 	\begin{tabular}{ccccc}
 		\Xhline{1pt}
-		\textbf{{VD}} & \textbf{{D}}                                      & \textbf{Indicadores}             & \textbf{Escala}                                                              & \textbf{Valores}                                                            \\\hline
+		\textbf{{VD}} & \textbf{{D}}                                      & \textbf{Indicadores}                                                  & \textbf{Escala}                                                             & \textbf{Valores} \\\hline
 		\multirow{16}{*}{\rotatebox[origin=c]{90}{\makecell[{{p{5cm}}}]{\centering\variablei}}}
-		              & \multirow{3}{*}{\makecell[{{p{3cm}}}]{\ce\dimi}}  & \multirow{1}{*}{\gb}             & \multirow{16}{*}{\rotatebox[origin=c]{90}{\makecell{Cuantitativa continua}}} & \multirow{16}{*}{\rotatebox[origin=c]{90}{\makecell{Valoración cuantitaitva \\0 a 20}}} \\\cline{3-3}
-		              &                                                   & \multirow{1}{*}{\gbb}                                                                                                                                                                         \\\cline{3-3}
-		              &                                                   & \multirow{1}{*}{\gbbb}                                                                                                                                                                        \\\cline{3-3}
-		              &                                                   & \multirow{1}{*}{\gbbb}                                                                                                                                                                        \\\cline{2-3}
-		              & \multirow{4}*{\makecell[{{p{3cm}}}]{\ce\dimii}}   & \multirow{1}{*}{\gbbbb}                                                                                                                                                                       \\\cline{3-3}
-		              &                                                   & \multirow{1}{*}{\gbbbbb}                                                                                                                                                                      \\\cline{3-3}
-		              &                                                   & \multirow{1}{*}{\gbbbbbb}                                                                                                                                                                     \\\cline{3-3}
-		              &                                                   & \multirow{1}{*}{\gbbbbbbb}                                                                                                                                                                    \\\cline{2-3}
-		              & \multirow{4}*{\makecell[{{p{3cm}}}]{\ce\dimiii}}  & \multirow{1}{*}{\gbbbbbbbbb}                                                                                                                                                                  \\\cline{3-3}
-		              &                                                   & \multirow{1}{*}{\gbbb}                                                                                                                                                                        \\\cline{3-3}
-		              &                                                   & \multirow{1}{*}{\gbbbbbbbbb}                                                                                                                                                                  \\\cline{3-3}
-		              &                                                   & \multirow{1}{*}{\gbbbbbbbbbbb}                                                                                                                                                                \\\cline{2-3}
-		              & \multirow{3}*{\makecell[{{p{3cm}}}]{\ce\dimiiii}} & \multirow{1}{*}{\gbbbbbbbbbbbb}                                                                                                                                                               \\\cline{3-3}
-		              &                                                   & \multirow{1}{*}{\gbbb}                                                                                                                                                                        \\\cline{3-3}
-		              &                                                   & \multirow{1}{*}{\gbbb}                                                                                                                                                                        \\\cline{3-3}
-		              &                                                   & \multirow{1}{*}{\gbbbbbbbbbbbbb}                                                                                                                                                              \\\cline{3-3}
+		              & \multirow{3}{*}{\makecell[{{p{3cm}}}]{\ce\dimi}}  & \multirow{1}{*}{\gb}             & \multirow{16}{*}{\rotatebox[origin=c]{90}{\makecell{Cuantitativa continua}}} & \multirow{16}{*}{\rotatebox[origin=c]{90}{\makecell{Valoración cuantitaitva                    \\0 a 20}}} \\\cline{3-3}
+		              &                                                   & \multirow{1}{*}{\gbb}                                                                                                                                                                                            \\\cline{3-3}
+		              &                                                   & \multirow{1}{*}{\gbbb}                                                                                                                                                                                           \\\cline{3-3}
+		              &                                                   & \multirow{1}{*}{\gbbb}                                                                                                                                                                                           \\\cline{2-3}
+		              & \multirow{4}*{\makecell[{{p{3cm}}}]{\ce\dimii}}   & \multirow{1}{*}{\gbbbb}                                                                                                                                                                                          \\\cline{3-3}
+		              &                                                   & \multirow{1}{*}{\gbbbbb}                                                                                                                                                                                         \\\cline{3-3}
+		              &                                                   & \multirow{1}{*}{\gbbbbbb}                                                                                                                                                                                        \\\cline{3-3}
+		              &                                                   & \multirow{1}{*}{\gbbbbbbb}                                                                                                                                                                                       \\\cline{2-3}
+		              & \multirow{4}*{\makecell[{{p{3cm}}}]{\ce\dimiii}}  & \multirow{1}{*}{\gbbbbbbbbb}                                                                                                                                                                                     \\\cline{3-3}
+		              &                                                   & \multirow{1}{*}{\gbbb}                                                                                                                                                                                           \\\cline{3-3}
+		              &                                                   & \multirow{1}{*}{\gbbbbbbbbb}                                                                                                                                                                                     \\\cline{3-3}
+		              &                                                   & \multirow{1}{*}{\gbbbbbbbbbbb}                                                                                                                                                                                   \\\cline{2-3}
+		              & \multirow{3}*{\makecell[{{p{3cm}}}]{\ce\dimiiii}} & \multirow{1}{*}{\gbbbbbbbbbbbb}                                                                                                                                                                                  \\\cline{3-3}
+		              &                                                   & \multirow{1}{*}{\gbbb}                                                                                                                                                                                           \\\cline{3-3}
+		              &                                                   & \multirow{1}{*}{\gbbb}                                                                                                                                                                                           \\\cline{3-3}
+		              &                                                   & \multirow{1}{*}{\gbbbbbbbbbbbbb}                                                                                                                                                                                 \\\cline{3-3}
 		\hline
 	\end{tabular}
 \end{table}
@@ -679,7 +679,7 @@ Para analizar las características del proceso de aplicación de la \MakeTextLow
 El presente trabajo de investigación, se refiere a la habilidad
 de incrementar el \MakeTextLowercase{\variabled} lo cual involucra procesos o indicadores como la \MakeTextLowercase{\dimd}, \MakeTextLowercase{\dimdd} y  \MakeTextLowercase{\dimddd}. Se recogerá los datos usando la lista de cotejo, la fichas de observación y pruebas escritas. Para determinar el desarrollo de el \MakeTextLowercase{\variabled}, que cuentan con un total de 16 indicadores.
 El cumplimiento determinará el crecimiento de la  eficacia del conocimiento matemático, refiérase al Cuadro \ref{wwwww}.
-
+	
 \begin{table}[ht!]
 	%\renewcommand\tabcolsep{0.15cm}\renewcommand\arraystretch{0.9}
 	\caption{Definición operacional de la variable dependiente}
@@ -760,7 +760,7 @@ El diseño de investigación \MakeTextLowercase{\diseno}, que se estructura de a
 \begin{table}
 	\caption{Diesño de investigación}
 	\label{figg}
-	\centering
+\centering
 	\begin{tabular}{cccc}
 		\toprule
 		Tratamiento             & Pre & Experimento & Post \\
@@ -966,17 +966,17 @@ $r$ es el coeficiente de Spearman Brow. Si $0\leq r\leq 0.8$ se considera no con
 		\caption{Prueba de confiabilidad de la ficha de observación}\label{pret:1}
 		%\vspace{0.5cm}
 		\begin{tabular}{cccccccccccc}\Xhline{2pt}
-			AI             & \multicolumn{10}{c}{ITEMS} & $\sum$                                                         \\\midrule
-			               & IN1                        & IN2    & IN3 & IN4 & IN5 & IN6 & IN7 & IN8 & $\ldots$ & IN23 & \\\cline{2-11}
-			1              &                            &        &     &     &     &     &     &     &          &      & \\
-			2              &                            &        &     &     &     &     &     &     &          &      & \\
-			3              &                            &        &     &     &     &     &     &     &          &      & \\
-			$\vdots$       &                            &        &     &     &     &     &     &     &          &      & \\
-			20             &                            &        &     &     &     &     &     &     &          &      & \\\midrule
-			$\sum$         &                            &        &     &     &     &     &     &     &          &      & \\
-			$\overline{x}$ &                            &        &     &     &     &     &     &     &          &      & \\
-			$s_i^2$        &                            &        &     &     &     &     &     &     &          &      & \\
-			$s_i$          &                            &        &     &     &     &     &     &     &          &      & \\\bottomrule
+			AI             & \multicolumn{10}{c}{ITEMS} & $\sum$                                                    \\\midrule
+			               & IN1                              & IN2    & IN3 & IN4 & IN5 & IN6 & IN7 & IN8 & $\ldots$ & IN23 & \\\cline{2-11}
+			1              &                                  &        &     &     &     &     &     &     &     &      & \\
+			2              &                                  &        &     &     &     &     &     &     &     &      & \\
+			3              &                                  &        &     &     &     &     &     &     &     &      & \\
+			$\vdots$             &                                  &        &     &     &     &     &     &     &     &      & \\
+			20              &                                  &        &     &     &     &     &     &     &     &      & \\\midrule
+			$\sum$         &                                  &        &     &     &     &     &     &     &     &      & \\
+			$\overline{x}$ &                                  &        &     &     &     &     &     &     &     &      & \\
+			$s_i^2$        &                                  &        &     &     &     &     &     &     &     &      & \\
+			$s_i$          &                                  &        &     &     &     &     &     &     &     &      & \\\bottomrule
 		\end{tabular}\\\vspace{0.5cm}
 		{\normalsize Fuente: Datos obtenidos de la muestra}
 	}
@@ -1027,7 +1027,7 @@ Materiales y equipos (financiados) refiérase al Cuadro \ref{presup}.
 		4               & Empastados de la tesis (4 unidades) & 80.10                        \\
 		5               & Gastos de movilidad                 & 90.00                        \\
 		6               & Otros gastos                        & 747.00                       \\\midrule
-		                & TOTAL                               & 1455.8                       \\
+		                & TOTAL                               & 1455.8                         \\
 		\bottomrule
 	\end{tabular}
 \end{table}
@@ -1039,19 +1039,19 @@ Temporalización-cronograma de acciones refiérase al Cuadro \ref{cronog}.
 	\caption{Cronograma de acciones}\label{cronog}
 	\begin{tabular}{cp{6cm}cccccccccc}
 		\toprule
-		\ce $\text N^\circ$ & Actividades                       & \multicolumn{10}{c}{2023}                                                                                                             \\
+		\ce $\text N^\circ$ & Actividades                       & \multicolumn{10}{c}{2023}                                                                                                               \\
 		\midrule
-		                    &                                   & E                         & M         & J         & J         & A         & S         & O         & N         & D         & E         \\\cline{3-12}
-		1                   & Análisis bibliográfico            & $\bullet$                 & $\bullet$ &           &           &           &           &           &           &           &           \\
-		2                   & Elaboración del marco teórico     & $\bullet$                 & $\bullet$ &           &           &           &           &           &           &           &           \\
-		3                   & Elaboración de los instrumentos   &                           & $\bullet$ & $\bullet$ &           &           &           &           &           &           &           \\
-		4                   & Prueba de los instrumentos        &                           &           & $\bullet$ &           &           &           &           &           &           &           \\
-		5                   & Aprobación del proyecto           &                           &           &           & $\bullet$ & $\bullet$ & $\bullet$ &           &           &           &           \\
-		6                   & Recolección de datos              &                           &           &           &           &           &           & $\bullet$ & $\bullet$ &           &           \\
-		7                   & Procesamiento y análisis de datos &                           &           &           &           &           &           &           & $\bullet$ &           &           \\
-		8                   & Redacción de la tesis             &                           &           &           &           &           &           &           &           & $\bullet$ &           \\
-		9                   & Presentación de la tesis          &                           &           &           &           &           &           &           &           & $\bullet$ &           \\
-		10                  & Sustentación                      &                           &           &           &           &           &           &           &           &           & $\bullet$ \\
+		                    &                                   & E                         & M         & J         & J         & A         & S         & O         & N         & D         & E           \\\cline{3-12}
+		1                   & Análisis bibliográfico            & $\bullet$                 & $\bullet$ &           &           &           &           &           &           &           &             \\
+		2                   & Elaboración del marco teórico     & $\bullet$                 & $\bullet$ &           &           &           &           &           &           &           &             \\
+		3                   & Elaboración de los instrumentos   &                           & $\bullet$ & $\bullet$ &           &           &           &           &           &           &             \\
+		4                   & Prueba de los instrumentos        &                           &           & $\bullet$ &           &           &           &           &           &           &             \\
+		5                   & Aprobación del proyecto           &                           &           &           & $\bullet$ & $\bullet$ & $\bullet$ &           &           &           &             \\
+		6                   & Recolección de datos              &                           &           &           &           &           &           & $\bullet$ & $\bullet$ &           &             \\
+		7                   & Procesamiento y análisis de datos &                           &           &           &           &           &           &           & $\bullet$ &           &             \\
+		8                   & Redacción de la tesis             &                           &           &           &           &           &           &           &           & $\bullet$ &             \\
+		9                   & Presentación de la tesis          &                           &           &           &           &           &           &           &           & $\bullet$ &             \\
+		10                  & Sustentación                      &                           &           &           &           &           &           &           &           &           & $\bullet$   \\
 		\bottomrule
 	\end{tabular}
 \end{table}
@@ -1314,171 +1314,86 @@ Temporalización-cronograma de acciones refiérase al Cuadro \ref{cronog}.
 
 
 \begin{landscape}
-	\subsection{Matriz de instrumentos}
-	
+	\subsection{Matriz de instrumentos de la variable \MakeTextLowercase{\variablei} }
+
 	\lugar -- TÍTULO: \titulo -- AUTOR: \autor
 	\begin{table}[ht!]\caption{Matriz de instrumentos de la variable \MakeTextLowercase{\variablei}}
 		\centering  \renewcommand\tabcolsep{0.1cm}\renewcommand\arraystretch{1}
 		\scriptsize
-		\begin{tabular}{clllcc}
-			\hline
-			\ce\bf VARIABLE                                        & \ce\bf DIMENSIONES        & \ce\bf INDICADORES                 & \ce\bf ÍTEMS                                                    & \ce\bf VALORACIÓN                                                                   & \bf INSTRUMENTOS \Tstrut                                         \\\hline
-			\multirow{26}{*}{\rotatebox[origin=c]{90}{\variablei}} & \multirow{6}{*}{\dimi}    & \multirow{2}{*}{\gb}               & P1: ¿Utiliza variedad de colores?                               & \multirow{26}{*}{\rotatebox[origin=c]{90}{Excelente Bueno Regular Malo Deficiente}} & \multirow{26}{*}{\rotatebox[origin=c]{90}{Ficha de observación}} \\\cline{4-4}
-			                                                       &                           &                                    & P2: ¿Plasma degradación entre los colores?                      &                                                                                                                                                        \\\cline{3-4}
-			                                                       &                           & \multirow{2}{*}{\gbb}              & P3: ¿Utiliza formas y superficies regulares?                                                                                                                                                                             \\\cline{4-4}
-			                                                       &                           &                                    & P4: ¿Utiliza formas irregulares someramente?                    &                                                                                                                                                        \\\cline{3-4}
-			                                                       &                           & \multirow{1}{*}{\gbb}              & P3: ¿Utiliza formas y superficies regulares?                                                                                                                                                                             \\\cline{3-4}
-			                                                       &                           & \multirow{1}{*}{\gbbb}             & P5: ¿Manifiesta degradación de texturas?                                                                                                                                                                                 \\\cline{2-4}
-			                                                       & \multirow{6}{*}{\dimii}   & \multirow{2}{*}{\gbbbb}            & P6: ¿Distribuye adecuadamente los tonos?                                                                                                                                                                                 \\\cline{4-4}
-			                                                       &                           &                                    & P7: ¿Asocia adecuadamente los tonos?                            &                                                                                                                                                        \\\cline{3-4}
-			                                                       &                           & \multirow{1}{*}{\gbbbbb}           & P8: ¿Asocia proporcionalmente los volúmenes?                                                                                                                                                                             \\\cline{3-4}
-			                                                       &                           & \multirow{1}{*}{\gbbbbbb}          & P9: ¿Conjuga texturas diversas?                                                                                                                                                                                          \\\cline{3-4}
-			                                                       &                           & \multirow{2}{*}{\gbbbbbbb}         & P9: ¿Conjuga texturas diversas?                                                                                                                                                                                          \\\cline{4-4}
-			                                                       &                           &                                    & P10: ¿Homogeneiza texturas secuencialmente?                     &                                                                                                                                                        \\\cline{2-4}
-			                                                       & \multirow{7}{*}{\dimiii}  & \multirow{2}{*}{\gbbbbbbbb}        & P11: ¿Representa elementos con dimensión creciente?                                                                                                                                                                      \\\cline{4-4}
-			                                                       &                           &                                    & P12: ¿Manifiesta elementos plásticos proporcionalmente?         &                                                                                                                                                        \\\cline{3-4}
-			                                                       &                           & \multirow{1}{*}{\gbbbbbbbbb}       & P13: ¿Representa los elementos plásticos de manera decreciente?                                                                                                                                                          \\\cline{3-4}
-			                                                       &                           & \multirow{2}{*}{\gbbbbbbbbbb}      & P14: ¿Conjuga los elementos plásticos?                                                                                                                                                                                   \\\cline{4-4}
-			                                                       &                           &                                    & p15: ¿Distribuye elementos, constantes ligeramente?             &                                                                                                                                                        \\\cline{3-4}
-			                                                       &                           & \multirow{2}{*}{\gbbbbbbbbbbb}     & P16: ¿Yuxtapone elementos plásticos mixtos?                                                                                                                                                                              \\\cline{4-4}
-			                                                       &                           &                                    & P16: ¿Yuxtapone elementos plásticos mixtos?                                                                                                                                                                              \\\cline{2-4}
-			                                                       & \multirow{7}{*}{\dimiiii} & \multirow{2}{*}{\gbbbbbbbbbbbb}    & P11: ¿Representa elementos con dimensión creciente?                                                                                                                                                                      \\\cline{4-4}
-			                                                       &                           &                                    & P12: ¿Manifiesta elementos plásticos proporcionalmente?         &                                                                                                                                                        \\\cline{3-4}
-			                                                       &                           & \multirow{1}{*}{\gbbbbbbbbbbbbb}   & P13: ¿Representa los elementos plásticos de manera decreciente?                                                                                                                                                          \\\cline{3-4}
-			                                                       &                           & \multirow{2}{*}{\gbbbbbbbbbbbbbb}  & P14: ¿Conjuga los elementos plásticos?                                                                                                                                                                                   \\\cline{4-4}
-			                                                       &                           &                                    & p15: ¿Distribuye elementos, constantes ligeramente?             &                                                                                                                                                        \\\cline{3-4}
-			                                                       &                           & \multirow{2}{*}{\gbbbbbbbbbbbbbbb} & P16: ¿Yuxtapone elementos plásticos mixtos?                                                                                                                                                                              \\\cline{4-4}
-			                                                       &                           &                                    & P17: ¿Yuxtapone los ritmos en el conjunto?                      &                                                                                                                                                        \\\hline
+		\begin{tabular}{cccccc}\hline			\ce\bf VARIABLE                                                     & \ce\bf DIMENSIONES                               & \ce\bf INDICADORES   & \ce\bf ÍTEMS & \bf VALORACIÓN & \bf INSTRUMENTOS\Tstrut \\\hline
+			\multirow{20}{*}{\rotatebox[origin=c]{90}{\variablei}}                            & \multirow{5}{*}{\makecell[{{M{2cm}}}]{\dimi}}    & \multirow{2}{*}{\gb} &
+			C1: ¿Observa y reconoce las formas modulares de los fractales en la flora?        & \multirow{17}{*}{\makecell[{{M{2cm}}}]{Alta.                                                                                      \\\vspace{.2cm} 					Moderado. \\\vspace{.2cm} 					Baja.\\\vspace{.2cm} 					Muy baja.\\\vspace{.2cm} 					Nula. 			}}&\multirow{17}{*}{\makecell[{{M{2cm}}}]{Ficha de opinión\\ Prueba escrita}}\\\cline{4-4} 			&&&
+			C2: ¿Representa lo percibido, en sus creaciones artísticas?                       &                                                                                                                                   \\\cline{3-4} 			&& \multirow{1}{*}{\gbbb} 			&
+			C3: ¿Identifica las variaciones de escala en los fractales hídricos?              &                                                                                                                                   \\\cline{3-4} 			&& \multirow{2}{*}{\gbbbb} 			&
+			C4: ¿Observa y relaciona registros bibliográficos con los fractales atmosféricos? &                                                                                                                                   \\ 			\cline{4-4}			 				&&&
+			C5: ¿Observa y relaciona registros bibliográficos con los fractales atmosféricos? &                                                                                                                                   \\ 			\cline{2-4}
+
+			                                                                                  & \multirow{5}{*}{\makecell[{{M{2cm}}}]{\dimii}}
+			                                                                                  & \multirow{2}{*}{\gbbbbbb}                        &
+			C9: ¿Reconoce la recursividad de elementos fractales?                                                                                                                                                                 \\ \cline{4-4}				&&&
+			C10: ¿Itera procesos funcionales sobre un objeto patrón?                          &                                                                                                                                   \\\cline{3-4} 			&&\multirow{1}{*}{\gbbbbbbb}&
+			C11: ¿Reconoce transformaciones algorítmicas complejas?                           &                                                                                                                                   \\\cline{3-4} 			&&\multirow{2}{*}{\gbbbbbbbb}&
+			C12: ¿Reconoce el movimiento Browniano?                                                                                                                                                                               \\ \cline{4-4}					&&&
+			A17: ¿Utiliza modelos de frecuencias percibidas en diversas aplicaciones?         &                                                                                                                                   \\
+			\cline{2-4}
+
+			                                                                                  & \multirow{5}{*}{\makecell[{{M{2cm}}}]{\dimiii}}
+			                                                                                  & \multirow{2}{*}{\gbbbbbb}                        &
+			C9: ¿Reconoce la recursividad de elementos fractales?                                                                                                                                                                 \\ \cline{4-4}				&&&
+			C10: ¿Itera procesos funcionales sobre un objeto patrón?                          &                                                                                                                                   \\\cline{3-4} 			&&\multirow{1}{*}{\gbbbbbbb}&
+			C11: ¿Reconoce transformaciones algorítmicas complejas?                           &                                                                                                                                   \\\cline{3-4} 			&&\multirow{2}{*}{\gbbbbbbbb}&
+			C12: ¿Reconoce el movimiento Browniano?                                                                                                                                                                               \\ \cline{4-4}					&&&
+			A17: ¿Utiliza modelos de frecuencias percibidas en diversas aplicaciones?         &                                                                                                                                   \\
+			\cline{2-4}
+
+			                                                                                  & \multirow{5}{*}{\makecell[{{M{2cm}}}]{\dimiiii}}
+			                                                                                  & \multirow{2}{*}{\gbbbbbb}                        &
+			C9: ¿Reconoce la recursividad de elementos fractales?                                                                                                                                                                 \\ \cline{4-4}				&&&
+			C10: ¿Itera procesos funcionales sobre un objeto patrón?                          &                                                                                                                                   \\\cline{3-4} 			&&\multirow{1}{*}{\gbbbbbbb}&
+			C11: ¿Reconoce transformaciones algorítmicas complejas?                           &                                                                                                                                   \\\cline{3-4} 			&&\multirow{2}{*}{\gbbbbbbbb}&
+			C12: ¿Reconoce el movimiento Browniano?                                                                                                                                                                               \\ \cline{4-4}					&&&
+			A17: ¿Utiliza modelos de frecuencias percibidas en diversas aplicaciones?         &                                                                                                                                   \\\hline
 		\end{tabular}
 	\end{table}
 \end{landscape}
 
 
 
-
 \begin{landscape}
-	%\subsection{Matriz de instrumentos de la variable \MakeTextLowercase{\variabled} \label{1www}}
+	\subsection{Matriz de instrumentos de la variable \MakeTextLowercase{\variabled} \label{1www}}
 
 	\lugar -- TÍTULO: \titulo -- AUTOR: \autor
 	\begin{table}[ht!]\caption{Matriz de instrumentos de la variable \MakeTextLowercase{\variabled}}
 		\centering \scriptsize\renewcommand\tabcolsep{0.1cm}\renewcommand\arraystretch{1}
-		\begin{tabular}{clllcc}
+		\begin{tabular}{cccccc} 			\hline\ce\bf VARIABLE                          & \ce\bf DIMENSIONES & \ce\bf INDICADORES & \ce\bf ÍTEMS                                        & \ce\bf VALORACIÓN & \bf INSTRUMENTOS \Tstrut \\
 			\hline
-			\ce\bf VARIABLE                                        & \ce\bf DIMENSIONES        & \ce\bf INDICADORES                 & \ce\bf ÍTEMS                                                    & \ce\bf VALORACIÓN                                                                   & \bf INSTRUMENTOS \Tstrut                                         \\\hline
-			\multirow{26}{*}{\rotatebox[origin=c]{90}{\variabled}} & \multirow{6}{*}{\dimd}    & \multirow{2}{*}{\fb}               & P1: ¿Utiliza variedad de colores?                               & \multirow{26}{*}{\rotatebox[origin=c]{90}{Excelente Bueno Regular Malo Deficiente}} & \multirow{26}{*}{\rotatebox[origin=c]{90}{Ficha de observación}} \\\cline{4-4}
-			                                                       &                           &                                    & P2: ¿Plasma degradación entre los colores?                      &                                                                                                                                                        \\\cline{3-4}
-			                                                       &                           & \multirow{2}{*}{\fbb}              & P3: ¿Utiliza formas y superficies regulares?                                                                                                                                                                             \\\cline{4-4}
-			                                                       &                           &                                    & P4: ¿Utiliza formas irregulares someramente?                    &                                                                                                                                                        \\\cline{3-4}
-			                                                       &                           & \multirow{1}{*}{\fbb}              & P3: ¿Utiliza formas y superficies regulares?                                                                                                                                                                             \\\cline{3-4}
-			                                                       &                           & \multirow{1}{*}{\fbbb}             & P5: ¿Manifiesta degradación de texturas?                                                                                                                                                                                 \\\cline{2-4}
-			                                                       & \multirow{6}{*}{\dimdd}   & \multirow{2}{*}{\fbbbb}            & P6: ¿Distribuye adecuadamente los tonos?                                                                                                                                                                                 \\\cline{4-4}
-			                                                       &                           &                                    & P7: ¿Asocia adecuadamente los tonos?                            &                                                                                                                                                        \\\cline{3-4}
-			                                                       &                           & \multirow{1}{*}{\fbbbbb}           & P8: ¿Asocia proporcionalmente los volúmenes?                                                                                                                                                                             \\\cline{3-4}
-			                                                       &                           & \multirow{1}{*}{\fbbbbbb}          & P9: ¿Conjuga texturas diversas?                                                                                                                                                                                          \\\cline{3-4}
-			                                                       &                           & \multirow{2}{*}{\fbbbbbbb}         & P9: ¿Conjuga texturas diversas?                                                                                                                                                                                          \\\cline{4-4}
-			                                                       &                           &                                    & P10: ¿Homogeneiza texturas secuencialmente?                     &                                                                                                                                                        \\\cline{2-4}
-			                                                       & \multirow{7}{*}{\dimddd}  & \multirow{2}{*}{\fbbbbbbbb}        & P11: ¿Representa elementos con dimensión creciente?                                                                                                                                                                      \\\cline{4-4}
-			                                                       &                           &                                    & P12: ¿Manifiesta elementos plásticos proporcionalmente?         &                                                                                                                                                        \\\cline{3-4}
-			                                                       &                           & \multirow{1}{*}{\fbbbbbbbbb}       & P13: ¿Representa los elementos plásticos de manera decreciente?                                                                                                                                                          \\\cline{3-4}
-			                                                       &                           & \multirow{2}{*}{\fbbbbbbbbbb}      & P14: ¿Conjuga los elementos plásticos?                                                                                                                                                                                   \\\cline{4-4}
-			                                                       &                           &                                    & p15: ¿Distribuye elementos, constantes ligeramente?             &                                                                                                                                                        \\\cline{3-4}
-			                                                       &                           & \multirow{2}{*}{\fbbbbbbbbbbb}     & P16: ¿Yuxtapone elementos plásticos mixtos?                                                                                                                                                                              \\\cline{4-4}
-			                                                       &                           &                                    & P16: ¿Yuxtapone elementos plásticos mixtos?                                                                                                                                                                              \\\cline{2-4}
-			                                                       & \multirow{7}{*}{\dimdddd} & \multirow{2}{*}{\fbbbbbbbbbbbb}    & P11: ¿Representa elementos con dimensión creciente?                                                                                                                                                                      \\\cline{4-4}
-			                                                       &                           &                                    & P12: ¿Manifiesta elementos plásticos proporcionalmente?         &                                                                                                                                                        \\\cline{3-4}
-			                                                       &                           & \multirow{1}{*}{\fbbbbbbbbbbbbb}   & P13: ¿Representa los elementos plásticos de manera decreciente?                                                                                                                                                          \\\cline{3-4}
-			                                                       &                           & \multirow{2}{*}{\fbbbbbbbbbbbbbb}  & P14: ¿Conjuga los elementos plásticos?                                                                                                                                                                                   \\\cline{4-4}
-			                                                       &                           &                                    & p15: ¿Distribuye elementos, constantes ligeramente?             &                                                                                                                                                        \\\cline{3-4}
-			                                                       &                           & \multirow{2}{*}{\fbbbbbbbbbbbbbbb} & P16: ¿Yuxtapone elementos plásticos mixtos?                                                                                                                                                                              \\\cline{4-4}
-			                                                       &                           &                                    & P17: ¿Yuxtapone los ritmos en el conjunto?                      &                                                                                                                                                        \\\hline
-		\end{tabular}
+			\multirow{20}{*}{\rotatebox[origin=c]{90}{\variabled}}  & 			\multirow{5}{*}{\dimd} & \multirow{2}{*}{\fb} &P1: ¿Utiliza variedad de colores?                            & \multirow{20}{*}{\makecell{Excelente\\Bueno\\Regular\\Malo\\Deficiente}}&\multirow{20}{*}{\rotatebox[origin=c]{90}{Ficha de observación}}\\ \cline{4-4}
+			                                                        &                                  &                      &		P2: ¿Plasma degradación entre los colores?              &     \\\cline{3-4} 		
+			                                                        &							       &	\multirow{2}{*}{\fbb}     &		P3: ¿Utiliza formas y superficies regulares?                                                                                                                                                           \\\cline{4-4}
+			                                                        &                    &                    &
+			P4: ¿Utiliza formas irregulares someramente?            &                                                                                                                                              \\\cline{3-4} 	&&			\multirow{1}{*}{\fbbb}                                  &
+			P5: ¿Manifiesta degradación de texturas?                                                                                                                                                               \\\cline{2-4} 			&
+			\multirow{5}{*}{\dimdd}                                 &
+			\multirow{2}{*}{\fbbbb}                                 &
+			P6: ¿Distribuye adecuadamente los tonos?                                                                                                                                                               \\\cline{4-4}
+			                                                        &                    &                    &
+			P7: ¿Asocia adecuadamente los tonos?                    &                                                                                                                                              \\\cline{3-4} 			&&			\multirow{1}{*}{\fbbbbb}                                &
+			P8: ¿Asocia proporcionalmente los volúmenes?                                                                                                                                                           \\\cline{3-4} 		&&			\multirow{2}{*}{\fbbbbbb}                               &
+			P9: ¿Conjuga texturas diversas?                                                                                                                                                                        \\\cline{4-4}
+			                                                        &                    &                    &
+			P10: ¿Homogeneiza texturas secuencialmente?             &                                                                                                                                              \\\cline{2-4} 			&
+			\multirow{7}{*}{\dimddd}                                &
+			\multirow{2}{*}{\fbbbbbbb}                              &
+			P11: ¿Representa elementos con dimensión creciente?                                                                                                                                                    \\ \cline{4-4}
+			                                                        &                    &                    &
+			P12: ¿Manifiesta elementos plásticos proporcionalmente? &                                                                                                                                              \\\cline{3-4}&&			\multirow{1}{*}{\fbbbbbbbb}                             &
+			P13: ¿Representa los elementos plásticos de manera decreciente?                                                                                                                                        \\\cline{3-4}&&			\multirow{2}{*}{\fbbbbbbbb}                             &
+			P14: ¿Conjuga los elementos plásticos?                                                                                                                                                                 \\\cline{4-4}
+			                                                        &                    &                    & p15: ¿Distribuye elementos, constantes ligeramente? &                                              \\\cline{3-4} 			&&			\multirow{2}{*}{\fbbbbbbbbb}                            &
+			P16: ¿Yuxtapone elementos plásticos mixtos?                                                                                                                                                            \\\cline{4-4}
+			                                                        &                    &                    & P17: ¿Yuxtapone los ritmos en el conjunto?          &                                              \\	\hline\end{tabular}
 	\end{table}
 \end{landscape}
-
-
-\begin{landscape}
-	\subsection{Matriz de instrumentos}
-	
-	\lugar -- TÍTULO: \titulo -- AUTOR: \autor
-	\begin{table}[ht!]\caption{Matriz de instrumentos de la variable \MakeTextLowercase{\variablei}}
-		\centering  \renewcommand\tabcolsep{0.1cm}\renewcommand\arraystretch{1}
-		\scriptsize
-		\begin{tabular}{|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|}
-	\hline
-	\ce\bf ÍTEMS                                                    &E1 &E2 &E3 &E4 &E5 &E6 &E7 &E8 &E9 &E10 &E11 &E12 &E13 &E14 &E15 &E16 &E17 &E18 &E19 &E20 &E2 \\\hline
-	P1: ¿Utiliza variedad de colores?                               & & & & & & & & & & & & & & & & & & & & & \\\cline{4-4}
-	P2: ¿Plasma degradación entre los colores?                      & & & & & & & & & & & & & & & & & & & & &                                                                                                                                                        \\\cline{3-4}
-	P3: ¿Utiliza formas y superficies regulares?                    & & & & & & & & & & & & & & & & & & & & &                                                                                                                                                         \\\cline{4-4}
-	P4: ¿Utiliza formas irregulares someramente?                    & & & & & & & & & & & & & & & & & & & & &                                                                                                                                                        \\\cline{3-4}
-	P3: ¿Utiliza formas y superficies regulares?                    & & & & & & & & & & & & & & & & & & & & &                                                                                                                                                         \\\cline{3-4}
-	P5: ¿Manifiesta degradación de texturas?                        & & & & & & & & & & & & & & & & & & & & &                                                                                                                                                         \\\cline{2-4}
-	P6: ¿Distribuye adecuadamente los tonos?                        & & & & & & & & & & & & & & & & & & & & &                                                                                                                                                         \\\cline{4-4}
-	P7: ¿Asocia adecuadamente los tonos?                            & & & & & & & & & & & & & & & & & & & & &                                                                                                                                                        \\\cline{3-4}
-	P8: ¿Asocia proporcionalmente los volúmenes?                    & & & & & & & & & & & & & & & & & & & & &                                                                                                                                                         \\\cline{3-4}
-	P9: ¿Conjuga texturas diversas?                                 & & & & & & & & & & & & & & & & & & & & &                                                                                                                                                         \\\cline{3-4}
-	P9: ¿Conjuga texturas diversas?                                 & & & & & & & & & & & & & & & & & & & & &                                                                                                                                                         \\\cline{4-4}
-	P10: ¿Homogeneiza texturas secuencialmente?                     & & & & & & & & & & & & & & & & & & & & &                                                                                                                                                        \\\cline{2-4}
-	P11: ¿Representa elementos con dimensión creciente?             & & & & & & & & & & & & & & & & & & & & &                                                                                                                                                         \\\cline{4-4}
-	P12: ¿Manifiesta elementos plásticos proporcionalmente?         & & & & & & & & & & & & & & & & & & & & &                                                                                                                                                        \\\cline{3-4}
-	P13: ¿Representa los elementos plásticos de manera decreciente? & & & & & & & & & & & & & & & & & & & & &                                                                                                                                                         \\\cline{3-4}
-	P14: ¿Conjuga los elementos plásticos?                          & & & & & & & & & & & & & & & & & & & & &                                                                                                                                                         \\\cline{4-4}
-	p15: ¿Distribuye elementos, constantes ligeramente?             & & & & & & & & & & & & & & & & & & & & &                                                                                                                                                        \\\cline{3-4}
-	P16: ¿Yuxtapone elementos plásticos mixtos?                     & & & & & & & & & & & & & & & & & & & & &                                                                                                                                                         \\\cline{4-4}
-	P16: ¿Yuxtapone elementos plásticos mixtos?                     & & & & & & & & & & & & & & & & & & & & &                                                                                                                                                         \\\cline{2-4}
-	P11: ¿Representa elementos con dimensión creciente?             & & & & & & & & & & & & & & & & & & & & &                                                                                                                                                         \\\cline{4-4}
-	P12: ¿Manifiesta elementos plásticos proporcionalmente?         & & & & & & & & & & & & & & & & & & & & &                                                                                                                                                        \\\cline{3-4}
-	P13: ¿Representa los elementos plásticos de manera decreciente? & & & & & & & & & & & & & & & & & & & & &                                                                                                                                                         \\\cline{3-4}
-	P14: ¿Conjuga los elementos plásticos?                          & & & & & & & & & & & & & & & & & & & & &                                                                                                                                                         \\\cline{4-4}
-	p15: ¿Distribuye elementos, constantes ligeramente?             & & & & & & & & & & & & & & & & & & & & &                                                                                                                                                        \\\cline{3-4}
-	P16: ¿Yuxtapone elementos plásticos mixtos?                     & & & & & & & & & & & & & & & & & & & & &                                                                                                                                                         \\\cline{4-4}
-	P17: ¿Yuxtapone los ritmos en el conjunto?                      & & & & & & & & & & & & & & & & & & & & &                                                                                                                                                        \\\hline
-\end{tabular}
-	\end{table}
-\end{landscape}
-
-
-
-
-\begin{landscape}
-	%\subsection{Matriz de instrumentos de la variable \MakeTextLowercase{\variabled} \label{1www}}
-	
-	\lugar -- TÍTULO: \titulo -- AUTOR: \autor
-	\begin{table}[ht!]\caption{Matriz de instrumentos de la variable \MakeTextLowercase{\variabled}}
-		\centering \scriptsize\renewcommand\tabcolsep{0.1cm}\renewcommand\arraystretch{1}
-		\begin{tabular}{clllcc}
-			\hline
-			\ce\bf VARIABLE                                        & \ce\bf DIMENSIONES        & \ce\bf INDICADORES                 & \ce\bf ÍTEMS                                                    & \ce\bf VALORACIÓN                                                                   & \bf INSTRUMENTOS \Tstrut                                         \\\hline
-			\multirow{26}{*}{\rotatebox[origin=c]{90}{\variabled}} & \multirow{6}{*}{\dimd}    & \multirow{2}{*}{\fb}               & P1: ¿Utiliza variedad de colores?                               & \multirow{26}{*}{\rotatebox[origin=c]{90}{Excelente Bueno Regular Malo Deficiente}} & \multirow{26}{*}{\rotatebox[origin=c]{90}{Ficha de observación}} \\\cline{4-4}
-			&                           &                                    & P2: ¿Plasma degradación entre los colores?                      &                                                                                                                                                        \\\cline{3-4}
-			&                           & \multirow{2}{*}{\fbb}              & P3: ¿Utiliza formas y superficies regulares?                                                                                                                                                                             \\\cline{4-4}
-			&                           &                                    & P4: ¿Utiliza formas irregulares someramente?                    &                                                                                                                                                        \\\cline{3-4}
-			&                           & \multirow{1}{*}{\fbb}              & P3: ¿Utiliza formas y superficies regulares?                                                                                                                                                                             \\\cline{3-4}
-			&                           & \multirow{1}{*}{\fbbb}             & P5: ¿Manifiesta degradación de texturas?                                                                                                                                                                                 \\\cline{2-4}
-			& \multirow{6}{*}{\dimdd}   & \multirow{2}{*}{\fbbbb}            & P6: ¿Distribuye adecuadamente los tonos?                                                                                                                                                                                 \\\cline{4-4}
-			&                           &                                    & P7: ¿Asocia adecuadamente los tonos?                            &                                                                                                                                                        \\\cline{3-4}
-			&                           & \multirow{1}{*}{\fbbbbb}           & P8: ¿Asocia proporcionalmente los volúmenes?                                                                                                                                                                             \\\cline{3-4}
-			&                           & \multirow{1}{*}{\fbbbbbb}          & P9: ¿Conjuga texturas diversas?                                                                                                                                                                                          \\\cline{3-4}
-			&                           & \multirow{2}{*}{\fbbbbbbb}         & P9: ¿Conjuga texturas diversas?                                                                                                                                                                                          \\\cline{4-4}
-			&                           &                                    & P10: ¿Homogeneiza texturas secuencialmente?                     &                                                                                                                                                        \\\cline{2-4}
-			& \multirow{7}{*}{\dimddd}  & \multirow{2}{*}{\fbbbbbbbb}        & P11: ¿Representa elementos con dimensión creciente?                                                                                                                                                                      \\\cline{4-4}
-			&                           &                                    & P12: ¿Manifiesta elementos plásticos proporcionalmente?         &                                                                                                                                                        \\\cline{3-4}
-			&                           & \multirow{1}{*}{\fbbbbbbbbb}       & P13: ¿Representa los elementos plásticos de manera decreciente?                                                                                                                                                          \\\cline{3-4}
-			&                           & \multirow{2}{*}{\fbbbbbbbbbb}      & P14: ¿Conjuga los elementos plásticos?                                                                                                                                                                                   \\\cline{4-4}
-			&                           &                                    & p15: ¿Distribuye elementos, constantes ligeramente?             &                                                                                                                                                        \\\cline{3-4}
-			&                           & \multirow{2}{*}{\fbbbbbbbbbbb}     & P16: ¿Yuxtapone elementos plásticos mixtos?                                                                                                                                                                              \\\cline{4-4}
-			&                           &                                    & P16: ¿Yuxtapone elementos plásticos mixtos?                                                                                                                                                                              \\\cline{2-4}
-			& \multirow{7}{*}{\dimdddd} & \multirow{2}{*}{\fbbbbbbbbbbbb}    & P11: ¿Representa elementos con dimensión creciente?                                                                                                                                                                      \\\cline{4-4}
-			&                           &                                    & P12: ¿Manifiesta elementos plásticos proporcionalmente?         &                                                                                                                                                        \\\cline{3-4}
-			&                           & \multirow{1}{*}{\fbbbbbbbbbbbbb}   & P13: ¿Representa los elementos plásticos de manera decreciente?                                                                                                                                                          \\\cline{3-4}
-			&                           & \multirow{2}{*}{\fbbbbbbbbbbbbbb}  & P14: ¿Conjuga los elementos plásticos?                                                                                                                                                                                   \\\cline{4-4}
-			&                           &                                    & p15: ¿Distribuye elementos, constantes ligeramente?             &                                                                                                                                                        \\\cline{3-4}
-			&                           & \multirow{2}{*}{\fbbbbbbbbbbbbbbb} & P16: ¿Yuxtapone elementos plásticos mixtos?                                                                                                                                                                              \\\cline{4-4}
-			&                           &                                    & P17: ¿Yuxtapone los ritmos en el conjunto?                      &                                                                                                                                                        \\\hline
-		\end{tabular}
-	\end{table}
-\end{landscape}
-
-
 
 \begin{enumerate}
 	\item DATOS GENERALES

@@ -12,11 +12,10 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: une.bib
-Warning--I didn't find a database entry for "inv1"
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
 You've used 20 entries,
             6951 wiz_defined-function locations,
-            1399 strings with 15951 characters,
+            1398 strings with 15947 characters,
 and the built_in function-call counts, 41223 in all, are:
 = -- 5100
 > -- 245
@@ -55,4 +54,3 @@ warning$ -- 0
 while$ -- 142
 width$ -- 0
 write$ -- 600
-(There was 1 warning)

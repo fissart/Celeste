@@ -1,6 +1,6 @@
 INFO: latexindent version 3.7.1, 2019-09-07, a script to indent .tex files
       latexindent lives here: /usr/share/texlive/texmf-dist/scripts/latexindent/
-      Wed Jul  5 16:59:29 2023
+      Thu Jul  6 10:47:25 2023
       Filename: project.tex
 INFO: Processing switches:
       -w|--overwrite: Overwrite mode active, will make a back up of project.tex first
@@ -13,8 +13,26 @@ INFO: YAML settings read: indentconfig.yaml or .indentconfig.yaml
       Alternatively, you can use the hidden file .indentconfig.yaml as: /home/linux/.indentconfig.yaml
 INFO: Backup procedure (-w flag active):
       ./project.bak0 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
-      copying project.tex to ./project.bak1
-      Backup file: ./project.bak1
+      ./project.bak1 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+      ./project.bak2 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+      ./project.bak3 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+      ./project.bak4 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+      ./project.bak5 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+      ./project.bak6 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+      ./project.bak7 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+      ./project.bak8 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+      ./project.bak9 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+      ./project.bak10 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+      ./project.bak11 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+      ./project.bak12 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+      ./project.bak13 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+      ./project.bak14 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+      ./project.bak15 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+      ./project.bak16 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+      ./project.bak17 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+      ./project.bak18 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+      copying project.tex to ./project.bak19
+      Backup file: ./project.bak19
       project.tex will be overwritten after indentation
 INFO: Phase 1: searching for objects
 INFO: Phase 2: finding surrounding indentation
