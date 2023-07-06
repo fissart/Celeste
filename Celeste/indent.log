@@ -1,6 +1,6 @@
 INFO: latexindent version 3.7.1, 2019-09-07, a script to indent .tex files
       latexindent lives here: /usr/share/texlive/texmf-dist/scripts/latexindent/
-      Thu Jul  6 10:47:25 2023
+      Thu Jul  6 12:57:50 2023
       Filename: project.tex
 INFO: Processing switches:
       -w|--overwrite: Overwrite mode active, will make a back up of project.tex first
@@ -31,8 +31,15 @@ INFO: Backup procedure (-w flag active):
       ./project.bak16 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
       ./project.bak17 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
       ./project.bak18 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
-      copying project.tex to ./project.bak19
-      Backup file: ./project.bak19
+      ./project.bak19 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+      ./project.bak20 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+      ./project.bak21 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+      ./project.bak22 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+      ./project.bak23 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+      ./project.bak24 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+      ./project.bak25 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+      copying project.tex to ./project.bak26
+      Backup file: ./project.bak26
       project.tex will be overwritten after indentation
 INFO: Phase 1: searching for objects
 INFO: Phase 2: finding surrounding indentation
