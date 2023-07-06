@@ -1,9 +1,8 @@
 INFO: latexindent version 3.7.1, 2019-09-07, a script to indent .tex files
       latexindent lives here: /usr/share/texlive/texmf-dist/scripts/latexindent/
-      Thu Jul  6 13:01:11 2023
+      Thu Jul  6 18:34:41 2023
       Filename: project.tex
 INFO: Processing switches:
-      -w|--overwrite: Overwrite mode active, will make a back up of project.tex first
 INFO: Directory for backup files and indent.log: .
 INFO: YAML settings read: defaultSettings.yaml
       Reading defaultSettings.yaml from /usr/share/texlive/texmf-dist/scripts/latexindent/defaultSettings.yaml
@@ -11,45 +10,12 @@ INFO: YAML settings read: indentconfig.yaml or .indentconfig.yaml
       Home directory is /home/linux (didn't find either indentconfig.yaml or .indentconfig.yaml)
       To specify user settings you would put indentconfig.yaml here: /home/linux/indentconfig.yaml
       Alternatively, you can use the hidden file .indentconfig.yaml as: /home/linux/.indentconfig.yaml
-INFO: Backup procedure (-w flag active):
-      ./project.bak0 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
-      ./project.bak1 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
-      ./project.bak2 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
-      ./project.bak3 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
-      ./project.bak4 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
-      ./project.bak5 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
-      ./project.bak6 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
-      ./project.bak7 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
-      ./project.bak8 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
-      ./project.bak9 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
-      ./project.bak10 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
-      ./project.bak11 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
-      ./project.bak12 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
-      ./project.bak13 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
-      ./project.bak14 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
-      ./project.bak15 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
-      ./project.bak16 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
-      ./project.bak17 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
-      ./project.bak18 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
-      ./project.bak19 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
-      ./project.bak20 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
-      ./project.bak21 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
-      ./project.bak22 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
-      ./project.bak23 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
-      ./project.bak24 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
-      ./project.bak25 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
-      ./project.bak26 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
-      ./project.bak27 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
-      ./project.bak28 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
-      copying project.tex to ./project.bak29
-      Backup file: ./project.bak29
-      project.tex will be overwritten after indentation
 INFO: Phase 1: searching for objects
 INFO: Phase 2: finding surrounding indentation
 INFO: Phase 3: indenting objects
 INFO: Phase 4: final indentation check
 INFO: Output routine:
-      Overwriting file project.tex
+      Not outputting to file; see -w and -o switches for more options.
       --------------
 INFO: Please direct all communication/issues to:
       https://github.com/cmhughes/latexindent.pl

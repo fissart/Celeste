@@ -13,44 +13,50 @@ Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: une.bib
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
-You've used 20 entries,
+Warning--No journal in pestalozzi
+ptr=1, stack=
+
+---the literal stack isn't empty for entry pestalozzi
+while executing---line 5079 of file apacite.bst
+You've used 21 entries,
             6951 wiz_defined-function locations,
-            1398 strings with 15947 characters,
-and the built_in function-call counts, 41223 in all, are:
-= -- 5100
-> -- 245
-< -- 2265
-+ -- 2291
-- -- 40
-* -- 2747
-:= -- 8236
-add.period$ -- 80
-call.type$ -- 20
-change.case$ -- 354
+            1403 strings with 16144 characters,
+and the built_in function-call counts, 42368 in all, are:
+= -- 5247
+> -- 255
+< -- 2295
++ -- 2313
+- -- 42
+* -- 2805
+:= -- 8396
+add.period$ -- 84
+call.type$ -- 21
+change.case$ -- 371
 chr.to.int$ -- 0
-cite$ -- 40
-duplicate$ -- 901
-empty$ -- 1524
-format.name$ -- 378
-if$ -- 7544
+cite$ -- 43
+duplicate$ -- 931
+empty$ -- 1589
+format.name$ -- 392
+if$ -- 7799
 int.to.chr$ -- 0
-int.to.str$ -- 60
+int.to.str$ -- 63
 missing$ -- 0
-newline$ -- 525
-num.names$ -- 163
-pop$ -- 687
+newline$ -- 547
+num.names$ -- 171
+pop$ -- 705
 preamble$ -- 1
-purify$ -- 94
+purify$ -- 98
 quote$ -- 0
-skip$ -- 2468
+skip$ -- 2582
 stack$ -- 0
-substring$ -- 2454
-swap$ -- 481
-text.length$ -- 54
+substring$ -- 2481
+swap$ -- 500
+text.length$ -- 56
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 1728
-warning$ -- 0
-while$ -- 142
+type$ -- 1808
+warning$ -- 1
+while$ -- 147
 width$ -- 0
-write$ -- 600
+write$ -- 624
+(There was 1 error message)
