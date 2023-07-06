@@ -184,29 +184,27 @@
 \thispagestyle{empty}
 
 {
-\normalsize\centering\thispagestyle{empty}
-MINISTERIO DE EDUCACIÓN
-\\SUPERINTENDENCIA NACIONAL DE EDUCACIÓN SUPERIOR UNIVERSITARIA (SUNEDU)\\
+	\normalsize\centering\thispagestyle{empty} 
+	MINISTERIO DE EDUCACIÓN
+	\\SUPERINTENDENCIA NACIONAL DE EDUCACIÓN SUPERIOR UNIVERSITARIA (SUNEDU)\\ 
 \vspace{0.65cm}
 {\large ESCUELA SUPERIOR DE FORMACIÓN ARTÍSTICA PÚBLICA\\ ``FELIPE GUAMÁN POMA DE AYALA''}\\
 {\scriptsize CON NIVEL UNIVERSITARIO: LEY 30220}\\
 \vspace{0.65cm}
 \includegraphics[height=6.5cm]{logo}\\
-\vspace{0.65cm}
+\vspace{0.65cm}  
 {\large TÍTULO}\\
 \vspace{0.65cm}
 \MakeUppercase{\Large\titulo}\\
 \vspace{0.65cm}
-{
-	\large PRESENTADO POR\\
-	\vspace{0.65cm}
-	\autor
-}\\
+{\large PRESENTADO POR\\
+\vspace{0.65cm}
+\autor}\\
 \vspace{0.65cm}
 \large TPROYECTO DE INVESTIGACIÓN PARA OPTAR EL TÍTULO PROFESIONAL DE LICENCIADO EN EDUCACIÓN ARTÍSTICA\\
-\vspace{0.3cm}
+\vspace{0.3cm}  
 ESPECIALIDAD DE ARTES PLÁSTICAS\\
-\vspace{0.3cm}
+\vspace{0.3cm}  
 AYACUCHO -- PERÚ\\
 \vfill
 {2023}
@@ -237,7 +235,6 @@ AYACUCHO -- PERÚ\\
 %\begin{center}
 %\Large Anteproyecto de Tesis
 %\end{center}
-
 \section{TÍTULO DE LA INVESTIGACIÓN}
 ``\titulo''
 %\tableofcontents
@@ -347,7 +344,7 @@ Estos son solo algunos ejemplos, y los objetivos de investigación pueden variar
 
 \noindent\textbf{\dimi}. De acuerdo a \cite{gray_caricaturas_2015}
 
-\noindent\textbf{\dimii}.	De acuerdo a \cite{gray_caricaturas_2015}
+\noindent\textbf{\dimii}.	De acuerdo a \cite{gray_caricaturas_2015} 
 
 \noindent\textbf{\dimiii}.	De acuerdo a \cite{grose_principios_2011}
 
@@ -358,7 +355,7 @@ Estos son solo algunos ejemplos, y los objetivos de investigación pueden variar
 
 \noindent\textbf{\dimdd}. Según \cite{canas_comunicacion_2019}
 
-\noindent\textbf{\dimddd}. Según \cite{plaza_inteligencia_2015}
+\noindent\textbf{\dimddd}. Según \cite{plaza_inteligencia_2015}	
 
 \noindent\textbf{\dimdddd}. De acuerdo a \cite{canas_comunicacion_2019}
 
@@ -395,12 +392,12 @@ Estos son solo algunos ejemplos, y los objetivos de investigación pueden variar
 Las variables son los conceptos, atributos o propiedades de carácter social o natural, que tienden a variar, a cambiar, a modificar para asumir niveles o escalas. Se caracterizan por ser observables, medibles y cuantificables; por tal motivo asumen valores bien definidos.
 
 \begin{itemize}
-	\item \textbf{Variable Independiente (\variablei):}
+	\item \textbf{Variable Independiente (\variablei):} 
 
-	\item \textbf{Variable Dependiente (\variabled):}
-
-	\item  \textbf{Variable Interviniente (Capacidad artística, interrelación social):}
-
+	\item \textbf{Variable Dependiente (\variabled):} 
+	
+	\item  \textbf{Variable Interviniente (Capacidad artística, interrelación social):} 
+	
 	      \begin{displayquote}
 		      \emph{A veces llamada la variable de confusión, vincula las variables independientes y dependientes. En ciertas situaciones, la relación entre una variable independiente y una variable dependiente no puede establecerse sin la intervención de otra variable. La causa, o variable independiente, tendrá el efecto supuesto solo en presencia de una variable intermedia.} Grinnell (1988, p. 203 citado en \cite{kothari_research_2004})
 	      \end{displayquote}
@@ -581,7 +578,7 @@ Constituida por \poblacion, matriculados en el 2023. Los criterios que se consid
 	\begin{tabular}{ccc}\Xhline{2pt}
 		Población                                                                        & Aptos & No aptos \\\midrule
 		\makecell*[{{p{3.5cm}}}]{\centering Estudiantes matriculados del semestre impar} &
-		\makecell*[{{p{3.9cm}}}]{\centering Estudiantes regulares                                           \\ Asistentes puntuales} &\makecell[c]{ Estudiantes repitentes \\
+		\makecell*[{{p{3.9cm}}}]{\centering Estudiantes regulares \\ Asistentes puntuales} &\makecell[c]{ Estudiantes repitentes \\
 			Estudiantes retirados                                                                               \\
 			Estudiantes del quinto superior                                                                     \\
 			Estudiantes no asistentes}                                                                          \\\bottomrule
@@ -827,20 +824,20 @@ Temporalización-cronograma de acciones refiérase al Cuadro \ref{cronog}.
 Personas que participaron en la realización de la investigación
 
 \begin{table}[ht]
-	\centering
-	\caption{Potencial humano}\label{potencialhumano}
-	\begin{tabular}{ccc}
-		\Xhline{2pt}
-		@$\text N^\circ$ & @POTENCIAL HUMANO                          & @CANTIDAD \\\midrule
-		1                & Alumnos ($1^\circ$ artistas)               & 12        \\
-		2                & Profesores de la especialidad de escultura & 3         \\
-		3                & Autodidactas                               & 2         \\
-		4                & Estadistas                                 & 3         \\
-		5                & Físicos                                    & 2         \\
-		6                & Matemáticos                                & 2         \\\midrule
-		                 & TOTAL                                      & 7         \\
-		\bottomrule
-	\end{tabular}
+\centering
+\caption{Potencial humano}\label{potencialhumano}
+\begin{tabular}{ccc}
+\Xhline{2pt}
+@$\text N^\circ$& @POTENCIAL HUMANO & @CANTIDAD\\\midrule
+1  & Alumnos ($1^\circ$ artistas)           & 12 \\
+2  &Profesores de la especialidad de escultura & 3 \\
+3  &Autodidactas       & 2 \\
+4  &Estadistas         & 3 \\
+5  &Físicos             & 2 \\
+6  &Matemáticos         & 2 \\\midrule
+&TOTAL& 7    \\
+\bottomrule
+\end{tabular}
 \end{table}
 
 
