@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.7.6)  6 JUL 2023 12:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.7.6)  6 JUL 2023 13:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1416,17 +1416,12 @@ Overfull \hbox (2.98521pt too wide) in paragraph at lines 1446--1477
 
 
 ]
-Underfull \hbox (badness 2310) in paragraph at lines 1528--1528
+Underfull \hbox (badness 2310) in paragraph at lines 1497--1497
 []|\T1/ptm/m/n/12 ¾Está for-mu-la-do con len-gua-je cla-ro,
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [10
-
-]
-Overfull \hbox (0.85919pt too wide) in paragraph at lines 1553--1554
+Overfull \hbox (0.85919pt too wide) in paragraph at lines 1514--1515
 []\T1/ptm/m/n/12 --------------------------------------------------------------
 -------------------------------------
  []
@@ -1435,7 +1430,9 @@ Overfull \hbox (0.85919pt too wide) in paragraph at lines 1553--1554
 Package caption Warning: Unused \captionsetup[figure] on input line 129.
 See the caption package documentation for explanation.
 
-[11] (./project.aux
+[10
+
+] (./project.aux
 LaTeX Info: Redefining \. on input line 14.
 LaTeX Info: Redefining \% on input line 14.
 )
@@ -1460,10 +1457,10 @@ t/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts
 /urw/symbol/usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8
 a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on project.pdf (44 pages, 240461 bytes).
+Output written on project.pdf (43 pages, 238859 bytes).
 PDF statistics:
- 235 PDF objects out of 1000 (max. 8388607)
- 134 compressed objects within 2 object streams
+ 232 PDF objects out of 1000 (max. 8388607)
+ 132 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  18 words of extra memory for PDF output out of 10000 (max. 10000000)
 

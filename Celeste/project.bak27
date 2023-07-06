@@ -1460,7 +1460,7 @@ Temporalización-cronograma de acciones refiérase al Cuadro \ref{cronog}.
 			¿Cuáles son los obstáculos o barreras comunes para la asertividad en la comunicación?                  &                                          &    &    &    &    &    &    &    &    &     &     &     &     &     &     &     &     &     &     &     &           \\\hline
 			¿Cómo se puede desarrollar y mejorar la habilidad de ser asertivo en la comunicación?                  &                                          &    &    &    &    &    &    &    &    &     &     &     &     &     &     &     &     &     &     &     &           \\\hline
 			¿Por qué es importante la atención en la comunicación?                                                 &                                          &    &    &    &    &    &    &    &    &     &     &     &     &     &     &     &     &     &     &     &           \\\hline
-			¿Cuáles son las consecuencias de una atención deficiente en la comunicación?                           &                                          &    &    &    &    &    &    &    &    &     &     &     &     &     &     &     &     &     &     &     &           \\\hline
+			¿Cuáles son las consecuencias de una atención deficiente en la comunicación? &                                          &    &    &    &    &    &    &    &    &     &     &     &     &     &     &     &     &     &     &     &           \\\hline
 			¿Cómo podemos mejorar nuestra capacidad de atención en la comunicación?                                &                                          &    &    &    &    &    &    &    &    &     &     &     &     &     &     &     &     &     &     &     &           \\\hline
 			¿Cuáles son las barreras más comunes que impiden una atención adecuada en la comunicación?             &                                          &    &    &    &    &    &    &    &    &     &     &     &     &     &     &     &     &     &     &     &           \\\hline
 			¿Qué papel juega la atención en la comunicación eficaz y exitosa?                                      &                                          &    &    &    &    &    &    &    &    &     &     &     &     &     &     &     &     &     &     &     &           \\\hline
@@ -1477,6 +1477,35 @@ Temporalización-cronograma de acciones refiérase al Cuadro \ref{cronog}.
 	\end{table}
 \end{landscape}
 
+
+
+¿Qué papel juega la empatía en la comunicación interpersonal?
+¿Cómo puede la empatía mejorar la calidad de nuestras interacciones comunicativas?
+¿Cuáles son algunos ejemplos de barreras para la empatía en la comunicación?
+¿Qué habilidades son necesarias para practicar la empatía en la comunicación?
+¿Cuál es la diferencia entre simpatía y empatía en la comunicación?
+¿Cómo podemos fomentar la empatía en nuestras interacciones cotidianas?
+¿Qué es la asertividad en la comunicación?
+¿Cuáles son los beneficios de ser asertivo en la comunicación?
+¿Cómo se diferencia la asertividad de la agresividad y la pasividad en la comunicación?
+¿Cuáles son algunas técnicas o estrategias para ser más asertivo en la comunicación?
+¿Cuáles son los obstáculos o barreras comunes para la asertividad en la comunicación?
+¿Cómo se puede desarrollar y mejorar la habilidad de ser asertivo en la comunicación?
+
+¿Por qué es importante la atención en la comunicación?
+¿Cuáles son las consecuencias de una atención deficiente en la comunicación?
+¿Cómo podemos mejorar nuestra capacidad de atención en la comunicación?
+¿Cuáles son las barreras más comunes que impiden una atención adecuada en la comunicación?
+¿Qué papel juega la atención en la comunicación eficaz y exitosa?
+¿Cuál es la relación entre la atención y la comprensión en la comunicación?
+¿Cómo podemos cultivar una atención consciente en nuestras interacciones comunicativas?
+¿Cuál es el papel del pensamiento en el proceso de comunicación?
+¿Cómo influye el pensamiento en la forma en que nos expresamos y entendemos a los demás?
+¿Qué papel juegan los prejuicios y estereotipos en el pensamiento durante la comunicación?
+¿Cómo puede el pensamiento crítico mejorar la calidad de nuestra comunicación?
+¿Cuál es la relación entre el pensamiento humano y la comunicación no verbal?
+¿En qué medida afecta el pensamiento creativo a nuestra forma de comunicarnos?
+¿Cómo puede el pensamiento reflexivo y la autorreflexión mejorar nuestras habilidades de comunicación?
 \begin{enumerate}
 	\item DATOS GENERALES
 	      \begin{itemize}
@@ -1492,16 +1521,26 @@ Temporalización-cronograma de acciones refiérase al Cuadro \ref{cronog}.
 	      \begin{center}
 		      \begin{tabular}{|c|p{6.8cm}|c|c|c|c|}
 			      \hline
-			      \multirow{2}*[-.01cm]{INDICADORES} & \multirow{2}*[-.01cm]{CRITERIOS DE VALIDACIÓN}                                    & \multicolumn{2}{c|}{INST1} & \multicolumn{2}{c|}{INST2}         \\			      \cline{3-6}
-			                                         &                                                                                   & A                          & D                          & A & D \\			      \hline
-			      Claridad                           & ¿Está formulado con lenguaje claro, apropiado y cencillo?                         &                            &                            &   &   \\			      \hline
-			      Objetividad                        & ¿Las preguntas realmente recojen datos de las variables y los indicadores?        &                            &                            &   &   \\			      \hline
-			      Actualización                      & ¿El instrumento es adecuado para el tipo de variable en estudio?                  &                            &                            &   &   \\			      \hline
-			      Organización                       & ¿La presentacion formal (tipo, tamaño, letra, etc.) del instrumento es apropiado? &                            &                            &   &   \\			      \hline
-			      Suficiencia                        & ¿Las preguntas son suficientes para recoger datos de todos los indicadores?       &                            &                            &   &   \\			      \hline
-			      Intencionalidad                    & ¿Los items o preguntas responden al problema y objetivos del investigación?       &                            &                            &   &   \\			      \hline
-			      Consistencia                       & ¿Los items o preguntas tienen sustento teórico y científico?                      &                            &                            &   &   \\			      \hline
-			      Coherencia                         & ¿Los items o preguntas tienen son comprensibles y están bien redactados?          &                            &                            &   &   \\			      \hline
+			      \multirow{2}*[-.01cm]{INDICADORES} & \multirow{2}*[-.01cm]{CRITERIOS DE VALIDACIÓN}                                    & \multicolumn{2}{c|}{INST1} & \multicolumn{2}{c|}{INST2}         \\
+			      \cline{3-6}
+			                                         &                                                                                   & A                          & D                          & A & D \\
+			      \hline
+			      Claridad                           & ¿Está formulado con lenguaje claro, apropiado y cencillo?                         &                            &                            &   &   \\
+			      \hline
+			      Objetividad                        & ¿Las preguntas realmente recojen datos de las variables y los indicadores?        &                            &                            &   &   \\
+			      \hline
+			      Actualización                      & ¿El instrumento es adecuado para el tipo de variable en estudio?                  &                            &                            &   &   \\
+			      \hline
+			      Organización                       & ¿La presentacion formal (tipo, tamaño, letra, etc.) del instrumento es apropiado? &                            &                            &   &   \\
+			      \hline
+			      Suficiencia                        & ¿Las preguntas son suficientes para recoger datos de todos los indicadores?       &                            &                            &   &   \\
+			      \hline
+			      Intencionalidad                    & ¿Los items o preguntas responden al problema y objetivos del investigación?       &                            &                            &   &   \\
+			      \hline
+			      Consistencia                       & ¿Los items o preguntas tienen sustento teórico y científico?                      &                            &                            &   &   \\
+			      \hline
+			      Coherencia                         & ¿Los items o preguntas tienen son comprensibles y están bien redactados?          &                            &                            &   &   \\
+			      \hline
 			      %		Metodología	& ¿Esta formulado con lenguaje claro, apropiado y cencillo? &  &  &  &    \\
 			      %		\hline
 			      %		Pertinencia	& ¿Esta formulado con lenguaje claro, apropiado y cencillo? &  &  &  &    \\

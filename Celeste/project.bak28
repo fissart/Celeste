@@ -1460,7 +1460,7 @@ Temporalización-cronograma de acciones refiérase al Cuadro \ref{cronog}.
 			¿Cuáles son los obstáculos o barreras comunes para la asertividad en la comunicación?                  &                                          &    &    &    &    &    &    &    &    &     &     &     &     &     &     &     &     &     &     &     &           \\\hline
 			¿Cómo se puede desarrollar y mejorar la habilidad de ser asertivo en la comunicación?                  &                                          &    &    &    &    &    &    &    &    &     &     &     &     &     &     &     &     &     &     &     &           \\\hline
 			¿Por qué es importante la atención en la comunicación?                                                 &                                          &    &    &    &    &    &    &    &    &     &     &     &     &     &     &     &     &     &     &     &           \\\hline
-			¿Cuáles son las consecuencias de una atención deficiente en la comunicación?                           &                                          &    &    &    &    &    &    &    &    &     &     &     &     &     &     &     &     &     &     &     &           \\\hline
+			¿Cuáles son las consecuencias de una atención deficiente en la comunicación? &                                          &    &    &    &    &    &    &    &    &     &     &     &     &     &     &     &     &     &     &     &           \\\hline
 			¿Cómo podemos mejorar nuestra capacidad de atención en la comunicación?                                &                                          &    &    &    &    &    &    &    &    &     &     &     &     &     &     &     &     &     &     &     &           \\\hline
 			¿Cuáles son las barreras más comunes que impiden una atención adecuada en la comunicación?             &                                          &    &    &    &    &    &    &    &    &     &     &     &     &     &     &     &     &     &     &     &           \\\hline
 			¿Qué papel juega la atención en la comunicación eficaz y exitosa?                                      &                                          &    &    &    &    &    &    &    &    &     &     &     &     &     &     &     &     &     &     &     &           \\\hline
@@ -1492,16 +1492,26 @@ Temporalización-cronograma de acciones refiérase al Cuadro \ref{cronog}.
 	      \begin{center}
 		      \begin{tabular}{|c|p{6.8cm}|c|c|c|c|}
 			      \hline
-			      \multirow{2}*[-.01cm]{INDICADORES} & \multirow{2}*[-.01cm]{CRITERIOS DE VALIDACIÓN}                                    & \multicolumn{2}{c|}{INST1} & \multicolumn{2}{c|}{INST2}         \\			      \cline{3-6}
-			                                         &                                                                                   & A                          & D                          & A & D \\			      \hline
-			      Claridad                           & ¿Está formulado con lenguaje claro, apropiado y cencillo?                         &                            &                            &   &   \\			      \hline
-			      Objetividad                        & ¿Las preguntas realmente recojen datos de las variables y los indicadores?        &                            &                            &   &   \\			      \hline
-			      Actualización                      & ¿El instrumento es adecuado para el tipo de variable en estudio?                  &                            &                            &   &   \\			      \hline
-			      Organización                       & ¿La presentacion formal (tipo, tamaño, letra, etc.) del instrumento es apropiado? &                            &                            &   &   \\			      \hline
-			      Suficiencia                        & ¿Las preguntas son suficientes para recoger datos de todos los indicadores?       &                            &                            &   &   \\			      \hline
-			      Intencionalidad                    & ¿Los items o preguntas responden al problema y objetivos del investigación?       &                            &                            &   &   \\			      \hline
-			      Consistencia                       & ¿Los items o preguntas tienen sustento teórico y científico?                      &                            &                            &   &   \\			      \hline
-			      Coherencia                         & ¿Los items o preguntas tienen son comprensibles y están bien redactados?          &                            &                            &   &   \\			      \hline
+			      \multirow{2}*[-.01cm]{INDICADORES} & \multirow{2}*[-.01cm]{CRITERIOS DE VALIDACIÓN}                                    & \multicolumn{2}{c|}{INST1} & \multicolumn{2}{c|}{INST2}         \\
+			      \cline{3-6}
+			                                         &                                                                                   & A                          & D                          & A & D \\
+			      \hline
+			      Claridad                           & ¿Está formulado con lenguaje claro, apropiado y cencillo?                         &                            &                            &   &   \\
+			      \hline
+			      Objetividad                        & ¿Las preguntas realmente recojen datos de las variables y los indicadores?        &                            &                            &   &   \\
+			      \hline
+			      Actualización                      & ¿El instrumento es adecuado para el tipo de variable en estudio?                  &                            &                            &   &   \\
+			      \hline
+			      Organización                       & ¿La presentacion formal (tipo, tamaño, letra, etc.) del instrumento es apropiado? &                            &                            &   &   \\
+			      \hline
+			      Suficiencia                        & ¿Las preguntas son suficientes para recoger datos de todos los indicadores?       &                            &                            &   &   \\
+			      \hline
+			      Intencionalidad                    & ¿Los items o preguntas responden al problema y objetivos del investigación?       &                            &                            &   &   \\
+			      \hline
+			      Consistencia                       & ¿Los items o preguntas tienen sustento teórico y científico?                      &                            &                            &   &   \\
+			      \hline
+			      Coherencia                         & ¿Los items o preguntas tienen son comprensibles y están bien redactados?          &                            &                            &   &   \\
+			      \hline
 			      %		Metodología	& ¿Esta formulado con lenguaje claro, apropiado y cencillo? &  &  &  &    \\
 			      %		\hline
 			      %		Pertinencia	& ¿Esta formulado con lenguaje claro, apropiado y cencillo? &  &  &  &    \\
