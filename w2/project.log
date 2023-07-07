@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.7.6)  6 JUL 2023 14:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.7.6)  6 JUL 2023 20:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1140,27 +1140,27 @@ LaTeX Info: Redefining \% on input line 14.
 )
 \openout1 = `project.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 178.
-LaTeX Font Info:    ... okay on input line 178.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 178.
-LaTeX Font Info:    ... okay on input line 178.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 178.
-LaTeX Font Info:    ... okay on input line 178.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 178.
-LaTeX Font Info:    ... okay on input line 178.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 178.
-LaTeX Font Info:    ... okay on input line 178.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 178.
-LaTeX Font Info:    ... okay on input line 178.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 178.
-LaTeX Font Info:    ... okay on input line 178.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 179.
+LaTeX Font Info:    ... okay on input line 179.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 179.
+LaTeX Font Info:    ... okay on input line 179.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 179.
+LaTeX Font Info:    ... okay on input line 179.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 179.
+LaTeX Font Info:    ... okay on input line 179.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 179.
+LaTeX Font Info:    ... okay on input line 179.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 179.
+LaTeX Font Info:    ... okay on input line 179.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 179.
+LaTeX Font Info:    ... okay on input line 179.
 LaTeX Font Info:    Trying to load font information for T1+ptm on input line 17
-8.
+9.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
-LaTeX Info: Redefining \. on input line 178.
-LaTeX Info: Redefining \% on input line 178.
+LaTeX Info: Redefining \. on input line 179.
+LaTeX Info: Redefining \% on input line 179.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1263,172 +1263,217 @@ enefit from \pgfplotsset{compat=1.16} (current compat level: 1.15).
 <logo.pdf, id=4, 401.5pt x 577.15625pt>
 File: logo.pdf Graphic file (type pdf)
 <use logo.pdf>
-Package pdftex.def Info: logo.pdf  used on input line 189.
+Package pdftex.def Info: logo.pdf  used on input line 195.
 (pdftex.def)             Requested size: 128.65416pt x 184.9429pt.
 [1
 
 \openout4 = `project.ist'.
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./logo.pdf>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
 Make it at least 14.49998pt.
 We now make it that large for the rest of the document.
 This may cause the page layout to be inconsistent, however.
 
-[2]
-Underfull \vbox (badness 2173) has occurred while \output is active []
+[2] [3] [4] [5] [6] (./project.gls
 
- [3]
-(./project.gls [4] [5] [6])
-Overfull \hbox (11.31738pt too wide) in paragraph at lines 371--371
-|[]\T1/ptm/b/n/12 DEFINICIÓN CON-CEP-TUAL Y OPE-RA-CIO-NA-LI-ZA-CÍÓN DE VA-RIA-
-BLES
- []
+Package glossaries Warning: Glossary entry `arte' has not been defined on input
+ line 5.
+
+
+Package glossaries Warning: Glossary entry `arte' has not been defined on input
+ line 5.
+
+
+Package glossaries Warning: Glossary entry `asertividad' has not been defined o
+n input line 7.
+
+
+Package glossaries Warning: Glossary entry `asertividad' has not been defined o
+n input line 7.
+
+
+Package glossaries Warning: Glossary entry `color' has not been defined on inpu
+t line 12.
+
+
+Package glossaries Warning: Glossary entry `color' has not been defined on inpu
+t line 12.
+
+
+Package glossaries Warning: Glossary entry `comunicacion' has not been defined 
+on input line 14.
+
+
+Package glossaries Warning: Glossary entry `comunicacion' has not been defined 
+on input line 14.
+
+
+Package glossaries Warning: Glossary entry `creatividad' has not been defined o
+n input line 18.
+
+
+Package glossaries Warning: Glossary entry `creatividad' has not been defined o
+n input line 18.
 
 [7]
+
+Package glossaries Warning: Glossary entry `dibujo' has not been defined on inp
+ut line 23.
+
+
+Package glossaries Warning: Glossary entry `dibujo' has not been defined on inp
+ut line 23.
+
+
+Package glossaries Warning: Glossary entry `recrear' has not been defined on in
+put line 35.
+
+
+Package glossaries Warning: Glossary entry `recrear' has not been defined on in
+put line 35.
+
+) [8]
 LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
- 402.
+ 467.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line
- 402.
+ 467.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line
- 402.
+ 467.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line
- 402.
+ 467.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 4
-02.
+67.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 402.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 467.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 402.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 467.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 402.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 467.
 LaTeX Font Info:    Trying to load font information for OML+ntxmi on input line
- 402.
-LaTeX Font Info:    No file OMLntxmi.fd. on input line 402.
+ 467.
+LaTeX Font Info:    No file OMLntxmi.fd. on input line 467.
 
 
 LaTeX Font Warning: Font shape `OML/ntxmi/m/it' undefined
-(Font)              using `OML/cmm/m/it' instead on input line 402.
+(Font)              using `OML/cmm/m/it' instead on input line 467.
 
 LaTeX Font Info:    Trying to load font information for OMS+zplm on input line 
-402.
+467.
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omszplm.fd
 File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
-) [8]
+)
+Underfull \hbox (badness 10000) in paragraph at lines 483--483
+[]|\T1/ptm/m/n/12 Hermanos del
+ []
+
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 510--510
+[]|\T1/ptm/m/n/12 Pensamiento
+ []
+
+[10]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [9]
-[10]
-Underfull \vbox (badness 5939) has occurred while \output is active []
-
  [11]
-[12] [13] [14] [15] (./project.bbl
+(./project.bbl [12]
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 5
 5.
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-) [16]) (./project.acr
-[17]) (./project.sls) [1] [2] [3] [4]
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 997.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 997.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 997.
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 1
-015.
+))
+Underfull \vbox (badness 1122) has occurred while \output is active []
 
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+ [13]
+[14] [15] [16] [17]
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1047.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1047.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1047.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 1
+065.
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-Overfull \vbox (57.73001pt too high) detected at line 1015
+Overfull \vbox (67.23001pt too high) detected at line 1065
  []
 
 
-Overfull \vbox (75.23001pt too high) detected at line 1031
+Overfull \vbox (84.73001pt too high) detected at line 1081
  []
 
 
-Overfull \vbox (0.88223pt too high) detected at line 1044
+Overfull \vbox (0.88223pt too high) detected at line 1094
  []
 
 
-Underfull \hbox (badness 1062) in paragraph at lines 1044--1044
+Underfull \hbox (badness 1062) in paragraph at lines 1094--1094
 \T1/ptm/m/n/8 me-jo-ra de la crea-ti-vi-dad en es-
  []
 
 
-Underfull \hbox (badness 1360) in paragraph at lines 1047--1047
+Underfull \hbox (badness 1360) in paragraph at lines 1097--1097
 \T1/ptm/m/n/8 con-te-ni-do pa-ra la me-jo-ra de la
  []
 
 
-Overfull \hbox (16.27698pt too wide) in paragraph at lines 997--1049
+Overfull \hbox (19.07693pt too wide) in paragraph at lines 1047--1099
  [][] 
  []
 
-[5
+[18
 
 
-] [6
+] [19
 
 
-] [7
+] [20
 
 
-] [8
+] [21
 
 
-]
-Overfull \hbox (2.98521pt too wide) in paragraph at lines 1184--1215
- [][] 
- []
-
-[9
+] [22
 
 
 ]
-Underfull \hbox (badness 2310) in paragraph at lines 1235--1235
-[]|\T1/ptm/m/n/12 ¾Está for-mu-la-do con len-gua-je cla-ro,
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1283.
+
+Underfull \hbox (badness 1019) in paragraph at lines 1295--1295
+[]|\T1/ptm/m/n/10.95 ¾La es-truc-tu-ra ofre-ce un or-den lo-gi-co y
  []
 
+[23
 
-Overfull \hbox (0.85919pt too wide) in paragraph at lines 1252--1253
-[]\T1/ptm/m/n/12 --------------------------------------------------------------
--------------------------------------
- []
-
+]
 
 Package caption Warning: Unused \captionsetup[figure] on input line 129.
 See the caption package documentation for explanation.
 
-[10
-
-] (./project.aux
+[24] (./project.aux
 LaTeX Info: Redefining \. on input line 14.
 LaTeX Info: Redefining \% on input line 14.
 )
@@ -1437,26 +1482,24 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 38445 strings out of 483121
- 872712 string characters out of 5964355
- 1382631 words of memory out of 5000000
- 52696 multiletter control sequences out of 15000+600000
- 589778 words of font info for 128 fonts, out of 8000000 for 9000
+ 38190 strings out of 483121
+ 867827 string characters out of 5964355
+ 1370199 words of memory out of 5000000
+ 52446 multiletter control sequences out of 15000+600000
+ 596506 words of font info for 141 fonts, out of 8000000 for 9000
  40 hyphenation exceptions out of 8191
- 69i,20n,119p,3079b,768s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 69i,20n,119p,3079b,770s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/linux/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1200.600
 pk>{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/urw/symbol/usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8
-a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on project.pdf (27 pages, 193972 bytes).
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/urw/symbol/usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/ur
+w/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on project.pdf (24 pages, 164716 bytes).
 PDF statistics:
- 161 PDF objects out of 1000 (max. 8388607)
- 95 compressed objects within 1 object stream
+ 143 PDF objects out of 1000 (max. 8388607)
+ 82 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  18 words of extra memory for PDF output out of 10000 (max. 10000000)
 
