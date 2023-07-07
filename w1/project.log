@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.7.6)  6 JUL 2023 21:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.7.6)  6 JUL 2023 21:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1413,19 +1413,12 @@ Overfull \hbox (16.27698pt too wide) in paragraph at lines 1270--1322
 ] [8
 
 
-]
-Overfull \hbox (2.98521pt too wide) in paragraph at lines 1457--1488
- [][] 
- []
-
-[9
+] [9
 
 
 ]
-Underfull \hbox (badness 2310) in paragraph at lines 1508--1508
-[]|\T1/ptm/m/n/12 ¾Está for-mu-la-do con len-gua-je cla-ro,
- []
-
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1504.
 
 Overfull \hbox (0.85919pt too wide) in paragraph at lines 1525--1526
 []\T1/ptm/m/n/12 --------------------------------------------------------------
@@ -1545,6 +1538,51 @@ Underfull \hbox (badness 10000) in paragraph at lines 1593--1593
  []
 
 
+Underfull \hbox (badness 1769) in paragraph at lines 1594--1594
+[]|\T1/ptm/m/n/12 Introducción ge-ne-ral: La
+ []
+
+
+Underfull \hbox (badness 1142) in paragraph at lines 1594--1594
+\T1/ptm/m/n/12 ca-ri-ca-tu-ra pa-ra for-ta-le-cer
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1594--1594
+[]|\T1/ptm/m/n/12 Aula, Fo-tos, Vi-deos,
+ []
+
+
+Underfull \hbox (badness 1769) in paragraph at lines 1595--1595
+[]|\T1/ptm/m/n/12 Introducción ge-ne-ral: La
+ []
+
+
+Underfull \hbox (badness 1142) in paragraph at lines 1595--1595
+\T1/ptm/m/n/12 ca-ri-ca-tu-ra pa-ra for-ta-le-cer
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1595--1595
+[]|\T1/ptm/m/n/12 Aula, Fo-tos, Vi-deos,
+ []
+
+
+Underfull \hbox (badness 1769) in paragraph at lines 1596--1596
+[]|\T1/ptm/m/n/12 Introducción ge-ne-ral: La
+ []
+
+
+Underfull \hbox (badness 1142) in paragraph at lines 1596--1596
+\T1/ptm/m/n/12 ca-ri-ca-tu-ra pa-ra for-ta-le-cer
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1596--1596
+[]|\T1/ptm/m/n/12 Aula, Fo-tos, Vi-deos,
+ []
+
+
 Package caption Warning: Unused \captionsetup[figure] on input line 129.
 See the caption package documentation for explanation.
 
@@ -1557,11 +1595,11 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 38570 strings out of 483121
- 875486 string characters out of 5964355
- 1384698 words of memory out of 5000000
- 52820 multiletter control sequences out of 15000+600000
- 591170 words of font info for 130 fonts, out of 8000000 for 9000
+ 38584 strings out of 483121
+ 875724 string characters out of 5964355
+ 1380698 words of memory out of 5000000
+ 52833 multiletter control sequences out of 15000+600000
+ 597898 words of font info for 143 fonts, out of 8000000 for 9000
  40 hyphenation exceptions out of 8191
  69i,21n,119p,3079b,760s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/linux/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1200.600
@@ -1573,7 +1611,7 @@ t/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts
 /urw/symbol/usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8
 a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on project.pdf (46 pages, 243951 bytes).
+Output written on project.pdf (46 pages, 238655 bytes).
 PDF statistics:
  241 PDF objects out of 1000 (max. 8388607)
  138 compressed objects within 2 object streams

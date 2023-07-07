@@ -184,20 +184,20 @@
 \thispagestyle{empty}
 
 {
-\normalsize\centering\thispagestyle{empty} MINISTERIO DE EDUCACIÓN{}
-\\SUPERINTENDENCIA NACIONAL DE EDUCACIÓN SUPERIOR UNIVERSITARIA (SUNEDU)\\
-\vspace{0.65cm}
+	\normalsize\centering\thispagestyle{empty} MINISTERIO DE EDUCACIÓN{}
+	\\SUPERINTENDENCIA NACIONAL DE EDUCACIÓN SUPERIOR UNIVERSITARIA (SUNEDU)\\
+	\vspace{0.65cm}
 {
-	\large ESCUELA SUPERIOR DE FORMACIÓN ARTÍSTICA PÚBLICA\\``FELIPE GUAMÁN POMA DE AYALA''}\\
+\large ESCUELA SUPERIOR DE FORMACIÓN ARTÍSTICA PÚBLICA\\``FELIPE GUAMÁN POMA DE AYALA''}\\
 {\scriptsize CON NIVEL UNIVERSITARIO: LEY 30220}\\
 \vspace{0.65cm}
 \includegraphics[height=6.5cm]{logo}\\
 \vspace{0.65cm}  {\large TÍTULO}\\
 \vspace{0.65cm}
 \MakeUppercase{\Large\titulo}\\
-\vspace{0.65cm}
+\vspace{0.65cm}   
 {\large PRESENTADO POR\\
-	\vspace{0.65cm}
+	\vspace{0.65cm}  
 	\autor
 }\\
 \vspace{0.65cm}
@@ -713,7 +713,7 @@ El cumplimiento determinará el crecimiento de la  eficacia en la \MakeTextLower
 		                    &                                                   & \multirow{1}{*}{\fbbbbbbbbbbbbbb}  &                                                                              &                                                                \\\cline{3-3}
 		                    &                                                   & \multirow{1}{*}{\fbbbbbbbbbbbbbbb} &                                                                              &                                                                \\\bottomrule%\Xhline{1pt}
 	\end{tabular}
-	\vspace{0.5cm}
+\vspace{0.5cm}
 \end{table}
 
 %\vspace{0.5cm}
@@ -769,17 +769,17 @@ El diseño de investigación \MakeTextLowercase{\diseno}, que se estructura de a
 \begin{table}[ht!]
 	\caption{Diseño de investigación}
 	\label{figg}
-
+	
 	\begin{tabular}{cccc}
 		\toprule
 		Tratamiento             & Pre & Experimento & Post \\
 		\midrule
-		Tratamiento 1 (Clase 1) & O1  & X1          & O2   \\
-		Tratamiento 2 (Clase 2) & O3  & X2          & O4   \\
-		Tratamiento 3 (Clase 3) & O5  & X3          & O6   \\
+		Tratamiento 1 (Clase 1) & O1  & X1          & O2    \\
+		Tratamiento 2 (Clase 2) & O3  & X2          & O4     \\
+		Tratamiento 3 (Clase 3) & O5  & X3          & O6    \\
 		\bottomrule
 	\end{tabular}
-	%\vspace{0.5cm}
+%\vspace{0.5cm}
 \end{table}
 
 %\begin{figure}[ht!]\centering
@@ -822,14 +822,14 @@ Constituida por \poblacion, matriculados en el 2023. Los criterios que se consid
 
 \begin{table}[ht!]
 	\caption{Criterio de inclusión y exclusión}\label{apt7}
-
+	
 	\begin{tabular}{lp{4cm}l}%\Xhline{2pt}
-		\toprule
-		Población                                                                          & Aptos                                                                               & No aptos                         \\\midrule
-		\multirow{3}*{\makecell*[{{p{4cm}}}]{Estudiantes matriculados del semestre impar}} & \multirow{4}*{\makecell*[{{p{4cm}}}]{Estudiantes regulares y Asistentes puntuales}} & -Estudiantes repitentes          \\
-		                                                                                   &                                                                                     & -Estudiantes retirados           \\
-		                                                                                   &                                                                                     & -Estudiantes del quinto superior \\
-		                                                                                   &                                                                                     & -Estudiantes no asistentes       \\
+		\toprule 
+		Población  & Aptos & No aptos \\\midrule
+		\multirow{3}*{\makecell*[{{p{4cm}}}]{Estudiantes matriculados del semestre impar}} & \multirow{4}*{\makecell*[{{p{4cm}}}]{Estudiantes regulares y Asistentes puntuales}} & -Estudiantes repitentes\\
+			&& -Estudiantes retirados                                                                               \\
+			&& -Estudiantes del quinto superior                                                                     \\
+			&& -Estudiantes no asistentes                                                                          \\
 		\bottomrule
 	\end{tabular}
 \end{table}
@@ -906,13 +906,13 @@ Las competencias y sus valoraciones cualitativas y cuantitativas se describen en
 	\caption{Criterio de calificación}\label{evaluacion}
 	\begin{tabular}{llll}%\Xhline{2pt}
 		\toprule
-		\bf \multirow{2}*[-.01cm]{Capacidades}                                                       & \bf Valoración   & \bf Valoración    \\
-		                                                                                             & \bf  cualificada & \bf  cuantificada \\\midrule
+		\bf \multirow{2}*[-.01cm]{Capacidades}                                                   & \bf Valoración   & \bf Valoración    \\
+		                                                                                         & \bf  cualificada & \bf  cuantificada \\\midrule
 		\multirow{5}*[-.01cm]{\makecell*[{{p{7cm}}}]{\centering  \dimd,  \dimdd, \dimddd y \dimddd}} & Excelente        & 17 -- 20          \\
-		                                                                                             & Bueno            & 13 -- 16          \\
-		                                                                                             & Regular          & 09 -- 12          \\
-		                                                                                             & Malo             & 05 -- 08          \\
-		                                                                                             & Deficiente       & 00 -- 04          \\
+		                                                                                         & Bueno            & 13 -- 16          \\
+		                                                                                         & Regular          & 09 -- 12          \\
+		                                                                                         & Malo             & 05 -- 08          \\
+		                                                                                         & Deficiente       & 00 -- 04          \\
 		\bottomrule
 	\end{tabular}
 \end{table}
@@ -973,23 +973,23 @@ $r$ es el coeficiente de Spearman Brow. Si $0\leq r\leq 0.8$ se considera no con
 	} \cite[p.~61]{kothari_research_2004}\end{displayquote}
 
 \begin{table}[ht!]
-	\caption{Prueba de confiabilidad de la ficha de observación}\label{pret:1}
-	%\vspace{0.5cm}
-	\begin{tabular}{cccccccccccc}%\Xhline{2pt}
-		\toprule
-		AI             & \multicolumn{10}{c}{ITEMS} & $\sum$                                                         \\\midrule
-		               & IN1                        & IN2    & IN3 & IN4 & IN5 & IN6 & IN7 & IN8 & $\ldots$ & IN23 & \\\cline{2-11}
-		1              &                            &        &     &     &     &     &     &     &          &      & \\
-		2              &                            &        &     &     &     &     &     &     &          &      & \\
-		3              &                            &        &     &     &     &     &     &     &          &      & \\
-		$\vdots$       &                            &        &     &     &     &     &     &     &          &      & \\
-		20             &                            &        &     &     &     &     &     &     &          &      & \\\midrule
-		$\sum$         &                            &        &     &     &     &     &     &     &          &      & \\
-		$\overline{x}$ &                            &        &     &     &     &     &     &     &          &      & \\
-		$s_i^2$        &                            &        &     &     &     &     &     &     &          &      & \\
-		$s_i$          &                            &        &     &     &     &     &     &     &          &      & \\\bottomrule
-	\end{tabular}\\\vspace{0.1cm}
-	{\normalsize Fuente: Datos obtenidos de la muestra}
+		\caption{Prueba de confiabilidad de la ficha de observación}\label{pret:1}
+		%\vspace{0.5cm}
+		\begin{tabular}{cccccccccccc}%\Xhline{2pt}
+			\toprule 
+			AI             & \multicolumn{10}{c}{ITEMS} & $\sum$                                                         \\\midrule
+			               & IN1                        & IN2    & IN3 & IN4 & IN5 & IN6 & IN7 & IN8 & $\ldots$ & IN23 & \\\cline{2-11}
+			1              &                            &        &     &     &     &     &     &     &          &      & \\
+			2              &                            &        &     &     &     &     &     &     &          &      & \\
+			3              &                            &        &     &     &     &     &     &     &          &      & \\
+			$\vdots$       &                            &        &     &     &     &     &     &     &          &      & \\
+			20             &                            &        &     &     &     &     &     &     &          &      & \\\midrule
+			$\sum$         &                            &        &     &     &     &     &     &     &          &      & \\
+			$\overline{x}$ &                            &        &     &     &     &     &     &     &          &      & \\
+			$s_i^2$        &                            &        &     &     &     &     &     &     &          &      & \\
+			$s_i$          &                            &        &     &     &     &     &     &     &          &      & \\\bottomrule
+		\end{tabular}\\\vspace{0.1cm}
+		{\normalsize Fuente: Datos obtenidos de la muestra}
 \end{table}
 
 
@@ -1411,9 +1411,9 @@ Temporalización-cronograma de acciones refiérase al Cuadro \ref{cronog}.
 	\begin{table}[ht!]\caption{Matriz de instrumentos de la variable \MakeTextLowercase{\variablei}}
 		\centering  \renewcommand\tabcolsep{0.1cm}%\renewcommand\arraystretch{1}
 		\scriptsize
-		\begin{tabular}{llllllllllllllllllllllllll}
+		\begin{tabular}{|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|}
 			\hline
-			\multirow{2}{*}{ \ce\bf ÍTEMS}                                                                         & \multicolumn{21}{c}{ESTUDIANTES}\Tstrut                                                                                                                       \\\cline{2-22}
+			\multirow{2}{*}{ \ce\bf ÍTEMS}                                                                         & \multicolumn{21}{c|}{ESTUDIANTES}\Tstrut                                                                                                                       \\\cline{2-22}
 			                                                                                                       & E1                                       & E2 & E3 & E4 & E5 & E6 & E7 & E8 & E9 & E10 & E11 & E12 & E13 & E14 & E15 & E16 & E17 & E18 & E19 & E20 & E2\Tstrut \\\hline
 			¿Cuáles son los eventos en el hogar más comunes en los que se realizan caricaturas?                    &                                          &    &    &    &    &    &    &    &    &     &     &     &     &     &     &     &     &     &     &     &           \\\hline
 			¿Cuánto tiempo promedio se tarda en hacer una caricatura durante un evento en el hogar?                &                                          &    &    &    &    &    &    &    &    &     &     &     &     &     &     &     &     &     &     &     &           \\\hline
@@ -1454,9 +1454,9 @@ Temporalización-cronograma de acciones refiérase al Cuadro \ref{cronog}.
 	\lugar -- TÍTULO: \titulo -- AUTOR: \autor
 	\begin{table}[ht!]\caption{Matriz de instrumentos de la variable \MakeTextLowercase{\variabled}}
 		\centering \scriptsize\renewcommand\tabcolsep{0.1cm}%\renewcommand\arraystretch{1}
-		\begin{tabular}{llllllllllllllllllllllllll}
+		\begin{tabular}{|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|}
 			\hline
-			\multirow{2}{*}{ \ce\bf ÍTEMS}                                                                         & \multicolumn{21}{c}{ESTUDIANTES}\Tstrut                                                                                                                       \\\cline{2-22}
+			\multirow{2}{*}{ \ce\bf ÍTEMS}                                                                         & \multicolumn{21}{c|}{ESTUDIANTES}\Tstrut                                                                                                                       \\\cline{2-22}
 			                                                                                                       & E1                                       & E2 & E3 & E4 & E5 & E6 & E7 & E8 & E9 & E10 & E11 & E12 & E13 & E14 & E15 & E16 & E17 & E18 & E19 & E20 & E2\Tstrut \\\hline
 			¿Qué papel juega la empatía en la comunicación interpersonal?                                          &                                          &    &    &    &    &    &    &    &    &     &     &     &     &     &     &     &     &     &     &     &           \\\hline
 			¿Cómo puede la empatía mejorar la calidad de nuestras interacciones comunicativas?                     &                                          &    &    &    &    &    &    &    &    &     &     &     &     &     &     &     &     &     &     &     &           \\\hline
@@ -1500,19 +1500,19 @@ Temporalización-cronograma de acciones refiérase al Cuadro \ref{cronog}.
 
 	\item CRITERIOS DE VALIDACIÓN (Acuerdo: A, Descacuerdo: D)
 
-	      \begin{center}\small
-		      \begin{tabular}{cp{6.8cm}|c|c|c|c|}
-			      \toprule
-			      \multirow{2}*[-.01cm]{INDICADORES} & \multirow{2}*[-.01cm]{CRITERIOS DE VALIDACIÓN}                                    & \multicolumn{2}{c|}{INST1} & \multicolumn{2}{c|}{INST2}         \\			      \cmidrule{3-6}
-			                                         &                                                                                   & A                          & D                          & A & D \\			      \midrule
-			      Claridad                           & ¿Está formulado con lenguaje claro, apropiado y cencillo?                         &                            &                            &   &   \\			      \midrule
-			      Objetividad                        & ¿Las preguntas realmente recojen datos de las variables y los indicadores?        &                            &                            &   &   \\			      \midrule
-			      Actualización                      & ¿El instrumento es adecuado para el tipo de variable en estudio?                  &                            &                            &   &   \\			      \midrule
-			      Organización                       & ¿La presentacion formal (tipo, tamaño, letra, etc.) del instrumento es apropiado? &                            &                            &   &   \\			      \midrule
-			      Suficiencia                        & ¿Las preguntas son suficientes para recoger datos de todos los indicadores?       &                            &                            &   &   \\			      \midrule
-			      Intencionalidad                    & ¿Los items o preguntas responden al problema y objetivos del investigación?       &                            &                            &   &   \\			      \midrule
-			      Consistencia                       & ¿Los items o preguntas tienen sustento teórico y científico?                      &                            &                            &   &   \\			      \midrule
-			      Coherencia                         & ¿Los items o preguntas tienen son comprensibles y están bien redactados?          &                            &                            &   &   \\			      \bottomrule
+	      \begin{center}
+		      \begin{tabular}{|c|p{6.8cm}|c|c|c|c|}
+			      \hline
+			      \multirow{2}*[-.01cm]{INDICADORES} & \multirow{2}*[-.01cm]{CRITERIOS DE VALIDACIÓN}                                    & \multicolumn{2}{c|}{INST1} & \multicolumn{2}{c|}{INST2}         \\			      \cline{3-6}
+			                                         &                                                                                   & A                          & D                          & A & D \\			      \hline
+			      Claridad                           & ¿Está formulado con lenguaje claro, apropiado y cencillo?                         &                            &                            &   &   \\			      \hline
+			      Objetividad                        & ¿Las preguntas realmente recojen datos de las variables y los indicadores?        &                            &                            &   &   \\			      \hline
+			      Actualización                      & ¿El instrumento es adecuado para el tipo de variable en estudio?                  &                            &                            &   &   \\			      \hline
+			      Organización                       & ¿La presentacion formal (tipo, tamaño, letra, etc.) del instrumento es apropiado? &                            &                            &   &   \\			      \hline
+			      Suficiencia                        & ¿Las preguntas son suficientes para recoger datos de todos los indicadores?       &                            &                            &   &   \\			      \hline
+			      Intencionalidad                    & ¿Los items o preguntas responden al problema y objetivos del investigación?       &                            &                            &   &   \\			      \hline
+			      Consistencia                       & ¿Los items o preguntas tienen sustento teórico y científico?                      &                            &                            &   &   \\			      \hline
+			      Coherencia                         & ¿Los items o preguntas tienen son comprensibles y están bien redactados?          &                            &                            &   &   \\			      \hline
 			      %		Metodología	& ¿Esta formulado con lenguaje claro, apropiado y cencillo? &  &  &  &    \\
 			      %		\hline
 			      %		Pertinencia	& ¿Esta formulado con lenguaje claro, apropiado y cencillo? &  &  &  &    \\
@@ -1540,9 +1540,9 @@ Temporalización-cronograma de acciones refiérase al Cuadro \ref{cronog}.
 \subsubsection{Institución} \lugar
 \subsubsection{Introducción}
 
-La caricatura suele ser un retrato de una representación humorística que tiene la intención de exagerar los rasgos físicos o faciales, ropa, aspectos corporales o comportamiento del individuo con el fin de ser grotesco.  También son una herramienta de comunicación divertida que hace un buen trabajo al transmitir un mensaje, a menudo desafiando las palabras de quienes están en el poder o de control estatal.
+La caricatura suele ser un retrato de una representación humorística que tiene la intención de exagerar los rasgos físicos o faciales, ropa, aspectos corporales o comportamiento del individuo con el fin de ser grotesco.  También son una herramienta de comunicación divertida que hace un buen trabajo al transmitir un mensaje, a menudo desafiando las palabras de quienes están en el poder o de control estatal. 
 
-De hecho, es un recurso que contiene información que se puede agregar rápidamente a la conciencia general. Expone tensiones y juicios sobre personas, comunidades o eventos y, en última instancia, no solo advierte, sino que provoca un control de la realidad. En este sentido, la presente investigación es una interesante oportunidad de investigación que favorece la interpretación de símbolos en un tiempo y  espacio específicos para identificar datos que no siempre son visibles en otras fuentes de conocimiento. Sin embargo, su enfoque requiere una comprensión amplia de su contexto y desarrollo. Tiene como objetivo sistematizar compresión los antecedentes y actualidad del tema y demostrar su valor artístico, informativo y académico.
+De hecho, es un recurso que contiene información que se puede agregar rápidamente a la conciencia general. Expone tensiones y juicios sobre personas, comunidades o eventos y, en última instancia, no solo advierte, sino que provoca un control de la realidad. En este sentido, la presente investigación es una interesante oportunidad de investigación que favorece la interpretación de símbolos en un tiempo y  espacio específicos para identificar datos que no siempre son visibles en otras fuentes de conocimiento. Sin embargo, su enfoque requiere una comprensión amplia de su contexto y desarrollo. Tiene como objetivo sistematizar compresión los antecedentes y actualidad del tema y demostrar su valor artístico, informativo y académico. 
 
 La actual investigación titulada \titulo, responde a las dificultades de la actualidad que se vienen originando y encontrando en los estudiantes del colegio San Juan ya que viendo la problemática se ha demostrado su  poca imaginación de creativa, por lo tanto, se busca mediante la caricatura fortalecer su comunicación creativa para desarrollar el potencial creativo que representan los estudiantes, se centra el aprendizaje constructivista, y los propios estudiantes están en el centro.
 
@@ -1555,10 +1555,10 @@ La actual investigación titulada \titulo, responde a las dificultades de la act
 \paragraph{Específicos}
 
 \begin{enumerate}
-	\item \objetivoe
-	\item \objetivoee
-	\item \objetivoeee
-	\item \objetivoeeee
+\item \objetivoe
+\item \objetivoee
+\item \objetivoeee
+\item \objetivoeeee
 \end{enumerate}
 
 \subsubsection{Fundamentación pedagógica}
@@ -1581,21 +1581,18 @@ Todas las actividades consideran una duracion de 90 minutos y el instrumento de 
 	\caption{Organización de las actividades}
 	\label{Organizacion}
 	\begin{tabular}{cp{4.5cm}ccp{4cm}}\toprule
-		N & \bf Nombre de la actividad                                                    & \bf Fecha  & \bf Método & \bf Recursos                                                \\\midrule
-		1 & Introducción general: La caricatura para fortalecer la comunicación creativa. & 24/08/2023 & Activo     & Aula, Fotos, Videos, Proyector  y Cuadros                   \\\midrule
-		2 & Actividad 1. Prueba de entrada, para el recojo de datos de la pre prueba.     & 31/08/2003 & Activo     & Taller de dibujo, Videos y fotos, Materiales para el dibujo \\\midrule
-		3 & Clase teórica: fundamentos teóricos de la caricatura, y elementos dl dibujo.  & 7/09/2023  & Activo     & Aula, Fotos, Videos, Proyector  y Cuadros                   \\\midrule
-		4 & Introducción general: La caricatura para fortalecer la comunicación creativa. & 24/08/2023 & Activo     & Aula, Fotos, Videos, Proyector  y Cuadros                   \\\midrule
-		5 & Introducción general: La caricatura para fortalecer la comunicación creativa. & 24/08/2023 & Activo     & Aula, Fotos, Videos, Proyector  y Cuadros                   \\\midrule
-		6 & Introducción general: La caricatura para fortalecer la comunicación creativa. & 24/08/2023 & Activo     & Aula, Fotos, Videos, Proyector  y Cuadros                   \\\midrule
-		7 & Introducción general: La caricatura para fortalecer la comunicación creativa. & 24/08/2023 & Activo     & Aula, Fotos, Videos, Proyector  y Cuadros                   \\\midrule
-		8 & Introducción general: La caricatura para fortalecer la comunicación creativa. & 24/08/2023 & Activo     & Aula, Fotos, Videos, Proyector  y Cuadros                   \\\midrule
-		9 & Introducción general: La caricatura para fortalecer la comunicación creativa. & 24/08/2023 & Activo     & Aula, Fotos, Videos, Proyector  y Cuadros                   \\\midrule
-		7 & Introducción general: La caricatura para fortalecer la comunicación creativa. & 24/08/2023 & Activo     & Aula, Fotos, Videos, Proyector  y Cuadros                   \\\midrule
-8 & Introducción general: La caricatura para fortalecer la comunicación creativa. & 24/08/2023 & Activo     & Aula, Fotos, Videos, Proyector  y Cuadros                   \\\midrule
-9 & Introducción general: La caricatura para fortalecer la comunicación creativa. & 24/08/2023 & Activo     & Aula, Fotos, Videos, Proyector  y Cuadros                   \\\bottomrule
-	\end{tabular}
+	N & \bf Nombre de la actividad                                                        & \bf Fecha      & \bf Método & \bf Recursos                                  \\\hline
+	1 & Introducción general: La caricatura para fortalecer la comunicación creativa. & 24/08/2023 & Activo & Aula, Fotos, Videos, Proyector  y Cuadros \\\hline
+	2 & Actividad 1. Prueba de entrada, para el recojo de datos de la pre prueba. & 31/08/2003 & Activo & Taller de dibujo, Videos y fotos, Materiales para el dibujo\\\hline
+	3 & Clase teórica: fundamentos teóricos de la caricatura, y elementos dl dibujo. & 7/09/2023 & Activo & Aula, Fotos, Videos, Proyector  y Cuadros \\\hline
+	4 & Introducción general: La caricatura para fortalecer la comunicación creativa. & 24/08/2023 & Activo & Aula, Fotos, Videos, Proyector  y Cuadros \\\hline
+	5 & Introducción general: La caricatura para fortalecer la comunicación creativa. & 24/08/2023 & Activo & Aula, Fotos, Videos, Proyector  y Cuadros \\\hline
+	6 & Introducción general: La caricatura para fortalecer la comunicación creativa. & 24/08/2023 & Activo & Aula, Fotos, Videos, Proyector  y Cuadros \\\hline
+	7 & Introducción general: La caricatura para fortalecer la comunicación creativa. & 24/08/2023 & Activo & Aula, Fotos, Videos, Proyector  y Cuadros \\\hline
+	8 & Introducción general: La caricatura para fortalecer la comunicación creativa. & 24/08/2023 & Activo & Aula, Fotos, Videos, Proyector  y Cuadros \\\hline
+    9 & Introducción general: La caricatura para fortalecer la comunicación creativa. & 24/08/2023 & Activo & Aula, Fotos, Videos, Proyector  y Cuadros \\\hline
+\end{tabular}
 \end{table}
 
-
+	
 \end{document}
