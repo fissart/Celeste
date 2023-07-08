@@ -416,28 +416,6 @@ Segarra~Morocho, K\BPBI I.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Sureda~García%
-}{%
-Sureda~García%
-}{%
-{\protect \APACyear {2004}}%
-}]{%
-pestalozzi}
-\APACinsertmetastar {%
-pestalozzi}%
-\begin{APACrefauthors}%
-Sureda~García, B.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2004}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Pestalozzi} {Pestalozzi}.{\BBCQ}
-\newblock
-\begin{APACrefURL} \url{http://hdl.handle.net/11162/33722} \end{APACrefURL}
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
 Taipe~Herreras%
 }{%
 Taipe~Herreras%
