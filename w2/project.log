@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.7.13)  13 JUL 2023 22:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.7.13)  13 JUL 2023 22:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1343,59 +1343,59 @@ put line 35.
 
 ) [8]
 LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
- 467.
+ 468.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line
- 467.
+ 468.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line
- 467.
+ 468.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line
- 467.
+ 468.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 4
-67.
+68.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 467.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 468.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 467.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 468.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 467.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 468.
 LaTeX Font Info:    Trying to load font information for OML+ntxmi on input line
- 467.
-LaTeX Font Info:    No file OMLntxmi.fd. on input line 467.
+ 468.
+LaTeX Font Info:    No file OMLntxmi.fd. on input line 468.
 
 
 LaTeX Font Warning: Font shape `OML/ntxmi/m/it' undefined
-(Font)              using `OML/cmm/m/it' instead on input line 467.
+(Font)              using `OML/cmm/m/it' instead on input line 468.
 
 LaTeX Font Info:    Trying to load font information for OMS+zplm on input line 
-467.
+468.
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omszplm.fd
 File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 483--483
+Underfull \hbox (badness 10000) in paragraph at lines 484--484
 []|\T1/ptm/m/n/12 Hermanos del
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 494--494
+Underfull \hbox (badness 10000) in paragraph at lines 495--495
 []|\T1/ptm/m/n/12 Pensamiento
  []
 
@@ -1412,40 +1412,40 @@ LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
 ) [12] [13] [14] [15] [16]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1033.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1034.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1033.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1034.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1033.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1034.
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 1
-051.
+052.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-Overfull \vbox (67.23001pt too high) detected at line 1051
+Overfull \vbox (67.23001pt too high) detected at line 1052
  []
 
 
-Overfull \vbox (84.73001pt too high) detected at line 1067
+Overfull \vbox (84.73001pt too high) detected at line 1068
  []
 
 
-Overfull \vbox (0.88223pt too high) detected at line 1080
+Overfull \vbox (0.88223pt too high) detected at line 1081
  []
 
 
-Underfull \hbox (badness 1062) in paragraph at lines 1080--1080
+Underfull \hbox (badness 1062) in paragraph at lines 1081--1081
 \T1/ptm/m/n/8 me-jo-ra de la crea-ti-vi-dad en es-
  []
 
 
-Underfull \hbox (badness 1360) in paragraph at lines 1083--1083
+Underfull \hbox (badness 1360) in paragraph at lines 1084--1084
 \T1/ptm/m/n/8 con-te-ni-do pa-ra la me-jo-ra de la
  []
 
 
-Overfull \hbox (19.07693pt too wide) in paragraph at lines 1033--1085
+Overfull \hbox (19.07693pt too wide) in paragraph at lines 1034--1086
  [][] 
  []
 
@@ -1466,9 +1466,9 @@ Overfull \hbox (19.07693pt too wide) in paragraph at lines 1033--1085
 
 ]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1269.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1270.
 
-Underfull \hbox (badness 1019) in paragraph at lines 1281--1281
+Underfull \hbox (badness 1019) in paragraph at lines 1282--1282
 []|\T1/ptm/m/n/10.95 ¾La es-truc-tu-ra ofre-ce un or-den lo-gi-co y
  []
 
